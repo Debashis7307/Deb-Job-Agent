@@ -99,50 +99,55 @@ async def scrape_linkedin_async(
                 await page.goto("https://www.linkedin.com/login", wait_until="domcontentloaded")
                 await asyncio.sleep(random.uniform(2, 4))
 
-                # LinkedIn renders inputs as CSS-hidden initially (React-controlled).
-                # We use JS injection to set values + dispatch native events so React registers them.
-                username_js = """
-                    const inp = document.querySelector('input[autocomplete="username"], #username, input[name="session_key"]');
-                    if (inp) {
-                        inp.focus();
-                        inp.value = arguments[0];
-                        inp.dispatchEvent(new Event('input', { bubbles: true }));
-                        inp.dispatchEvent(new Event('change', { bubbles: true }));
-                        return true;
-                    }
-                    return false;
-                """
-                ok = await page.evaluate(username_js, email)
-                if not ok:
-                    raise Exception("Could not find LinkedIn username input via JS")
+                # Wait for the email/username field to be visible then fill it
+                # (same reliable pattern as naukri_scraper.py)
+                username_selector = (
+                    "#username, "
+                    "input[name='session_key'], "
+                    "input[autocomplete='username'], "
+                    "input[type='email']"
+                )
+                await page.wait_for_selector(username_selector, timeout=15000)
+                await page.fill(username_selector, email)
                 await asyncio.sleep(random.uniform(0.8, 1.5))
 
-                password_js = """
-                    const inp = document.querySelector('input[autocomplete="current-password"], #password, input[name="session_password"]');
-                    if (inp) {
-                        inp.focus();
-                        inp.value = arguments[0];
-                        inp.dispatchEvent(new Event('input', { bubbles: true }));
-                        inp.dispatchEvent(new Event('change', { bubbles: true }));
-                        return true;
-                    }
-                    return false;
-                """
-                ok = await page.evaluate(password_js, password)
-                if not ok:
-                    raise Exception("Could not find LinkedIn password input via JS")
-                await asyncio.sleep(random.uniform(0.5, 1))
+                password_selector = (
+                    "#password, "
+                    "input[name='session_password'], "
+                    "input[autocomplete='current-password'], "
+                    "input[type='password']"
+                )
+                await page.wait_for_selector(password_selector, timeout=10000)
+                await page.fill(password_selector, password)
+                await asyncio.sleep(random.uniform(0.5, 1.2))
 
-                # Click submit — use force=True to bypass any overlay/visibility checks
-                submit_selector = "button[type='submit'], button.btn__primary--large, button[aria-label='Sign in']"
-                await page.locator(submit_selector).first.click(force=True)
-                await asyncio.sleep(random.uniform(4, 6))
+                # Click the Sign-in button
+                submit_selector = (
+                    "button[type='submit'], "
+                    "button.btn__primary--large, "
+                    "button[aria-label='Sign in'], "
+                    "button[data-litms-control-urn='login-submit']"
+                )
+                await page.locator(submit_selector).first.click()
+                # Give LinkedIn enough time to redirect (slow networks need >5s)
+                await asyncio.sleep(random.uniform(6, 9))
 
-                # Check if login succeeded
-                if "checkpoint" in page.url or "login" in page.url:
-                    logger.warning("LinkedIn: Login may have failed or needs verification. Proceeding with public search...")
+                # Detect login success: LinkedIn redirects to /feed or /mynetwork
+                current_url = page.url
+                if any(p in current_url for p in ["/feed", "/mynetwork", "/jobs"]):
+                    logger.info("LinkedIn: Login successful ✅")
+                elif "checkpoint" in current_url:
+                    logger.warning(
+                        "LinkedIn: CAPTCHA / verification checkpoint detected. "
+                        "Manual login may be needed. Continuing with public search..."
+                    )
+                elif "login" in current_url:
+                    logger.warning(
+                        "LinkedIn: Still on login page after submit — "
+                        "wrong credentials or bot-block. Continuing with public search..."
+                    )
                 else:
-                    logger.info("LinkedIn: Login successful")
+                    logger.info(f"LinkedIn: Redirected to {current_url} — assuming logged in.")
             except Exception as e:
                 logger.error(f"LinkedIn login failed: {e}. Proceeding with public search...")
 

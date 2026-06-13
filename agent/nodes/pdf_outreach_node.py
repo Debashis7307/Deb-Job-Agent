@@ -192,8 +192,21 @@ def _generate_pdf_emails_batch(contacts: List[Dict]) -> List[Dict]:
     Generate personalized cold emails for each contact using Gemini.
     Batches 5 contacts per LLM call to stay under rate limits.
     Returns list of {to_email, subject, body} dicts.
+
+    Retry strategy:
+    - 503 UNAVAILABLE  → transient overload; retry with exponential back-off
+    - 429 RESOURCE_EXHAUSTED → quota; longer back-off before retry
+    - Up to 4 attempts per batch before falling back to template
     """
     from google import genai
+    from google.api_core.exceptions import ResourceExhausted, ServiceUnavailable
+    from tenacity import (
+        retry,
+        retry_if_exception_type,
+        stop_after_attempt,
+        wait_exponential,
+        before_sleep_log,
+    )
     import config as cfg
 
     client = genai.Client(api_key=cfg.GEMINI_API_KEY)
@@ -218,6 +231,22 @@ def _generate_pdf_emails_batch(contacts: List[Dict]) -> List[Dict]:
             user_bg = profile.get("background", user_bg)
         except Exception:
             pass
+
+    # ── Gemini call with retry (503 / 429 safe) ────────────────────────────
+    @retry(
+        retry=retry_if_exception_type((ResourceExhausted, ServiceUnavailable, Exception)),
+        wait=wait_exponential(multiplier=2, min=5, max=60),
+        stop=stop_after_attempt(4),
+        before_sleep=before_sleep_log(logger, logging.WARNING),
+        reraise=True,
+    )
+    def _call_gemini_with_retry(prompt_text: str) -> str:
+        """Call Gemini with automatic retry on 503/429."""
+        resp = client.models.generate_content(
+            model=cfg.GEMINI_MODEL,
+            contents=prompt_text,
+        )
+        return resp.text
 
     BATCH_SIZE = 5
     for batch_start in range(0, len(contacts), BATCH_SIZE):
@@ -263,11 +292,8 @@ Return ONLY valid JSON array:
 No markdown, no explanation, just JSON."""
 
         try:
-            response = client.models.generate_content(
-                model=cfg.GEMINI_MODEL,
-                contents=prompt
-            )
-            text = response.text.strip()
+            text = _call_gemini_with_retry(prompt)
+            text = text.strip()
             if "```" in text:
                 text = text.split("```")[1]
                 if text.startswith("json"):
@@ -292,12 +318,12 @@ No markdown, no explanation, just JSON."""
                 results.append(_fallback_email(c, user_name, user_skills))
 
         except Exception as e:
-            logger.error(f"Gemini call failed for PDF email batch: {e}. Using fallback.")
+            logger.error(f"Gemini call failed for PDF email batch after retries: {e}. Using fallback.")
             for c in batch:
                 results.append(_fallback_email(c, user_name, user_skills))
 
-        # Rate limit buffer
-        time.sleep(2)
+        # Rate limit buffer — 4s to reduce 429 pressure
+        time.sleep(4)
 
     return results
 
