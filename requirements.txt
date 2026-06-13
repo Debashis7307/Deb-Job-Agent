@@ -1,0 +1,52 @@
+# ============================================
+# Job Application AI Agent - Dependencies
+# ============================================
+
+# LangChain / LangGraph ecosystem
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-google-genai>=2.0.0
+
+# Web scraping & browser automation
+playwright>=1.45.0
+playwright-stealth>=1.0.6
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=5.0.0
+
+# Memory & tracking
+mem0ai>=0.1.0
+
+# Email
+secure-smtplib>=0.1.1
+
+# Email finding
+mailscout>=0.1.0
+email-validator>=2.1.0
+dnspython>=2.6.0
+
+# Real-time web search
+tavily-python>=0.5.0
+
+# PDF handling (for resume)
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# Scheduling
+APScheduler>=3.10.0
+
+# Environment & config
+python-dotenv>=1.0.0
+
+# Data handling
+pandas>=2.0.0
+
+# Utilities
+fake-useragent>=1.5.0
+tenacity>=8.2.0
+colorlog>=6.8.0
+pytz>=2024.1
+
+# Web Dashboard
+flask>=3.0.0
+flask-cors>=4.0.0

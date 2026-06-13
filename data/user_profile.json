@@ -1,0 +1,96 @@
+{
+  "_comment": "Fill in YOUR details here. This is used to personalize emails and match jobs.",
+  
+  "personal": {
+    "name": "Debashis Bera",
+    "email": "debashis.bera.careers@gmail.com",
+    "phone": "+91-6297172118",
+    "location": "Kolkata, West Bengal, India",
+    "linkedin_url": "https://www.linkedin.com/in/debashis-bera/",
+    "github_url": "https://github.com/Debashis7307",
+    "portfolio_url": "https://deb-folio.vercel.app/",
+    "resume_path": "data/resume.pdf"
+  },
+
+  "education": {
+    "degree": "B.Tech in Computer Science & Engineering",
+    "college": "Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal, India",
+    "year": "2026",
+    "cgpa": "8.6/10"
+  },
+
+  "skills": {
+    "languages": ["Python", "C", "C++", "JavaScript", "SQL"],
+    "ai_ml": ["Machine Learning", "Deep Learning", "LangChain", "LangGraph", "Agentic AI", "Generative AI", "OpenAI", "Gemini API", "HuggingFace"],
+    "web": ["HTML", "CSS", "JavaScript", "React (basic)"],
+    "databases": ["MySQL", "mem0"],
+    "tools": ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Docker"],
+    "concepts": ["Data Structures", "Algorithms", "OOP", "REST APIs", "RAG", "Vector Databases","Prompt Engineering","Coputer Networks", "Operating Systems", "Software Development Lifecycle","DBMS","Computer Architecture"]
+  },
+
+"projects": [
+  {
+    "name": "Explainable Machine Learning Model for Arrhythmia Detection",
+    "description": "Developed an interpretable ECG arrhythmia detection pipeline achieving 98% classification accuracy on the MIT-BIH dataset.",
+    "tech_stack": ["Python","CNN","CWT-IMG", "Machine Learning", "Scikit-learn", "Signal Processing","X-AI(Grad-CAM)", "MIT-BIH Dataset"]
+  },
+  {
+    "name": "Aayojan.AI – Heritage Event Management Powered by AI",
+    "description": "Built an AI-powered cultural event management platform with multilingual content generation, finance tracking, and smart community engagement tools.",
+    "tech_stack": ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL", "Google Gemini AI", "Firebase Auth", "Vercel"]
+  },
+  {
+    "name": "Aarav – Personal AI Assistant",
+    "description": "Created an emotionally intelligent AI assistant supporting real-time voice conversations, task automation, and personalized interactions.",
+    "tech_stack": ["Python", "Google Gemini AI", "ElevenLabs", "Speech Recognition", "LLMs", "Automation"]
+  },
+  {
+    "name": "Annapurna – AI Recipe & Nutrition Companion",
+    "description": "Developed the frontend of an AI-powered nutrition assistant featuring OCR-based inventory scanning and personalized meal recommendations.",
+    "tech_stack": ["React", "Next.js", "Tailwind CSS", "OCR", "AI", "MCP Server"]
+  },
+  {
+    "name": "Narada Bot – Discord Event Management System",
+    "description": "Built an intelligent Discord bot that automates event scheduling, calendar integration, and reminder notifications.",
+    "tech_stack": ["Python", "Discord.py", "Google Calendar API", "Composio", "Automation"]
+  }
+],
+
+  "target_roles": [
+    "Software Developer",
+    "Software Engineer",
+    "Python Developer",
+    "AI/ML Engineer",
+    "Machine Learning Engineer",
+    "Gen AI Developer",
+    "AI Engineer",
+    "Backend Developer",
+    "Full Stack Developer",
+    "Data Scientist",
+    "AI Research Intern",
+    "Software Development Engineer",
+    "C++ Developer"
+  ],
+
+  "target_keywords": [
+    "fresher", "entry level", "0-1 year", "0 to 1 year",
+    "trainee", "junior", "graduate", "intern", "internship",
+    "campus hire", "fresh graduate"
+  ],
+
+  "exclude_keywords": [
+    "3+ years", "5+ years", "senior", "lead", "manager",
+    "director", "architect", "2+ years","Java","Java Developer"
+  ],
+
+  "preferred_locations": [
+    "Remote", "Work from Home", "WFH", "Hybrid",
+    "Bangalore", "Bengaluru", "Mumbai", "Delhi", "Hyderabad",
+    "Pune", "Chennai", "Noida", "Gurgaon", "Kolkata","India"
+  ],
+
+  "us_remote_jobs": true,
+  "india_jobs": true,
+  "min_stipend_inr": 15000,
+  "min_salary_usd_monthly": 500
+}

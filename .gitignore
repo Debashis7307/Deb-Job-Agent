@@ -1,0 +1,59 @@
+# ============================================
+# .gitignore for Job Application AI Agent
+# ============================================
+
+# Secrets - NEVER commit these
+.env
+*.env
+
+# Resume (private document)
+data/resume.pdf
+data/*.pdf
+
+# Database (contains personal data)
+database/tracker.db
+database/*.db
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.sqlite3
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+mypy_cache/
+pip-wheel-metadata/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Playwright
+playwright-report/
+test-results/

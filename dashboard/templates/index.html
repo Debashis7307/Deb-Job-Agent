@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Debashis's Job Agent — AI Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- Animated background grid -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <div class="brand-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <div>
+        <div class="brand-name">JOB AGENT AI</div>
+        <div class="brand-sub">Debashis Bera · Autonomous Application Engine</div>
+      </div>
+    </div>
+    <div class="nav-center">
+      <div class="nav-clock" id="navClock">--:--:--</div>
+      <div class="nav-schedule">Next run: <span id="nextRunTime" class="highlight">loading...</span></div>
+    </div>
+    <div class="nav-actions">
+      <div class="status-pill" id="agentStatusPill">
+        <div class="status-dot" id="statusDot"></div>
+        <span id="statusText">Idle</span>
+      </div>
+      <button class="btn-run" id="btnRunAgent" onclick="triggerAgent()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        Run Agent Now
+      </button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+
+    <!-- Hero Stats Row -->
+    <div class="stats-grid" id="statsGrid">
+      <div class="stat-card" id="statApplied">
+        <div class="stat-icon icon-green">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+        </div>
+        <div class="stat-value" id="totalApplied">0</div>
+        <div class="stat-label">Total Applied</div>
+        <div class="stat-sub" id="todayApplied">Today: 0</div>
+      </div>
+      <div class="stat-card" id="statEmailed">
+        <div class="stat-icon icon-amber">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </div>
+        <div class="stat-value" id="totalEmailed">0</div>
+        <div class="stat-label">Cold Emails Sent</div>
+        <div class="stat-sub" id="todayEmailed">Today: 0</div>
+      </div>
+      <div class="stat-card" id="statManualDone" style="border-color: rgba(239,68,68,0.25);">
+        <div class="stat-icon" style="background: rgba(239,68,68,0.15); color: #ef4444; font-size: 20px; width: 42px; height: 42px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 14px;">
+          🔥
+        </div>
+        <div class="stat-value" id="totalManualDone" style="background: linear-gradient(135deg, #ff9f9f, #fca5a5); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">0</div>
+        <div class="stat-label">Manual Applications Done</div>
+        <div class="stat-sub">Submitted & Done</div>
+      </div>
+      <div class="stat-card" id="statCompanies">
+        <div class="stat-icon icon-purple">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+        </div>
+        <div class="stat-value" id="totalCompanies">0</div>
+        <div class="stat-label">Companies Reached</div>
+        <div class="stat-sub">Unique companies</div>
+      </div>
+      <div class="stat-card" id="statScraped">
+        <div class="stat-icon icon-blue">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </div>
+        <div class="stat-value" id="totalScraped">0</div>
+        <div class="stat-label">Jobs Scraped Today</div>
+        <div class="stat-sub" id="newToday">New today: 0</div>
+      </div>
+    </div>
+
+    <!-- Main Grid: Chart + Portal Breakdown -->
+    <div class="middle-grid">
+      <!-- Activity Chart -->
+      <div class="card chart-card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="card-title-dot dot-blue"></div>
+            Application Activity (Last 14 Days)
+          </div>
+        </div>
+        <div class="chart-container">
+          <canvas id="activityChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Portal Breakdown -->
+      <div class="card portals-card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="card-title-dot dot-purple"></div>
+            Portal Breakdown
+          </div>
+        </div>
+        <div id="portalList" class="portal-list">
+          <div class="loading-spinner">Loading...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agent Control + Live Log -->
+    <div class="agent-section">
+      <div class="card agent-control-card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="card-title-dot dot-green"></div>
+            Agent Control
+          </div>
+          <div class="schedule-badge">Daily 10:00 PM IST</div>
+        </div>
+        <div class="agent-info">
+          <div class="agent-profile">
+            <div class="profile-avatar">DB</div>
+            <div class="profile-details">
+              <div class="profile-name">Debashis Bera</div>
+              <div class="profile-email">debashis.bera.careers@gmail.com</div>
+              <div class="profile-tags">
+                <span class="tag">Python</span>
+                <span class="tag">AI/ML</span>
+                <span class="tag">Gen AI</span>
+                <span class="tag">C++</span>
+                <span class="tag">Agentic AI</span>
+              </div>
+            </div>
+          </div>
+          <div class="workflow-steps">
+            <div class="workflow-step" id="step1">
+              <div class="step-dot"></div>
+              <div class="step-label">Scrape Jobs</div>
+            </div>
+            <div class="step-line"></div>
+            <div class="workflow-step" id="step2">
+              <div class="step-dot"></div>
+              <div class="step-label">Score & Filter</div>
+            </div>
+            <div class="step-line"></div>
+            <div class="workflow-step" id="step3">
+              <div class="step-dot"></div>
+              <div class="step-label">Auto Apply</div>
+            </div>
+            <div class="step-line"></div>
+            <div class="workflow-step" id="step4">
+              <div class="step-dot"></div>
+              <div class="step-label">Cold Email</div>
+            </div>
+            <div class="step-line"></div>
+            <div class="workflow-step" id="step5">
+              <div class="step-dot"></div>
+              <div class="step-label">Report</div>
+            </div>
+          </div>
+          <div class="control-buttons">
+            <button class="btn-run-large" id="btnRunLarge" onclick="triggerAgent()">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+              Run Agent Now
+            </button>
+            <div class="countdown-box">
+              <div class="countdown-label">Auto-runs in</div>
+              <div class="countdown-value" id="countdown">--:--:--</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Logs -->
+      <div class="card log-card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="card-title-dot dot-amber"></div>
+            Live Agent Logs
+          </div>
+          <button class="btn-clear" onclick="clearLogs()">Clear</button>
+        </div>
+        <div class="log-terminal" id="logTerminal">
+          <div class="log-line log-system">[SYSTEM] Agent dashboard connected. Waiting for activity...</div>
+          <div class="log-line log-system">[SYSTEM] Agent runs daily at 22:00 IST automatically.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Applications Table -->
+    <div class="card table-card">
+      <div class="card-header">
+        <div class="card-title">
+          <div class="card-title-dot dot-green"></div>
+          Application History
+        </div>
+        <div class="table-filters">
+          <select id="filterStatus" onchange="loadApplications(1)" class="filter-select">
+            <option value="all">All Status</option>
+            <option value="applied">Applied</option>
+            <option value="email_sent">Email Sent</option>
+            <option value="manual_required">Manual</option>
+            <option value="failed">Failed</option>
+          </select>
+          <select id="filterPortal" onchange="loadApplications(1)" class="filter-select">
+            <option value="all">All Portals</option>
+            <option value="linkedin">LinkedIn</option>
+            <option value="naukri">Naukri</option>
+            <option value="internshala">Internshala</option>
+            <option value="remoteok">RemoteOK</option>
+            <option value="wellfound">Wellfound</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-wrapper">
+        <table class="app-table" id="appTable">
+          <thead>
+            <tr>
+              <th>Role</th>
+              <th>Company</th>
+              <th>Portal</th>
+              <th>Location</th>
+              <th>Status</th>
+              <th>Date Applied</th>
+              <th>Email Sent</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody id="appTableBody">
+            <tr><td colspan="8" class="table-empty">No applications yet. Run the agent to get started!</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-pagination" id="tablePagination"></div>
+    </div>
+
+  </main>
+
+  <!-- Run Agent Modal -->
+  <div class="modal-overlay" id="runModal">
+    <div class="modal">
+      <div class="modal-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+      </div>
+      <h2 class="modal-title">Start Agent Run?</h2>
+      <p class="modal-desc">The agent will scrape jobs, auto-apply, and send cold emails. This may take 30-60 minutes.</p>
+      <div class="modal-mode">
+        <label class="mode-toggle">
+          <input type="checkbox" id="dryRunToggle" />
+          <span class="toggle-slider"></span>
+          <span class="toggle-label">Dry Run Mode (no real sending)</span>
+        </label>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+        <button class="btn-confirm" onclick="confirmRun()">Start Agent</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/dashboard.js"></script>
+</body>
+</html>
