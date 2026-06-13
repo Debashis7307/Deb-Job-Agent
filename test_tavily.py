@@ -1,8 +1,9 @@
-"""Quick Tavily test — run from project root."""
+"""Quick Tavily test — run from project root. Requires TAVILY_API_KEY in .env"""
 import sys
 import os
 sys.path.insert(0, ".")
-os.environ.setdefault("TAVILY_API_KEY", "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")
+# Load key from .env — do NOT hardcode API keys here
+
 import logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 

@@ -1,7 +1,14 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-api_key = "_8CQ6g0XhI0xJQNPlZqoMA"
+api_key = os.environ.get("APOLLO_API_KEY", "")
+if not api_key:
+    print("ERROR: APOLLO_API_KEY not set in .env file")
+    exit(1)
+
 domain = "amlgolabs.com"
 
 headers = {

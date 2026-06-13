@@ -10,6 +10,15 @@
 data/resume.pdf
 data/*.pdf
 
+# HR contact list (contains personal emails — privacy sensitive)
+data/hr_contacts_from_pdf.csv
+data/mem0_cache.json
+data/mem0_sync.json
+
+# Temp/utility scripts
+scan_secrets.py
+fix_pdf_db.py
+
 # Database (contains personal data)
 database/tracker.db
 database/*.db
