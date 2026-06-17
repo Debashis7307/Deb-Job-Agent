@@ -1,66 +1,28 @@
 """
-scrapers/linkedin_scraper.py — LinkedIn job scraper using Playwright stealth
-Scrapes LinkedIn Jobs without using unofficial API.
-PERSONAL USE ONLY — respects rate limits and human-like delays.
+scrapers/linkedin_scraper.py -- LinkedIn job scraper using Playwright stealth
+PERSONAL USE ONLY -- respects rate limits and human-like delays.
 """
 import asyncio
 import random
-import time
 import logging
 from typing import List, Dict
 
 logger = logging.getLogger(__name__)
 
-# LinkedIn job search URLs for fresher roles
 LINKEDIN_SEARCH_CONFIGS = [
-    {
-        "keywords": "python developer fresher",
-        "location": "India",
-        "f_TPR": "r86400",   # Posted in last 24 hours
-        "f_E": "1",          # Entry level
-    },
-    {
-        "keywords": "software engineer fresher entry level",
-        "location": "India",
-        "f_TPR": "r86400",
-        "f_E": "1",
-    },
-    {
-        "keywords": "machine learning engineer fresher",
-        "location": "India",
-        "f_TPR": "r86400",
-        "f_E": "1",
-    },
-    {
-        "keywords": "AI engineer generative AI fresher",
-        "location": "India",
-        "f_TPR": "r86400",
-        "f_E": "1",
-    },
-    {
-        "keywords": "software developer python AI remote",
-        "location": "United States",
-        "f_TPR": "r86400",
-        "f_E": "1",
-        "f_WT": "2",  # Remote work
-    },
-    {
-        "keywords": "junior python developer remote",
-        "location": "United States",
-        "f_TPR": "r86400",
-        "f_E": "1",
-        "f_WT": "2",
-    },
+    {"keywords": "python developer fresher", "location": "India", "f_TPR": "r86400", "f_E": "1"},
+    {"keywords": "software engineer fresher entry level", "location": "India", "f_TPR": "r86400", "f_E": "1"},
+    {"keywords": "machine learning engineer fresher", "location": "India", "f_TPR": "r86400", "f_E": "1"},
+    {"keywords": "AI engineer generative AI fresher", "location": "India", "f_TPR": "r86400", "f_E": "1"},
+    {"keywords": "software developer python AI remote", "location": "United States", "f_TPR": "r86400", "f_E": "1", "f_WT": "2"},
+    {"keywords": "junior python developer remote", "location": "United States", "f_TPR": "r86400", "f_E": "1", "f_WT": "2"},
 ]
 
 
 async def scrape_linkedin_async(
     email: str, password: str, max_jobs: int = 30, dry_run: bool = True
 ) -> List[Dict]:
-    """
-    Scrape LinkedIn jobs using Playwright with stealth mode.
-    Requires LinkedIn credentials.
-    """
+    """Scrape LinkedIn jobs using Playwright with stealth mode."""
     try:
         from playwright.async_api import async_playwright
         from playwright_stealth import Stealth
@@ -79,7 +41,7 @@ async def scrape_linkedin_async(
                 "--no-sandbox",
                 "--disable-setuid-sandbox",
                 "--disable-blink-features=AutomationControlled",
-            ]
+            ],
         )
         context = await browser.new_context(
             viewport={"width": 1366, "height": 768},
@@ -92,36 +54,63 @@ async def scrape_linkedin_async(
         page = await context.new_page()
         await Stealth().apply_stealth_async(page)
 
-        # ── Login ──────────────────────────────────────────────────────
+        # Login
         if not dry_run:
             try:
                 logger.info("LinkedIn: Logging in...")
-                await page.goto("https://www.linkedin.com/login", wait_until="domcontentloaded")
-                await asyncio.sleep(random.uniform(2, 4))
-
-                # Wait for the email/username field to be visible then fill it
-                # (same reliable pattern as naukri_scraper.py)
-                username_selector = (
-                    "#username, "
-                    "input[name='session_key'], "
-                    "input[autocomplete='username'], "
-                    "input[type='email']"
+                await page.goto(
+                    "https://www.linkedin.com/login",
+                    wait_until="domcontentloaded",
+                    timeout=30000,
                 )
-                await page.wait_for_selector(username_selector, timeout=15000)
-                await page.fill(username_selector, email)
+                await asyncio.sleep(random.uniform(3, 5))
+
+                # Try each username selector individually
+                filled_username = False
+                for sel in [
+                    "#username",
+                    "input[name='session_key']",
+                    "input[autocomplete='username']",
+                    "input[type='email']",
+                ]:
+                    try:
+                        el = page.locator(sel).first
+                        if await el.count() > 0:
+                            await el.wait_for(state="visible", timeout=5000)
+                            await el.fill(email)
+                            filled_username = True
+                            break
+                    except Exception:
+                        continue
+
+                if not filled_username:
+                    raise RuntimeError("Could not find username/email field on LinkedIn login page")
+
                 await asyncio.sleep(random.uniform(0.8, 1.5))
 
-                password_selector = (
-                    "#password, "
-                    "input[name='session_password'], "
-                    "input[autocomplete='current-password'], "
-                    "input[type='password']"
-                )
-                await page.wait_for_selector(password_selector, timeout=10000)
-                await page.fill(password_selector, password)
+                # Try each password selector individually
+                filled_password = False
+                for sel in [
+                    "#password",
+                    "input[name='session_password']",
+                    "input[autocomplete='current-password']",
+                    "input[type='password']",
+                ]:
+                    try:
+                        el = page.locator(sel).first
+                        if await el.count() > 0:
+                            await el.wait_for(state="visible", timeout=5000)
+                            await el.fill(password)
+                            filled_password = True
+                            break
+                    except Exception:
+                        continue
+
+                if not filled_password:
+                    raise RuntimeError("Could not find password field on LinkedIn login page")
+
                 await asyncio.sleep(random.uniform(0.5, 1.2))
 
-                # Click the Sign-in button
                 submit_selector = (
                     "button[type='submit'], "
                     "button.btn__primary--large, "
@@ -129,40 +118,32 @@ async def scrape_linkedin_async(
                     "button[data-litms-control-urn='login-submit']"
                 )
                 await page.locator(submit_selector).first.click()
-                # Give LinkedIn enough time to redirect (slow networks need >5s)
                 await asyncio.sleep(random.uniform(6, 9))
 
-                # Detect login success: LinkedIn redirects to /feed or /mynetwork
                 current_url = page.url
-                if any(p in current_url for p in ["/feed", "/mynetwork", "/jobs"]):
-                    logger.info("LinkedIn: Login successful ✅")
+                if any(part in current_url for part in ["/feed", "/mynetwork", "/jobs"]):
+                    logger.info("LinkedIn: Login successful")
                 elif "checkpoint" in current_url:
-                    logger.warning(
-                        "LinkedIn: CAPTCHA / verification checkpoint detected. "
-                        "Manual login may be needed. Continuing with public search..."
-                    )
+                    logger.warning("LinkedIn: CAPTCHA checkpoint detected. Continuing with public search...")
                 elif "login" in current_url:
-                    logger.warning(
-                        "LinkedIn: Still on login page after submit — "
-                        "wrong credentials or bot-block. Continuing with public search..."
-                    )
+                    logger.warning("LinkedIn: Still on login page. Continuing with public search...")
                 else:
-                    logger.info(f"LinkedIn: Redirected to {current_url} — assuming logged in.")
+                    logger.info("LinkedIn: Redirected after login -- assuming logged in.")
+
             except Exception as e:
                 logger.error(f"LinkedIn login failed: {e}. Proceeding with public search...")
 
-        # ── Scrape Job Listings ────────────────────────────────────────
-        for config in LINKEDIN_SEARCH_CONFIGS:
+        # Scrape job listings
+        for cfg_item in LINKEDIN_SEARCH_CONFIGS:
             if len(jobs) >= max_jobs:
                 break
 
-            search_url = _build_linkedin_url(config)
+            search_url = _build_linkedin_url(cfg_item)
             try:
-                logger.info(f"LinkedIn: Searching '{config['keywords']}'")
+                logger.info(f"LinkedIn: Searching '{cfg_item['keywords']}'")
                 await page.goto(search_url, wait_until="domcontentloaded")
                 await asyncio.sleep(random.uniform(3, 5))
 
-                # Scroll to load more jobs
                 for _ in range(3):
                     await page.keyboard.press("End")
                     await asyncio.sleep(random.uniform(1, 2))
@@ -171,7 +152,7 @@ async def scrape_linkedin_async(
                     "div.job-search-card, li.jobs-search-results__list-item"
                 )
 
-                for card in job_cards[:15]:  # Max 15 per search
+                for card in job_cards[:15]:
                     try:
                         job = await _extract_linkedin_job(card, page)
                         if job and job["url"] not in seen_urls:
@@ -183,7 +164,7 @@ async def scrape_linkedin_async(
             except Exception as e:
                 logger.error(f"LinkedIn search error: {e}")
 
-            await asyncio.sleep(random.uniform(4, 7))  # Between searches
+            await asyncio.sleep(random.uniform(4, 7))
 
         await browser.close()
 
@@ -206,7 +187,6 @@ async def _extract_linkedin_job(card, page) -> Dict:
     if not title or not href:
         return None
 
-    # Clean up the URL (remove tracking params)
     url = href.split("?")[0] if href else ""
 
     return {
@@ -214,16 +194,16 @@ async def _extract_linkedin_job(card, page) -> Dict:
         "company": company.strip(),
         "location": location.strip(),
         "url": url,
-        "description": f"{title.strip()} at {company.strip()}",
+        "description": title.strip() + " at " + company.strip(),
         "portal": "linkedin",
-        "is_easy_apply": False,  # Updated later in apply node
+        "is_easy_apply": False,
         "is_us_remote": "United States" in location or "Remote" in location,
     }
 
 
 def _build_linkedin_url(config: dict) -> str:
     """Build LinkedIn job search URL from config dict."""
-    from urllib.parse import urlencode, quote_plus
+    from urllib.parse import urlencode
     base = "https://www.linkedin.com/jobs/search/?"
     params = {
         "keywords": config.get("keywords", ""),

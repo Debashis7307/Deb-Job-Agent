@@ -193,28 +193,19 @@ def _generate_pdf_emails_batch(contacts: List[Dict]) -> List[Dict]:
     Batches 5 contacts per LLM call to stay under rate limits.
     Returns list of {to_email, subject, body} dicts.
 
-    Retry strategy:
-    - 503 UNAVAILABLE  → transient overload; retry with exponential back-off
-    - 429 RESOURCE_EXHAUSTED → quota; longer back-off before retry
-    - Up to 4 attempts per batch before falling back to template
+    Retry strategy (no google.api_core / tenacity needed):
+    - Up to 4 attempts per batch with exponential back-off (5s, 10s, 20s, 40s)
+    - Falls back to template email if all retries fail
     """
     from google import genai
-    from google.api_core.exceptions import ResourceExhausted, ServiceUnavailable
-    from tenacity import (
-        retry,
-        retry_if_exception_type,
-        stop_after_attempt,
-        wait_exponential,
-        before_sleep_log,
-    )
+    import json
     import config as cfg
+    from pathlib import Path
 
     client = genai.Client(api_key=cfg.GEMINI_API_KEY)
     results = []
 
     # Load user profile for personalization
-    import json
-    from pathlib import Path
     profile_path = Path(cfg.USER_PROFILE_PATH) if hasattr(cfg, "USER_PROFILE_PATH") else Path("data/user_profile.json")
     user_name = "Debashis Bera"
     user_skills = "Python, C++, AI/ML, Generative AI, Agentic AI, LangGraph"
@@ -232,21 +223,25 @@ def _generate_pdf_emails_batch(contacts: List[Dict]) -> List[Dict]:
         except Exception:
             pass
 
-    # ── Gemini call with retry (503 / 429 safe) ────────────────────────────
-    @retry(
-        retry=retry_if_exception_type((ResourceExhausted, ServiceUnavailable, Exception)),
-        wait=wait_exponential(multiplier=2, min=5, max=60),
-        stop=stop_after_attempt(4),
-        before_sleep=before_sleep_log(logger, logging.WARNING),
-        reraise=True,
-    )
     def _call_gemini_with_retry(prompt_text: str) -> str:
-        """Call Gemini with automatic retry on 503/429."""
-        resp = client.models.generate_content(
-            model=cfg.GEMINI_MODEL,
-            contents=prompt_text,
-        )
-        return resp.text
+        """Call Gemini with simple manual retry on any error (429/503 safe)."""
+        last_exc = None
+        for attempt in range(4):
+            try:
+                resp = client.models.generate_content(
+                    model=cfg.GEMINI_MODEL,
+                    contents=prompt_text,
+                )
+                return resp.text
+            except Exception as exc:
+                last_exc = exc
+                wait_secs = 5 * (2 ** attempt)  # 5, 10, 20, 40 seconds
+                logger.warning(
+                    f"Gemini attempt {attempt + 1}/4 failed: {exc}. "
+                    f"Retrying in {wait_secs}s..."
+                )
+                time.sleep(wait_secs)
+        raise last_exc
 
     BATCH_SIZE = 5
     for batch_start in range(0, len(contacts), BATCH_SIZE):
@@ -270,7 +265,7 @@ Write personalized cold emails to these HR/Hiring managers for job opportunities
 Rules:
 - Each email must be unique and personalized using the person's name, designation, and company
 - Subject line: short, compelling, professional (max 10 words)
-- Body: 3-4 short paragraphs — greeting, brief intro, why them, call-to-action
+- Body: 3-4 short paragraphs -- greeting, brief intro, why them, call-to-action
 - Tone: professional yet warm, confident but humble (student seeking opportunity)
 - Mention resume is attached
 - Max 200 words per email
@@ -306,11 +301,11 @@ No markdown, no explanation, just JSON."""
                 if idx < len(batch):
                     results.append({
                         "to_email": batch[idx].get("email", item.get("to_email", "")),
-                        "subject": item.get("subject", "Opportunity to connect — Fresher CSE"),
+                        "subject": item.get("subject", "Opportunity to connect -- Fresher CSE"),
                         "body": item.get("body", ""),
                     })
 
-            logger.info(f"Generated {len(batch_results)} PDF emails (batch {batch_start//BATCH_SIZE + 1})")
+            logger.info(f"Generated {len(batch_results)} PDF emails (batch {batch_start // BATCH_SIZE + 1})")
 
         except json.JSONDecodeError as e:
             logger.warning(f"Gemini JSON parse error for PDF email batch: {e}. Using fallback.")
@@ -322,7 +317,7 @@ No markdown, no explanation, just JSON."""
             for c in batch:
                 results.append(_fallback_email(c, user_name, user_skills))
 
-        # Rate limit buffer — 4s to reduce 429 pressure
+        # Rate limit buffer -- 4s to reduce 429 pressure
         time.sleep(4)
 
     return results

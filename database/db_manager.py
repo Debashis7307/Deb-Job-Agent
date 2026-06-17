@@ -10,6 +10,10 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+# Track which DB paths have already been initialized in this process run
+# so we don't spam "Database initialized" every minute.
+_DB_INITIALIZED: set = set()
+
 
 class DatabaseManager:
     """Manages SQLite database for job application tracking."""
@@ -88,7 +92,10 @@ class DatabaseManager:
                 CREATE INDEX IF NOT EXISTS idx_applied_date ON applications(applied_date);
                 CREATE INDEX IF NOT EXISTS idx_pdf_status ON pdf_hr_outreach(status);
             """)
-        logger.info(f"Database initialized at {self.db_path}")
+        # Only log on the very first initialization per process — suppresses per-minute spam
+        if self.db_path not in _DB_INITIALIZED:
+            _DB_INITIALIZED.add(self.db_path)
+            logger.info(f"Database initialized at {self.db_path}")
 
     @staticmethod
     def make_job_hash(job_url: str) -> str:
@@ -255,12 +262,12 @@ class DatabaseManager:
     # ── PDF HR Outreach ─────────────────────────────────────────────────────
 
     def get_pdf_hr_batch(self, limit: int = 50) -> list:
-        """Return next unsent PDF HR contacts."""
+        """Return next unprocessed PDF HR contacts (pending only)."""
         with self._get_conn() as conn:
             rows = conn.execute("""
                 SELECT email, name, company, designation
                 FROM pdf_hr_outreach
-                WHERE status != 'sent'
+                WHERE status NOT IN ('sent', 'invalid', 'failed', 'dry_run')
                 ORDER BY id ASC
                 LIMIT ?
             """, (limit,)).fetchall()

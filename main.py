@@ -134,6 +134,8 @@ def start_scheduler():
     tz = pytz.timezone(cfg.TIMEZONE)
 
     scheduler = BlockingScheduler(timezone=tz)
+
+    # ── Daily job agent run ────────────────────────────────────────────────
     scheduler.add_job(
         func=run_agent,
         trigger=CronTrigger(
@@ -145,6 +147,23 @@ def start_scheduler():
         name="Debashis Daily Job Application Agent",
         replace_existing=True,
         misfire_grace_time=3600,
+    )
+
+    # ── 30-minute heartbeat — replaces per-minute DB init spam ────────────
+    def _heartbeat():
+        next_run = scheduler.get_job("daily_job_agent").next_run_time
+        next_run_str = next_run.strftime("%Y-%m-%d %H:%M %Z") if next_run else "?"
+        logger.info(
+            f"✅ Job Agent is running | Next scheduled run: {next_run_str}"
+        )
+
+    scheduler.add_job(
+        func=_heartbeat,
+        trigger="interval",
+        minutes=30,
+        id="heartbeat",
+        name="Agent Heartbeat",
+        replace_existing=True,
     )
 
     logger.info("=" * 60)

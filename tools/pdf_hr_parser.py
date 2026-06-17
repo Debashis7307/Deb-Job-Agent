@@ -296,24 +296,25 @@ def get_next_pdf_hr_batch(count: int = 50) -> List[Dict]:
         logger.warning("No HR contacts available from PDF.")
         return []
 
-    # Get already-sent emails
+    # Get all already-processed emails (sent, invalid, failed, dry_run)
+    # — exclude ALL of these so they don't clog up the fetch buffer
     try:
         with _get_db_conn() as conn:
             rows = conn.execute(
-                "SELECT email FROM pdf_hr_outreach WHERE status = 'sent'"
+                "SELECT email FROM pdf_hr_outreach WHERE status IN ('sent', 'invalid', 'failed', 'dry_run')"
             ).fetchall()
-        sent_emails = {r["email"].lower() for r in rows}
+        processed_emails = {r["email"].lower() for r in rows}
     except Exception:
-        sent_emails = set()
+        processed_emails = set()
 
-    # Read CSV and filter
+    # Read CSV and filter — skip ALL already-processed contacts
     contacts = []
     try:
         with open(CSV_PATH, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
                 email = row.get("email", "").lower().strip()
-                if email and email not in sent_emails:
+                if email and email not in processed_emails:
                     contacts.append({
                         "name": row.get("name", "").strip(),
                         "company": row.get("company", "").strip(),
@@ -326,7 +327,7 @@ def get_next_pdf_hr_batch(count: int = 50) -> List[Dict]:
         logger.error(f"Error reading HR contacts CSV: {e}")
         return []
 
-    logger.info(f"PDF HR batch: {len(contacts)} contacts ready (from {total} total, {len(sent_emails)} already sent)")
+    logger.info(f"PDF HR batch: {len(contacts)} contacts ready (from {total} total, {len(processed_emails)} already processed)")
     return contacts
 
 
@@ -344,8 +345,8 @@ def get_pdf_hr_stats() -> Dict:
             row = conn.execute("""
                 SELECT 
                     COALESCE(COUNT(*), 0) as total_sent,
-                    COALESCE(SUM(CASE WHEN sent_date = date('now') THEN 1 ELSE 0 END), 0) as sent_today
-                FROM pdf_hr_outreach WHERE status = 'sent'
+                    COALESCE(SUM(CASE WHEN sent_date = date('now') AND status IN ('sent', 'dry_run') THEN 1 ELSE 0 END), 0) as sent_today
+                FROM pdf_hr_outreach WHERE status IN ('sent', 'dry_run')
             """).fetchone()
         total_sent = int(row["total_sent"]) if row else 0
         sent_today = int(row["sent_today"]) if row else 0
