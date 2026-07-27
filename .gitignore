@@ -19,9 +19,9 @@ data/mem0_sync.json
 scan_secrets.py
 fix_pdf_db.py
 
-# Database (contains personal data)
-database/tracker.db
-database/*.db
+# Database (tracked in git — GitHub Actions commits updates back)
+# database/tracker.db  ← INTENTIONALLY INCLUDED in git now
+# database/*.db        ← INTENTIONALLY INCLUDED in git now
 
 # Logs
 logs/

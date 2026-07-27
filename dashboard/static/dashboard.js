@@ -78,6 +78,7 @@ async function loadStats() {
     }
 
     updateAgentStatus(data.agent_running);
+    updateGHRunStatus(data);
 
   } catch (err) {
     console.warn("Stats load failed:", err);
@@ -119,48 +120,141 @@ function updateAgentStatus(running) {
     text.textContent = "Idle";
     if (btn) {
       btn.disabled = false;
-      btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg> Run Agent Now`;
+      btn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1C8.676 1 6 3.676 6 7v1H4v14h16V8h-2V7c0-3.324-2.676-6-6-6zm0 2c2.276 0 4 1.724 4 4v1H8V7c0-2.276 1.724-4 4-4zm0 9a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg> Run Agent Now`;
     }
     if (btnLarge) {
       btnLarge.disabled = false;
-      btnLarge.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg> Run Agent Now`;
+      btnLarge.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1C8.676 1 6 3.676 6 7v1H4v14h16V8h-2V7c0-3.324-2.676-6-6-6zm0 2c2.276 0 4 1.724 4 4v1H8V7c0-2.276 1.724-4 4-4zm0 9a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg> Run Agent Now`;
     }
     pill.style.borderColor = "";
   }
+
+  // Update GitHub Actions status badge
+  updateGHRunStatus(data);
 }
 
-// ─── Trigger Agent ────────────────────────────────────────────
+// ─── Trigger Agent (Password Protected) ──────────────────────
 function triggerAgent() {
+  // Reset modal state
+  const pwInput = document.getElementById("agentPassword");
+  const errEl = document.getElementById("authError");
+  if (pwInput) pwInput.value = "";
+  if (errEl) { errEl.style.display = "none"; errEl.textContent = ""; }
+
   document.getElementById("runModal").classList.add("show");
+
+  // Auto-focus password field
+  setTimeout(() => {
+    if (pwInput) pwInput.focus();
+  }, 100);
 }
 
 function closeModal() {
   document.getElementById("runModal").classList.remove("show");
 }
 
+function togglePasswordVisibility() {
+  const pwInput = document.getElementById("agentPassword");
+  const eyeIcon = document.getElementById("eyeIcon");
+  if (!pwInput) return;
+
+  if (pwInput.type === "password") {
+    pwInput.type = "text";
+    eyeIcon.innerHTML = `<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/>` ;
+  } else {
+    pwInput.type = "password";
+    eyeIcon.innerHTML = `<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>`;
+  }
+}
+
 async function confirmRun() {
-  closeModal();
+  const pwInput = document.getElementById("agentPassword");
+  const errEl = document.getElementById("authError");
+  const confirmBtn = document.getElementById("btnConfirmRun");
+  const password = pwInput ? pwInput.value.trim() : "";
   const dryRun = document.getElementById("dryRunToggle").checked;
-  
-  addLog(`[${getTime()}] Triggering agent run (dry_run=${dryRun})...`, "info");
+
+  if (!password) {
+    if (errEl) { errEl.textContent = "Please enter your secret key."; errEl.style.display = "block"; }
+    return;
+  }
+
+  // Disable button during request
+  if (confirmBtn) { confirmBtn.disabled = true; confirmBtn.textContent = "Verifying..."; }
 
   try {
     const res = await fetch("/api/run_agent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ dry_run: dryRun }),
+      body: JSON.stringify({ password, dry_run: dryRun }),
     });
     const data = await res.json();
-    
+
+    if (res.status === 403) {
+      // Wrong password — show rejection
+      if (errEl) {
+        errEl.textContent = data.message || "You are not Debashis, so I can't work for you! 🚫";
+        errEl.style.display = "block";
+        errEl.style.color = "#ff6b6b";
+      }
+      if (confirmBtn) { confirmBtn.disabled = false; confirmBtn.textContent = "🚀 Start Agent"; }
+      return;
+    }
+
     if (data.status === "started") {
-      addLog(`[${getTime()}] Agent started! Monitoring logs...`, "success");
+      closeModal();
+      addLog(`[${getTime()}] ✅ Agent triggered! Mode: ${data.mode || 'cloud'}`, "success");
+
+      if (data.mode === "github_actions" && data.run_url) {
+        addLog(`[${getTime()}] 🔗 GitHub Actions: ${data.run_url}`, "info");
+        showGHRunBanner(data.run_url);
+      }
+
       updateAgentStatus(true);
       animateWorkflowSteps();
     } else {
-      addLog(`[${getTime()}] Error: ${data.message}`, "error");
+      if (errEl) { errEl.textContent = data.message; errEl.style.display = "block"; }
+      if (confirmBtn) { confirmBtn.disabled = false; confirmBtn.textContent = "🚀 Start Agent"; }
     }
   } catch (err) {
-    addLog(`[${getTime()}] Failed to trigger agent: ${err}`, "error");
+    if (errEl) { errEl.textContent = `Network error: ${err}`; errEl.style.display = "block"; }
+    if (confirmBtn) { confirmBtn.disabled = false; confirmBtn.textContent = "🚀 Start Agent"; }
+  }
+}
+
+// ─── GitHub Actions Status Banner ────────────────────────────
+function showGHRunBanner(url) {
+  const banner = document.getElementById("ghRunStatus");
+  const link = document.getElementById("ghRunLink");
+  if (banner) { banner.style.display = "flex"; }
+  if (link) { link.href = url; }
+}
+
+function updateGHRunStatus(statsData) {
+  const ghRun = statsData?.latest_gh_run;
+  const banner = document.getElementById("ghRunStatus");
+  const dot = document.getElementById("ghRunDot");
+  const text = document.getElementById("ghRunText");
+  const link = document.getElementById("ghRunLink");
+  if (!banner || !ghRun || !ghRun.status) return;
+
+  banner.style.display = "flex";
+  if (link && ghRun.html_url) link.href = ghRun.html_url;
+
+  if (ghRun.status === "in_progress" || ghRun.status === "queued") {
+    dot.style.background = "#f59e0b";
+    dot.style.animation = "pulse 1s infinite";
+    text.textContent = `GitHub Actions: Run #${ghRun.run_number} ${ghRun.status}...`;
+  } else if (ghRun.conclusion === "success") {
+    dot.style.background = "#10b981";
+    dot.style.animation = "none";
+    text.textContent = `Last run #${ghRun.run_number}: ✅ Success`;
+  } else if (ghRun.conclusion === "failure") {
+    dot.style.background = "#ef4444";
+    dot.style.animation = "none";
+    text.textContent = `Last run #${ghRun.run_number}: ❌ Failed`;
+  } else {
+    text.textContent = `Last run #${ghRun.run_number}: ${ghRun.status}`;
   }
 }
 

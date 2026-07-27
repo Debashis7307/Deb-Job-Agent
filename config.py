@@ -1,14 +1,19 @@
 """
 config.py — Central configuration loader for the Job Application Agent
-Loads from .env and data/user_profile.json
+Loads from .env (local) or directly from environment variables (cloud/Render/GitHub Actions)
 """
 import json
 import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
+# Load .env file if it exists (local dev). On cloud, env vars are injected directly.
+_env_path = Path(__file__).parent / ".env"
+if _env_path.exists():
+    load_dotenv(_env_path)
+else:
+    # Cloud mode: env vars already set by Render / GitHub Actions
+    pass
 
 # ─── Paths ──────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).parent
@@ -73,9 +78,11 @@ INTERNSHALA_EMAIL = os.getenv("INTERNSHALA_EMAIL", "")
 INTERNSHALA_PASSWORD = os.getenv("INTERNSHALA_PASSWORD", "")
 USE_INTERNSHALA_LOGIN = bool(INTERNSHALA_EMAIL and INTERNSHALA_PASSWORD)
 
-# ─── Web Dashboard ───────────────────────────────────────────────────────────
+# ─── Web Dashboard ────────────────────────────────────────────────────
 DASHBOARD_PORT = int(os.getenv("DASHBOARD_PORT", "5000"))
 DASHBOARD_SECRET_KEY = os.getenv("DASHBOARD_SECRET_KEY", "change_me_secret")
+# Password for manual agent trigger (NEVER hardcode — set in .env or Render env vars)
+DASHBOARD_PASSWORD = os.getenv("DASHBOARD_PASSWORD", "")
 
 # ─── Agent Settings ──────────────────────────────────────────────────────────
 DRY_RUN = os.getenv("DRY_RUN", "True").lower() == "true"

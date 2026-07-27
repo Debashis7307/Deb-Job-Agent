@@ -188,13 +188,15 @@ Status: Final year B.Tech CSE student, strong in Python/AI/ML/GenAI
 
 RULES FOR EACH EMAIL:
 - Must start with "Hey [HR Name / Hiring Team]," or "Hey team," — NEVER start with "Hi", "Dear", or "Respected".
-- Extremely human-sounding, short, crisp, impressive, and deeply personalized based on the specific job description and company context.
-- Absolutely NO robotic AI-generated markers or corporate clichés (do NOT use "I hope this email finds you well", "thrilled to apply", "esteemed organization", "delighted to submit", "please find my resume attached", "keen interest").
-- Write like a highly competent, confident developer student reaching out directly.
-- The email body length should be natural and fully custom-personalized to the JD, ranging from 4-5 lines up to 9-10 lines if needed for rich technical mapping.
-- Focus on 1-2 skills or project highlights that directly map to the JD.
-- End with: Portfolio: {user_portfolio} | GitHub: {user_github}
-- Sign off as {user_name}
+- SHORT and CRISP: maximum 6-7 lines total body. No long paragraphs.
+- Sound like a confident, sharp developer — not a nervous student.
+- NO clichés: NEVER use "I hope this email finds you well", "thrilled", "esteemed", "delighted", "please find", "keen interest".
+- 1-2 skill highlights directly from the JD — be specific, not generic.
+- ALWAYS end the body with these two lines exactly (replace placeholders):
+  Portfolio: {user_portfolio} | GitHub: {user_github}
+  Best,
+  {user_name} | {user_phone}
+- Do NOT add any text after the signature lines.
 
 Jobs to email about:
 {json.dumps(job_infos, indent=2)}
@@ -203,8 +205,8 @@ Return ONLY valid JSON array:
 [
   {{
     "id": 0,
-    "subject": "Application for [Role] — Fresher | {user_name}",
-    "body": "Hey [HR Name / Hiring Team],\\n\\n[email body]\\n\\nBest,\\n{user_name}\\n{user_phone}"
+    "subject": "Application for [Role] — {user_name}",
+    "body": "Hey [HR Name / Hiring Team],\\n\\n[3-4 crisp lines]\\n\\nPortfolio: {user_portfolio} | GitHub: {user_github}\\nBest,\\n{user_name} | {user_phone}"
   }},
   ...
 ]
@@ -263,19 +265,13 @@ def _fallback_email_template(jobs: List[dict]) -> List[dict]:
     for job in jobs:
         body = f"""Hey Hiring Team,
 
-I am {cfg.USER_NAME}, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the {job.get('title', 'position')} opening at {job.get('company', 'your company')} and wanted to reach out.
+I'm {cfg.USER_NAME}, a final year B.Tech CSE student with strong skills in Python, AI/ML, and Generative AI. I saw the {job.get('title', 'position')} opening at {job.get('company', 'your company')} and wanted to reach out directly.
 
-Key highlights of my background:
-• Python, C++, LangChain, LangGraph, Gemini API, Machine Learning
-• Developed: {cfg.PROJECTS[0]['name'] if cfg.PROJECTS else 'AI automation projects'} — {cfg.PROJECTS[0]['description'] if cfg.PROJECTS else 'automation workflows'}
-• Portfolio: {cfg.USER_PORTFOLIO}
-• GitHub: {cfg.USER_GITHUB}
+I've built {cfg.PROJECTS[0]['name'] if cfg.PROJECTS else 'an autonomous AI agent'} — {cfg.PROJECTS[0]['description'] if cfg.PROJECTS else 'LangGraph-based automation'} — and I ship clean, production-grade code.
 
-My resume is attached. I would love to connect for a quick call to discuss how I can contribute.
-
+Portfolio: {cfg.USER_PORTFOLIO} | GitHub: {cfg.USER_GITHUB}
 Best,
-{cfg.USER_NAME}
-{cfg.USER_PHONE} | {cfg.GMAIL_ADDRESS}"""
+{cfg.USER_NAME} | {cfg.USER_PHONE}"""
 
         results.append({
             "job_url": job.get("url", ""),

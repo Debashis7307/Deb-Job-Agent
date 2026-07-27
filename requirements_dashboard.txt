@@ -1,0 +1,22 @@
+# ============================================
+# requirements_dashboard.txt
+# Minimal dependencies for the Flask Dashboard only
+# Used by Render.com (no Playwright, no heavy AI libs)
+# ============================================
+
+# Web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+gunicorn>=21.2.0
+
+# HTTP requests (for GitHub API calls)
+requests>=2.31.0
+
+# Config
+python-dotenv>=1.0.0
+
+# Data
+pandas>=2.0.0
+
+# Timezone
+pytz>=2024.1

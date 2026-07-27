@@ -260,16 +260,19 @@ def _generate_pdf_emails_batch(contacts: List[Dict]) -> List[Dict]:
         ], indent=2)
 
         prompt = f"""You are {user_name}, a {user_bg} skilled in {user_skills}.
-Write personalized cold emails to these HR/Hiring managers for job opportunities.
+Write SHORT, CRISP personalized cold emails to these HR/Hiring managers.
 
 Rules:
-- Each email must be unique and personalized using the person's name, designation, and company
-- Subject line: short, compelling, professional (max 10 words)
-- Body: 3-4 short paragraphs -- greeting, brief intro, why them, call-to-action
-- Tone: professional yet warm, confident but humble (student seeking opportunity)
-- Mention resume is attached
-- Max 200 words per email
-- End with: "Best regards,\\n{user_name}"
+- Each email unique and personalized using the person's name, designation, and company
+- Subject line: short, compelling (max 10 words)
+- Body: max 5-6 lines total. Greeting, 1-2 line intro, specific value prop, CTA.
+- Tone: confident yet warm, direct (not nervous or overly humble)
+- NO clich\u00e9s: skip \"I hope\", \"thrilled\", \"esteemed\", \"please find\", \"keen interest\"
+- Always mention resume is attached
+- ALWAYS end every email with exactly:
+  Portfolio: {cfg.USER_PORTFOLIO} | GitHub: {cfg.USER_GITHUB}
+  Best regards,
+  {user_name}
 
 Contacts:
 {contacts_json}
@@ -355,12 +358,9 @@ def _fallback_email(contact: Dict, user_name: str, user_skills: str) -> Dict:
 
 I'm Debashis Bera, a final year B.Tech CSE student specializing in Python, AI/ML, and Generative AI. I'm reaching out to explore potential opportunities at {company}.
 
-I've built production-grade autonomous AI agents (LangGraph), worked on GenAI pipelines, and have strong foundations in Python, C++, and system design. I'm eager to join a team where I can contribute meaningfully from day one.
+I've built production-grade autonomous AI agents (LangGraph + Gemini), with strong foundations in Python, C++, and ML. My resume is attached.
 
-{desig_context} I've attached my resume — I'd love a quick chat if there's any opening or referral opportunity that fits.
-
-Thank you for your time!
-
+Portfolio: {cfg.USER_PORTFOLIO} | GitHub: {cfg.USER_GITHUB}
 Best regards,
 {user_name}"""
 

@@ -1,0 +1,138 @@
+# ============================================================
+# Job Application AI Agent — GitHub Actions Workflow
+# ============================================================
+# Runs daily at 10:00 PM IST (16:30 UTC)
+# Can also be triggered manually via dashboard (workflow_dispatch)
+# ============================================================
+
+name: 🤖 Job Agent — Daily Run
+
+on:
+  # ── Auto: Daily at 10:00 PM IST (16:30 UTC) ─────────────
+  schedule:
+    - cron: '30 16 * * *'   # 16:30 UTC = 22:00 IST
+
+  # ── Manual: Triggered from dashboard via GitHub API ──────
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run in dry-run mode (no real applications)?'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+      triggered_by:
+        description: 'Who triggered this run'
+        required: false
+        default: 'dashboard'
+
+jobs:
+  run-agent:
+    name: 🚀 Run Job Application Agent
+    runs-on: ubuntu-latest
+    timeout-minutes: 90          # Kill job if it hangs beyond 90 min
+
+    steps:
+      # ── 1. Checkout repo ──────────────────────────────────
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}   # PAT needed to push DB back
+
+      # ── 2. Set up Python ──────────────────────────────────
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ── 3. Install Python dependencies ───────────────────
+      - name: 📦 Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ── 4. Install Playwright + browsers ─────────────────
+      - name: 🌐 Install Playwright browsers
+        run: |
+          playwright install chromium --with-deps
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
+
+      # ── 5. Create data directory and profile ─────────────
+      - name: 📂 Prepare data files
+        run: |
+          mkdir -p data logs
+          # Write user_profile.json from secret
+          echo '${{ secrets.USER_PROFILE_JSON }}' > data/user_profile.json
+          # Write resume PDF from base64 secret
+          echo '${{ secrets.RESUME_PDF_BASE64 }}' | base64 -d > data/resume.pdf
+        env:
+          USER_PROFILE_JSON: ${{ secrets.USER_PROFILE_JSON }}
+
+      # ── 6. Run the agent ──────────────────────────────────
+      - name: 🤖 Run Job Agent
+        run: python run_agent_cloud.py
+        env:
+          # AI
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          # Gmail
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          PERSONAL_EMAIL: ${{ secrets.PERSONAL_EMAIL }}
+          # Memory
+          MEM0_API_KEY: ${{ secrets.MEM0_API_KEY }}
+          MEM0_USER_ID: ${{ secrets.MEM0_USER_ID }}
+          # Email APIs
+          APOLLO_API_KEY: ${{ secrets.APOLLO_API_KEY }}
+          SNOV_CLIENT_ID: ${{ secrets.SNOV_CLIENT_ID }}
+          SNOV_CLIENT_SECRET: ${{ secrets.SNOV_CLIENT_SECRET }}
+          # Search
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          # Job portals
+          LINKEDIN_EMAIL: ${{ secrets.LINKEDIN_EMAIL }}
+          LINKEDIN_PASSWORD: ${{ secrets.LINKEDIN_PASSWORD }}
+          NAUKRI_EMAIL: ${{ secrets.NAUKRI_EMAIL }}
+          NAUKRI_PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}
+          INTERNSHALA_EMAIL: ${{ secrets.INTERNSHALA_EMAIL }}
+          INTERNSHALA_PASSWORD: ${{ secrets.INTERNSHALA_PASSWORD }}
+          # Settings
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          MAX_APPLY_PER_DAY: '30'
+          MAX_EMAIL_PER_DAY: '25'
+          SCHEDULE_HOUR: '22'
+          SCHEDULE_MINUTE: '0'
+          TIMEZONE: 'Asia/Kolkata'
+          BROWSER_HEADLESS: 'true'
+          DASHBOARD_PORT: '5000'
+          DASHBOARD_SECRET_KEY: ${{ secrets.DASHBOARD_SECRET_KEY }}
+          # Cloud run flag
+          CLOUD_RUN: 'true'
+
+      # ── 7. Commit updated database back to repo ───────────
+      - name: 💾 Commit updated database
+        if: always()    # Always commit DB even if agent had errors
+        run: |
+          git config user.name "Job Agent Bot"
+          git config user.email "job-agent-bot@github-actions.com"
+          git add database/tracker.db || true
+          git add data/hr_contacts_from_pdf.csv || true
+          git add data/mem0_cache.json || true
+          git add data/mem0_sync.json || true
+          # Only commit if there are actual changes
+          git diff --staged --quiet || git commit -m "🤖 Agent run: $(date +'%Y-%m-%d %H:%M IST') [automated]"
+          git push || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+
+      # ── 8. Upload logs as artifact ────────────────────────
+      - name: 📋 Upload run logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: agent-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 7

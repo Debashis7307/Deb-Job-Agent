@@ -1,0 +1,49 @@
+services:
+  - type: web
+    name: job-agent-dashboard
+    runtime: python
+    buildCommand: pip install flask flask-cors requests python-dotenv
+    startCommand: python dashboard/app.py
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DASHBOARD_PASSWORD
+        sync: false
+      - key: GH_PAT
+        sync: false
+      - key: GITHUB_REPO_OWNER
+        value: Debashis7307
+      - key: GITHUB_REPO_NAME
+        value: Deb-Job-Agent
+      - key: GITHUB_WORKFLOW_ID
+        value: job_agent.yml
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GMAIL_ADDRESS
+        sync: false
+      - key: GMAIL_APP_PASSWORD
+        sync: false
+      - key: PERSONAL_EMAIL
+        sync: false
+      - key: MEM0_API_KEY
+        sync: false
+      - key: APOLLO_API_KEY
+        sync: false
+      - key: TAVILY_API_KEY
+        sync: false
+      - key: LINKEDIN_EMAIL
+        sync: false
+      - key: LINKEDIN_PASSWORD
+        sync: false
+      - key: NAUKRI_EMAIL
+        sync: false
+      - key: NAUKRI_PASSWORD
+        sync: false
+      - key: DASHBOARD_SECRET_KEY
+        sync: false
+      - key: DASHBOARD_PORT
+        value: "5000"
+      - key: TIMEZONE
+        value: Asia/Kolkata
+      - key: DRY_RUN
+        value: "false"

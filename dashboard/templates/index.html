@@ -39,7 +39,7 @@
       </div>
       <button class="btn-run" id="btnRunAgent" onclick="triggerAgent()">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M8 5v14l11-7z"/>
+          <path d="M12 1C8.676 1 6 3.676 6 7v1H4v14h16V8h-2V7c0-3.324-2.676-6-6-6zm0 2c2.276 0 4 1.724 4 4v1H8V7c0-2.276 1.724-4 4-4zm0 9a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
         </svg>
         Run Agent Now
       </button>
@@ -183,10 +183,15 @@
           <div class="control-buttons">
             <button class="btn-run-large" id="btnRunLarge" onclick="triggerAgent()">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M8 5v14l11-7z"/>
+                <path d="M12 1C8.676 1 6 3.676 6 7v1H4v14h16V8h-2V7c0-3.324-2.676-6-6-6zm0 2c2.276 0 4 1.724 4 4v1H8V7c0-2.276 1.724-4 4-4zm0 9a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
               </svg>
               Run Agent Now
             </button>
+            <div id="ghRunStatus" class="gh-run-status" style="display:none">
+              <div class="gh-run-dot" id="ghRunDot"></div>
+              <span id="ghRunText">Checking GitHub Actions...</span>
+              <a id="ghRunLink" href="#" target="_blank" class="gh-run-link">View Run →</a>
+            </div>
             <div class="countdown-box">
               <div class="countdown-label">Auto-runs in</div>
               <div class="countdown-value" id="countdown">--:--:--</div>
@@ -260,26 +265,47 @@
 
   </main>
 
-  <!-- Run Agent Modal -->
+  <!-- Password Auth Modal -->
   <div class="modal-overlay" id="runModal">
     <div class="modal">
-      <div class="modal-icon">
+      <div class="modal-icon" id="modalIcon">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M8 5v14l11-7z"/>
+          <path d="M12 1C8.676 1 6 3.676 6 7v1H4v14h16V8h-2V7c0-3.324-2.676-6-6-6zm0 2c2.276 0 4 1.724 4 4v1H8V7c0-2.276 1.724-4 4-4zm0 9a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
         </svg>
       </div>
-      <h2 class="modal-title">Start Agent Run?</h2>
-      <p class="modal-desc">The agent will scrape jobs, auto-apply, and send cold emails. This may take 30-60 minutes.</p>
-      <div class="modal-mode">
-        <label class="mode-toggle">
-          <input type="checkbox" id="dryRunToggle" />
-          <span class="toggle-slider"></span>
-          <span class="toggle-label">Dry Run Mode (no real sending)</span>
-        </label>
-      </div>
-      <div class="modal-actions">
-        <button class="btn-cancel" onclick="closeModal()">Cancel</button>
-        <button class="btn-confirm" onclick="confirmRun()">Start Agent</button>
+      <h2 class="modal-title" id="modalTitle">Authentication Required</h2>
+      <p class="modal-desc" id="modalDesc">Enter your secret key to run the agent. Only Debashis can trigger this.</p>
+
+      <!-- Password input section -->
+      <div id="authSection">
+        <div class="password-input-wrap">
+          <input
+            type="password"
+            id="agentPassword"
+            class="password-input"
+            placeholder="Enter secret key..."
+            onkeydown="if(event.key==='Enter') confirmRun()"
+            autocomplete="current-password"
+          />
+          <button class="toggle-pw" onclick="togglePasswordVisibility()" type="button" title="Show/hide password">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="eyeIcon">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </button>
+        </div>
+        <p class="auth-error" id="authError" style="display:none"></p>
+        <div class="modal-mode">
+          <label class="mode-toggle">
+            <input type="checkbox" id="dryRunToggle" />
+            <span class="toggle-slider"></span>
+            <span class="toggle-label">Dry Run Mode (no real applying)</span>
+          </label>
+        </div>
+        <div class="modal-actions">
+          <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+          <button class="btn-confirm" id="btnConfirmRun" onclick="confirmRun()">🚀 Start Agent</button>
+        </div>
       </div>
     </div>
   </div>
