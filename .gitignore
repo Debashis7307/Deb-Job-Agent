@@ -6,11 +6,8 @@
 .env
 *.env
 
-# Resume (private document)
-data/resume.pdf
-data/*.pdf
-
-# HR contact list (contains personal emails — privacy sensitive)
+# Resume (committed to repo — it's a public document sent to HRs)
+# data/resume.pdf  ← INTENTIONALLY INCLUDED now
 data/hr_contacts_from_pdf.csv
 data/mem0_cache.json
 data/mem0_sync.json

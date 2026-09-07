@@ -61,16 +61,14 @@ jobs:
         env:
           PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
 
-      # ── 5. Create data directory and profile ─────────────
+      # ── 5. Prepare data directory ────────────────────────
       - name: 📂 Prepare data files
         run: |
           mkdir -p data logs
           # Write user_profile.json from secret
           echo '${{ secrets.USER_PROFILE_JSON }}' > data/user_profile.json
-          # Write resume PDF from base64 secret
-          echo '${{ secrets.RESUME_PDF_BASE64 }}' | base64 -d > data/resume.pdf
-        env:
-          USER_PROFILE_JSON: ${{ secrets.USER_PROFILE_JSON }}
+          # resume.pdf is committed directly in the repo — no base64 needed ✅
+          echo "✅ resume.pdf present: $(ls -lh data/resume.pdf | awk '{print $5}')"
 
       # ── 6. Run the agent ──────────────────────────────────
       - name: 🤖 Run Job Agent
