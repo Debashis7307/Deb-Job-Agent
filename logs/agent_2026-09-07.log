@@ -1,0 +1,725 @@
+2026-09-07 12:46:47 [INFO] __main__: ============================================================
+2026-09-07 12:46:47 [INFO] __main__: JOB AGENT — CLOUD RUN (GitHub Actions)
+2026-09-07 12:46:47 [INFO] __main__: Started: 2026-09-07 12:46:47 UTC
+2026-09-07 12:46:47 [INFO] __main__: Mode: [DRY RUN] Testing
+2026-09-07 12:46:47 [INFO] __main__: Python: 3.11.16 (main, Aug 13 2026, 02:46:14) [GCC 13.3.0]
+2026-09-07 12:46:47 [INFO] __main__: ============================================================
+2026-09-07 12:46:48 [INFO] __main__: Max apply today:  30
+2026-09-07 12:46:48 [INFO] __main__: Cold emails today: 25
+2026-09-07 12:46:48 [INFO] __main__: Applications email: debashis.bera.careers@gmail.com
+2026-09-07 12:46:48 [INFO] __main__: Summary email to:   debashisalak@gmail.com
+2026-09-07 12:46:48 [INFO] database.db_manager: Database initialized at /home/runner/work/Deb-Job-Agent/Deb-Job-Agent/database/tracker.db
+2026-09-07 12:46:50 [INFO] agent.nodes.memory_node: mem0: Loaded 10 memories from cloud API
+2026-09-07 12:46:50 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 529
+All-time emails sent: 288
+Unique companies contacted: 460
+Today (2026-09-07) already applied: 0
+Previous context from memory:
+User scraped 54 job listings on 2026-06-02, applied to 1 job, sent 1 cold email, targeting company Yardstick
+User scraped 122 job listings on 2026-06-13, applied to 0 jobs, and sent 16 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 13 cold emails, with no companies listed
+User scraped 57 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 53 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 14 cold emails, with no companies listed
+User scraped 69 job listings on 2026-06-02, applied to 0 jobs, and sent 8 cold emails, with no companies listed
+User scraped 147 job listings on 2026-06-03, applied to 0 jobs, and sent 26 cold emails, with no companies listed
+User scraped 159 job listings on 2026-06-03, applied to 30 jobs, and sent 32 cold emails, targeting companies Fortified Infotech, JobLuxe, American Chase, Emerson, CapeStart, Nielsen, Fidelity, Surescout.in, ACG, and Blubridge
+User scraped 54 job listings on 2026-06-01, applied to 0 jobs and sent 0 cold emails, targeting companies TSTEPS PRIVATE LIMITED, Zenerative Minds LLP, Queens Of Change Foundation, Check Off Your List, Kennedy Krieger Institute, Bored Panda, Unnati Enterprises, International Institute Of SDGs & Public Policy Research, Symonis, and Ramyoz
+2026-09-07 12:46:50 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-09-07 12:46:50 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-09-07 12:46:52 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 30 relevant jobs
+2026-09-07 12:46:52 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 30 jobs
+2026-09-07 12:46:52 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-09-07 12:46:52 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-09-07 12:46:56 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-09-07 12:46:56 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-09-07 12:46:56 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-09-07 12:46:57 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-09-07 12:47:13 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-09-07 12:47:30 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-09-07 12:47:46 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-09-07 12:48:02 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-09-07 12:48:02 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-09-07 12:48:02 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-09-07 12:48:02 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-09-07 12:48:03 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-09-07 12:48:03 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-09-07 12:48:03 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-09-07 12:48:03 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-09-07 12:48:19 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-09-07 12:48:36 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-09-07 12:48:52 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 35 jobs
+2026-09-07 12:48:52 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 35 jobs
+2026-09-07 12:48:52 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-09-07 12:48:52 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-09-07 12:49:05 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-09-07 12:49:19 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-09-07 12:49:31 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-09-07 12:49:45 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-09-07 12:49:57 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-09-07 12:50:11 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-09-07 12:50:25 [INFO] scrapers.naukri_scraper: Naukri: Found 0 jobs
+2026-09-07 12:50:25 [INFO] agent.nodes.scrape_node: ✅ Naukri: 0 jobs
+2026-09-07 12:50:25 [INFO] agent.nodes.scrape_node: Tavily: Searching free job portals & startup boards (budget: 10 searches)...
+2026-09-07 12:50:33 [INFO] tools.tavily_search: Tavily free portal search: found 15 jobs
+2026-09-07 12:50:42 [INFO] tools.tavily_search: Tavily startup job search: found 10 leads
+2026-09-07 12:50:42 [INFO] agent.nodes.scrape_node: Tavily: 6 real job leads (filtered from 25)
+2026-09-07 12:50:42 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 126 jobs from all portals
+2026-09-07 12:50:42 [INFO] agent.nodes.filter_node: ✅ Filter: 126 scraped → 46 new relevant jobs
+2026-09-07 12:50:42 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:50:42 [WARNING] google_genai.models: Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-07 12:51:27 [INFO] agent.nodes.filter_node: Gemini scored 46 jobs in 1 API call
+2026-09-07 12:51:27 [INFO] agent.nodes.filter_node: Scored 46 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=True)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: Applying to 1 jobs on remoteok
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: AI Engineer Data APIs @ Benzinga (remoteok)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: Applying to 4 jobs on weworkremotely
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: AI/ML Engineer for an AI-Driven E-Commerce Platform @ Toptal (weworkremotely)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Scientist for Top Cosmetic firm @ Toptal (weworkremotely)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Member of the Technical Staff, Internal Agent @ Vercel (weworkremotely)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Junior DevOps Engineer (CI/CD & Developer Tooling) remote (m/f/d) @ Charisma-tec (weworkremotely)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: Applying to 22 jobs on linkedin
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Jr. AI Engineer Role @ aiqon (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Associate Software Development Engineer - AI @ Swiggy (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: AI Engineer - Intern @ NTHREAD (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Scientist / AI Engineer / Analytics Engineer @ Great Learning (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Artificial Intelligence Engineer @ Nexal IIT (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Artificial Intelligence Engineer @ InfoVision Inc. (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: AI Engineer - Health care @ AI Nexus Innovations Hub (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Python Developer Intern | Python | SQL | Git | Programming @ Crossing Infotech (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: AI/ML Engineer @ Clicksoft Solutions (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Scientist @ Brillio (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Scientist @ bp (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: AI/ML Engineer (Contract) @ Deccan AI Experts (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Software Developer Intern | Python | Java | SQL | Git @ Crossing Infotech (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Engineer Trainee @ Saasta Software & Services (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Analyst-Data Science @ American Express (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Python backend developer @ iQuantsGraph (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Python Developer @ Appglide Solutions (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: ASDE - Fullstack @ Amber (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Software Engineer - E-Commerce (Remote) @ Hire Feed (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Assoc Software Engineer @ HMH Tech India (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: UK_Fullstack developer_ Associate @ PwC Acceleration Center India (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Software Engineer (Full Stack) @ KLA (linkedin)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: Applying to 2 jobs on tavily_link
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Work from Anywhere Remote AI Engineer Jobs @ Himalayas (tavily_link)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Remote Entry-level Deep Learning Engineer Jobs @ Himalayas (tavily_link)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: Applying to 1 jobs on internshala
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Science @ Queens Of Change Foundation (internshala)
+2026-09-07 12:51:27 [INFO] agent.nodes.apply_node: Apply node done: 30 portal-applied, 0 queued for cold email, 0 failed
+2026-09-07 12:51:27 [INFO] agent.nodes.email_node: Finding HR email for: Benzinga
+2026-09-07 12:51:27 [INFO] tools.email_finder: Using guessed domain for Benzinga: benzinga.com
+2026-09-07 12:51:28 [INFO] tools.email_finder: Apollo: Found global organization ID 5e4d818c57cd3e00d4c8008f for domain benzinga.com
+2026-09-07 12:51:29 [INFO] tools.email_finder: Successfully refreshed Snov.io API access token.
+2026-09-07 12:51:30 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:51:33 [INFO] tools.email_finder: ✅ Verified MX records for benzinga.com
+2026-09-07 12:51:33 [INFO] tools.email_finder: Found scraped and verified email for Benzinga: info@benzinga.com
+2026-09-07 12:51:34 [INFO] agent.nodes.email_node: Finding HR email for: Toptal
+2026-09-07 12:51:34 [INFO] tools.email_finder: Domain from URL for Toptal: weworkremotely.com
+2026-09-07 12:51:34 [INFO] tools.email_finder: Apollo: Found global organization ID 5da45033d7e66f00010ef122 for domain weworkremotely.com
+2026-09-07 12:51:35 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:51:39 [INFO] tools.email_finder: ✅ Verified MX records for weworkremotely.com
+2026-09-07 12:51:39 [INFO] tools.email_finder: Using verified pattern email for Toptal: hr@weworkremotely.com
+2026-09-07 12:51:40 [INFO] agent.nodes.email_node: Finding HR email for: aiqon
+2026-09-07 12:51:41 [INFO] tools.email_finder: Using guessed domain for aiqon: aiqon.com
+2026-09-07 12:51:41 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:51:48 [INFO] tools.email_finder: ✅ Verified MX records for aiqon.com
+2026-09-07 12:51:48 [INFO] tools.email_finder: Using verified pattern email for aiqon: hr@aiqon.com
+2026-09-07 12:51:49 [INFO] agent.nodes.email_node: Finding HR email for: Swiggy
+2026-09-07 12:51:49 [INFO] tools.email_finder: Using guessed domain for Swiggy: swiggy.com
+2026-09-07 12:51:49 [INFO] tools.email_finder: Apollo: Found global organization ID 613096e7cedb2c00da6f55c4 for domain swiggy.com
+2026-09-07 12:51:50 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:51:58 [INFO] tools.email_finder: ✅ Verified MX records for swiggy.com
+2026-09-07 12:51:58 [INFO] tools.email_finder: Using verified pattern email for Swiggy: hr@swiggy.com
+2026-09-07 12:51:59 [INFO] agent.nodes.email_node: Finding HR email for: NTHREAD
+2026-09-07 12:51:59 [INFO] tools.email_finder: Using guessed domain for NTHREAD: nthread.com
+2026-09-07 12:52:00 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:04 [WARNING] tools.email_finder: ❌ MX record lookup failed for nthread.com: The DNS response does not contain an answer to the question: nthread.com. IN MX
+2026-09-07 12:52:05 [WARNING] tools.email_finder: ❌ MX record lookup failed for nthread.com: The DNS response does not contain an answer to the question: nthread.com. IN MX
+2026-09-07 12:52:05 [WARNING] tools.email_finder: ❌ MX record lookup failed for nthread.com: The DNS response does not contain an answer to the question: nthread.com. IN MX
+2026-09-07 12:52:05 [WARNING] tools.email_finder: ❌ MX record lookup failed for nthread.com: The DNS response does not contain an answer to the question: nthread.com. IN MX
+2026-09-07 12:52:06 [WARNING] tools.email_finder: ❌ MX record lookup failed for nthread.com: The DNS response does not contain an answer to the question: nthread.com. IN MX
+2026-09-07 12:52:06 [WARNING] tools.email_finder: ❌ No valid email could be verified for NTHREAD (domain: nthread.com). Skipping outreach.
+2026-09-07 12:52:07 [INFO] agent.nodes.email_node: Finding HR email for: Great Learning
+2026-09-07 12:52:07 [INFO] tools.email_finder: Using guessed domain for Great Learning: greatlearning.com
+2026-09-07 12:52:07 [INFO] tools.email_finder: Apollo: Found global organization ID 5a9eef2aa6da98d97e7fbe4b for domain greatlearning.com
+2026-09-07 12:52:08 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:12 [INFO] tools.email_finder: ✅ Verified MX records for greatlearning.com
+2026-09-07 12:52:12 [INFO] tools.email_finder: Using verified pattern email for Great Learning: hr@greatlearning.com
+2026-09-07 12:52:13 [INFO] agent.nodes.email_node: Finding HR email for: Nexal IIT
+2026-09-07 12:52:13 [INFO] tools.email_finder: Using guessed domain for Nexal IIT: nexaliit.com
+2026-09-07 12:52:14 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for nexaliit.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for nexaliit.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for nexaliit.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for nexaliit.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for nexaliit.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:17 [WARNING] tools.email_finder: ❌ No valid email could be verified for Nexal IIT (domain: nexaliit.com). Skipping outreach.
+2026-09-07 12:52:18 [INFO] agent.nodes.email_node: Finding HR email for: Himalayas
+2026-09-07 12:52:18 [INFO] tools.email_finder: Domain from URL for Himalayas: himalayas.app
+2026-09-07 12:52:18 [INFO] tools.email_finder: Apollo: Found global organization ID 5fc4b7000c0bb0012ea6994a for domain himalayas.app
+2026-09-07 12:52:19 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:23 [INFO] tools.email_finder: ✅ Verified MX records for himalayas.app
+2026-09-07 12:52:23 [INFO] tools.email_finder: Using verified pattern email for Himalayas: hr@himalayas.app
+2026-09-07 12:52:24 [INFO] agent.nodes.email_node: Finding HR email for: InfoVision Inc.
+2026-09-07 12:52:24 [INFO] tools.email_finder: Using guessed domain for InfoVision Inc.: infovision.com
+2026-09-07 12:52:24 [INFO] tools.email_finder: Apollo: Found global organization ID 6061a3dcee4e15011e5692ac for domain infovision.com
+2026-09-07 12:52:27 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:29 [INFO] tools.tavily_search: Tavily found email for InfoVision Inc.: first.last@infovision.com
+2026-09-07 12:52:29 [INFO] tools.email_finder: ✅ Verified MX records for infovision.com
+2026-09-07 12:52:29 [INFO] tools.email_finder: Found email via Tavily for InfoVision Inc.: first.last@infovision.com
+2026-09-07 12:52:30 [INFO] agent.nodes.email_node: Finding HR email for: AI Nexus Innovations Hub
+2026-09-07 12:52:30 [INFO] tools.email_finder: Using guessed domain for AI Nexus Innovations Hub: ainexusinnovationshub.com
+2026-09-07 12:52:31 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:34 [WARNING] tools.email_finder: ❌ Domain resolution failed for ainexusinnovationshub.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:34 [WARNING] tools.email_finder: ❌ Domain resolution failed for ainexusinnovationshub.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:34 [WARNING] tools.email_finder: ❌ Domain resolution failed for ainexusinnovationshub.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:34 [WARNING] tools.email_finder: ❌ Domain resolution failed for ainexusinnovationshub.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:34 [WARNING] tools.email_finder: ❌ Domain resolution failed for ainexusinnovationshub.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:34 [WARNING] tools.email_finder: ❌ No valid email could be verified for AI Nexus Innovations Hub (domain: ainexusinnovationshub.com). Skipping outreach.
+2026-09-07 12:52:36 [INFO] agent.nodes.email_node: Finding HR email for: Crossing Infotech
+2026-09-07 12:52:36 [INFO] tools.email_finder: Using guessed domain for Crossing Infotech: crossinginfotech.com
+2026-09-07 12:52:37 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:41 [INFO] tools.email_finder: ✅ Verified MX records for crossinginfotech.com
+2026-09-07 12:52:41 [INFO] tools.email_finder: Found scraped and verified email for Crossing Infotech: info@crossinginfotech.com
+2026-09-07 12:52:42 [INFO] agent.nodes.email_node: Finding HR email for: Clicksoft Solutions
+2026-09-07 12:52:42 [INFO] tools.email_finder: Using guessed domain for Clicksoft Solutions: clicksoft.com
+2026-09-07 12:52:42 [INFO] tools.email_finder: Apollo: Found global organization ID 699456776cfbab0001f2a91d for domain clicksoft.com
+2026-09-07 12:52:43 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:47 [INFO] tools.email_finder: ✅ Verified MX records for clicksoft.com
+2026-09-07 12:52:47 [INFO] tools.email_finder: Using verified pattern email for Clicksoft Solutions: hr@clicksoft.com
+2026-09-07 12:52:48 [INFO] agent.nodes.email_node: Finding HR email for: Brillio
+2026-09-07 12:52:49 [INFO] tools.email_finder: Using guessed domain for Brillio: brillio.com
+2026-09-07 12:52:49 [INFO] tools.email_finder: Apollo: Found global organization ID 556966727369642521012000 for domain brillio.com
+2026-09-07 12:52:50 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:53 [INFO] tools.email_finder: ✅ Verified MX records for brillio.com
+2026-09-07 12:52:53 [INFO] tools.email_finder: Found scraped and verified email for Brillio: info@brillio.com
+2026-09-07 12:52:54 [INFO] agent.nodes.email_node: Finding HR email for: bp
+2026-09-07 12:52:54 [INFO] tools.email_finder: Using guessed domain for bp: bp.com
+2026-09-07 12:52:54 [INFO] tools.email_finder: Apollo: Found global organization ID 54a1178c69702d5010870200 for domain bp.com
+2026-09-07 12:52:55 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:55 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:52:55 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:52:57 [INFO] tools.email_finder: ✅ Verified MX records for bp.com
+2026-09-07 12:52:57 [INFO] tools.email_finder: Found scraped and verified email for bp: careline@bp.com
+2026-09-07 12:52:57 [INFO] agent.nodes.email_node: Finding HR email for: Deccan AI Experts
+2026-09-07 12:52:57 [INFO] tools.email_finder: Using guessed domain for Deccan AI Experts: deccanaiexperts.com
+2026-09-07 12:52:58 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:52:58 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:52:58 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:52:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for deccanaiexperts.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for deccanaiexperts.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for deccanaiexperts.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for deccanaiexperts.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for deccanaiexperts.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:52:59 [WARNING] tools.email_finder: ❌ No valid email could be verified for Deccan AI Experts (domain: deccanaiexperts.com). Skipping outreach.
+2026-09-07 12:52:59 [INFO] agent.nodes.email_node: Finding HR email for: Vercel
+2026-09-07 12:52:59 [INFO] tools.email_finder: Domain from URL for Vercel: weworkremotely.com
+2026-09-07 12:53:00 [INFO] tools.email_finder: Apollo: Found global organization ID 5da45033d7e66f00010ef122 for domain weworkremotely.com
+2026-09-07 12:53:00 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:53:01 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:01 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:02 [INFO] tools.email_finder: ✅ Verified MX records for weworkremotely.com
+2026-09-07 12:53:02 [INFO] tools.email_finder: Using verified pattern email for Vercel: hr@weworkremotely.com
+2026-09-07 12:53:03 [INFO] agent.nodes.email_node: Finding HR email for: Saasta Software & Services
+2026-09-07 12:53:03 [INFO] tools.email_finder: Using guessed domain for Saasta Software & Services: saastasoftware.com
+2026-09-07 12:53:03 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:53:04 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:04 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for saastasoftware.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:53:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for saastasoftware.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:53:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for saastasoftware.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:53:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for saastasoftware.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:53:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for saastasoftware.com (Host not found): [Errno -2] Name or service not known
+2026-09-07 12:53:04 [WARNING] tools.email_finder: ❌ No valid email could be verified for Saasta Software & Services (domain: saastasoftware.com). Skipping outreach.
+2026-09-07 12:53:06 [INFO] agent.nodes.email_node: Finding HR email for: American Express
+2026-09-07 12:53:06 [INFO] tools.email_finder: Using guessed domain for American Express: americanexpress.com
+2026-09-07 12:53:06 [INFO] tools.email_finder: Apollo: Found global organization ID 5fca57e8e4ca5900be8a3857 for domain americanexpress.com
+2026-09-07 12:53:07 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:53:07 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:07 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:11 [INFO] tools.email_finder: ✅ Verified MX records for americanexpress.com
+2026-09-07 12:53:11 [INFO] tools.email_finder: Using verified pattern email for American Express: hr@americanexpress.com
+2026-09-07 12:53:12 [INFO] agent.nodes.email_node: Finding HR email for: Queens Of Change Foundation
+2026-09-07 12:53:12 [INFO] tools.email_finder: Using guessed domain for Queens Of Change Foundation: queensofchange.com
+2026-09-07 12:53:13 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:53:14 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:14 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:15 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-09-07 12:53:16 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-09-07 12:53:16 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-09-07 12:53:16 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-09-07 12:53:17 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-09-07 12:53:17 [WARNING] tools.email_finder: ❌ No valid email could be verified for Queens Of Change Foundation (domain: queensofchange.com). Skipping outreach.
+2026-09-07 12:53:17 [INFO] agent.nodes.email_node: Finding HR email for: iQuantsGraph
+2026-09-07 12:53:18 [INFO] tools.email_finder: Using guessed domain for iQuantsGraph: iquantsgraph.com
+2026-09-07 12:53:18 [INFO] tools.email_finder: Apollo: Found global organization ID 5e56b09aa9ffd1000196e760 for domain iquantsgraph.com
+2026-09-07 12:53:19 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:53:20 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:20 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:22 [INFO] tools.email_finder: ✅ Verified MX records for iquantsgraph.com
+2026-09-07 12:53:22 [INFO] tools.email_finder: Found scraped and verified email for iQuantsGraph: info@iquantsgraph.com
+2026-09-07 12:53:23 [INFO] agent.nodes.email_node: Finding HR email for: Appglide Solutions
+2026-09-07 12:53:24 [INFO] tools.email_finder: Using guessed domain for Appglide Solutions: appglide.com
+2026-09-07 12:53:24 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:53:26 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:26 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:28 [WARNING] tools.email_finder: ❌ MX record lookup failed for appglide.com: The DNS response does not contain an answer to the question: appglide.com. IN MX
+2026-09-07 12:53:28 [WARNING] tools.email_finder: ❌ MX record lookup failed for appglide.com: The DNS response does not contain an answer to the question: appglide.com. IN MX
+2026-09-07 12:53:28 [WARNING] tools.email_finder: ❌ MX record lookup failed for appglide.com: The DNS response does not contain an answer to the question: appglide.com. IN MX
+2026-09-07 12:53:29 [WARNING] tools.email_finder: ❌ MX record lookup failed for appglide.com: The DNS response does not contain an answer to the question: appglide.com. IN MX
+2026-09-07 12:53:29 [WARNING] tools.email_finder: ❌ MX record lookup failed for appglide.com: The DNS response does not contain an answer to the question: appglide.com. IN MX
+2026-09-07 12:53:29 [WARNING] tools.email_finder: ❌ No valid email could be verified for Appglide Solutions (domain: appglide.com). Skipping outreach.
+2026-09-07 12:53:30 [INFO] agent.nodes.email_node: Finding HR email for: Amber
+2026-09-07 12:53:31 [INFO] tools.email_finder: Using guessed domain for Amber: amber.com
+2026-09-07 12:53:32 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-07 12:53:33 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:33 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-07 12:53:36 [WARNING] tools.email_finder: ❌ MX record lookup failed for amber.com: The DNS response does not contain an answer to the question: amber.com. IN MX
+2026-09-07 12:53:36 [WARNING] tools.email_finder: ❌ MX record lookup failed for amber.com: The DNS response does not contain an answer to the question: amber.com. IN MX
+2026-09-07 12:53:37 [WARNING] tools.email_finder: ❌ MX record lookup failed for amber.com: The DNS response does not contain an answer to the question: amber.com. IN MX
+2026-09-07 12:53:37 [WARNING] tools.email_finder: ❌ MX record lookup failed for amber.com: The DNS response does not contain an answer to the question: amber.com. IN MX
+2026-09-07 12:53:38 [WARNING] tools.email_finder: ❌ MX record lookup failed for amber.com: The DNS response does not contain an answer to the question: amber.com. IN MX
+2026-09-07 12:53:38 [WARNING] tools.email_finder: ❌ No valid email could be verified for Amber (domain: amber.com). Skipping outreach.
+2026-09-07 12:53:39 [INFO] agent.nodes.email_node: Found HR emails for 14/25 companies
+2026-09-07 12:53:39 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:53:53 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-09-07 12:53:58 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:54:11 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-09-07 12:54:16 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:54:25 [INFO] agent.nodes.email_node: ✅ Generated 4 emails in 1 Gemini call
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: info@benzinga.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for AI Engineer Data APIs — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+My background in AI/ML and building data pipelines aligns perfectly with your AI Engineer Data APIs role.
+I developed an Explainable Machine Learning Model for Arrhythmia Detection, achievin...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@weworkremotely.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for AI/ML Engineer (E-Commerce) — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+I'm reaching out regarding the AI/ML Engineer role for your e-commerce platform. My expertise in Python, AI/ML, and building AI-first applications fits your needs for integrating custom mode...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@aiqon.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Jr. AI Engineer — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+I'm applying for the Jr. AI Engineer role. My strong foundation in Python, AI/ML, and Generative AI is directly applicable.
+My project, an Explainable Machine Learning Model for Arrhythmia D...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@swiggy.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Associate SDE - AI — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+I'm interested in the Associate Software Development Engineer - AI role. My expertise in Python, C++, AI/ML, and Agentic AI aligns with your requirements.
+My Explainable Machine Learning Mod...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@greatlearning.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for AI Engineer / Data Scientist — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+My skills as an AI Engineer and Data Scientist are a strong fit for your listed roles. I have solid experience in Python, AI/ML, and Generative AI.
+My project on Explainable Machine Learning...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@himalayas.app
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Remote AI Engineer — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+
+I'm a final year B.Tech student with strong Python and AI/ML skills, seeking a remote AI Engineer role.
+My project on Explainable ML for Arrhythmia Detection demonstrates my ability to buil...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: first.last@infovision.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Artificial Intelligence Engineer — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+As an AI/ML specialist with strong Python skills, I'm reaching out regarding the Artificial Intelligence Engineer role.
+My Explainable ML project for Arrhythmia Detection, achieving ...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: info@crossinginfotech.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python Developer Intern — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I'm a final year B.Tech student with robust Python and SQL skills, applying for the Python Developer Intern position.
+My GitHub demonstrates strong programming fundamentals and proje...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@clicksoft.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for AI/ML Engineer — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+
+I'm a final year B.Tech student with expertise in AI/ML engineering, especially with Python.
+My Explainable Machine Learning model for Arrhythmia Detection achieved 98% accuracy, demonstrat...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: info@brillio.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Data Scientist — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+With strong Python, SQL, and AI/ML skills, I'm applying for the Data Scientist role.
+My Explainable ML project for Arrhythmia Detection involved significant data analysis and model b...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: careline@bp.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Data Scientist — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+
+As a final year CSE student with strong Python and AI/ML skills, I'm reaching out about the Data Scientist role. My project developing an Explainable ML model for arrhythmia detection, achi...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@weworkremotely.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Member of the Technical Staff, Internal Agent — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+
+I'm applying for the Internal Agent role at Vercel. My expertise in Agentic AI and LangChain, coupled with strong Python development skills, aligns perfectly with building agentic infrastru...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@americanexpress.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Analyst-Data Science — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+
+I'm applying for the Analyst-Data Science position at American Express. My background in Python, SQL, and AI/ML, including developing an Explainable ML model, provides a strong foundation f...
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Would send email to: info@iquantsgraph.com
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python backend developer — Debashis Bera
+2026-09-07 12:54:25 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey team,
+
+I'm interested in the Python backend developer role at iQuantsGraph. With strong proficiency in Python and SQL for robust system development, I am ready to build and optimize high-performan...
+2026-09-07 12:54:25 [INFO] agent.nodes.email_node: ✅ Email node: 14 cold emails sent
+2026-09-07 12:54:25 [INFO] tools.pdf_hr_parser: Parsing HR contacts PDF: CompanyWise HR contact.pdf ...
+2026-09-07 12:54:25 [INFO] tools.pdf_hr_parser: PDF has 56 pages
+2026-09-07 12:54:28 [INFO] tools.pdf_hr_parser:   Processed page 10/56, 328 contacts so far...
+2026-09-07 12:54:31 [INFO] tools.pdf_hr_parser:   Processed page 20/56, 655 contacts so far...
+2026-09-07 12:54:34 [INFO] tools.pdf_hr_parser:   Processed page 30/56, 981 contacts so far...
+2026-09-07 12:54:37 [INFO] tools.pdf_hr_parser:   Processed page 40/56, 1311 contacts so far...
+2026-09-07 12:54:40 [INFO] tools.pdf_hr_parser:   Processed page 50/56, 1638 contacts so far...
+2026-09-07 12:54:42 [INFO] tools.pdf_hr_parser: ✅ PDF parsed: 1831 unique HR contacts saved to hr_contacts_from_pdf.csv
+2026-09-07 12:54:42 [INFO] tools.pdf_hr_parser: PDF HR batch: 80 contacts ready (from 1831 total, 207 already processed)
+2026-09-07 12:54:51 [INFO] agent.nodes.pdf_outreach_node: PDF HR: Skipped 4 contacts with invalid/unresolvable email domains
+2026-09-07 12:54:51 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach: Sending 50 emails (total sent so far: 200/0)
+2026-09-07 12:54:51 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:55:14 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 1)
+2026-09-07 12:55:18 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:55:33 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 2)
+2026-09-07 12:55:37 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:55:53 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 3)
+2026-09-07 12:55:57 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:56:09 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 4)
+2026-09-07 12:56:13 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:56:25 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 5)
+2026-09-07 12:56:29 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:56:54 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 6)
+2026-09-07 12:56:58 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:57:11 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 7)
+2026-09-07 12:57:15 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:57:31 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 8)
+2026-09-07 12:57:35 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:57:51 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 9)
+2026-09-07 12:57:55 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-07 12:58:12 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 10)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: capt.kansal@writerinformation.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Enhancing Security with AI at Writerinformation
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Capt. Kansal,
+
+I'm Debashis Bera, a final year B.Tech CSE student with expertise in Agentic AI and Deep Learning. My skills can enhance Writerinformation's security systems through predictive ana...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [1/50] PDF HR sent to capt.kansal@writerinformation.com (208 @ Capt Kansal)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: celina.joseph@extentia.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Talent for Extentia Roles
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Celina Joseph,
+
+I'm Debashis Bera, a final year B.Tech CSE student skilled in Python, ML, and Generative AI. My background aligns well with the innovative projects Extentia undertakes.
+
+My resume...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [2/50] PDF HR sent to celina.joseph@extentia.com (209 @ Celina Joseph)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chainsingh.rathore@thegatewaycorp.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/Software Talent for The Gateway Corp
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chainsingh Rathore,
+
+I'm Debashis Bera, a final year B.Tech CSE student, seeking software and AI roles at The Gateway Corp. I bring expertise in Python, Deep Learning, and LangChain for complex p...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [3/50] PDF HR sent to chainsingh.rathore@thegatewaycorp.com (210 @ Chainsingh Rathore)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: cbhattacharya@inventive-it.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Innovative Software Engineer for Inventive IT
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chaitali Bhattacharya,
+
+I'm Debashis Bera, a final year B.Tech CSE student specializing in Generative AI and Python. My skills are ideal for Inventive IT's pioneering projects.
+
+Please review my ...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [4/50] PDF HR sent to cbhattacharya@inventive-it.com (211 @ Chaitali Bhattacharya)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: cray@netwoven.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML Software Engineering Talent for Netwoven
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chaitali Ray,
+
+I'm Debashis Bera, a final year B.Tech CSE student with robust skills in Python, Deep Learning, and Agentic AI. I can significantly contribute to Netwoven's technical initiatives.
+...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [5/50] PDF HR sent to cray@netwoven.com (212 @ Chaitali Ray)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chaitanya.arikati@abjayon.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student | AI/ML Expertise
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chaitanya Arikati,
+
+As a final year CSE student, I bring strong skills in Python, Generative AI, and LangChain. My projects demonstrate a practical approach to building intelligent systems releva...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [6/50] PDF HR sent to chaitanya.arikati@abjayon.com (213 @ Chaitanya Arikati)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chaitanya.kanthi@smartims.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE | ML & Generative AI Solutions
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chaitanya Kanthi,
+
+I'm a final year CSE student with expertise in Machine Learning, Deep Learning, and Generative AI, including LangChain and Agentic AI. I'm keen to contribute to SmartIMS's tech...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [7/50] PDF HR sent to chaitanya.kanthi@smartims.com (214 @ Chaitanya Kanthi)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chaitanya.peeta@polygon.technology
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Student for Innovative Tech | Polygon
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chaitanya Peeta,
+
+As a final year CSE student, I've developed robust skills in Python, Generative AI, and LangGraph. My work with Agentic AI and blockchain-related concepts might interest Polygon...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [8/50] PDF HR sent to chaitanya.peeta@polygon.technology (215 @ Chaitanya Peeta)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chanchal.chandiok@northgateps.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE | Python & AI Development
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chanchal Chandiok,
+
+I'm a final year CSE student proficient in Python, Machine Learning, and Generative AI, including LangChain. My projects focus on practical application of these skills for imp...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [9/50] PDF HR sent to chanchal.chandiok@northgateps.com (217 @ Chanchal Chandiok)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chandan@noida.interrasystems.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Student: AI/ML & Full-Stack Capabilities
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chandan Gambhir,
+
+As a final year CSE student, I combine strong Python, ML, and Generative AI skills with full-stack capabilities (JavaScript, SQL). I'm seeking to bring value to Interra Systems....
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [10/50] PDF HR sent to chandan@noida.interrasystems.com (218 @ Chandan Gambhir)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chandan.kashyap@mysenseinc.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML Developer for mysenseinc.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chandan,
+My name is Debashis Bera, a final year B.Tech CSE student passionate about AI. I noted your role as Chief Talent Officer at mysenseinc.com.
+My expertise in ML, Deep Learning, Generative...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [11/50] PDF HR sent to chandan.kashyap@mysenseinc.com (219 @ Chandan Thakur)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chandinid@saglobal.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student for SA Global
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chandini,
+I'm Debashis Bera, a final year B.Tech CSE student. As Head of Human Resources at saglobal.com, you lead talent acquisition.
+My strong background in Python, C++, SQL, and Agentic AI pr...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [12/50] PDF HR sent to chandinid@saglobal.com (220 @ Chandini Davies)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chandini@moolya.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML Talent for Moolya
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chandini,
+As VP-People & Culture at moolya.com, you identify key talent. I'm Debashis Bera, a final year B.Tech CSE student specializing in Generative AI.
+My skills with LangChain, LangGraph, Op...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [13/50] PDF HR sent to chandini@moolya.com (221 @ Chandini Mokthar)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chandra.prakash@innoverdigital.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE: AI/ML Specialization
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chandra Prakash,
+I'm Debashis Bera, a final year B.Tech CSE student with expertise in Machine Learning and Deep Learning.
+Recognizing your role as Head of Talent Acquisition at innoverdigital.co...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [14/50] PDF HR sent to chandra.prakash@innoverdigital.com (224 @ Chandra Prakash)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chandra.ratra@navigaglobal.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML Developer for Naviga Global
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chandra Ratra,
+My name is Debashis Bera, a final year B.Tech CSE student skilled in Agentic AI and LangGraph.
+As Director Talent Acquisition at navigaglobal.com, you seek top technical talent. M...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [15/50] PDF HR sent to chandra.ratra@navigaglobal.com (225 @ Chandra Ratra)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chandra@srivensys.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year B.Tech CSE - AI/ML Expertise
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chandrakanth K,
+My name is Debashis Bera, a final year B.Tech CSE student specializing in AI, ML, and Generative AI. I am writing regarding opportunities at Srivensys.
+My project experience in La...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [16/50] PDF HR sent to chandra@srivensys.com (226 @ Chandrakanth K)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: cgv@eclinicalsol.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: B.Tech CSE Student: Python, ML for eClinical Solutions
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chandrasekhar Gv,
+I'm Debashis Bera, a final year B.Tech CSE student proficient in Python, SQL, and Machine Learning. I'm exploring roles at eClinical Solutions.
+My background in data handling an...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [17/50] PDF HR sent to cgv@eclinicalsol.com (227 @ Chandrasekhar Gv)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chandrashekarr@softura.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Student: Full Stack & Generative AI for Softura
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chandrashekar R,
+My name is Debashis Bera, a final year B.Tech CSE student skilled in Python, JavaScript, SQL, and Generative AI. I'm reaching out about openings at Softura.
+I bring robust develo...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [18/50] PDF HR sent to chandrashekarr@softura.com (228 @ Chandrashekar R)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: charan@srinipharma.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE: Python, Data Skills for Srinipharma
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Charan Singh,
+I'm Debashis Bera, a final year B.Tech CSE student specializing in Python, SQL, and Machine Learning. I'm interested in opportunities at Srinipharma.
+My skills in data processing an...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [19/50] PDF HR sent to charan@srinipharma.com (230 @ Charan Singh)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: charles.t@palni.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: B.Tech CSE: AI/ML & Software Development for Palni
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Charles Timothy,
+My name is Debashis Bera, a final year B.Tech CSE student skilled in Python, C++, and Agentic AI. I'm contacting you about positions at Palni.
+I offer strong programming foundati...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [20/50] PDF HR sent to charles.t@palni.com (231 @ Charles Timothy)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: charmaine@streamoid.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML Engineering Talent for Streamoid
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Charmaine Pinto,
+I'm Debashis Bera, a final year B.Tech CSE student with a strong background in Machine Learning, Deep Learning, and Generative AI. My practical experience with LangChain, LangGra...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [21/50] PDF HR sent to charmaine@streamoid.com (232 @ Charmaine Pinto)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: cheryl.anjelo@colortokens.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Final Year: Generative AI & Agentic AI Expertise
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Cheryl Anjelo,
+As a final year B.Tech CSE student, I specialize in Generative AI, Agentic AI, and Machine Learning, skills relevant to ColorTokens. My experience with Python, LangChain, and deplo...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [22/50] PDF HR sent to cheryl.anjelo@colortokens.com (233 @ Cheryl Anjelo)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: cverma@fcsltd.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Python & AI Skills for FCS Ltd
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chetan Verma,
+I'm Debashis Bera, a final year B.Tech CSE student proficient in Python, C++, SQL, and modern AI frameworks like LangChain and HuggingFace. My project experience includes developing...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [23/50] PDF HR sent to cverma@fcsltd.com (234 @ Chetan Verma)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chetna@gokwik.co
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE: AI/ML Developer for Gokwik
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chetna Gogia,
+I am Debashis Bera, a final year B.Tech CSE student specializing in Machine Learning, Deep Learning, and Generative AI. My expertise in building intelligent systems with OpenAI/Gemi...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [24/50] PDF HR sent to chetna@gokwik.co (235 @ Chetna Gogia)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chhavi.bhatnagar@acnovate.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Bringing Generative AI Skills to Acnovate
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Dear Chhavi Bhatnagar,
+I'm Debashis Bera, a final year B.Tech CSE student with strong capabilities in Generative AI, Agentic AI, and full-stack development. My practical experience with Python, JavaSc...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [25/50] PDF HR sent to chhavi.bhatnagar@acnovate.com (236 @ Chhavi Bhatnagar)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chinmoy.roy@catalyst-us.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student | AI/ML & Generative AI Skills
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chinmoy,
+
+I'm Debashis Bera, a final year B.Tech CSE student specializing in Agentic AI, Generative AI, and Machine Learning. I'm actively exploring developer roles where I can apply my Python, ...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [26/50] PDF HR sent to chinmoy.roy@catalyst-us.com (237 @ Chinmoy Roy)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: b.chintan@introlligent.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student for Introlligent - Generative AI Specialist
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chintan,
+
+I'm Debashis Bera, a final year B.Tech CSE student with strong skills in Generative AI, LangGraph, and Deep Learning, seeking developer roles. My experience includes Python and buildin...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [27/50] PDF HR sent to b.chintan@introlligent.com (238 @ Chintan Bhatt)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chirag.patel1@rangtech.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Debashis Bera: Final Year CSE, AI/ML & LangChain Developer
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chirag,
+
+I'm Debashis Bera, a final year B.Tech CSE student with expertise in Machine Learning, Deep Learning, and Agentic AI, including LangChain and LangGraph. I'm currently seeking challengin...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [28/50] PDF HR sent to chirag.patel1@rangtech.com (239 @ Chirag Patel)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chirag.shah@iflair.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student | Python, AI/ML, Generative AI for Iflair
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chirag,
+
+I'm Debashis Bera, a final year B.Tech CSE student specializing in Python, Machine Learning, and Generative AI, with experience using OpenAI and Gemini APIs. I'm reaching out to explore...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [29/50] PDF HR sent to chirag.shah@iflair.com (240 @ Chirag Shah)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chiranjeevip@byteridge.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Debashis Bera: Final Year CSE | AI, ML, Deep Learning for Byteridge
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Chiranjeevi,
+
+I'm Debashis Bera, a final year B.Tech CSE student skilled in Python, Deep Learning, and Agentic AI using tools like LangChain and HuggingFace. I am seeking impactful developer opp...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [30/50] PDF HR sent to chiranjeevip@byteridge.com (241 @ Chiranjeevi Pannem)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: chitra.ravi@ample.co.in
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Grad: Generative AI & ML for Ample.
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hi Chitra Ravi,
+I'm Debashis Bera, a final year CSE student with strong skills in Generative AI, LangChain, and Machine Learning.
+My projects demonstrate practical application of OpenAI/Gemini APIs an...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [31/50] PDF HR sent to chitra.ravi@ample.co.in (243 @ Chitra Ravi)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: cireesha.m@etisbew.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Grad: Agentic AI & Deep Learning for Etisbew.
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hi Cireesha Mailavarapu,
+I am Debashis Bera, a final year B.Tech CSE student specializing in Agentic AI, LangGraph, and Deep Learning.
+My experience in Python, C++, and generative AI solutions aligns ...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [32/50] PDF HR sent to cireesha.m@etisbew.com (244 @ Cireesha Mailavarapu)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: saurabh@caastle.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Grad: Generative AI & LangChain for Caastle.
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hi Saurabh,
+I'm Debashis Bera, a final year CSE student skilled in Python, Generative AI, and LangChain for building intelligent systems.
+My expertise in integrating OpenAI/Gemini APIs and HuggingFace...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [33/50] PDF HR sent to saurabh@caastle.com (245 @ Crp Saurabh)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: cynthia@netcore.co.in
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Grad: AI, ML, Agentic AI for Netcore.
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hi Cynthia Rodrigues,
+I'm Debashis Bera, a final year B.Tech CSE student passionate about Machine Learning, Deep Learning, and Agentic AI.
+With strong skills in Python, SQL, and Generative AI framewor...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [34/50] PDF HR sent to cynthia@netcore.co.in (246 @ Cynthia Rodrigues)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: damayanti.ghosh@getvymo.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: CSE Grad: Generative AI, LangChain for Vymo.
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hi Damayanti Ghosh,
+I am Debashis Bera, a final year B.Tech CSE student with expertise in Generative AI, LangChain, and Agentic AI.
+My background in Python, C++, and API integration (OpenAI/Gemini) ca...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [35/50] PDF HR sent to damayanti.ghosh@getvymo.com (247 @ Damayanti Ghosh)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: daniel.shaw@kpipartners.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML Engineer for KPI Partners - Debashis Bera
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Daniel,
+I'm Debashis Bera, a final year B.Tech CSE student specializing in AI, ML, and Generative AI development with Python, LangChain, and Agentic AI. I'm reaching out as I'm impressed by KPI ...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [36/50] PDF HR sent to daniel.shaw@kpipartners.com (248 @ Daniel Shaw)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: dathree.javvadi@vncservices.in
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year AI/ML Engineer - Debashis Bera (VNC Services)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Dathree,
+I'm Debashis Bera, a final year B.Tech CSE student skilled in building AI/ML solutions, including Generative AI and Agentic AI using Python. I'm exploring opportunities at VNC Services....
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [37/50] PDF HR sent to dathree.javvadi@vncservices.in (249 @ Dathree Javvadi)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: debashishb@interrait.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML & Full Stack Developer - Debashis Bera (Interrait)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Debashish,
+I'm Debashis Bera, a final year B.Tech CSE student passionate about full-stack development and advanced AI, including Generative AI and LangGraph. I'm exploring roles at Interrait.
+My...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [38/50] PDF HR sent to debashishb@interrait.com (250 @ Debashish Bhattacharya)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: debdutta.bhowmick@atidiv.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE: AI/ML & Software Development Talent
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Debdutta,
+I'm Debashis Bera, a final year B.Tech CSE student specializing in Python, Generative AI, LangChain, and Agentic AI, alongside strong core programming skills. I'm seeking opportunities...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [39/50] PDF HR sent to debdutta.bhowmick@atidiv.com (251 @ Debdutta Bhowmick)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: debojit.das@betterplace.co.in
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML & Generative AI Specialist for BetterPlace
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Debojit,
+I'm Debashis Bera, a final year B.Tech CSE student with expertise in AI/ML, Deep Learning, and building Generative AI applications with LangChain and Python. I'm reaching out regarding ...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [40/50] PDF HR sent to debojit.das@betterplace.co.in (252 @ Debojit Das)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: dpassanha@everydayhealth.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: AI/ML Expertise for Everyday Health Operations
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Deborah,
+
+I'm Debashis Bera, a final-year B.Tech CSE student focused on leveraging AI for operational excellence. My expertise in Machine Learning, Deep Learning, and Agentic AI could significan...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [41/50] PDF HR sent to dpassanha@everydayhealth.com (253 @ Deborah Passanha)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: deep@thinkbridge.in
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Debashis Bera: Global Talent for Thinkbridge AI
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hi Deep,
+
+As a final-year B.Tech CSE student specializing in Generative AI, LangChain, and LangGraph, I'm reaching out to Thinkbridge. My projects demonstrate strong capabilities in cutting-edge AI de...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [42/50] PDF HR sent to deep@thinkbridge.in (254 @ Deep Ambike)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: deep.patel@ics-global.in
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Debashis Bera: VP Talent Acquisition at ICS Global
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Deep,
+
+I'm Debashis Bera, a final-year B.Tech CSE student with robust skills in Deep Learning and Agentic AI, relevant for modern software solutions at ICS Global.
+
+My attached resume highlights...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [43/50] PDF HR sent to deep.patel@ics-global.in (255 @ Deep Patel)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: bdeepa@zeomega.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Enhancing ZeOmega with AI/ML Expertise
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hi Deepa,
+
+I'm Debashis Bera, a final-year B.Tech CSE student with a strong background in Machine Learning, Deep Learning, and Python. I believe my skills could align well with ZeOmega's healthcare te...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [44/50] PDF HR sent to bdeepa@zeomega.com (256 @ Deepa Baburaj)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: deepa@prdxn.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Debashis Bera: Bringing Tech Skills to PRDXN
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Deepa,
+
+I'm Debashis Bera, a final-year B.Tech CSE student skilled in Python, JavaScript, and SQL. I am keen to apply my software development and problem-solving abilities at PRDXN.
+
+Please find...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [45/50] PDF HR sent to deepa@prdxn.com (257 @ Deepa Dand)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: deepa.makhija@gupshup.io
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student | AI/ML Expertise
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Deepa Makhija,
+I'm Debashis Bera, a final year B.Tech CSE student passionate about AI/ML.
+My skills in Generative AI, LangChain, and Deep Learning align well with innovative work at Gupshup.
+I'm...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [46/50] PDF HR sent to deepa.makhija@gupshup.io (258 @ Deepa Makhija)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: deepa.mukherjee@esri.in
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student | AI/ML for Geospatial
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Deepa Mukherjee,
+As a final year B.Tech CSE student, I specialize in Machine Learning and Deep Learning.
+I'm keen to explore how my expertise in Python and Generative AI can support Esri India's...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [47/50] PDF HR sent to deepa.mukherjee@esri.in (259 @ Deepa Mukherjee)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: deepa.palaniswamy@ducenit.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student | AI/ML & Agentic Systems
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Deepa Palaniswamy,
+I'm Debashis Bera, a final year B.Tech CSE student focused on Generative AI and Agentic AI.
+My background in LangChain and OpenAI API could bring value to Ducen IT's technolog...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [48/50] PDF HR sent to deepa.palaniswamy@ducenit.com (260 @ Deepa Palaniswamy)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: deepa.sripathi@konicaminolta.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student | GenAI & ML Talent
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Deepa Sripathi,
+I'm Debashis Bera, a final year B.Tech CSE student with strong skills in Generative AI and Machine Learning.
+I believe my proficiency with HuggingFace and Deep Learning could enh...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [49/50] PDF HR sent to deepa.sripathi@konicaminolta.com (261 @ Deepa Sripathi)
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Would send email to: deepak.babu@appviewx.com
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Subject: Final Year CSE Student | AI/ML & LangGraph
+2026-09-07 12:58:16 [INFO] tools.email_sender: [DRY RUN] Body preview: Hello Deepak Babu,
+I'm Debashis Bera, a final year B.Tech CSE student specializing in AI, ML, and Agentic AI.
+My experience with LangGraph and OpenAI/Gemini APIs aligns with innovative tech developmen...
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: [50/50] PDF HR sent to deepak.babu@appviewx.com (262 @ Deepak Babu)
+2026-09-07 12:58:16 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach complete: 50 sent, 0 failed, 4 invalid (DRY RUN)
+2026-09-07 12:58:16 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-09-07: Scraped 126 jobs, applied to 30 jobs, sent 14 cold emails. Companies: bp, HMH Tech India, Clicksoft Solutions, KLA, Vercel, PwC Acceleration Center India, Swiggy, NTHREAD, Appglide Solutions, American Express
+2026-09-07 12:58:16 [INFO] tools.inbox_monitor: Connecting to IMAP inbox at imap.gmail.com for debashis.bera.careers@gmail.com...
+2026-09-07 12:58:17 [INFO] tools.inbox_monitor: IMAP: Found 7 recent emails in inbox. Checking for important replies...
+2026-09-07 12:58:21 [INFO] tools.inbox_monitor: IMAP monitor: Successfully fetched 2 relevant replies
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node: ============================================================
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node: 📋 DAILY REPORT — 2026-09-07
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node:    Applied today:       30
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node:    Total applied (all): 559
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node:    Cold mails (jobs):   14
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node:    PDF cold mails today:50  (total 250/1831)
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node:    Bounced-back mails:  0
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node:    Recruiter replies:   2
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node:      ↳ Apollo <hello@mail.apollo.io> | Apollo's September roundup: less guessing, more pipeline
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node:      ↳ Apollo <support@apollo.io> | Crush your quota! Unlock full access
+2026-09-07 12:58:21 [INFO] agent.nodes.report_node: ============================================================
+2026-09-07 12:58:23 [INFO] tools.email_sender: ✅ Summary email sent to debashisalak@gmail.com
+2026-09-07 12:58:23 [INFO] agent.nodes.report_node: ✅ Daily report emailed to: debashisalak@gmail.com
+2026-09-07 12:58:23 [INFO] __main__: ============================================================
+2026-09-07 12:58:23 [INFO] __main__: AGENT RUN COMPLETE in 695s
+2026-09-07 12:58:23 [INFO] __main__:   Scraped:        126 jobs
+2026-09-07 12:58:23 [INFO] __main__:   New:            46 jobs
+2026-09-07 12:58:23 [INFO] __main__:   Applied:        30 jobs
+2026-09-07 12:58:23 [INFO] __main__:   Emailed (jobs): 14 HRs
+2026-09-07 12:58:23 [INFO] __main__:   PDF drip sent:  50 HR contacts
+2026-09-07 12:58:23 [INFO] __main__:   Failed:         0
+2026-09-07 12:58:23 [INFO] __main__: ============================================================
