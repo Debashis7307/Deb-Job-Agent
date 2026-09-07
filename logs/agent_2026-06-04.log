@@ -1,0 +1,522 @@
+2026-06-04 10:17:42 [INFO] __main__: Starting Job Agent (Dashboard + Daily Scheduler)
+2026-06-04 10:17:42 [INFO] __main__: Dashboard → http://localhost:5001
+2026-06-04 10:17:42 [INFO] __main__: Dashboard running at: http://localhost:5001
+2026-06-04 10:17:42 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-04 10:17:42 [INFO] __main__: ============================================================
+2026-06-04 10:17:42 [INFO] __main__: SCHEDULER ACTIVE
+2026-06-04 10:17:42 [INFO] __main__: Agent runs daily at 22:00 Asia/Kolkata
+2026-06-04 10:17:42 [INFO] __main__: Press Ctrl+C to stop everything
+2026-06-04 10:17:42 [INFO] __main__: ============================================================
+2026-06-04 10:17:42 [INFO] apscheduler.scheduler: Added job "Debashis Daily Job Application Agent" to job store "default"
+2026-06-04 10:17:42 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-04 10:18:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:18:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:19:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:19:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:20:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:20:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:21:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:22:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:23:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:24:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:25:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:26:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:27:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:27:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:28:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:29:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:30:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:31:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:32:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:33:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:34:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:34:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:34:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:35:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:36:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:37:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:38:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:39:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:40:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:41:44 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:41:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:42:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:42:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:43:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:44:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:45:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:46:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:47:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:48:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:49:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:50:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:51:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:52:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:53:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:54:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:55:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:55:59 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:56:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:56:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:57:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:57:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:58:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:58:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:59:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 10:59:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:00:16 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:00:20 [INFO] agent.nodes.memory_node: mem0: Loaded 10 memories from cloud API
+2026-06-04 11:00:20 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 108
+All-time emails sent: 90
+Unique companies contacted: 153
+Today (2026-06-04) already applied: 7
+Previous context from memory:
+User scraped 54 job listings on 2026-06-02, applied to 1 job, sent 1 cold email, targeting company Yardstick
+User scraped 54 job listings on 2026-06-01, applied to 0 jobs and sent 0 cold emails, targeting companies TSTEPS PRIVATE LIMITED, Zenerative Minds LLP, Queens Of Change Foundation, Check Off Your List, Kennedy Krieger Institute, Bored Panda, Unnati Enterprises, International Institute Of SDGs & Public Policy Research, Symonis, and Ramyoz
+User scraped 57 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 53 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 13 cold emails, with no companies listed
+User scraped 69 job listings on 2026-06-02, applied to 0 jobs, and sent 8 cold emails, with no companies listed
+User scraped 147 job listings on 2026-06-03, applied to 0 jobs, and sent 26 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 14 cold emails, with no companies listed
+User scraped 159 job listings on 2026-06-03, applied to 30 jobs, and sent 32 cold emails, targeting companies Fortified Infotech, JobLuxe, American Chase, Emerson, CapeStart, Nielsen, Fidelity, Surescout.in, ACG, and Blubridge
+User scraped 54 job listings on 2026-06-01, applied to 30 jobs, sent 19 cold emails, targeting companies TalentHome Solutions LLP, The Affordable Organic Store, Solfyn International LLP, Warewe Consultancy Private Limited, Bored Panda, International Institute Of SDGs & Public Policy Research, Queens Of Change Foundation, Projectpedia Official Page, Honeywell, Core Code io
+2026-06-04 11:00:20 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-06-04 11:00:20 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-06-04 11:00:22 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 19 relevant jobs
+2026-06-04 11:00:22 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 19 jobs
+2026-06-04 11:00:22 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-06-04 11:00:22 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-06-04 11:00:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:00:27 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-06-04 11:00:27 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-06-04 11:00:27 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-06-04 11:00:28 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-04 11:00:44 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-04 11:00:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:00:57 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-06-04 11:01:10 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-06-04 11:01:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:01:24 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-06-04 11:01:24 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-06-04 11:01:24 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-06-04 11:01:24 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-06-04 11:01:25 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-06-04 11:01:25 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-06-04 11:01:25 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-06-04 11:01:26 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-06-04 11:01:31 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:302:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44). Proceeding with public search...
+2026-06-04 11:01:31 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-06-04 11:01:45 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-06-04 11:01:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:01:58 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-06-04 11:02:13 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'AI engineer generative AI fresher'
+2026-06-04 11:02:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:02:26 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software developer python AI remote'
+2026-06-04 11:02:40 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'junior python developer remote'
+2026-06-04 11:02:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:02:56 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 0 jobs
+2026-06-04 11:02:56 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 0 jobs
+2026-06-04 11:02:56 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-06-04 11:02:57 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-06-04 11:03:07 [INFO] scrapers.naukri_scraper: Naukri: Login done
+2026-06-04 11:03:07 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-06-04 11:03:21 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-06-04 11:03:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:03:35 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-06-04 11:03:48 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-06-04 11:03:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:04:03 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-06-04 11:04:18 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-06-04 11:04:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:04:34 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-06-04 11:04:48 [INFO] scrapers.naukri_scraper: Naukri: Found 28 jobs
+2026-06-04 11:04:48 [INFO] agent.nodes.scrape_node: ✅ Naukri: 28 jobs
+2026-06-04 11:04:48 [INFO] agent.nodes.scrape_node: 📡 Tavily: Searching free job portals & startup boards...
+2026-06-04 11:04:48 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:04:48 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:04:49 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:04:49 [INFO] tools.tavily_search: Tavily free portal search: found 0 jobs
+2026-06-04 11:04:49 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:04:49 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:04:50 [INFO] tools.tavily_search: Tavily startup job search: found 0 leads
+2026-06-04 11:04:50 [INFO] agent.nodes.scrape_node: ✅ Tavily: 0 job leads from web search
+2026-06-04 11:04:50 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 102 jobs from all portals
+2026-06-04 11:04:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:04:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:04:50 [INFO] agent.nodes.filter_node: ✅ Filter: 102 scraped → 31 new relevant jobs
+2026-06-04 11:04:51 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-04 11:04:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:05:16 [INFO] agent.nodes.filter_node: Gemini scored 31 jobs in 1 API call
+2026-06-04 11:05:16 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:05:16 [INFO] agent.nodes.filter_node: ✅ Scored 31 jobs. Selecting top 23 for today (quota: 23 remaining)
+2026-06-04 11:05:16 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:05:16 [INFO] agent.nodes.apply_node: 🚀 Applying to 23 jobs (dry_run=False)
+2026-06-04 11:05:16 [INFO] agent.nodes.apply_node: Applying to 10 jobs on internshala
+2026-06-04 11:05:16 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-04 11:05:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:05:33 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-06-04 11:05:47 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-06-04 11:05:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:06:03 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-06-04 11:06:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:06:32 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-04 11:06:47 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-04 11:06:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:07:04 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-04 11:07:20 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-06-04 11:07:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:07:40 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-06-04 11:07:51 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-06-04 11:07:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:08:16 [INFO] agent.nodes.apply_node: Applying to 12 jobs on naukri
+2026-06-04 11:08:16 [INFO] agent.nodes.apply_node: Waiting 18s before next application...
+2026-06-04 11:08:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:08:34 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-06-04 11:08:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:09:00 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-06-04 11:09:10 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-04 11:09:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:09:33 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-06-04 11:09:45 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-04 11:09:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:10:02 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-06-04 11:10:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:10:30 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-04 11:10:45 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-04 11:10:46 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:10:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:11:01 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-06-04 11:11:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:11:15 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-06-04 11:11:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:11:42 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-04 11:11:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:11:59 [INFO] agent.nodes.apply_node: Applying to 1 jobs on remoteok
+2026-06-04 11:11:59 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-06-04 11:12:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:12:26 [INFO] agent.nodes.apply_node: Apply node done: 0 portal-applied, 22 queued for cold email, 0 failed
+2026-06-04 11:12:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:12:26 [INFO] agent.nodes.email_node: Finding HR email for: Pehchaan AI Technologies
+2026-06-04 11:12:26 [INFO] tools.email_finder: Using guessed domain for Pehchaan AI Technologies: pehchaanai.com
+2026-06-04 11:12:30 [INFO] tools.email_finder: Successfully refreshed Snov.io API access token.
+2026-06-04 11:12:31 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:12:32 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:12:32 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:12:36 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-04 11:12:37 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-04 11:12:38 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-04 11:12:40 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-04 11:12:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-04 11:12:41 [WARNING] tools.email_finder: ❌ No valid email could be verified for Pehchaan AI Technologies (domain: pehchaanai.com). Skipping outreach.
+2026-06-04 11:12:42 [INFO] agent.nodes.email_node: Finding HR email for: Primetrade.ai
+2026-06-04 11:12:43 [INFO] tools.email_finder: Using guessed domain for Primetrade.ai: primetradeai.com
+2026-06-04 11:12:46 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:12:47 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:12:47 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:12:50 [INFO] tools.email_finder: ✅ Verified MX records for primetradeai.com
+2026-06-04 11:12:50 [INFO] tools.email_finder: Using verified pattern email for Primetrade.ai: hr@primetradeai.com
+2026-06-04 11:12:51 [INFO] agent.nodes.email_node: Finding HR email for: Symonis
+2026-06-04 11:12:52 [INFO] tools.email_finder: Using guessed domain for Symonis: symonis.com
+2026-06-04 11:12:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:12:55 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:12:56 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:12:56 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:12:59 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-04 11:13:01 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-04 11:13:02 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-04 11:13:03 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-04 11:13:04 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-04 11:13:04 [WARNING] tools.email_finder: ❌ No valid email could be verified for Symonis (domain: symonis.com). Skipping outreach.
+2026-06-04 11:13:06 [INFO] agent.nodes.email_node: Finding HR email for: Guruvai Sciences
+2026-06-04 11:13:06 [INFO] tools.email_finder: Using guessed domain for Guruvai Sciences: guruvaisciences.com
+2026-06-04 11:13:09 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:13:10 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:10 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:12 [INFO] tools.email_finder: ✅ Verified MX records for guruvaisciences.com
+2026-06-04 11:13:12 [INFO] tools.email_finder: Using verified pattern email for Guruvai Sciences: hr@guruvaisciences.com
+2026-06-04 11:13:13 [INFO] agent.nodes.email_node: Finding HR email for: Earnin
+2026-06-04 11:13:13 [INFO] tools.email_finder: Using guessed domain for Earnin: earnin.com
+2026-06-04 11:13:14 [INFO] tools.email_finder: Apollo: Found global organization ID 5a08aedea6da98a3263df83a for domain earnin.com
+2026-06-04 11:13:17 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:13:17 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:17 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:13:26 [INFO] tools.email_finder: ✅ Verified MX records for earnin.com
+2026-06-04 11:13:26 [INFO] tools.email_finder: Using verified pattern email for Earnin: hr@earnin.com
+2026-06-04 11:13:27 [INFO] agent.nodes.email_node: Finding HR email for: Nielsen Sports
+2026-06-04 11:13:27 [INFO] tools.email_finder: Using guessed domain for Nielsen Sports: nielsensports.com
+2026-06-04 11:13:28 [INFO] tools.email_finder: Apollo: Found global organization ID 54a1abe574686949e7c38d06 for domain nielsensports.com
+2026-06-04 11:13:31 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:13:32 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:32 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:34 [INFO] tools.email_finder: ✅ Verified MX records for nielsensports.com
+2026-06-04 11:13:34 [INFO] tools.email_finder: Using verified pattern email for Nielsen Sports: hr@nielsensports.com
+2026-06-04 11:13:36 [INFO] agent.nodes.email_node: Finding HR email for: National Institute for Smart Government (NISG)
+2026-06-04 11:13:36 [INFO] tools.email_finder: Using guessed domain for National Institute for Smart Government (NISG): nationalforsmartgovernmentnisg.com
+2026-06-04 11:13:40 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:13:42 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:42 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:42 [WARNING] tools.email_finder: ❌ Domain resolution failed for nationalforsmartgovernmentnisg.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:42 [WARNING] tools.email_finder: ❌ Domain resolution failed for nationalforsmartgovernmentnisg.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:42 [WARNING] tools.email_finder: ❌ Domain resolution failed for nationalforsmartgovernmentnisg.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:42 [WARNING] tools.email_finder: ❌ Domain resolution failed for nationalforsmartgovernmentnisg.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:42 [WARNING] tools.email_finder: ❌ Domain resolution failed for nationalforsmartgovernmentnisg.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:42 [WARNING] tools.email_finder: ❌ No valid email could be verified for National Institute for Smart Government (NISG) (domain: nationalforsmartgovernmentnisg.com). Skipping outreach.
+2026-06-04 11:13:43 [INFO] agent.nodes.email_node: Finding HR email for: Diraa Hr Services
+2026-06-04 11:13:43 [INFO] tools.email_finder: Using guessed domain for Diraa Hr Services: diraahrservices.com
+2026-06-04 11:13:46 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:13:46 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:46 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for diraahrservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for diraahrservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for diraahrservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for diraahrservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for diraahrservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:13:46 [WARNING] tools.email_finder: ❌ No valid email could be verified for Diraa Hr Services (domain: diraahrservices.com). Skipping outreach.
+2026-06-04 11:13:47 [INFO] agent.nodes.email_node: Finding HR email for: Arya.ai
+2026-06-04 11:13:48 [INFO] tools.email_finder: Using guessed domain for Arya.ai: aryaai.com
+2026-06-04 11:13:50 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:13:51 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:51 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:13:54 [INFO] tools.email_finder: ✅ Verified MX records for aryaai.com
+2026-06-04 11:13:54 [INFO] tools.email_finder: Using verified pattern email for Arya.ai: hr@aryaai.com
+2026-06-04 11:13:55 [INFO] agent.nodes.email_node: Finding HR email for: Ecordon Solutions
+2026-06-04 11:13:55 [INFO] tools.email_finder: Using guessed domain for Ecordon Solutions: ecordon.com
+2026-06-04 11:13:58 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:13:59 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:13:59 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:15 [INFO] tools.email_finder: ✅ Verified MX records for ecordon.com
+2026-06-04 11:14:15 [INFO] tools.email_finder: Using verified pattern email for Ecordon Solutions: hr@ecordon.com
+2026-06-04 11:14:16 [INFO] agent.nodes.email_node: Finding HR email for: Legistify
+2026-06-04 11:14:17 [INFO] tools.email_finder: Using guessed domain for Legistify: legistify.com
+2026-06-04 11:14:18 [INFO] tools.email_finder: Apollo: Found global organization ID 55f943c0f3e5bb1872003678 for domain legistify.com
+2026-06-04 11:14:20 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:14:21 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:21 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:14:24 [INFO] tools.email_finder: ✅ Verified MX records for legistify.com
+2026-06-04 11:14:24 [INFO] tools.email_finder: Found scraped and verified email for Legistify: ranjana.raghav@legistify.com
+2026-06-04 11:14:25 [INFO] agent.nodes.email_node: Finding HR email for: QuickHyre
+2026-06-04 11:14:25 [INFO] tools.email_finder: Using guessed domain for QuickHyre: quickhyre.com
+2026-06-04 11:14:28 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:14:29 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:29 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:33 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-04 11:14:34 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-04 11:14:36 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-04 11:14:37 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-04 11:14:38 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-04 11:14:38 [WARNING] tools.email_finder: ❌ No valid email could be verified for QuickHyre (domain: quickhyre.com). Skipping outreach.
+2026-06-04 11:14:40 [INFO] agent.nodes.email_node: Finding HR email for: Bluesoft Software Solution
+2026-06-04 11:14:40 [INFO] tools.email_finder: Using guessed domain for Bluesoft Software Solution: bluesoftsoftwaresolution.com
+2026-06-04 11:14:43 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:14:44 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:44 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:14:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:14:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:14:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:14:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:14:44 [WARNING] tools.email_finder: ❌ No valid email could be verified for Bluesoft Software Solution (domain: bluesoftsoftwaresolution.com). Skipping outreach.
+2026-06-04 11:14:45 [INFO] agent.nodes.email_node: Finding HR email for: Derq
+2026-06-04 11:14:45 [INFO] tools.email_finder: Using guessed domain for Derq: derq.com
+2026-06-04 11:14:46 [INFO] tools.email_finder: Apollo: Found global organization ID 5b146378a6da98dca8ebc696 for domain derq.com
+2026-06-04 11:14:49 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:14:50 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:50 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:14:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:15:00 [INFO] tools.email_finder: ✅ Verified MX records for derq.com
+2026-06-04 11:15:00 [INFO] tools.email_finder: Using verified pattern email for Derq: hr@derq.com
+2026-06-04 11:15:01 [INFO] agent.nodes.email_node: Finding HR email for: Algoshack Technologies
+2026-06-04 11:15:01 [INFO] tools.email_finder: Using guessed domain for Algoshack Technologies: algoshack.com
+2026-06-04 11:15:02 [INFO] tools.email_finder: Apollo: Found global organization ID 5b85c607324d445f9151990c for domain algoshack.com
+2026-06-04 11:15:05 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:15:06 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:06 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:11 [INFO] tools.email_finder: ✅ Verified MX records for algoshack.com
+2026-06-04 11:15:11 [INFO] tools.email_finder: Using verified pattern email for Algoshack Technologies: hr@algoshack.com
+2026-06-04 11:15:12 [INFO] agent.nodes.email_node: Finding HR email for: Leading MNC Client
+2026-06-04 11:15:12 [INFO] tools.email_finder: Using guessed domain for Leading MNC Client: leadingmncclient.com
+2026-06-04 11:15:16 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:15:17 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:17 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:17 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:17 [WARNING] tools.email_finder: ❌ No valid email could be verified for Leading MNC Client (domain: leadingmncclient.com). Skipping outreach.
+2026-06-04 11:15:18 [INFO] agent.nodes.email_node: Finding HR email for: HCSIPL
+2026-06-04 11:15:18 [INFO] tools.email_finder: Using guessed domain for HCSIPL: hcsipl.com
+2026-06-04 11:15:19 [INFO] tools.email_finder: Apollo: Found global organization ID 68d44e57bd77df00150eddce for domain hcsipl.com
+2026-06-04 11:15:22 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:15:23 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:23 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:15:26 [INFO] tools.email_finder: ✅ Verified MX records for hcsipl.com
+2026-06-04 11:15:26 [INFO] tools.email_finder: Using verified pattern email for HCSIPL: hr@hcsipl.com
+2026-06-04 11:15:27 [INFO] agent.nodes.email_node: Finding HR email for: Creative Hands HR
+2026-06-04 11:15:28 [INFO] tools.email_finder: Using guessed domain for Creative Hands HR: creativehandshr.com
+2026-06-04 11:15:31 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:15:33 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:33 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:15:33 [WARNING] tools.email_finder: ❌ No valid email could be verified for Creative Hands HR (domain: creativehandshr.com). Skipping outreach.
+2026-06-04 11:15:34 [INFO] agent.nodes.email_node: Finding HR email for: Coriolis Tech
+2026-06-04 11:15:34 [INFO] tools.email_finder: Using guessed domain for Coriolis Tech: coriolistech.com
+2026-06-04 11:15:35 [INFO] tools.email_finder: Apollo: Found global organization ID 54a133f869702d2db47f3d00 for domain coriolistech.com
+2026-06-04 11:15:38 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:15:40 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:40 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:15:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:16:13 [INFO] tools.email_finder: ✅ Verified MX records for coriolistech.com
+2026-06-04 11:16:13 [INFO] tools.email_finder: Using verified pattern email for Coriolis Tech: hr@coriolistech.com
+2026-06-04 11:16:14 [INFO] agent.nodes.email_node: Finding HR email for: Texas Instruments
+2026-06-04 11:16:15 [INFO] tools.email_finder: Using guessed domain for Texas Instruments: texasinstruments.com
+2026-06-04 11:16:18 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:16:19 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:19 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:20 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:20 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:20 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:20 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:20 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:20 [WARNING] tools.email_finder: ❌ No valid email could be verified for Texas Instruments (domain: texasinstruments.com). Skipping outreach.
+2026-06-04 11:16:21 [INFO] agent.nodes.email_node: Finding HR email for: KVAR Technologies Private Limited
+2026-06-04 11:16:22 [INFO] tools.email_finder: Using guessed domain for KVAR Technologies Private Limited: kvar.com
+2026-06-04 11:16:23 [INFO] tools.email_finder: Apollo: Found global organization ID 54a139d969702d24d3079200 for domain kvar.com
+2026-06-04 11:16:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:16:26 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:16:27 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:27 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:31 [INFO] tools.email_finder: ✅ Verified MX records for kvar.com
+2026-06-04 11:16:31 [INFO] tools.email_finder: Using verified pattern email for KVAR Technologies Private Limited: hr@kvar.com
+2026-06-04 11:16:32 [INFO] agent.nodes.email_node: Finding HR email for: TSTEPS PRIVATE LIMITED
+2026-06-04 11:16:33 [INFO] tools.email_finder: Using guessed domain for TSTEPS PRIVATE LIMITED: tsteps.com
+2026-06-04 11:16:36 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:16:38 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:38 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:42 [INFO] tools.email_finder: ✅ Verified MX records for tsteps.com
+2026-06-04 11:16:42 [INFO] tools.email_finder: Using verified pattern email for TSTEPS PRIVATE LIMITED: hr@tsteps.com
+2026-06-04 11:16:43 [INFO] agent.nodes.email_node: Finding HR email for: Basti Ki Pathshala Foundation
+2026-06-04 11:16:44 [INFO] tools.email_finder: Using guessed domain for Basti Ki Pathshala Foundation: bastikipathshala.com
+2026-06-04 11:16:46 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:16:48 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:48 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:48 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:48 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:48 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:48 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:48 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:48 [WARNING] tools.email_finder: ❌ No valid email could be verified for Basti Ki Pathshala Foundation (domain: bastikipathshala.com). Skipping outreach.
+2026-06-04 11:16:49 [INFO] agent.nodes.email_node: Finding HR email for: Snap-on Business Solutions (SBS)
+2026-06-04 11:16:50 [INFO] tools.email_finder: Using guessed domain for Snap-on Business Solutions (SBS): snaponbusinesssbs.com
+2026-06-04 11:16:53 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:16:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:16:55 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:55 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:16:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for snaponbusinesssbs.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for snaponbusinesssbs.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for snaponbusinesssbs.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for snaponbusinesssbs.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for snaponbusinesssbs.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-04 11:16:55 [WARNING] tools.email_finder: ❌ No valid email could be verified for Snap-on Business Solutions (SBS) (domain: snaponbusinesssbs.com). Skipping outreach.
+2026-06-04 11:16:55 [INFO] agent.nodes.email_node: Finding HR email for: Firstsource
+2026-06-04 11:16:56 [INFO] tools.email_finder: Using guessed domain for Firstsource: firstsource.com
+2026-06-04 11:16:57 [INFO] tools.email_finder: Apollo: Found global organization ID 54a13a7669702d048670e100 for domain firstsource.com
+2026-06-04 11:17:00 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:17:02 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:17:02 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:17:06 [INFO] tools.email_finder: ✅ Verified MX records for firstsource.com
+2026-06-04 11:17:06 [INFO] tools.email_finder: Using verified pattern email for Firstsource: hr@firstsource.com
+2026-06-04 11:17:06 [INFO] agent.nodes.email_node: Finding HR email for: Integra
+2026-06-04 11:17:07 [INFO] tools.email_finder: Using guessed domain for Integra: integra.com
+2026-06-04 11:17:08 [INFO] tools.email_finder: Apollo: Found global organization ID 5e567ba30205200001fe41c0 for domain integra.com
+2026-06-04 11:17:11 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-04 11:17:12 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:17:12 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-04 11:17:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:17:24 [INFO] tools.email_finder: ✅ Verified MX records for integra.com
+2026-06-04 11:17:24 [INFO] tools.email_finder: Using verified pattern email for Integra: hr@integra.com
+2026-06-04 11:17:25 [INFO] agent.nodes.email_node: Found HR emails for 15/31 companies
+2026-06-04 11:17:25 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-04 11:17:38 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-04 11:17:43 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-04 11:17:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:18:03 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-04 11:18:08 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-04 11:18:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:18:31 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-04 11:18:37 [INFO] tools.email_sender: ✅ Email sent to hr@primetradeai.com: Application for Machine Learning Intern — Fresher | Debashis Bera
+2026-06-04 11:18:37 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:18:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:19:12 [INFO] tools.email_sender: ✅ Email sent to hr@guruvaisciences.com: Application for AI/ML Engineering Intern (Agentic AI) — Fresher | Debashis Bera
+2026-06-04 11:19:12 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:19:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:19:47 [INFO] tools.email_sender: ✅ Email sent to hr@earnin.com: Application for Machine Learning Engineer — Fresher | Debashis Bera
+2026-06-04 11:19:47 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:19:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:20:22 [INFO] tools.email_sender: ✅ Email sent to hr@nielsensports.com: Application for AI/ML Data Scientist I — Fresher | Debashis Bera
+2026-06-04 11:20:22 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:20:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:20:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:20:57 [INFO] tools.email_sender: ✅ Email sent to hr@aryaai.com: Application for AI Agent Engineer — Fresher | Debashis Bera
+2026-06-04 11:20:57 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:21:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:21:32 [INFO] tools.email_sender: ✅ Email sent to hr@ecordon.com: Application for AI Engineer — Fresher | Debashis Bera
+2026-06-04 11:21:32 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:21:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:22:07 [INFO] tools.email_sender: ✅ Email sent to ranjana.raghav@legistify.com: Application for AI Engineer — Fresher | Debashis Bera
+2026-06-04 11:22:07 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:22:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:22:42 [INFO] tools.email_sender: ✅ Email sent to hr@derq.com: Application for Machine Learning QA Engineer — Fresher | Debashis Bera
+2026-06-04 11:22:42 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:22:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:23:17 [INFO] tools.email_sender: ✅ Email sent to hr@algoshack.com: Application for Software Engineer — Fresher | Debashis Bera
+2026-06-04 11:23:17 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:23:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:23:53 [INFO] tools.email_sender: ✅ Email sent to hr@hcsipl.com: Application for Software Developer — Fresher | Debashis Bera
+2026-06-04 11:23:53 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:23:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:24:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:24:28 [INFO] tools.email_sender: ✅ Email sent to hr@coriolistech.com: Application for Full Stack Developer Role — Fresher | Debashis Bera
+2026-06-04 11:24:28 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:24:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:25:03 [INFO] tools.email_sender: ✅ Email sent to hr@kvar.com: Application for Full Stack Development Internship | Debashis Bera
+2026-06-04 11:25:03 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:25:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:25:38 [INFO] tools.email_sender: ✅ Email sent to hr@tsteps.com: Application for Full Stack Development Internship | Debashis Bera
+2026-06-04 11:25:38 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:25:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:26:13 [INFO] tools.email_sender: ✅ Email sent to hr@firstsource.com: Attending Firstsource Freshers Walk-in Drive — Debashis Bera
+2026-06-04 11:26:13 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-04 11:26:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:26:48 [INFO] tools.email_sender: ✅ Email sent to hr@integra.com: Application for Remote XML DCA — ZIPPY | Debashis Bera
+2026-06-04 11:26:48 [INFO] agent.nodes.email_node: ✅ Email node: 15 cold emails sent
+2026-06-04 11:26:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:27:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:27:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:28:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:29:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:30:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:30:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:30:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:31:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:31:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:32:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:32:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:33:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:33:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:34:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:35:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 11:36:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db

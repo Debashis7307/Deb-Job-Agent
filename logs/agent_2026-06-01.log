@@ -1,0 +1,442 @@
+2026-06-01 18:54:47 [INFO] __main__: Starting dashboard only at http://localhost:5000
+2026-06-01 18:55:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:55:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:56:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:56:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:57:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:57:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:58:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:58:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:59:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 18:59:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:00:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:00:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:01:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:01:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:02:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:02:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:03:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:03:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:04:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:05:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:06:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:07:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:08:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:09:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:10:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:11:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:12:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:13:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:14:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:15:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:16:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:17:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:18:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:19:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:20:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:21:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:22:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:23:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:24:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:25:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:26:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:27:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:28:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:29:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:30:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:31:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:32:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:33:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:34:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:35:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:36:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:37:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 19:38:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 21:59:51 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 21:59:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 22:36:30 [INFO] __main__: Testing email configuration...
+2026-06-01 22:36:36 [INFO] tools.email_sender: ✅ Email sent to debashis.bera.careers@gmail.com: [TEST] Job Agent Cold Email Test
+2026-06-01 22:36:38 [INFO] tools.email_sender: ✅ Summary email sent to debashisalak@gmail.com
+2026-06-01 22:36:38 [INFO] __main__: Both emails sent successfully!
+2026-06-01 22:36:38 [INFO] __main__:   Cold email → debashis.bera.careers@gmail.com
+2026-06-01 22:36:38 [INFO] __main__:   Summary   → debashisalak@gmail.com
+2026-06-01 22:37:17 [INFO] __main__: Manual trigger: Running agent NOW (live mode)
+2026-06-01 22:37:18 [INFO] __main__: ============================================================
+2026-06-01 22:37:18 [INFO] __main__: JOB AGENT STARTING — 2026-06-01 22:37:18 IST
+2026-06-01 22:37:18 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-06-01 22:37:18 [INFO] __main__: Max apply today: 30
+2026-06-01 22:37:18 [INFO] __main__: Cold emails today: 25
+2026-06-01 22:37:18 [INFO] __main__: Applications email:  debashis.bera.careers@gmail.com
+2026-06-01 22:37:18 [INFO] __main__: Summary email to:    debashisalak@gmail.com
+2026-06-01 22:37:18 [INFO] __main__: ============================================================
+2026-06-01 22:37:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 22:37:20 [WARNING] agent.nodes.memory_node: mem0 load failed (non-critical): Top-level entity parameters frozenset({'user_id'}) are not supported in search(). Use filters={'user_id': '...'} instead.
+2026-06-01 22:37:20 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: None
+All-time emails sent: None
+Unique companies contacted: 0
+Today (2026-06-01) already applied: 0
+2026-06-01 22:37:20 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-06-01 22:37:20 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-06-01 22:37:22 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 24 relevant jobs
+2026-06-01 22:37:22 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 24 jobs
+2026-06-01 22:37:22 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-06-01 22:37:22 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-06-01 22:37:27 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-06-01 22:37:27 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-06-01 22:37:27 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-06-01 22:37:27 [ERROR] scrapers.wellfound_scraper: playwright not installed
+2026-06-01 22:37:27 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-06-01 22:37:27 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-06-01 22:37:27 [ERROR] scrapers.linkedin_scraper: playwright and playwright-stealth not installed
+2026-06-01 22:37:27 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 0 jobs
+2026-06-01 22:37:27 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-06-01 22:37:27 [ERROR] scrapers.naukri_scraper: playwright not installed
+2026-06-01 22:37:27 [INFO] agent.nodes.scrape_node: ✅ Naukri: 0 jobs
+2026-06-01 22:37:27 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 54 jobs from all portals
+2026-06-01 22:37:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 22:37:28 [INFO] agent.nodes.filter_node: ✅ Filter: 54 scraped → 30 new relevant jobs
+2026-06-01 22:37:29 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-01 22:37:55 [INFO] agent.nodes.filter_node: Gemini scored 30 jobs in 1 API call
+2026-06-01 22:37:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 22:37:55 [INFO] agent.nodes.filter_node: ✅ Scored 30 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-06-01 22:37:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 22:37:55 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=False)
+2026-06-01 22:37:55 [INFO] agent.nodes.apply_node: Applying to 21 jobs on internshala
+2026-06-01 22:37:55 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-01 22:38:17 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-06-01 22:38:46 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-06-01 22:39:12 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-06-01 22:39:31 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-06-01 22:40:00 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-06-01 22:40:27 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-06-01 22:40:53 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-06-01 22:41:20 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-06-01 22:41:46 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-06-01 22:41:57 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-06-01 22:42:10 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-06-01 22:42:25 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-06-01 22:42:39 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-06-01 22:43:04 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-01 22:43:19 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-01 22:43:41 [INFO] agent.nodes.apply_node: Waiting 21s before next application...
+2026-06-01 22:44:02 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-06-01 22:44:29 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-06-01 22:44:45 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-01 22:45:02 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-06-01 22:45:25 [INFO] agent.nodes.apply_node: Applying to 9 jobs on remoteok
+2026-06-01 22:45:25 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-06-01 22:45:51 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-06-01 22:46:04 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-06-01 22:46:23 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-01 22:46:45 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-06-01 22:46:59 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-06-01 22:47:22 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-01 22:47:37 [INFO] agent.nodes.apply_node: Waiting 18s before next application...
+2026-06-01 22:47:56 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-06-01 22:48:11 [INFO] agent.nodes.apply_node: ✅ Apply node done: 0 applied, 0 failed
+2026-06-01 22:48:11 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 22:48:11 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Solfyn International LLP
+2026-06-01 22:48:12 [INFO] tools.email_finder: Could not find domain for Solfyn International LLP
+2026-06-01 22:48:14 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Warewe Consultancy Private Limited
+2026-06-01 22:48:14 [INFO] tools.email_finder: Could not find domain for Warewe Consultancy Private Limited
+2026-06-01 22:48:15 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: AimLarger
+2026-06-01 22:48:16 [INFO] tools.email_finder: Could not find domain for AimLarger
+2026-06-01 22:48:17 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Symonis
+2026-06-01 22:48:18 [INFO] tools.email_finder: Could not find domain for Symonis
+2026-06-01 22:48:19 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Symonis
+2026-06-01 22:48:20 [INFO] tools.email_finder: Could not find domain for Symonis
+2026-06-01 22:48:21 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Maxgen Technologies Private Limited
+2026-06-01 22:48:22 [INFO] tools.email_finder: Could not find domain for Maxgen Technologies Private Limited
+2026-06-01 22:48:23 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Queens Of Change Foundation
+2026-06-01 22:48:23 [INFO] tools.email_finder: Could not find domain for Queens Of Change Foundation
+2026-06-01 22:48:25 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Ramyoz
+2026-06-01 22:48:25 [INFO] tools.email_finder: Could not find domain for Ramyoz
+2026-06-01 22:48:27 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: The Affordable Organic Store
+2026-06-01 22:48:27 [INFO] tools.email_finder: Could not find domain for The Affordable Organic Store
+2026-06-01 22:48:29 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: TSTEPS PRIVATE LIMITED
+2026-06-01 22:48:29 [INFO] tools.email_finder: Could not find domain for TSTEPS PRIVATE LIMITED
+2026-06-01 22:48:31 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Unnati Enterprises
+2026-06-01 22:48:31 [INFO] tools.email_finder: Could not find domain for Unnati Enterprises
+2026-06-01 22:48:33 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: TSTEPS PRIVATE LIMITED
+2026-06-01 22:48:33 [INFO] tools.email_finder: Could not find domain for TSTEPS PRIVATE LIMITED
+2026-06-01 22:48:35 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Ramyoz
+2026-06-01 22:48:35 [INFO] tools.email_finder: Could not find domain for Ramyoz
+2026-06-01 22:48:36 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Ramyoz
+2026-06-01 22:48:37 [INFO] tools.email_finder: Could not find domain for Ramyoz
+2026-06-01 22:48:38 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: TSTEPS PRIVATE LIMITED
+2026-06-01 22:48:39 [INFO] tools.email_finder: Could not find domain for TSTEPS PRIVATE LIMITED
+2026-06-01 22:48:40 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Symonis
+2026-06-01 22:48:41 [INFO] tools.email_finder: Could not find domain for Symonis
+2026-06-01 22:48:43 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Zenerative Minds LLP
+2026-06-01 22:48:43 [INFO] tools.email_finder: Could not find domain for Zenerative Minds LLP
+2026-06-01 22:48:45 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: International Institute Of SDGs & Public Policy Research
+2026-06-01 22:48:45 [INFO] tools.email_finder: Could not find domain for International Institute Of SDGs & Public Policy Research
+2026-06-01 22:48:46 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Kennedy Krieger Institute
+2026-06-01 22:48:47 [INFO] tools.email_finder: Could not find domain for Kennedy Krieger Institute
+2026-06-01 22:48:48 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: TalentHome Solutions LLP
+2026-06-01 22:48:49 [INFO] tools.email_finder: Could not find domain for TalentHome Solutions LLP
+2026-06-01 22:48:50 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: TalentHome Solutions
+2026-06-01 22:48:51 [INFO] tools.email_finder: Could not find domain for TalentHome Solutions
+2026-06-01 22:48:53 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: ABMR TradeX
+2026-06-01 22:48:53 [INFO] tools.email_finder: Could not find domain for ABMR TradeX
+2026-06-01 22:48:55 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Projectpedia Official Page
+2026-06-01 22:48:55 [INFO] tools.email_finder: Could not find domain for Projectpedia Official Page
+2026-06-01 22:48:56 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Honeywell
+2026-06-01 22:48:57 [INFO] tools.email_finder: Could not find domain for Honeywell
+2026-06-01 22:48:59 [INFO] agent.nodes.email_node: 🔍 Finding HR email for: Bored Panda
+2026-06-01 22:48:59 [INFO] tools.email_finder: Could not find domain for Bored Panda
+2026-06-01 22:49:00 [INFO] agent.nodes.email_node: 📧 Found HR emails for 0/25 companies
+2026-06-01 22:49:00 [INFO] agent.nodes.email_node: ✅ Email node: 0 cold emails sent
+2026-06-01 22:49:02 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-06-01: Scraped 54 jobs, applied to 0 jobs, sent 0 cold emails. Companies: TSTEPS PRIVATE LIMITED, Zenerative Minds LLP, Queens Of Change Foundation, Check Off Your List, Kennedy Krieger Institute, Bored Panda, Unnati Enterprises, International Institute Of SDGs & Public Policy Research, Symonis, Ramyoz
+2026-06-01 22:49:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 22:49:06 [INFO] tools.email_sender: ✅ Summary email sent to debashisalak@gmail.com
+2026-06-01 22:49:06 [INFO] agent.nodes.report_node: Daily report sent to personal email: debashisalak@gmail.com
+2026-06-01 22:49:06 [INFO] __main__: ============================================================
+2026-06-01 22:49:06 [INFO] __main__: AGENT RUN COMPLETE in 707s
+2026-06-01 22:49:06 [INFO] __main__:   Scraped:  54 jobs
+2026-06-01 22:49:06 [INFO] __main__:   New:      30 jobs
+2026-06-01 22:49:06 [INFO] __main__:   Applied:  0 jobs
+2026-06-01 22:49:06 [INFO] __main__:   Emailed:  0 HRs
+2026-06-01 22:49:06 [INFO] __main__:   Failed:   0
+2026-06-01 22:49:06 [INFO] __main__: ============================================================
+2026-06-01 23:03:49 [INFO] __main__: Manual trigger: Running agent NOW (live mode)
+2026-06-01 23:03:51 [INFO] __main__: ============================================================
+2026-06-01 23:03:51 [INFO] __main__: JOB AGENT STARTING — 2026-06-01 23:03:51 IST
+2026-06-01 23:03:51 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-06-01 23:03:51 [INFO] __main__: Max apply today: 30
+2026-06-01 23:03:51 [INFO] __main__: Cold emails today: 25
+2026-06-01 23:03:51 [INFO] __main__: Applications email:  debashis.bera.careers@gmail.com
+2026-06-01 23:03:51 [INFO] __main__: Summary email to:    debashisalak@gmail.com
+2026-06-01 23:03:51 [INFO] __main__: ============================================================
+2026-06-01 23:03:51 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:03:54 [WARNING] agent.nodes.memory_node: mem0 load failed (non-critical): Top-level entity parameters frozenset({'user_id'}) are not supported in search(). Use filters={'user_id': '...'} instead.
+2026-06-01 23:03:54 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 0
+All-time emails sent: 0
+Unique companies contacted: 22
+Today (2026-06-01) already applied: 0
+2026-06-01 23:03:54 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-06-01 23:03:54 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-06-01 23:03:56 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 24 relevant jobs
+2026-06-01 23:03:56 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 24 jobs
+2026-06-01 23:03:56 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-06-01 23:03:56 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-06-01 23:04:01 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-06-01 23:04:01 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-06-01 23:04:01 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-06-01 23:04:01 [ERROR] scrapers.wellfound_scraper: playwright not installed
+2026-06-01 23:04:01 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-06-01 23:04:01 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-06-01 23:04:01 [ERROR] scrapers.linkedin_scraper: playwright and playwright-stealth not installed
+2026-06-01 23:04:01 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 0 jobs
+2026-06-01 23:04:01 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-06-01 23:04:01 [ERROR] scrapers.naukri_scraper: playwright not installed
+2026-06-01 23:04:01 [INFO] agent.nodes.scrape_node: ✅ Naukri: 0 jobs
+2026-06-01 23:04:01 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 54 jobs from all portals
+2026-06-01 23:04:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:04:01 [INFO] agent.nodes.filter_node: ✅ Filter: 54 scraped → 0 new relevant jobs
+2026-06-01 23:04:01 [INFO] agent.graph: No new jobs found today. Jumping to report.
+2026-06-01 23:04:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:04:04 [INFO] tools.email_sender: ✅ Summary email sent to debashisalak@gmail.com
+2026-06-01 23:04:04 [INFO] agent.nodes.report_node: Daily report sent to personal email: debashisalak@gmail.com
+2026-06-01 23:04:04 [INFO] __main__: ============================================================
+2026-06-01 23:04:04 [INFO] __main__: AGENT RUN COMPLETE in 13s
+2026-06-01 23:04:04 [INFO] __main__:   Scraped:  54 jobs
+2026-06-01 23:04:04 [INFO] __main__:   New:      0 jobs
+2026-06-01 23:04:04 [INFO] __main__:   Applied:  0 jobs
+2026-06-01 23:04:04 [INFO] __main__:   Emailed:  0 HRs
+2026-06-01 23:04:04 [INFO] __main__:   Failed:   0
+2026-06-01 23:04:04 [INFO] __main__: ============================================================
+2026-06-01 23:07:27 [INFO] __main__: Manual trigger: Running agent NOW (live mode)
+2026-06-01 23:07:28 [INFO] __main__: ============================================================
+2026-06-01 23:07:28 [INFO] __main__: JOB AGENT STARTING — 2026-06-01 23:07:28 IST
+2026-06-01 23:07:28 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-06-01 23:07:28 [INFO] __main__: Max apply today: 30
+2026-06-01 23:07:28 [INFO] __main__: Cold emails today: 25
+2026-06-01 23:07:28 [INFO] __main__: Applications email:  debashis.bera.careers@gmail.com
+2026-06-01 23:07:28 [INFO] __main__: Summary email to:    debashisalak@gmail.com
+2026-06-01 23:07:28 [INFO] __main__: ============================================================
+2026-06-01 23:07:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:07:31 [INFO] agent.nodes.memory_node: mem0: Loaded 2 memories
+2026-06-01 23:07:31 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 0
+All-time emails sent: 0
+Unique companies contacted: 22
+Today (2026-06-01) already applied: 0
+Previous context from memory:
+User scraped 54 job listings on 2026-06-01, applied to 0 jobs and sent 0 cold emails, targeting companies TSTEPS PRIVATE LIMITED, Zenerative Minds LLP, Queens Of Change Foundation, Check Off Your List, Kennedy Krieger Institute, Bored Panda, Unnati Enterprises, International Institute Of SDGs & Public Policy Research, Symonis, and Ramyoz
+User is Debashis Bera, a final-year computer science and engineering (CSE) student seeking AI/ML and software engineering jobs
+2026-06-01 23:07:31 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-06-01 23:07:31 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-06-01 23:07:33 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 24 relevant jobs
+2026-06-01 23:07:33 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 24 jobs
+2026-06-01 23:07:33 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-06-01 23:07:33 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-06-01 23:07:37 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-06-01 23:07:37 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-06-01 23:07:37 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-06-01 23:07:39 [ERROR] agent.nodes.scrape_node: Wellfound failed: 'module' object is not callable
+2026-06-01 23:07:39 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-06-01 23:07:40 [ERROR] agent.nodes.scrape_node: LinkedIn failed: 'module' object is not callable
+2026-06-01 23:07:40 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-06-01 23:07:41 [ERROR] agent.nodes.scrape_node: Naukri failed: 'module' object is not callable
+2026-06-01 23:07:41 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 54 jobs from all portals
+2026-06-01 23:07:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:07:41 [INFO] agent.nodes.filter_node: ✅ Filter: 54 scraped → 30 new relevant jobs
+2026-06-01 23:07:42 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-01 23:08:06 [INFO] agent.nodes.filter_node: Gemini scored 30 jobs in 1 API call
+2026-06-01 23:08:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:08:06 [INFO] agent.nodes.filter_node: ✅ Scored 30 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-06-01 23:08:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:08:06 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=False)
+2026-06-01 23:08:06 [INFO] agent.nodes.apply_node: Applying to 21 jobs on internshala
+2026-06-01 23:08:06 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-06-01 23:08:31 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-06-01 23:08:51 [INFO] agent.nodes.apply_node: Waiting 21s before next application...
+2026-06-01 23:09:12 [INFO] agent.nodes.apply_node: Waiting 28s before next application...
+2026-06-01 23:09:40 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-01 23:09:55 [INFO] agent.nodes.apply_node: Waiting 24s before next application...
+2026-06-01 23:10:19 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-06-01 23:10:38 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-01 23:11:00 [INFO] agent.nodes.apply_node: Waiting 28s before next application...
+2026-06-01 23:11:28 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-01 23:11:43 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-06-01 23:12:02 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-06-01 23:12:29 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-06-01 23:12:47 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-06-01 23:13:00 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-01 23:13:22 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-01 23:13:37 [INFO] agent.nodes.apply_node: Waiting 28s before next application...
+2026-06-01 23:14:05 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-06-01 23:14:32 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-01 23:14:49 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-01 23:15:06 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-01 23:15:22 [INFO] agent.nodes.apply_node: Applying to 9 jobs on remoteok
+2026-06-01 23:15:22 [INFO] agent.nodes.apply_node: Waiting 18s before next application...
+2026-06-01 23:15:39 [INFO] agent.nodes.apply_node: Waiting 18s before next application...
+2026-06-01 23:15:58 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-06-01 23:16:17 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-01 23:16:39 [INFO] agent.nodes.apply_node: Waiting 24s before next application...
+2026-06-01 23:17:03 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-06-01 23:17:14 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-06-01 23:17:39 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-06-01 23:17:59 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-06-01 23:18:12 [INFO] agent.nodes.apply_node: Apply node done: 0 portal-applied, 30 queued for cold email, 0 failed
+2026-06-01 23:18:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:18:12 [INFO] agent.nodes.email_node: Finding HR email for: Solfyn International LLP
+2026-06-01 23:18:12 [INFO] tools.email_finder: Using guessed domain for Solfyn International LLP: solfyninternational.com
+2026-06-01 23:18:12 [INFO] tools.email_finder: Using pattern email for Solfyn International LLP: hr@solfyninternational.com
+2026-06-01 23:18:14 [INFO] agent.nodes.email_node: Finding HR email for: Warewe Consultancy Private Limited
+2026-06-01 23:18:14 [INFO] tools.email_finder: Using guessed domain for Warewe Consultancy Private Limited: warewe.com
+2026-06-01 23:18:22 [INFO] tools.email_finder: Using pattern email for Warewe Consultancy Private Limited: hr@warewe.com
+2026-06-01 23:18:24 [INFO] agent.nodes.email_node: Finding HR email for: AimLarger
+2026-06-01 23:18:24 [INFO] tools.email_finder: Using guessed domain for AimLarger: aimlarger.com
+2026-06-01 23:18:24 [INFO] tools.email_finder: Using pattern email for AimLarger: hr@aimlarger.com
+2026-06-01 23:18:25 [INFO] agent.nodes.email_node: Finding HR email for: Symonis
+2026-06-01 23:18:26 [INFO] tools.email_finder: Using guessed domain for Symonis: symonis.com
+2026-06-01 23:18:27 [INFO] tools.email_finder: Using pattern email for Symonis: hr@symonis.com
+2026-06-01 23:18:28 [INFO] agent.nodes.email_node: Finding HR email for: Queens Of Change Foundation
+2026-06-01 23:18:29 [INFO] tools.email_finder: Using guessed domain for Queens Of Change Foundation: queensofchange.com
+2026-06-01 23:18:30 [INFO] tools.email_finder: Using pattern email for Queens Of Change Foundation: hr@queensofchange.com
+2026-06-01 23:18:32 [INFO] agent.nodes.email_node: Finding HR email for: Maxgen Technologies Private Limited
+2026-06-01 23:18:32 [INFO] tools.email_finder: Using guessed domain for Maxgen Technologies Private Limited: maxgen.com
+2026-06-01 23:18:38 [INFO] tools.email_finder: Using pattern email for Maxgen Technologies Private Limited: hr@maxgen.com
+2026-06-01 23:18:39 [INFO] agent.nodes.email_node: Finding HR email for: Ramyoz
+2026-06-01 23:18:40 [INFO] tools.email_finder: Using guessed domain for Ramyoz: ramyoz.com
+2026-06-01 23:18:41 [INFO] tools.email_finder: Found scraped email for Ramyoz: info@ramyoz.com
+2026-06-01 23:18:42 [INFO] agent.nodes.email_node: Finding HR email for: TSTEPS PRIVATE LIMITED
+2026-06-01 23:18:43 [INFO] tools.email_finder: Using guessed domain for TSTEPS PRIVATE LIMITED: tsteps.com
+2026-06-01 23:18:45 [INFO] tools.email_finder: Using pattern email for TSTEPS PRIVATE LIMITED: hr@tsteps.com
+2026-06-01 23:18:46 [INFO] agent.nodes.email_node: Finding HR email for: International Institute Of SDGs & Public Policy Research
+2026-06-01 23:18:47 [INFO] tools.email_finder: Using guessed domain for International Institute Of SDGs & Public Policy Research: internationalofsdgspublicpolicyresearch.com
+2026-06-01 23:18:47 [INFO] tools.email_finder: Using pattern email for International Institute Of SDGs & Public Policy Research: hr@internationalofsdgspublicpolicyresearch.com
+2026-06-01 23:18:48 [INFO] agent.nodes.email_node: Finding HR email for: Unnati Enterprises
+2026-06-01 23:18:48 [INFO] tools.email_finder: Using guessed domain for Unnati Enterprises: unnati.com
+2026-06-01 23:18:50 [INFO] tools.email_finder: Using pattern email for Unnati Enterprises: hr@unnati.com
+2026-06-01 23:18:50 [INFO] agent.nodes.email_node: Finding HR email for: The Affordable Organic Store
+2026-06-01 23:18:51 [INFO] tools.email_finder: Using guessed domain for The Affordable Organic Store: theaffordableorganicstore.com
+2026-06-01 23:18:55 [INFO] tools.email_finder: Found scraped email for The Affordable Organic Store: info@theaffordableorganicstore.com
+2026-06-01 23:18:55 [INFO] agent.nodes.email_node: Finding HR email for: Zenerative Minds LLP
+2026-06-01 23:18:56 [INFO] tools.email_finder: Using guessed domain for Zenerative Minds LLP: zenerativeminds.com
+2026-06-01 23:19:01 [INFO] tools.email_finder: Using pattern email for Zenerative Minds LLP: hr@zenerativeminds.com
+2026-06-01 23:19:01 [INFO] agent.nodes.email_node: Finding HR email for: Kennedy Krieger Institute
+2026-06-01 23:19:01 [INFO] tools.email_finder: Domain from known list for Kennedy Krieger Institute: kennedykrieger.org
+2026-06-01 23:19:14 [INFO] tools.email_finder: Using pattern email for Kennedy Krieger Institute: hr@kennedykrieger.org
+2026-06-01 23:19:16 [INFO] agent.nodes.email_node: Finding HR email for: ABMR TradeX
+2026-06-01 23:19:16 [INFO] tools.email_finder: Using guessed domain for ABMR TradeX: abmrtradex.com
+2026-06-01 23:19:16 [INFO] tools.email_finder: Using pattern email for ABMR TradeX: hr@abmrtradex.com
+2026-06-01 23:19:17 [INFO] agent.nodes.email_node: Finding HR email for: Projectpedia Official Page
+2026-06-01 23:19:17 [INFO] tools.email_finder: Using guessed domain for Projectpedia Official Page: projectpedia.com
+2026-06-01 23:19:20 [INFO] tools.email_finder: Using pattern email for Projectpedia Official Page: hr@projectpedia.com
+2026-06-01 23:19:20 [INFO] agent.nodes.email_node: Finding HR email for: TalentHome Solutions LLP
+2026-06-01 23:19:21 [INFO] tools.email_finder: Using guessed domain for TalentHome Solutions LLP: talenthome.com
+2026-06-01 23:19:23 [INFO] tools.email_finder: Using pattern email for TalentHome Solutions LLP: hr@talenthome.com
+2026-06-01 23:19:24 [INFO] agent.nodes.email_node: Finding HR email for: TalentHome Solutions
+2026-06-01 23:19:24 [INFO] tools.email_finder: Using guessed domain for TalentHome Solutions: talenthome.com
+2026-06-01 23:19:26 [INFO] tools.email_finder: Using pattern email for TalentHome Solutions: hr@talenthome.com
+2026-06-01 23:19:27 [INFO] agent.nodes.email_node: Finding HR email for: Honeywell
+2026-06-01 23:19:27 [INFO] tools.email_finder: Domain from known list for Honeywell: honeywell.com
+2026-06-01 23:19:34 [INFO] tools.email_finder: Using pattern email for Honeywell: hr@honeywell.com
+2026-06-01 23:19:35 [INFO] agent.nodes.email_node: Finding HR email for: Bored Panda
+2026-06-01 23:19:35 [INFO] tools.email_finder: Domain from known list for Bored Panda: boredpanda.com
+2026-06-01 23:19:38 [INFO] tools.email_finder: Found scraped email for Bored Panda: hello@boredpanda.com
+2026-06-01 23:19:39 [INFO] agent.nodes.email_node: Found HR emails for 19/25 companies
+2026-06-01 23:19:39 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-01 23:19:53 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-01 23:19:58 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-01 23:20:11 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-01 23:20:16 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-01 23:20:31 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-01 23:20:36 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-01 23:20:55 [INFO] agent.nodes.email_node: ✅ Generated 4 emails in 1 Gemini call
+2026-06-01 23:21:00 [INFO] tools.email_sender: ✅ Email sent to hr@solfyninternational.com: Application for AI Agent Development — Fresher | Debashis Bera
+2026-06-01 23:21:00 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:21:35 [INFO] tools.email_sender: ✅ Email sent to hr@warewe.com: Application for Junior Machine Learning Specialist — Fresher | Debashis Bera
+2026-06-01 23:21:35 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:22:10 [INFO] tools.email_sender: ✅ Email sent to hr@aimlarger.com: Application for Artificial Intelligence (AI) — Fresher | Debashis Bera
+2026-06-01 23:22:10 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:22:45 [INFO] tools.email_sender: ✅ Email sent to hr@symonis.com: Application for Python Development — Fresher | Debashis Bera
+2026-06-01 23:22:46 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:23:21 [INFO] tools.email_sender: ✅ Email sent to hr@queensofchange.com: Application for Python Development — Fresher | Debashis Bera
+2026-06-01 23:23:21 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:23:56 [INFO] tools.email_sender: ✅ Email sent to hr@maxgen.com: Application for Data Scientist — Fresher | Debashis Bera
+2026-06-01 23:23:56 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:24:31 [INFO] tools.email_sender: ✅ Email sent to info@ramyoz.com: Application for Software Development — Fresher | Debashis Bera
+2026-06-01 23:24:31 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:25:06 [INFO] tools.email_sender: ✅ Email sent to hr@tsteps.com: Application for Software Development Engineering (Web) — Fresher | Debashis Bera
+2026-06-01 23:25:06 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:25:41 [INFO] tools.email_sender: ✅ Email sent to hr@internationalofsdgspublicpolicyresearch.com: Application for Backend Development — Fresher | Debashis Bera
+2026-06-01 23:25:41 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:26:16 [INFO] tools.email_sender: ✅ Email sent to hr@unnati.com: Application for Data Analytics — Fresher | Debashis Bera
+2026-06-01 23:26:16 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:26:51 [INFO] tools.email_sender: ✅ Email sent to info@theaffordableorganicstore.com: Application for Data Analytics — Fresher | Debashis Bera
+2026-06-01 23:26:51 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:27:27 [INFO] tools.email_sender: ✅ Email sent to hr@zenerativeminds.com: Application for Software Testing — Fresher | Debashis Bera
+2026-06-01 23:27:27 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:28:01 [INFO] tools.email_sender: ✅ Email sent to hr@kennedykrieger.org: Application for Research Assistant Neuroscience Research — Fresher | Debashis Bera
+2026-06-01 23:28:01 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:28:36 [INFO] tools.email_sender: ✅ Email sent to hr@abmrtradex.com: Application for Electronics Engineering — Fresher | Debashis Bera
+2026-06-01 23:28:36 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:29:11 [INFO] tools.email_sender: ✅ Email sent to hr@projectpedia.com: Application for Projectpedia Team Member — Fresher | Debashis Bera
+2026-06-01 23:29:11 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:29:45 [INFO] tools.email_sender: ✅ Email sent to hr@talenthome.com: Application for IT Trainer — Fresher | Debashis Bera
+2026-06-01 23:29:45 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:30:20 [INFO] tools.email_sender: ✅ Email sent to hr@talenthome.com: Application for IT Trainer — Fresher | Debashis Bera
+2026-06-01 23:30:20 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:30:57 [INFO] tools.email_sender: ✅ Email sent to hr@honeywell.com: Application for Estimator II — Fresher | Debashis Bera
+2026-06-01 23:30:57 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-01 23:31:32 [INFO] tools.email_sender: ✅ Email sent to hello@boredpanda.com: Application for Video Editor — Fresher | Debashis Bera
+2026-06-01 23:31:32 [INFO] agent.nodes.email_node: ✅ Email node: 19 cold emails sent
+2026-06-01 23:31:34 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-06-01: Scraped 54 jobs, applied to 30 jobs, sent 19 cold emails. Companies: TalentHome Solutions LLP, The Affordable Organic Store, Solfyn International LLP, Warewe Consultancy Private Limited, Bored Panda, International Institute Of SDGs & Public Policy Research, Queens Of Change Foundation, Projectpedia Official Page, Honeywell, Core Code io
+2026-06-01 23:31:34 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-01 23:31:37 [INFO] tools.email_sender: ✅ Summary email sent to debashisalak@gmail.com
+2026-06-01 23:31:37 [INFO] agent.nodes.report_node: Daily report sent to personal email: debashisalak@gmail.com
+2026-06-01 23:31:37 [INFO] __main__: ============================================================
+2026-06-01 23:31:37 [INFO] __main__: AGENT RUN COMPLETE in 1449s
+2026-06-01 23:31:37 [INFO] __main__:   Scraped:  54 jobs
+2026-06-01 23:31:37 [INFO] __main__:   New:      30 jobs
+2026-06-01 23:31:37 [INFO] __main__:   Applied:  30 jobs
+2026-06-01 23:31:37 [INFO] __main__:   Emailed:  19 HRs
+2026-06-01 23:31:37 [INFO] __main__:   Failed:   0
+2026-06-01 23:31:37 [INFO] __main__: ============================================================

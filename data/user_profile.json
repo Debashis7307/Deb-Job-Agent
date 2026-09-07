@@ -91,6 +91,10 @@
 
   "us_remote_jobs": true,
   "india_jobs": true,
-  "min_stipend_inr": 15000,
-  "min_salary_usd_monthly": 500
+  "min_stipend_inr": 30000,
+  "min_salary_inr_monthly": 30000,
+  "min_salary_lpa": 3.6,
+  "min_salary_usd_monthly": 500,
+  "preferred_work_days": 5,
+  "preferred_locations_priority": ["Kolkata", "Remote", "WFH", "Work from Home", "Hybrid"]
 }

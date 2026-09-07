@@ -23,9 +23,9 @@ fix_pdf_db.py
 # database/tracker.db  ← INTENTIONALLY INCLUDED in git now
 # database/*.db        ← INTENTIONALLY INCLUDED in git now
 
-# Logs
-logs/
-*.log
+# Logs (tracked in git — GitHub Actions pushes daily logs to repo)
+# logs/     ← INTENTIONALLY TRACKED so you can review logs in GitHub
+# *.log     ← INTENTIONALLY TRACKED
 
 # Python
 __pycache__/

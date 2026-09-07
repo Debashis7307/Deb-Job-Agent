@@ -1,0 +1,895 @@
+2026-06-08 01:08:02 [INFO] __main__: Starting Job Agent (Dashboard + Daily Scheduler)
+2026-06-08 01:08:02 [INFO] __main__: Dashboard → http://localhost:5001
+2026-06-08 01:08:02 [INFO] __main__: Dashboard running at: http://localhost:5001
+2026-06-08 01:08:02 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-08 01:08:02 [INFO] __main__: ============================================================
+2026-06-08 01:08:02 [INFO] __main__: SCHEDULER ACTIVE
+2026-06-08 01:08:02 [INFO] __main__: Agent runs daily at 22:00 Asia/Kolkata
+2026-06-08 01:08:02 [INFO] __main__: Press Ctrl+C to stop everything
+2026-06-08 01:08:02 [INFO] __main__: ============================================================
+2026-06-08 01:08:02 [INFO] apscheduler.scheduler: Added job "Debashis Daily Job Application Agent" to job store "default"
+2026-06-08 01:08:02 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-08 01:08:21 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:08:29 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:08:59 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:09:14 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:09:44 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:10:14 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:10:44 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:11:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:11:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:12:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:12:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:13:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:13:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:14:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:14:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:15:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:16:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:17:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:19:40 [INFO] __main__: Manual trigger: Running agent NOW (live mode)
+2026-06-08 01:19:41 [INFO] __main__: ============================================================
+2026-06-08 01:19:41 [INFO] __main__: JOB AGENT STARTING — 2026-06-08 01:19:41 IST
+2026-06-08 01:19:41 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-06-08 01:19:41 [INFO] __main__: Max apply today: 30
+2026-06-08 01:19:41 [INFO] __main__: Cold emails today: 50
+2026-06-08 01:19:41 [INFO] __main__: Applications email:  debashis.bera.careers@gmail.com
+2026-06-08 01:19:41 [INFO] __main__: Summary email to:    debashisalak@gmail.com
+2026-06-08 01:19:41 [INFO] __main__: ============================================================
+2026-06-08 01:19:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:19:45 [INFO] agent.nodes.memory_node: mem0: Loaded 10 memories from cloud API
+2026-06-08 01:19:45 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 240
+All-time emails sent: 152
+Unique companies contacted: 229
+Today (2026-06-08) already applied: 0
+Previous context from memory:
+User scraped 54 job listings on 2026-06-02, applied to 1 job, sent 1 cold email, targeting company Yardstick
+User scraped 54 job listings on 2026-06-01, applied to 0 jobs and sent 0 cold emails, targeting companies TSTEPS PRIVATE LIMITED, Zenerative Minds LLP, Queens Of Change Foundation, Check Off Your List, Kennedy Krieger Institute, Bored Panda, Unnati Enterprises, International Institute Of SDGs & Public Policy Research, Symonis, and Ramyoz
+User scraped 57 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 53 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 13 cold emails, with no companies listed
+User scraped 69 job listings on 2026-06-02, applied to 0 jobs, and sent 8 cold emails, with no companies listed
+User scraped 147 job listings on 2026-06-03, applied to 0 jobs, and sent 26 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 14 cold emails, with no companies listed
+User scraped 159 job listings on 2026-06-03, applied to 30 jobs, and sent 32 cold emails, targeting companies Fortified Infotech, JobLuxe, American Chase, Emerson, CapeStart, Nielsen, Fidelity, Surescout.in, ACG, and Blubridge
+User scraped 54 job listings on 2026-06-01, applied to 30 jobs, sent 19 cold emails, targeting companies TalentHome Solutions LLP, The Affordable Organic Store, Solfyn International LLP, Warewe Consultancy Private Limited, Bored Panda, International Institute Of SDGs & Public Policy Research, Queens Of Change Foundation, Projectpedia Official Page, Honeywell, Core Code io
+2026-06-08 01:19:45 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-06-08 01:19:45 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-06-08 01:19:47 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 23 relevant jobs
+2026-06-08 01:19:47 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 23 jobs
+2026-06-08 01:19:47 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-06-08 01:19:47 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-06-08 01:19:52 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-06-08 01:19:52 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-06-08 01:19:52 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-06-08 01:19:53 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-08 01:20:10 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-08 01:20:24 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-06-08 01:20:40 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-06-08 01:20:54 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-06-08 01:20:54 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-06-08 01:20:54 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-06-08 01:20:54 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-06-08 01:20:55 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-06-08 01:20:55 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-06-08 01:20:55 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-06-08 01:20:56 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-06-08 01:21:01 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:302:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44). Proceeding with public search...
+2026-06-08 01:21:01 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-06-08 01:21:16 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-06-08 01:21:31 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-06-08 01:21:47 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 40 jobs
+2026-06-08 01:21:47 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 40 jobs
+2026-06-08 01:21:47 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-06-08 01:21:48 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-06-08 01:21:57 [INFO] scrapers.naukri_scraper: Naukri: Login done
+2026-06-08 01:21:57 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-06-08 01:22:10 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-06-08 01:22:23 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-06-08 01:22:36 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-06-08 01:22:49 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-06-08 01:23:02 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-06-08 01:23:14 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-06-08 01:23:30 [INFO] scrapers.naukri_scraper: Naukri: Found 27 jobs
+2026-06-08 01:23:30 [INFO] agent.nodes.scrape_node: ✅ Naukri: 27 jobs
+2026-06-08 01:23:30 [INFO] agent.nodes.scrape_node: Tavily: Searching free job portals & startup boards (budget: 10 searches)...
+2026-06-08 01:23:37 [INFO] tools.tavily_search: Tavily free portal search: found 14 jobs
+2026-06-08 01:23:41 [INFO] tools.tavily_search: Tavily startup job search: found 5 leads
+2026-06-08 01:23:41 [INFO] agent.nodes.scrape_node: Tavily: 6 real job leads (filtered from 19)
+2026-06-08 01:23:41 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 151 jobs from all portals
+2026-06-08 01:23:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:23:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:23:41 [INFO] agent.nodes.filter_node: ✅ Filter: 151 scraped → 48 new relevant jobs
+2026-06-08 01:23:43 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-08 01:24:20 [INFO] agent.nodes.filter_node: Gemini scored 48 jobs in 1 API call
+2026-06-08 01:24:20 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:24:20 [INFO] agent.nodes.filter_node: Scored 48 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-06-08 01:24:20 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:24:20 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=False)
+2026-06-08 01:24:20 [INFO] agent.nodes.apply_node: Applying to 20 jobs on linkedin
+2026-06-08 01:24:20 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-06-08 01:24:44 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-06-08 01:24:50 [INFO] __main__: Starting dashboard only at http://localhost:5001
+2026-06-08 01:24:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:25:08 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-06-08 01:25:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:25:35 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-06-08 01:25:46 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-06-08 01:25:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:26:15 [INFO] agent.nodes.apply_node: Waiting 30s before next application...
+2026-06-08 01:26:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:26:45 [INFO] agent.nodes.apply_node: Waiting 30s before next application...
+2026-06-08 01:26:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:27:15 [INFO] agent.nodes.apply_node: Waiting 28s before next application...
+2026-06-08 01:27:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:27:43 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-06-08 01:27:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:28:00 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-06-08 01:28:16 [INFO] agent.nodes.apply_node: Waiting 21s before next application...
+2026-06-08 01:28:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:28:38 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-06-08 01:28:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:29:04 [INFO] agent.nodes.apply_node: Waiting 18s before next application...
+2026-06-08 01:29:23 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-08 01:29:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:29:44 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-06-08 01:29:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:30:07 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-06-08 01:30:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:30:32 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-06-08 01:30:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:30:58 [INFO] agent.nodes.apply_node: Waiting 30s before next application...
+2026-06-08 01:31:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:31:28 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-06-08 01:31:51 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-06-08 01:31:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:32:03 [INFO] agent.nodes.apply_node: Applying to 7 jobs on naukri
+2026-06-08 01:32:03 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-06-08 01:32:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:32:28 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-06-08 01:32:42 [INFO] agent.nodes.apply_node: Waiting 18s before next application...
+2026-06-08 01:32:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:33:00 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-06-08 01:33:22 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-06-08 01:33:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:33:35 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-06-08 01:33:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:33:58 [INFO] agent.nodes.apply_node: Waiting 30s before next application...
+2026-06-08 01:34:28 [INFO] agent.nodes.apply_node: Applying to 3 jobs on internshala
+2026-06-08 01:34:28 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-06-08 01:34:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:34:43 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-06-08 01:34:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:34:59 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-06-08 01:35:15 [INFO] agent.nodes.apply_node: Apply node done: 0 portal-applied, 30 queued for cold email, 0 failed
+2026-06-08 01:35:15 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:35:15 [INFO] agent.nodes.email_node: Finding HR email for: Info Services
+2026-06-08 01:35:16 [INFO] tools.email_finder: Using guessed domain for Info Services: info.com
+2026-06-08 01:35:18 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:35:20 [INFO] tools.email_finder: Successfully refreshed Snov.io API access token.
+2026-06-08 01:35:24 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:35:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:35:33 [INFO] tools.email_finder: ✅ Verified MX records for info.com
+2026-06-08 01:35:33 [INFO] tools.email_finder: Using verified pattern email for Info Services: hr@info.com
+2026-06-08 01:35:34 [INFO] agent.nodes.email_node: Finding HR email for: Securin Inc.
+2026-06-08 01:35:34 [INFO] tools.email_finder: Using guessed domain for Securin Inc.: securin.com
+2026-06-08 01:35:35 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:35:37 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:35:47 [WARNING] tools.email_finder: ❌ MX record lookup failed for securin.com: The DNS response does not contain an answer to the question: securin.com. IN MX
+2026-06-08 01:35:49 [WARNING] tools.email_finder: ❌ MX record lookup failed for securin.com: The DNS response does not contain an answer to the question: securin.com. IN MX
+2026-06-08 01:35:50 [WARNING] tools.email_finder: ❌ MX record lookup failed for securin.com: The DNS response does not contain an answer to the question: securin.com. IN MX
+2026-06-08 01:35:51 [WARNING] tools.email_finder: ❌ MX record lookup failed for securin.com: The DNS response does not contain an answer to the question: securin.com. IN MX
+2026-06-08 01:35:52 [WARNING] tools.email_finder: ❌ MX record lookup failed for securin.com: The DNS response does not contain an answer to the question: securin.com. IN MX
+2026-06-08 01:35:52 [WARNING] tools.email_finder: ❌ No valid email could be verified for Securin Inc. (domain: securin.com). Skipping outreach.
+2026-06-08 01:35:53 [INFO] agent.nodes.email_node: Finding HR email for: Infosys
+2026-06-08 01:35:53 [INFO] tools.email_finder: Using guessed domain for Infosys: infosys.com
+2026-06-08 01:35:55 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:35:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:35:59 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:36:03 [INFO] tools.tavily_search: Tavily found email for Infosys: talent.acquisition@infosys.com
+2026-06-08 01:36:04 [INFO] tools.email_finder: ✅ Verified MX records for infosys.com
+2026-06-08 01:36:04 [INFO] tools.email_finder: Found email via Tavily for Infosys: talent.acquisition@infosys.com
+2026-06-08 01:36:05 [INFO] agent.nodes.email_node: Finding HR email for: Optum India
+2026-06-08 01:36:06 [INFO] tools.email_finder: Using guessed domain for Optum India: optum.com
+2026-06-08 01:36:06 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:36:08 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:36:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:36:31 [INFO] tools.email_finder: ✅ Verified MX records for optum.com
+2026-06-08 01:36:31 [INFO] tools.email_finder: Using verified pattern email for Optum India: hr@optum.com
+2026-06-08 01:36:32 [INFO] agent.nodes.email_node: Finding HR email for: TekPillar®
+2026-06-08 01:36:32 [INFO] tools.email_finder: Using guessed domain for TekPillar®: tekpillar.com
+2026-06-08 01:36:34 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:36:35 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:36:38 [INFO] tools.tavily_search: Tavily found email for TekPillar®: sales@tekpillar.com
+2026-06-08 01:36:45 [INFO] tools.email_finder: ✅ Verified MX records for tekpillar.com
+2026-06-08 01:36:45 [INFO] tools.email_finder: Found email via Tavily for TekPillar®: sales@tekpillar.com
+2026-06-08 01:36:45 [INFO] agent.nodes.email_node: Finding HR email for: GoodSpace AI
+2026-06-08 01:36:46 [INFO] tools.email_finder: Using guessed domain for GoodSpace AI: goodspaceai.com
+2026-06-08 01:36:46 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:36:48 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:36:56 [INFO] tools.email_finder: ✅ Verified MX records for goodspaceai.com
+2026-06-08 01:36:56 [INFO] tools.email_finder: Using verified pattern email for GoodSpace AI: hr@goodspaceai.com
+2026-06-08 01:36:57 [INFO] agent.nodes.email_node: Finding HR email for: Talentgigs
+2026-06-08 01:36:57 [INFO] tools.email_finder: Using guessed domain for Talentgigs: talentgigs.com
+2026-06-08 01:36:58 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:36:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:37:00 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:37:14 [INFO] tools.email_finder: ✅ Verified MX records for talentgigs.com
+2026-06-08 01:37:14 [INFO] tools.email_finder: Using verified pattern email for Talentgigs: hr@talentgigs.com
+2026-06-08 01:37:15 [INFO] agent.nodes.email_node: Finding HR email for: Techify Solutions Pvt Ltd
+2026-06-08 01:37:15 [INFO] tools.email_finder: Using guessed domain for Techify Solutions Pvt Ltd: techify.com
+2026-06-08 01:37:16 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:37:18 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:37:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:37:33 [WARNING] tools.email_finder: ❌ MX record lookup failed for techify.com: The DNS response does not contain an answer to the question: techify.com. IN MX
+2026-06-08 01:37:34 [WARNING] tools.email_finder: ❌ MX record lookup failed for techify.com: The DNS response does not contain an answer to the question: techify.com. IN MX
+2026-06-08 01:37:39 [WARNING] tools.email_finder: ❌ MX record lookup failed for techify.com: The DNS response does not contain an answer to the question: techify.com. IN MX
+2026-06-08 01:37:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for techify.com: The DNS response does not contain an answer to the question: techify.com. IN MX
+2026-06-08 01:37:42 [WARNING] tools.email_finder: ❌ MX record lookup failed for techify.com: The DNS response does not contain an answer to the question: techify.com. IN MX
+2026-06-08 01:37:42 [WARNING] tools.email_finder: ❌ No valid email could be verified for Techify Solutions Pvt Ltd (domain: techify.com). Skipping outreach.
+2026-06-08 01:37:43 [INFO] agent.nodes.email_node: Finding HR email for: JPMorganChase
+2026-06-08 01:37:43 [INFO] tools.email_finder: Using guessed domain for JPMorganChase: jpmorganchase.com
+2026-06-08 01:37:45 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:37:47 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:37:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:38:23 [WARNING] tools.email_finder: ❌ MX record lookup failed for jpmorganchase.com: The DNS response does not contain an answer to the question: jpmorganchase.com. IN MX
+2026-06-08 01:38:24 [WARNING] tools.email_finder: ❌ MX record lookup failed for jpmorganchase.com: The DNS response does not contain an answer to the question: jpmorganchase.com. IN MX
+2026-06-08 01:38:25 [WARNING] tools.email_finder: ❌ MX record lookup failed for jpmorganchase.com: The DNS response does not contain an answer to the question: jpmorganchase.com. IN MX
+2026-06-08 01:38:26 [WARNING] tools.email_finder: ❌ MX record lookup failed for jpmorganchase.com: The DNS response does not contain an answer to the question: jpmorganchase.com. IN MX
+2026-06-08 01:38:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:38:30 [WARNING] tools.email_finder: ❌ MX record lookup failed for jpmorganchase.com: The DNS response does not contain an answer to the question: jpmorganchase.com. IN MX
+2026-06-08 01:38:30 [WARNING] tools.email_finder: ❌ No valid email could be verified for JPMorganChase (domain: jpmorganchase.com). Skipping outreach.
+2026-06-08 01:38:31 [INFO] agent.nodes.email_node: Finding HR email for: FinThrive
+2026-06-08 01:38:32 [INFO] tools.email_finder: Using guessed domain for FinThrive: finthrive.com
+2026-06-08 01:38:33 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:38:35 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:38:43 [INFO] tools.email_finder: ✅ Verified MX records for finthrive.com
+2026-06-08 01:38:43 [INFO] tools.email_finder: Found scraped and verified email for FinThrive: equation@finthrive.com
+2026-06-08 01:38:44 [INFO] agent.nodes.email_node: Finding HR email for: 360DigiTMG
+2026-06-08 01:38:46 [INFO] tools.email_finder: Using guessed domain for 360DigiTMG: 360digitmg.com
+2026-06-08 01:38:47 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:38:50 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:38:54 [INFO] tools.tavily_search: Tavily found email for 360DigiTMG: hr@360digitmg.com
+2026-06-08 01:38:55 [INFO] tools.email_finder: ✅ Verified MX records for 360digitmg.com
+2026-06-08 01:38:55 [INFO] tools.email_finder: Found email via Tavily for 360DigiTMG: hr@360digitmg.com
+2026-06-08 01:38:57 [INFO] agent.nodes.email_node: Finding HR email for: Qurinom Solutions
+2026-06-08 01:38:57 [INFO] tools.email_finder: Using guessed domain for Qurinom Solutions: qurinom.com
+2026-06-08 01:38:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:38:58 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:39:00 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:39:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for qurinom.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:39:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for qurinom.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:39:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for qurinom.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:39:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for qurinom.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:39:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for qurinom.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:39:04 [WARNING] tools.email_finder: ❌ No valid email could be verified for Qurinom Solutions (domain: qurinom.com). Skipping outreach.
+2026-06-08 01:39:05 [INFO] agent.nodes.email_node: Finding HR email for: Brightpath Technology & Services
+2026-06-08 01:39:06 [INFO] tools.email_finder: Using guessed domain for Brightpath Technology & Services: brightpathtechnology.com
+2026-06-08 01:39:06 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:39:08 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:39:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:39:33 [INFO] tools.email_finder: ✅ Verified MX records for brightpathtechnology.com
+2026-06-08 01:39:33 [INFO] tools.email_finder: Using verified pattern email for Brightpath Technology & Services: hr@brightpathtechnology.com
+2026-06-08 01:39:33 [INFO] agent.nodes.email_node: Finding HR email for: Symonis
+2026-06-08 01:39:34 [INFO] tools.email_finder: Using guessed domain for Symonis: symonis.com
+2026-06-08 01:39:34 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:39:36 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:39:37 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:39:37 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:39:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-08 01:39:42 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-08 01:39:43 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-08 01:39:44 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-08 01:39:45 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-08 01:39:45 [WARNING] tools.email_finder: ❌ No valid email could be verified for Symonis (domain: symonis.com). Skipping outreach.
+2026-06-08 01:39:46 [INFO] agent.nodes.email_node: Finding HR email for: Wipro
+2026-06-08 01:39:47 [INFO] tools.email_finder: Using guessed domain for Wipro: wipro.com
+2026-06-08 01:39:49 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:39:51 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:39:52 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:39:52 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:39:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:40:13 [INFO] tools.email_finder: ✅ Verified MX records for wipro.com
+2026-06-08 01:40:13 [INFO] tools.email_finder: Using verified pattern email for Wipro: hr@wipro.com
+2026-06-08 01:40:14 [INFO] agent.nodes.email_node: Finding HR email for: BoomerangFX
+2026-06-08 01:40:14 [INFO] tools.email_finder: Using guessed domain for BoomerangFX: boomerangfx.com
+2026-06-08 01:40:15 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:40:17 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:40:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:21 [INFO] tools.email_finder: ✅ Verified MX records for boomerangfx.com
+2026-06-08 01:40:21 [INFO] tools.email_finder: Found scraped and verified email for BoomerangFX: support@boomerangfx.com
+2026-06-08 01:40:22 [INFO] agent.nodes.email_node: Finding HR email for: Jarurat Care
+2026-06-08 01:40:22 [INFO] tools.email_finder: Using guessed domain for Jarurat Care: jaruratcare.com
+2026-06-08 01:40:23 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:40:25 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:40:26 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:26 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for jaruratcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:40:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for jaruratcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:40:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for jaruratcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:40:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for jaruratcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:40:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for jaruratcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:40:26 [WARNING] tools.email_finder: ❌ No valid email could be verified for Jarurat Care (domain: jaruratcare.com). Skipping outreach.
+2026-06-08 01:40:27 [INFO] agent.nodes.email_node: Finding HR email for: AfrikCap
+2026-06-08 01:40:27 [INFO] tools.email_finder: Using guessed domain for AfrikCap: afrikcap.com
+2026-06-08 01:40:28 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:40:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:40:30 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:40:31 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:31 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:39 [INFO] tools.email_finder: ✅ Verified MX records for afrikcap.com
+2026-06-08 01:40:39 [INFO] tools.email_finder: Using verified pattern email for AfrikCap: hr@afrikcap.com
+2026-06-08 01:40:40 [INFO] agent.nodes.email_node: Finding HR email for: Syneos Health
+2026-06-08 01:40:41 [INFO] tools.email_finder: Using guessed domain for Syneos Health: syneoshealth.com
+2026-06-08 01:40:42 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:40:44 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:40:46 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:46 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:53 [INFO] tools.email_finder: ✅ Verified MX records for syneoshealth.com
+2026-06-08 01:40:53 [INFO] tools.email_finder: Using verified pattern email for Syneos Health: hr@syneoshealth.com
+2026-06-08 01:40:54 [INFO] agent.nodes.email_node: Finding HR email for: Tata Consultancy Services
+2026-06-08 01:40:54 [INFO] tools.email_finder: Using guessed domain for Tata Consultancy Services: tata.com
+2026-06-08 01:40:55 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:40:57 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:40:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:40:59 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:40:59 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:03 [INFO] tools.email_finder: ✅ Verified MX records for tata.com
+2026-06-08 01:41:03 [INFO] tools.email_finder: Found scraped and verified email for Tata Consultancy Services: northamerica@tata.com
+2026-06-08 01:41:04 [INFO] agent.nodes.email_node: Finding HR email for: Samagama AI
+2026-06-08 01:41:05 [INFO] tools.email_finder: Using guessed domain for Samagama AI: samagamaai.com
+2026-06-08 01:41:06 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:41:08 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:41:10 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:10 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for samagamaai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for samagamaai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for samagamaai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for samagamaai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for samagamaai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:10 [WARNING] tools.email_finder: ❌ No valid email could be verified for Samagama AI (domain: samagamaai.com). Skipping outreach.
+2026-06-08 01:41:11 [INFO] agent.nodes.email_node: Finding HR email for: VariPhi
+2026-06-08 01:41:12 [INFO] tools.email_finder: Using guessed domain for VariPhi: variphi.com
+2026-06-08 01:41:13 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:41:14 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:41:16 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:16 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:18 [INFO] tools.email_finder: ✅ Verified MX records for variphi.com
+2026-06-08 01:41:18 [INFO] tools.email_finder: Using verified pattern email for VariPhi: hr@variphi.com
+2026-06-08 01:41:19 [INFO] agent.nodes.email_node: Finding HR email for: Mervix Technology Private Limited
+2026-06-08 01:41:20 [INFO] tools.email_finder: Using guessed domain for Mervix Technology Private Limited: mervixtechnology.com
+2026-06-08 01:41:21 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:41:23 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:41:24 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:24 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:41:29 [INFO] tools.email_finder: ✅ Verified MX records for mervixtechnology.com
+2026-06-08 01:41:29 [INFO] tools.email_finder: Using verified pattern email for Mervix Technology Private Limited: hr@mervixtechnology.com
+2026-06-08 01:41:30 [INFO] agent.nodes.email_node: Finding HR email for: Hire Techly Solutions
+2026-06-08 01:41:31 [INFO] tools.email_finder: Using guessed domain for Hire Techly Solutions: hiretechly.com
+2026-06-08 01:41:32 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:41:33 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:41:35 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:35 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:38 [INFO] tools.email_finder: ✅ Verified MX records for hiretechly.com
+2026-06-08 01:41:38 [INFO] tools.email_finder: Found scraped and verified email for Hire Techly Solutions: career@hiretechly.com
+2026-06-08 01:41:38 [INFO] agent.nodes.email_node: Finding HR email for: SASTI GROUP OF COMPANIES
+2026-06-08 01:41:39 [INFO] tools.email_finder: Using guessed domain for SASTI GROUP OF COMPANIES: sastigroupofcompanies.com
+2026-06-08 01:41:40 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:41:42 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:41:44 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:44 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for sastigroupofcompanies.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for sastigroupofcompanies.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for sastigroupofcompanies.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for sastigroupofcompanies.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:44 [WARNING] tools.email_finder: ❌ Domain resolution failed for sastigroupofcompanies.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:41:44 [WARNING] tools.email_finder: ❌ No valid email could be verified for SASTI GROUP OF COMPANIES (domain: sastigroupofcompanies.com). Skipping outreach.
+2026-06-08 01:41:45 [INFO] agent.nodes.email_node: Finding HR email for: shopflo
+2026-06-08 01:41:46 [INFO] tools.email_finder: Using guessed domain for shopflo: shopflo.com
+2026-06-08 01:41:46 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:41:48 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:41:50 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:50 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:41:58 [INFO] tools.email_finder: ✅ Verified MX records for shopflo.com
+2026-06-08 01:41:58 [INFO] tools.email_finder: Using verified pattern email for shopflo: hr@shopflo.com
+2026-06-08 01:41:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:41:59 [INFO] agent.nodes.email_node: Finding HR email for: Feedback App - FellaFeeds
+2026-06-08 01:42:00 [INFO] tools.email_finder: Using guessed domain for Feedback App - FellaFeeds: feedbackappfellafeeds.com
+2026-06-08 01:42:00 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:42:02 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:42:04 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:42:04 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:42:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for feedbackappfellafeeds.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:42:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for feedbackappfellafeeds.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:42:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for feedbackappfellafeeds.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:42:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for feedbackappfellafeeds.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:42:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for feedbackappfellafeeds.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:42:04 [WARNING] tools.email_finder: ❌ No valid email could be verified for Feedback App - FellaFeeds (domain: feedbackappfellafeeds.com). Skipping outreach.
+2026-06-08 01:42:05 [INFO] agent.nodes.email_node: Finding HR email for: MNC
+2026-06-08 01:42:13 [INFO] tools.email_finder: Using guessed domain for MNC: mnc.com
+2026-06-08 01:42:13 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:42:15 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:42:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:42:31 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:42:31 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:42:36 [WARNING] tools.email_finder: ❌ MX record lookup failed for mnc.com: The DNS response does not contain an answer to the question: mnc.com. IN MX
+2026-06-08 01:42:37 [WARNING] tools.email_finder: ❌ MX record lookup failed for mnc.com: The DNS response does not contain an answer to the question: mnc.com. IN MX
+2026-06-08 01:42:38 [WARNING] tools.email_finder: ❌ MX record lookup failed for mnc.com: The DNS response does not contain an answer to the question: mnc.com. IN MX
+2026-06-08 01:42:39 [WARNING] tools.email_finder: ❌ MX record lookup failed for mnc.com: The DNS response does not contain an answer to the question: mnc.com. IN MX
+2026-06-08 01:42:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for mnc.com: The DNS response does not contain an answer to the question: mnc.com. IN MX
+2026-06-08 01:42:41 [WARNING] tools.email_finder: ❌ No valid email could be verified for MNC (domain: mnc.com). Skipping outreach.
+2026-06-08 01:42:42 [INFO] agent.nodes.email_node: Finding HR email for: Ghanshyam Aaditya Advisory
+2026-06-08 01:42:50 [INFO] tools.email_finder: Using guessed domain for Ghanshyam Aaditya Advisory: ghanshyamaadityaadvisory.com
+2026-06-08 01:42:50 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:42:53 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:42:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:43:09 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:43:09 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:43:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for ghanshyamaadityaadvisory.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for ghanshyamaadityaadvisory.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for ghanshyamaadityaadvisory.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for ghanshyamaadityaadvisory.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for ghanshyamaadityaadvisory.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:09 [WARNING] tools.email_finder: ❌ No valid email could be verified for Ghanshyam Aaditya Advisory (domain: ghanshyamaadityaadvisory.com). Skipping outreach.
+2026-06-08 01:43:10 [INFO] agent.nodes.email_node: Finding HR email for: Stefanini North America and APAC
+2026-06-08 01:43:18 [INFO] tools.email_finder: Using guessed domain for Stefanini North America and APAC: stefanininorthamericaandapac.com
+2026-06-08 01:43:19 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:43:21 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:43:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:43:37 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:43:37 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:43:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for stefanininorthamericaandapac.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for stefanininorthamericaandapac.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for stefanininorthamericaandapac.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for stefanininorthamericaandapac.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for stefanininorthamericaandapac.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:43:37 [WARNING] tools.email_finder: ❌ No valid email could be verified for Stefanini North America and APAC (domain: stefanininorthamericaandapac.com). Skipping outreach.
+2026-06-08 01:43:38 [INFO] agent.nodes.email_node: Finding HR email for: Citi
+2026-06-08 01:43:46 [INFO] tools.email_finder: Using guessed domain for Citi: citi.com
+2026-06-08 01:43:47 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:43:49 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:43:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:44:06 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:44:06 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:44:17 [INFO] tools.email_finder: ✅ Verified MX records for citi.com
+2026-06-08 01:44:17 [INFO] tools.email_finder: Using verified pattern email for Citi: hr@citi.com
+2026-06-08 01:44:17 [INFO] agent.nodes.email_node: Finding HR email for: Blackhawk Network India
+2026-06-08 01:44:25 [INFO] tools.email_finder: Using guessed domain for Blackhawk Network India: blackhawknetwork.com
+2026-06-08 01:44:26 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:44:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:44:28 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:44:44 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:44:44 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:44:52 [INFO] tools.email_finder: ✅ Verified MX records for blackhawknetwork.com
+2026-06-08 01:44:52 [INFO] tools.email_finder: Using verified pattern email for Blackhawk Network India: hr@blackhawknetwork.com
+2026-06-08 01:44:53 [INFO] agent.nodes.email_node: Finding HR email for: Hire Feed
+2026-06-08 01:44:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:45:01 [INFO] tools.email_finder: Using guessed domain for Hire Feed: hirefeed.com
+2026-06-08 01:45:02 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:45:05 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:45:21 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:45:21 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:45:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:45:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:46:16 [WARNING] tools.email_finder: ❌ MX record lookup failed for hirefeed.com: The DNS response does not contain an answer to the question: hirefeed.com. IN MX
+2026-06-08 01:46:17 [WARNING] tools.email_finder: ❌ MX record lookup failed for hirefeed.com: The DNS response does not contain an answer to the question: hirefeed.com. IN MX
+2026-06-08 01:46:18 [WARNING] tools.email_finder: ❌ MX record lookup failed for hirefeed.com: The DNS response does not contain an answer to the question: hirefeed.com. IN MX
+2026-06-08 01:46:20 [WARNING] tools.email_finder: ❌ MX record lookup failed for hirefeed.com: The DNS response does not contain an answer to the question: hirefeed.com. IN MX
+2026-06-08 01:46:23 [WARNING] tools.email_finder: ❌ MX record lookup failed for hirefeed.com: The DNS response does not contain an answer to the question: hirefeed.com. IN MX
+2026-06-08 01:46:23 [WARNING] tools.email_finder: ❌ No valid email could be verified for Hire Feed (domain: hirefeed.com). Skipping outreach.
+2026-06-08 01:46:24 [INFO] agent.nodes.email_node: Finding HR email for: Antal International
+2026-06-08 01:46:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:46:32 [INFO] tools.email_finder: Using guessed domain for Antal International: antalinternational.com
+2026-06-08 01:46:33 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:46:35 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:46:51 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:46:51 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:46:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:47:00 [WARNING] tools.email_finder: ❌ MX record lookup failed for antalinternational.com: The DNS response does not contain an answer to the question: antalinternational.com. IN MX
+2026-06-08 01:47:02 [WARNING] tools.email_finder: ❌ MX record lookup failed for antalinternational.com: The DNS response does not contain an answer to the question: antalinternational.com. IN MX
+2026-06-08 01:47:03 [WARNING] tools.email_finder: ❌ MX record lookup failed for antalinternational.com: The DNS response does not contain an answer to the question: antalinternational.com. IN MX
+2026-06-08 01:47:09 [WARNING] tools.email_finder: ❌ MX record lookup failed for antalinternational.com: The DNS response does not contain an answer to the question: antalinternational.com. IN MX
+2026-06-08 01:47:10 [WARNING] tools.email_finder: ❌ MX record lookup failed for antalinternational.com: The DNS response does not contain an answer to the question: antalinternational.com. IN MX
+2026-06-08 01:47:10 [WARNING] tools.email_finder: ❌ No valid email could be verified for Antal International (domain: antalinternational.com). Skipping outreach.
+2026-06-08 01:47:11 [INFO] agent.nodes.email_node: Finding HR email for: SFO Technologies
+2026-06-08 01:47:19 [INFO] tools.email_finder: Using guessed domain for SFO Technologies: sfo.com
+2026-06-08 01:47:20 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:47:23 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:47:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:47:39 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:47:39 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:47:43 [INFO] tools.email_finder: ✅ Verified MX records for sfo.com
+2026-06-08 01:47:43 [INFO] tools.email_finder: Using verified pattern email for SFO Technologies: hr@sfo.com
+2026-06-08 01:47:44 [INFO] agent.nodes.email_node: Finding HR email for: Leading US IT MNC - Great Place to work with
+2026-06-08 01:47:52 [INFO] tools.email_finder: Using guessed domain for Leading US IT MNC - Great Place to work with: leadingusitmncgreatplacetoworkwith.com
+2026-06-08 01:47:53 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:47:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:47:59 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:48:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:48:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:48:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingusitmncgreatplacetoworkwith.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:48:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingusitmncgreatplacetoworkwith.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:48:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingusitmncgreatplacetoworkwith.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:48:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingusitmncgreatplacetoworkwith.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:48:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingusitmncgreatplacetoworkwith.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:48:15 [WARNING] tools.email_finder: ❌ No valid email could be verified for Leading US IT MNC - Great Place to work with (domain: leadingusitmncgreatplacetoworkwith.com). Skipping outreach.
+2026-06-08 01:48:16 [INFO] agent.nodes.email_node: Finding HR email for: Jobspresso
+2026-06-08 01:48:16 [INFO] tools.email_finder: Domain from URL for Jobspresso: jobspresso.co
+2026-06-08 01:48:17 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:48:19 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:48:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:48:35 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:48:35 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:48:38 [INFO] tools.email_finder: ✅ Verified MX records for jobspresso.co
+2026-06-08 01:48:38 [INFO] tools.email_finder: Found scraped and verified email for Jobspresso: hello@jobspresso.co
+2026-06-08 01:48:39 [INFO] agent.nodes.email_node: Finding HR email for: ABB
+2026-06-08 01:48:47 [INFO] tools.email_finder: Using guessed domain for ABB: abb.com
+2026-06-08 01:48:48 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:48:50 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:48:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:49:06 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:49:06 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:49:18 [INFO] tools.email_finder: ✅ Verified MX records for abb.com
+2026-06-08 01:49:18 [INFO] tools.email_finder: Using verified pattern email for ABB: hr@abb.com
+2026-06-08 01:49:19 [INFO] agent.nodes.email_node: Finding HR email for: Lennox India Technology Centre
+2026-06-08 01:49:27 [INFO] tools.email_finder: Using guessed domain for Lennox India Technology Centre: lennoxtechnologycentre.com
+2026-06-08 01:49:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:49:28 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:49:30 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:49:46 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:49:46 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:49:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for lennoxtechnologycentre.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:49:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for lennoxtechnologycentre.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:49:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for lennoxtechnologycentre.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:49:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for lennoxtechnologycentre.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:49:46 [WARNING] tools.email_finder: ❌ Domain resolution failed for lennoxtechnologycentre.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:49:46 [WARNING] tools.email_finder: ❌ No valid email could be verified for Lennox India Technology Centre (domain: lennoxtechnologycentre.com). Skipping outreach.
+2026-06-08 01:49:47 [INFO] agent.nodes.email_node: Finding HR email for: GlobalLogic
+2026-06-08 01:49:55 [INFO] tools.email_finder: Using guessed domain for GlobalLogic: globallogic.com
+2026-06-08 01:49:56 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:49:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:50:00 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:50:16 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:50:16 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:50:23 [INFO] tools.email_finder: ✅ Verified MX records for globallogic.com
+2026-06-08 01:50:23 [INFO] tools.email_finder: Using verified pattern email for GlobalLogic: hr@globallogic.com
+2026-06-08 01:50:24 [INFO] agent.nodes.email_node: Finding HR email for: Zensar Technologies
+2026-06-08 01:50:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:50:32 [INFO] tools.email_finder: Using guessed domain for Zensar Technologies: zensar.com
+2026-06-08 01:50:33 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:50:35 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:50:51 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:50:51 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:50:54 [INFO] tools.email_finder: ✅ Verified MX records for zensar.com
+2026-06-08 01:50:54 [INFO] tools.email_finder: Found scraped and verified email for Zensar Technologies: careers@zensar.com
+2026-06-08 01:50:54 [INFO] agent.nodes.email_node: Finding HR email for: Epiq
+2026-06-08 01:50:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:51:02 [INFO] tools.email_finder: Using guessed domain for Epiq: epiq.com
+2026-06-08 01:51:04 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:51:06 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:51:22 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:51:22 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:51:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:51:56 [INFO] tools.email_finder: ✅ Verified MX records for epiq.com
+2026-06-08 01:51:56 [INFO] tools.email_finder: Using verified pattern email for Epiq: hr@epiq.com
+2026-06-08 01:51:57 [INFO] agent.nodes.email_node: Finding HR email for: Cydez Technologies
+2026-06-08 01:51:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:52:05 [INFO] tools.email_finder: Using guessed domain for Cydez Technologies: cydez.com
+2026-06-08 01:52:06 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:52:09 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:52:25 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:52:25 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:52:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for cydez.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:52:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for cydez.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:52:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for cydez.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:52:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for cydez.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:52:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for cydez.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-08 01:52:25 [WARNING] tools.email_finder: ❌ No valid email could be verified for Cydez Technologies (domain: cydez.com). Skipping outreach.
+2026-06-08 01:52:26 [INFO] agent.nodes.email_node: Finding HR email for: Himalayas
+2026-06-08 01:52:26 [INFO] tools.email_finder: Domain from URL for Himalayas: himalayas.app
+2026-06-08 01:52:27 [WARNING] tools.email_finder: Apollo organization search failed with status 422: {"error":"You have insufficient credits! \u003ca href='https://app.apollo.io/#/settings/plans/upgrade' aria-onclick='close_alert'\u003eUpgrade your plan\u003c/a\u003e to increase your number of lead credits."}
+2026-06-08 01:52:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:52:29 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-08 01:52:45 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:52:45 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-06-08 01:52:49 [INFO] tools.email_finder: ✅ Verified MX records for himalayas.app
+2026-06-08 01:52:49 [INFO] tools.email_finder: Using verified pattern email for Himalayas: hr@himalayas.app
+2026-06-08 01:52:50 [INFO] agent.nodes.email_node: Found HR emails for 27/48 companies
+2026-06-08 01:52:50 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-08 01:52:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:53:06 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-08 01:53:11 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-08 01:53:25 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-08 01:53:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:53:31 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-08 01:53:51 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-08 01:53:56 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-08 01:53:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:54:16 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-08 01:54:22 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-08 01:54:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:54:44 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-08 01:54:50 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-08 01:54:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:55:03 [INFO] agent.nodes.email_node: ✅ Generated 2 emails in 1 Gemini call
+2026-06-08 01:55:10 [INFO] tools.email_sender: ✅ Email sent to hr@info.com: Application for AI/Generative AI Engineer — Fresher | Debashis Bera
+2026-06-08 01:55:10 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:55:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:55:45 [INFO] tools.email_sender: ✅ Email sent to talent.acquisition@infosys.com: Application for GEN AI Engineer — Fresher | Debashis Bera
+2026-06-08 01:55:45 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:55:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:56:20 [INFO] tools.email_sender: ✅ Email sent to hr@optum.com: Application for Associate AI/ML Engineer — Fresher | Debashis Bera
+2026-06-08 01:56:20 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:56:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:56:55 [INFO] tools.email_sender: ✅ Email sent to sales@tekpillar.com: Application for AI/ML Engineer (GenAI & ML) — Fresher | Debashis Bera
+2026-06-08 01:56:55 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:56:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:57:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:57:30 [INFO] tools.email_sender: ✅ Email sent to hr@goodspaceai.com: Application for Artificial Intelligence Engineer — Fresher | Debashis Bera
+2026-06-08 01:57:30 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:57:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:58:05 [INFO] tools.email_sender: ✅ Email sent to hr@talentgigs.com: Application for Artificial Intelligence Engineer — Fresher | Debashis Bera
+2026-06-08 01:58:05 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:58:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:58:40 [INFO] tools.email_sender: ✅ Email sent to equation@finthrive.com: Application for AI Engineer — Fresher | Debashis Bera
+2026-06-08 01:58:40 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:58:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:59:15 [INFO] tools.email_sender: ✅ Email sent to hr@360digitmg.com: Application for AI Engineer / AI Executive (Junior Role) — Fresher | Debashis Bera
+2026-06-08 01:59:15 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:59:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 01:59:50 [INFO] tools.email_sender: ✅ Email sent to hr@brightpathtechnology.com: Application for Fresher AI Developer — Debashis Bera
+2026-06-08 01:59:50 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 01:59:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:00:25 [INFO] tools.email_sender: ✅ Email sent to hr@wipro.com: Application for AI ENGINEER L1 — Fresher | Debashis Bera
+2026-06-08 02:00:25 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:00:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:00:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:01:01 [INFO] tools.email_sender: ✅ Email sent to support@boomerangfx.com: Application for AI / NLP Engineer — Fresher | Debashis Bera
+2026-06-08 02:01:01 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:01:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:01:36 [INFO] tools.email_sender: ✅ Email sent to hr@afrikcap.com: Application for Backend Developer (Python / FastAPI) — Fresher | Debashis Bera
+2026-06-08 02:01:36 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:01:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:02:12 [INFO] tools.email_sender: ✅ Email sent to hr@syneoshealth.com: Application for Junior Full Stack Software Developer — Fresher | Debashis Bera
+2026-06-08 02:02:12 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:02:47 [INFO] tools.email_sender: ✅ Email sent to northamerica@tata.com: Application for Python Developer — Fresher | Debashis Bera
+2026-06-08 02:02:47 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:02:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:03:22 [INFO] tools.email_sender: ✅ Email sent to hr@variphi.com: Application for Computer Vision Engineer — Fresher | Debashis Bera
+2026-06-08 02:03:22 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:03:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:03:57 [INFO] tools.email_sender: ✅ Email sent to hr@mervixtechnology.com: Application for Associate Software Engineer — Fresher | Debashis Bera
+2026-06-08 02:03:57 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:04:33 [INFO] tools.email_sender: ✅ Email sent to career@hiretechly.com: Application for Software Engineer — Fresher | Debashis Bera
+2026-06-08 02:04:33 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:04:33 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:04:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:05:08 [INFO] tools.email_sender: ✅ Email sent to hr@shopflo.com: Application for Backend Engineer — Fresher | Debashis Bera
+2026-06-08 02:05:08 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:05:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:05:44 [INFO] tools.email_sender: ✅ Email sent to hr@citi.com: Application for Applications Development Programmer Analyst — Fresher | Debashis Bera
+2026-06-08 02:05:44 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:05:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:06:19 [INFO] tools.email_sender: ✅ Email sent to hr@blackhawknetwork.com: Application for Software Engineer — Fresher | Debashis Bera
+2026-06-08 02:06:19 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:06:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:06:54 [INFO] tools.email_sender: ✅ Email sent to hr@sfo.com: Application for Engineer — Fresher | Debashis Bera
+2026-06-08 02:06:54 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:06:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:07:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:07:29 [INFO] tools.email_sender: ✅ Email sent to hello@jobspresso.co: Application for Backend Developer — Fresher | Debashis Bera
+2026-06-08 02:07:29 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:07:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:08:04 [INFO] tools.email_sender: ✅ Email sent to hr@abb.com: Application for R&D Engineer, Cyber Security — Fresher | Debashis Bera
+2026-06-08 02:08:04 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:08:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:08:39 [INFO] tools.email_sender: ✅ Email sent to hr@globallogic.com: Application for Python Technical Lead — Debashis Bera
+2026-06-08 02:08:39 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:08:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:09:15 [INFO] tools.email_sender: ✅ Email sent to careers@zensar.com: Application for Sr Python Developer — Debashis Bera
+2026-06-08 02:09:15 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:09:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:09:50 [INFO] tools.email_sender: ✅ Email sent to hr@epiq.com: Application for Staff Software Engineer — Fresher | Debashis Bera
+2026-06-08 02:09:50 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-08 02:09:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:10:25 [INFO] tools.email_sender: ✅ Email sent to hr@himalayas.app: Application for Machine Learning Engineer Intern — Fresher | Debashis Bera
+2026-06-08 02:10:25 [INFO] agent.nodes.email_node: ✅ Email node: 27 cold emails sent
+2026-06-08 02:10:25 [INFO] agent.nodes.pdf_outreach_node: PDF outreach quota reached for today (50/day). Skipping.
+2026-06-08 02:10:27 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-06-08: Scraped 151 jobs, applied to 30 jobs, sent 27 cold emails. Companies: JPMorganChase, FinThrive, Samagama AI, Infosys, Securin Inc., AfrikCap, Feedback App - FellaFeeds, Qurinom Solutions, Talentgigs, Ghanshyam Aaditya Advisory
+2026-06-08 02:10:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:10:27 [INFO] tools.inbox_monitor: Connecting to IMAP inbox at imap.gmail.com for debashis.bera.careers@gmail.com...
+2026-06-08 02:10:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:10:28 [INFO] tools.inbox_monitor: IMAP: Found 49 recent emails in inbox. Checking for important replies...
+2026-06-08 02:10:39 [INFO] tools.inbox_monitor: IMAP monitor: Successfully fetched 29 relevant replies
+2026-06-08 02:10:43 [INFO] tools.email_sender: ✅ Summary email sent to debashisalak@gmail.com
+2026-06-08 02:10:43 [INFO] agent.nodes.report_node: Daily report sent to personal email: debashisalak@gmail.com
+2026-06-08 02:10:43 [INFO] __main__: ============================================================
+2026-06-08 02:10:43 [INFO] __main__: AGENT RUN COMPLETE in 3062s
+2026-06-08 02:10:43 [INFO] __main__:   Scraped:        151 jobs
+2026-06-08 02:10:43 [INFO] __main__:   New:            48 jobs
+2026-06-08 02:10:43 [INFO] __main__:   Applied:        30 jobs
+2026-06-08 02:10:43 [INFO] __main__:   Emailed (jobs): 27 HRs
+2026-06-08 02:10:43 [INFO] __main__:   PDF drip sent:  0 HR contacts
+2026-06-08 02:10:43 [INFO] __main__:   Failed:         0
+2026-06-08 02:10:43 [INFO] __main__: ============================================================
+2026-06-08 02:10:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:11:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:11:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:12:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:12:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:13:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:13:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:14:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:14:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:15:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:15:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:16:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:16:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:17:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:17:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:18:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:19:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:20:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:21:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:22:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:23:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:24:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:25:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:26:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:27:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:28:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:29:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:30:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:31:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:32:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:33:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:34:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:35:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:36:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:36:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:37:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:37:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:38:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:38:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:39:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:39:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:40:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:40:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:41:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:42:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:43:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:44:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:45:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:46:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:47:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:48:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:49:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:50:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:51:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:52:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:53:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:54:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:55:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:56:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:57:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:58:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 02:59:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:00:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:01:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:02:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:03:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:04:21 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:04:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:05:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:05:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:06:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:07:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:08:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:09:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:10:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:11:30 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:12:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:12:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:13:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:13:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:14:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:15:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:16:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:17:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:17:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:18:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:18:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:19:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:19:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:20:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:20:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:21:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:21:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:21:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:22:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:22:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:23:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:24:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:25:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:26:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:27:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:28:14 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:28:25 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:28:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:28:30 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:28:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:28:33 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:29:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:29:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:30:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:30:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:30:14 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:30:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:30:21 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:30:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:30:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:30:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:31:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:31:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:32:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:33:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:33:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:33:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:33:52 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:33:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:33:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:34:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:34:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:34:04 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:34:07 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:34:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:34:13 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:34:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:34:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:35:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:35:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:36:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:37:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:38:08 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:38:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:39:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:39:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:40:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:41:51 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:41:59 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:42:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:42:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:42:04 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:42:07 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:42:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:42:13 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:42:16 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:42:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:43:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:43:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:44:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:45:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:46:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:47:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:48:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:49:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:50:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:51:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:52:51 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:53:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:53:08 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:53:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:53:13 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:53:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:54:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:54:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:54:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:55:25 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:55:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-08 03:56:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db

@@ -1,0 +1,927 @@
+2026-06-06 01:12:12 [INFO] __main__: Starting Job Agent (Dashboard + Daily Scheduler)
+2026-06-06 01:12:12 [INFO] __main__: Dashboard → http://localhost:5001
+2026-06-06 01:12:12 [INFO] __main__: Dashboard running at: http://localhost:5001
+2026-06-06 01:12:13 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-06 01:12:13 [INFO] __main__: ============================================================
+2026-06-06 01:12:13 [INFO] __main__: SCHEDULER ACTIVE
+2026-06-06 01:12:13 [INFO] __main__: Agent runs daily at 22:00 Asia/Kolkata
+2026-06-06 01:12:13 [INFO] __main__: Press Ctrl+C to stop everything
+2026-06-06 01:12:13 [INFO] __main__: ============================================================
+2026-06-06 01:12:13 [INFO] apscheduler.scheduler: Added job "Debashis Daily Job Application Agent" to job store "default"
+2026-06-06 01:12:13 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-06 01:12:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:12:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:13:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:13:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:13:08 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:13:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:13:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:14:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:14:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:15:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:15:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:16:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:16:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:17:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:17:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:17:34 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:17:37 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:17:40 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:17:43 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:17:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:18:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:18:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:19:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:19:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:19:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:19:14 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:19:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:19:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:20:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:20:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:21:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:21:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:38 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:43 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:22:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:23:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:23:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:24:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:25:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:26:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:27:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:28:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:29:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:30:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:31:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:32:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:33:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:34:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:35:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:36:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:37:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:38:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:39:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:40:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:41:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:42:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:43:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:43:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:44:37 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:44:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:44:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:44:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:44:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:44:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:44:57 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:45:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:45:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:46:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:47:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:48:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:49:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:50:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:50:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:51:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:51:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:51:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:03 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:13 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:21 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:52:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:53:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:53:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:54:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:55:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:56:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:57:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:58:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 01:59:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:00:19 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:00:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:00:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:01:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:01:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:01:21 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:01:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:01:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:01:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:02:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:02:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:03:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:04:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:05:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:06:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:07:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:33 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:38 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:45 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:52 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:08:56 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:09:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:09:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:10:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:11:44 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:11:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:12:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:12:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:13:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:13:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:13:59 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:14:03 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:14:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:14:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:14:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:14:15 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:14:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:14:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:15:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:15:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:16:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:16:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:15 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:20 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:22 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:25 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:29 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:17:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:18:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:18:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:19:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:20:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:21:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:22:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:23:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:24:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:25:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:26:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:27:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:28:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:29:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:30:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:30:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:31:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:31:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:33 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:44 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:32:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:33:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:33:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:34:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:34:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:35:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:36:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:37:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:38:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:38:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:38:38 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:38:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:38:44 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:38:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:39:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:39:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:40:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:40:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:41:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:42:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:43:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:44:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:45:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 02:45:28 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:35:01 [INFO] __main__: Starting Job Agent (Dashboard + Daily Scheduler)
+2026-06-06 22:35:01 [INFO] __main__: Dashboard → http://localhost:5001
+2026-06-06 22:35:01 [INFO] __main__: Dashboard running at: http://localhost:5001
+2026-06-06 22:35:02 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-06 22:35:02 [INFO] __main__: ============================================================
+2026-06-06 22:35:02 [INFO] __main__: SCHEDULER ACTIVE
+2026-06-06 22:35:02 [INFO] __main__: Agent runs daily at 22:00 Asia/Kolkata
+2026-06-06 22:35:02 [INFO] __main__: Press Ctrl+C to stop everything
+2026-06-06 22:35:02 [INFO] __main__: ============================================================
+2026-06-06 22:35:02 [INFO] apscheduler.scheduler: Added job "Debashis Daily Job Application Agent" to job store "default"
+2026-06-06 22:35:02 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-06 22:35:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:35:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:36:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:36:09 [INFO] agent.nodes.memory_node: mem0: Loaded 10 memories from cloud API
+2026-06-06 22:36:09 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 178
+All-time emails sent: 97
+Unique companies contacted: 157
+Today (2026-06-06) already applied: 69
+Previous context from memory:
+User scraped 54 job listings on 2026-06-02, applied to 1 job, sent 1 cold email, targeting company Yardstick
+User scraped 54 job listings on 2026-06-01, applied to 0 jobs and sent 0 cold emails, targeting companies TSTEPS PRIVATE LIMITED, Zenerative Minds LLP, Queens Of Change Foundation, Check Off Your List, Kennedy Krieger Institute, Bored Panda, Unnati Enterprises, International Institute Of SDGs & Public Policy Research, Symonis, and Ramyoz
+User scraped 57 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 53 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 13 cold emails, with no companies listed
+User scraped 69 job listings on 2026-06-02, applied to 0 jobs, and sent 8 cold emails, with no companies listed
+User scraped 147 job listings on 2026-06-03, applied to 0 jobs, and sent 26 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 14 cold emails, with no companies listed
+User scraped 159 job listings on 2026-06-03, applied to 30 jobs, and sent 32 cold emails, targeting companies Fortified Infotech, JobLuxe, American Chase, Emerson, CapeStart, Nielsen, Fidelity, Surescout.in, ACG, and Blubridge
+User scraped 54 job listings on 2026-06-01, applied to 30 jobs, sent 19 cold emails, targeting companies TalentHome Solutions LLP, The Affordable Organic Store, Solfyn International LLP, Warewe Consultancy Private Limited, Bored Panda, International Institute Of SDGs & Public Policy Research, Queens Of Change Foundation, Projectpedia Official Page, Honeywell, Core Code io
+2026-06-06 22:36:09 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-06-06 22:36:09 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-06-06 22:36:11 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 26 relevant jobs
+2026-06-06 22:36:11 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 26 jobs
+2026-06-06 22:36:11 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-06-06 22:36:11 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-06-06 22:36:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:36:15 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-06-06 22:36:15 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-06-06 22:36:15 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-06-06 22:36:17 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-06 22:36:34 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-06 22:36:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:36:49 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-06-06 22:37:03 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-06-06 22:37:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:37:16 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-06-06 22:37:16 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-06-06 22:37:16 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-06-06 22:37:16 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-06-06 22:37:17 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-06-06 22:37:17 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-06-06 22:37:17 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-06-06 22:37:19 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-06-06 22:37:24 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Page.evaluate: SyntaxError: Illegal return statement
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:302:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44). Proceeding with public search...
+2026-06-06 22:37:24 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-06-06 22:37:39 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-06-06 22:37:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:37:53 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-06-06 22:38:09 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'AI engineer generative AI fresher'
+2026-06-06 22:38:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:38:23 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software developer python AI remote'
+2026-06-06 22:38:38 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'junior python developer remote'
+2026-06-06 22:38:40 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:38:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:38:53 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 0 jobs
+2026-06-06 22:38:53 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 0 jobs
+2026-06-06 22:38:53 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-06-06 22:38:54 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-06-06 22:39:03 [INFO] scrapers.naukri_scraper: Naukri: Login done
+2026-06-06 22:39:03 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-06-06 22:39:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:39:17 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-06-06 22:39:30 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-06-06 22:39:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:39:43 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-06-06 22:39:55 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-06-06 22:40:08 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-06-06 22:40:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:40:19 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-06-06 22:40:34 [INFO] scrapers.naukri_scraper: Naukri: Found 29 jobs
+2026-06-06 22:40:34 [INFO] agent.nodes.scrape_node: ✅ Naukri: 29 jobs
+2026-06-06 22:40:34 [INFO] agent.nodes.scrape_node: 📡 Tavily: Searching free job portals & startup boards...
+2026-06-06 22:40:34 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:40:34 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:40:34 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:40:35 [INFO] tools.tavily_search: Tavily free portal search: found 0 jobs
+2026-06-06 22:40:35 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:40:35 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:40:36 [INFO] tools.tavily_search: Tavily startup job search: found 0 leads
+2026-06-06 22:40:36 [INFO] agent.nodes.scrape_node: ✅ Tavily: 0 job leads from web search
+2026-06-06 22:40:36 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 110 jobs from all portals
+2026-06-06 22:40:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:40:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:40:36 [INFO] agent.nodes.filter_node: ✅ Filter: 110 scraped → 34 new relevant jobs
+2026-06-06 22:40:38 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-06 22:40:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:40:57 [INFO] agent.nodes.filter_node: Gemini scored 34 jobs in 1 API call
+2026-06-06 22:40:57 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:40:57 [INFO] agent.nodes.filter_node: ✅ Scored 34 jobs. Selecting top 0 for today (quota: 0 remaining)
+2026-06-06 22:40:57 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:40:57 [INFO] agent.nodes.apply_node: No jobs to apply to today
+2026-06-06 22:40:57 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:40:57 [INFO] agent.nodes.email_node: Finding HR email for: OpenVerb (Sydney, Australia)
+2026-06-06 22:40:58 [INFO] tools.email_finder: Using guessed domain for OpenVerb (Sydney, Australia): openverbsydneyaustralia.com
+2026-06-06 22:41:02 [INFO] tools.email_finder: Successfully refreshed Snov.io API access token.
+2026-06-06 22:41:03 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:41:04 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:04 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for openverbsydneyaustralia.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for openverbsydneyaustralia.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for openverbsydneyaustralia.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for openverbsydneyaustralia.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:04 [WARNING] tools.email_finder: ❌ Domain resolution failed for openverbsydneyaustralia.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:04 [WARNING] tools.email_finder: ❌ No valid email could be verified for OpenVerb (Sydney, Australia) (domain: openverbsydneyaustralia.com). Skipping outreach.
+2026-06-06 22:41:05 [INFO] agent.nodes.email_node: Finding HR email for: Placement consultant/Search Firm
+2026-06-06 22:41:05 [INFO] tools.email_finder: Using guessed domain for Placement consultant/Search Firm: placementconsultantsearchfirm.com
+2026-06-06 22:41:09 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:41:10 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:10 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for placementconsultantsearchfirm.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for placementconsultantsearchfirm.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for placementconsultantsearchfirm.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for placementconsultantsearchfirm.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for placementconsultantsearchfirm.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:10 [WARNING] tools.email_finder: ❌ No valid email could be verified for Placement consultant/Search Firm (domain: placementconsultantsearchfirm.com). Skipping outreach.
+2026-06-06 22:41:11 [INFO] agent.nodes.email_node: Finding HR email for: Automotive Manufacturers (AMPL)
+2026-06-06 22:41:12 [INFO] tools.email_finder: Using guessed domain for Automotive Manufacturers (AMPL): automotivemanufacturersampl.com
+2026-06-06 22:41:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:41:14 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:41:15 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:15 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for automotivemanufacturersampl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for automotivemanufacturersampl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for automotivemanufacturersampl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for automotivemanufacturersampl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for automotivemanufacturersampl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:41:15 [WARNING] tools.email_finder: ❌ No valid email could be verified for Automotive Manufacturers (AMPL) (domain: automotivemanufacturersampl.com). Skipping outreach.
+2026-06-06 22:41:17 [INFO] agent.nodes.email_node: Finding HR email for: Appzoy Technologies
+2026-06-06 22:41:17 [INFO] tools.email_finder: Using guessed domain for Appzoy Technologies: appzoy.com
+2026-06-06 22:41:18 [INFO] tools.email_finder: Apollo: Found global organization ID 5569d8c4736964254ffba500 for domain appzoy.com
+2026-06-06 22:41:21 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:41:21 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:21 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:32 [INFO] tools.email_finder: ✅ Verified MX records for appzoy.com
+2026-06-06 22:41:32 [INFO] tools.email_finder: Using verified pattern email for Appzoy Technologies: hr@appzoy.com
+2026-06-06 22:41:33 [INFO] agent.nodes.email_node: Finding HR email for: Soothsayer Analytics
+2026-06-06 22:41:33 [INFO] tools.email_finder: Using guessed domain for Soothsayer Analytics: soothsayeranalytics.com
+2026-06-06 22:41:34 [INFO] tools.email_finder: Apollo: Found global organization ID 556d1ae773696411ec6a9200 for domain soothsayeranalytics.com
+2026-06-06 22:41:37 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:41:38 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:38 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:41 [INFO] tools.email_finder: ✅ Verified MX records for soothsayeranalytics.com
+2026-06-06 22:41:41 [INFO] tools.email_finder: Found scraped and verified email for Soothsayer Analytics: info@soothsayeranalytics.com
+2026-06-06 22:41:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:41:42 [INFO] agent.nodes.email_node: Finding HR email for: 360DigiTMG
+2026-06-06 22:41:43 [INFO] tools.email_finder: Using guessed domain for 360DigiTMG: 360digitmg.com
+2026-06-06 22:41:43 [INFO] tools.email_finder: Apollo: Found global organization ID 5e55f808942f650001feb0ef for domain 360digitmg.com
+2026-06-06 22:41:46 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:41:47 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:47 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:50 [INFO] tools.email_finder: ✅ Verified MX records for 360digitmg.com
+2026-06-06 22:41:50 [INFO] tools.email_finder: Found scraped and verified email for 360DigiTMG: kothrud_pune@360digitmg.com
+2026-06-06 22:41:51 [INFO] agent.nodes.email_node: Finding HR email for: NearLaw
+2026-06-06 22:41:51 [INFO] tools.email_finder: Using guessed domain for NearLaw: nearlaw.com
+2026-06-06 22:41:52 [INFO] tools.email_finder: Apollo: Found global organization ID 5b137258a6da98dcb5c8fd5a for domain nearlaw.com
+2026-06-06 22:41:54 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:41:55 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:55 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:41:58 [INFO] tools.email_finder: ✅ Verified MX records for nearlaw.com
+2026-06-06 22:41:58 [INFO] tools.email_finder: Using verified pattern email for NearLaw: hr@nearlaw.com
+2026-06-06 22:41:59 [INFO] agent.nodes.email_node: Finding HR email for: Neurasys
+2026-06-06 22:42:00 [INFO] tools.email_finder: Using guessed domain for Neurasys: neurasys.com
+2026-06-06 22:42:02 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:42:03 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:42:03 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:42:07 [INFO] tools.email_finder: ✅ Verified MX records for neurasys.com
+2026-06-06 22:42:07 [INFO] tools.email_finder: Using verified pattern email for Neurasys: hr@neurasys.com
+2026-06-06 22:42:08 [INFO] agent.nodes.email_node: Finding HR email for: Future Profiling
+2026-06-06 22:42:08 [INFO] tools.email_finder: Using guessed domain for Future Profiling: futureprofiling.com
+2026-06-06 22:42:11 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:42:12 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:42:12 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:42:12 [WARNING] tools.email_finder: ❌ Domain resolution failed for futureprofiling.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:42:12 [WARNING] tools.email_finder: ❌ Domain resolution failed for futureprofiling.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:42:12 [WARNING] tools.email_finder: ❌ Domain resolution failed for futureprofiling.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:42:12 [WARNING] tools.email_finder: ❌ Domain resolution failed for futureprofiling.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:42:12 [WARNING] tools.email_finder: ❌ Domain resolution failed for futureprofiling.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:42:12 [WARNING] tools.email_finder: ❌ No valid email could be verified for Future Profiling (domain: futureprofiling.com). Skipping outreach.
+2026-06-06 22:42:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:42:13 [INFO] agent.nodes.email_node: Finding HR email for: Daivik Technologies
+2026-06-06 22:42:14 [INFO] tools.email_finder: Using guessed domain for Daivik Technologies: daivik.com
+2026-06-06 22:42:16 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:42:17 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:42:17 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:42:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for daivik.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-06 22:42:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for daivik.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-06 22:42:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for daivik.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-06 22:42:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for daivik.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-06 22:42:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for daivik.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-06 22:42:25 [WARNING] tools.email_finder: ❌ No valid email could be verified for Daivik Technologies (domain: daivik.com). Skipping outreach.
+2026-06-06 22:42:26 [INFO] agent.nodes.email_node: Finding HR email for: Cabal Technologies
+2026-06-06 22:42:26 [INFO] tools.email_finder: Using guessed domain for Cabal Technologies: cabal.com
+2026-06-06 22:42:29 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:42:30 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:42:30 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:42:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:43:03 [INFO] tools.email_finder: ✅ Verified MX records for cabal.com
+2026-06-06 22:43:03 [INFO] tools.email_finder: Using verified pattern email for Cabal Technologies: hr@cabal.com
+2026-06-06 22:43:04 [INFO] agent.nodes.email_node: Finding HR email for: Algorizz
+2026-06-06 22:43:04 [INFO] tools.email_finder: Using guessed domain for Algorizz: algorizz.com
+2026-06-06 22:43:05 [INFO] tools.email_finder: Apollo: Found global organization ID 65f29371419168000729cb5a for domain algorizz.com
+2026-06-06 22:43:09 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:43:09 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:43:09 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:43:11 [INFO] tools.email_finder: ✅ Verified MX records for algorizz.com
+2026-06-06 22:43:11 [INFO] tools.email_finder: Found scraped and verified email for Algorizz: rajneesh@algorizz.com
+2026-06-06 22:43:12 [INFO] agent.nodes.email_node: Finding HR email for: Genesis Technologies
+2026-06-06 22:43:13 [INFO] tools.email_finder: Using guessed domain for Genesis Technologies: genesis.com
+2026-06-06 22:43:13 [INFO] tools.email_finder: Apollo: Found global organization ID 5e57ee49cecdff00018006c5 for domain genesis.com
+2026-06-06 22:43:17 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:43:18 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:43:18 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:43:30 [INFO] tools.email_finder: ✅ Verified MX records for genesis.com
+2026-06-06 22:43:30 [INFO] tools.email_finder: Using verified pattern email for Genesis Technologies: hr@genesis.com
+2026-06-06 22:43:31 [INFO] agent.nodes.email_node: Finding HR email for: Maxgen Technologies Private Limited
+2026-06-06 22:43:31 [INFO] tools.email_finder: Using guessed domain for Maxgen Technologies Private Limited: maxgen.com
+2026-06-06 22:43:34 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:43:35 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:43:35 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:43:41 [INFO] tools.email_finder: ✅ Verified MX records for maxgen.com
+2026-06-06 22:43:41 [INFO] tools.email_finder: Using verified pattern email for Maxgen Technologies Private Limited: hr@maxgen.com
+2026-06-06 22:43:42 [INFO] agent.nodes.email_node: Finding HR email for: Lowes Services India Private limited
+2026-06-06 22:43:42 [INFO] tools.email_finder: Using guessed domain for Lowes Services India Private limited: lowesservices.com
+2026-06-06 22:43:45 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:43:46 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:43:46 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:43:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:44:51 [INFO] tools.email_finder: ✅ Verified MX records for lowesservices.com
+2026-06-06 22:44:51 [INFO] tools.email_finder: Using verified pattern email for Lowes Services India Private limited: hr@lowesservices.com
+2026-06-06 22:44:52 [INFO] agent.nodes.email_node: Finding HR email for: Basti Ki Pathshala Foundation
+2026-06-06 22:44:52 [INFO] tools.email_finder: Using guessed domain for Basti Ki Pathshala Foundation: bastikipathshala.com
+2026-06-06 22:44:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:44:55 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:44:56 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:44:56 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:44:56 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:44:56 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:44:56 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:44:56 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:44:56 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:44:56 [WARNING] tools.email_finder: ❌ No valid email could be verified for Basti Ki Pathshala Foundation (domain: bastikipathshala.com). Skipping outreach.
+2026-06-06 22:44:57 [INFO] agent.nodes.email_node: Finding HR email for: Skywalk Global
+2026-06-06 22:44:57 [INFO] tools.email_finder: Using guessed domain for Skywalk Global: skywalkglobal.com
+2026-06-06 22:44:59 [INFO] tools.email_finder: Apollo: Found global organization ID 6098c6061082dc01574359f6 for domain skywalkglobal.com
+2026-06-06 22:45:01 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:45:02 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:02 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:05 [INFO] tools.email_finder: ✅ Verified MX records for skywalkglobal.com
+2026-06-06 22:45:05 [INFO] tools.email_finder: Using verified pattern email for Skywalk Global: hr@skywalkglobal.com
+2026-06-06 22:45:06 [INFO] agent.nodes.email_node: Finding HR email for: Venture Measurement
+2026-06-06 22:45:07 [INFO] tools.email_finder: Using guessed domain for Venture Measurement: venturemeasurement.com
+2026-06-06 22:45:08 [INFO] tools.email_finder: Apollo: Found global organization ID 67398df40dbbbe000108ffad for domain venturemeasurement.com
+2026-06-06 22:45:11 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:45:13 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:13 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:24 [INFO] tools.email_finder: ✅ Verified MX records for venturemeasurement.com
+2026-06-06 22:45:24 [INFO] tools.email_finder: Using verified pattern email for Venture Measurement: hr@venturemeasurement.com
+2026-06-06 22:45:25 [INFO] agent.nodes.email_node: Finding HR email for: Career Solutions
+2026-06-06 22:45:26 [INFO] tools.email_finder: Using guessed domain for Career Solutions: career.com
+2026-06-06 22:45:26 [INFO] tools.email_finder: Apollo: Found global organization ID 5a9eb685a6da98d97e7e2900 for domain career.com
+2026-06-06 22:45:29 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:45:31 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:31 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:34 [INFO] tools.email_finder: ✅ Verified MX records for career.com
+2026-06-06 22:45:34 [INFO] tools.email_finder: Found scraped and verified email for Career Solutions: contact@career.com
+2026-06-06 22:45:35 [INFO] agent.nodes.email_node: Finding HR email for: Akamai
+2026-06-06 22:45:36 [INFO] tools.email_finder: Using guessed domain for Akamai: akamai.com
+2026-06-06 22:45:37 [INFO] tools.email_finder: Apollo: Found global organization ID 559233b873696418bc63c800 for domain akamai.com
+2026-06-06 22:45:39 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:45:41 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:41 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:45 [INFO] tools.email_finder: ✅ Verified MX records for akamai.com
+2026-06-06 22:45:45 [INFO] tools.email_finder: Using verified pattern email for Akamai: hr@akamai.com
+2026-06-06 22:45:46 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:45:47 [INFO] agent.nodes.email_node: Finding HR email for: Barclays
+2026-06-06 22:45:48 [INFO] tools.email_finder: Using guessed domain for Barclays: barclays.com
+2026-06-06 22:45:48 [INFO] tools.email_finder: Apollo: Found global organization ID 5ff457f9a3844800d6e4737e for domain barclays.com
+2026-06-06 22:45:51 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:45:53 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:45:53 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:03 [INFO] tools.email_finder: ✅ Verified MX records for barclays.com
+2026-06-06 22:46:03 [INFO] tools.email_finder: Using verified pattern email for Barclays: hr@barclays.com
+2026-06-06 22:46:03 [INFO] agent.nodes.email_node: Finding HR email for: Respirit Healthcare Private Limited
+2026-06-06 22:46:04 [INFO] tools.email_finder: Using guessed domain for Respirit Healthcare Private Limited: respirithealthcare.com
+2026-06-06 22:46:07 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:46:09 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:09 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for respirithealthcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for respirithealthcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for respirithealthcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for respirithealthcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for respirithealthcare.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:09 [WARNING] tools.email_finder: ❌ No valid email could be verified for Respirit Healthcare Private Limited (domain: respirithealthcare.com). Skipping outreach.
+2026-06-06 22:46:09 [INFO] agent.nodes.email_node: Finding HR email for: PSS Automate Private Limited
+2026-06-06 22:46:10 [INFO] tools.email_finder: Using guessed domain for PSS Automate Private Limited: pssautomate.com
+2026-06-06 22:46:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:46:13 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:46:15 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:15 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:18 [INFO] tools.email_finder: ✅ Verified MX records for pssautomate.com
+2026-06-06 22:46:18 [INFO] tools.email_finder: Using verified pattern email for PSS Automate Private Limited: hr@pssautomate.com
+2026-06-06 22:46:19 [INFO] agent.nodes.email_node: Finding HR email for: Emergence Software
+2026-06-06 22:46:20 [INFO] tools.email_finder: Using guessed domain for Emergence Software: emergencesoftware.com
+2026-06-06 22:46:22 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:46:24 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:24 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:24 [WARNING] tools.email_finder: ❌ Domain resolution failed for emergencesoftware.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:24 [WARNING] tools.email_finder: ❌ Domain resolution failed for emergencesoftware.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:24 [WARNING] tools.email_finder: ❌ Domain resolution failed for emergencesoftware.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:24 [WARNING] tools.email_finder: ❌ Domain resolution failed for emergencesoftware.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:24 [WARNING] tools.email_finder: ❌ Domain resolution failed for emergencesoftware.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-06 22:46:24 [WARNING] tools.email_finder: ❌ No valid email could be verified for Emergence Software (domain: emergencesoftware.com). Skipping outreach.
+2026-06-06 22:46:25 [INFO] agent.nodes.email_node: Finding HR email for: Atlas
+2026-06-06 22:46:26 [INFO] tools.email_finder: Using guessed domain for Atlas: atlas.com
+2026-06-06 22:46:27 [INFO] tools.email_finder: Apollo: Found global organization ID 6909c930059b3d000dc92cfc for domain atlas.com
+2026-06-06 22:46:30 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:46:31 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:31 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:39 [WARNING] tools.email_finder: ❌ MX record lookup failed for atlas.com: The DNS response does not contain an answer to the question: atlas.com. IN MX
+2026-06-06 22:46:40 [WARNING] tools.email_finder: ❌ MX record lookup failed for atlas.com: The DNS response does not contain an answer to the question: atlas.com. IN MX
+2026-06-06 22:46:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for atlas.com: The DNS response does not contain an answer to the question: atlas.com. IN MX
+2026-06-06 22:46:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:46:43 [WARNING] tools.email_finder: ❌ MX record lookup failed for atlas.com: The DNS response does not contain an answer to the question: atlas.com. IN MX
+2026-06-06 22:46:44 [WARNING] tools.email_finder: ❌ MX record lookup failed for atlas.com: The DNS response does not contain an answer to the question: atlas.com. IN MX
+2026-06-06 22:46:44 [WARNING] tools.email_finder: ❌ No valid email could be verified for Atlas (domain: atlas.com). Skipping outreach.
+2026-06-06 22:46:45 [INFO] agent.nodes.email_node: Finding HR email for: FairGambling
+2026-06-06 22:46:45 [INFO] tools.email_finder: Domain from URL for FairGambling: weworkremotely.com
+2026-06-06 22:46:46 [INFO] tools.email_finder: Apollo: Found global organization ID 5da45033d7e66f00010ef122 for domain weworkremotely.com
+2026-06-06 22:46:48 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:46:50 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:46:50 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:47:01 [INFO] tools.email_finder: ✅ Verified MX records for weworkremotely.com
+2026-06-06 22:47:01 [INFO] tools.email_finder: Using verified pattern email for FairGambling: hr@weworkremotely.com
+2026-06-06 22:47:01 [INFO] agent.nodes.email_node: Finding HR email for: Mitek Systems
+2026-06-06 22:47:01 [INFO] tools.email_finder: Domain from URL for Mitek Systems: weworkremotely.com
+2026-06-06 22:47:02 [INFO] tools.email_finder: Apollo: Found global organization ID 5da45033d7e66f00010ef122 for domain weworkremotely.com
+2026-06-06 22:47:04 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:47:06 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:47:06 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:47:10 [INFO] tools.email_finder: ✅ Verified MX records for weworkremotely.com
+2026-06-06 22:47:10 [INFO] tools.email_finder: Using verified pattern email for Mitek Systems: hr@weworkremotely.com
+2026-06-06 22:47:12 [INFO] agent.nodes.email_node: Finding HR email for: Lumin Digital
+2026-06-06 22:47:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:47:13 [INFO] tools.email_finder: Using guessed domain for Lumin Digital: lumindigital.com
+2026-06-06 22:47:13 [INFO] tools.email_finder: Apollo: Found global organization ID 5b866650f874f747f5866096 for domain lumindigital.com
+2026-06-06 22:47:16 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:47:24 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:47:24 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:47:32 [INFO] tools.email_finder: ✅ Verified MX records for lumindigital.com
+2026-06-06 22:47:32 [INFO] tools.email_finder: Using verified pattern email for Lumin Digital: hr@lumindigital.com
+2026-06-06 22:47:33 [INFO] agent.nodes.email_node: Finding HR email for: Valon Tech
+2026-06-06 22:47:33 [INFO] tools.email_finder: Domain from URL for Valon Tech: weworkremotely.com
+2026-06-06 22:47:34 [INFO] tools.email_finder: Apollo: Found global organization ID 5da45033d7e66f00010ef122 for domain weworkremotely.com
+2026-06-06 22:47:37 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:47:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:47:53 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:47:53 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:47:56 [INFO] tools.email_finder: ✅ Verified MX records for weworkremotely.com
+2026-06-06 22:47:56 [INFO] tools.email_finder: Using verified pattern email for Valon Tech: hr@weworkremotely.com
+2026-06-06 22:47:58 [INFO] agent.nodes.email_node: Finding HR email for: Haier Appliances
+2026-06-06 22:48:06 [INFO] tools.email_finder: Using guessed domain for Haier Appliances: haierappliances.com
+2026-06-06 22:48:06 [INFO] tools.email_finder: Apollo: Found global organization ID 5e57a62ce983c800017b6692 for domain haierappliances.com
+2026-06-06 22:48:09 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-06 22:48:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:48:25 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:48:25 [WARNING] tools.tavily_search: Tavily not installed. Run: pip install tavily-python
+2026-06-06 22:48:29 [WARNING] tools.email_finder: ❌ MX record lookup failed for haierappliances.com: The DNS response does not contain an answer to the question: haierappliances.com. IN MX
+2026-06-06 22:48:30 [WARNING] tools.email_finder: ❌ MX record lookup failed for haierappliances.com: The DNS response does not contain an answer to the question: haierappliances.com. IN MX
+2026-06-06 22:48:31 [WARNING] tools.email_finder: ❌ MX record lookup failed for haierappliances.com: The DNS response does not contain an answer to the question: haierappliances.com. IN MX
+2026-06-06 22:48:32 [WARNING] tools.email_finder: ❌ MX record lookup failed for haierappliances.com: The DNS response does not contain an answer to the question: haierappliances.com. IN MX
+2026-06-06 22:48:34 [WARNING] tools.email_finder: ❌ MX record lookup failed for haierappliances.com: The DNS response does not contain an answer to the question: haierappliances.com. IN MX
+2026-06-06 22:48:34 [WARNING] tools.email_finder: ❌ No valid email could be verified for Haier Appliances (domain: haierappliances.com). Skipping outreach.
+2026-06-06 22:48:35 [INFO] agent.nodes.email_node: Found HR emails for 20/34 companies
+2026-06-06 22:48:35 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-06 22:48:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:48:51 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-06 22:48:56 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-06 22:49:04 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-06 22:49:09 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-06 22:49:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:49:20 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-06 22:49:25 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-06 22:49:37 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-06 22:49:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:49:43 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-06 22:50:04 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-06 22:50:11 [INFO] tools.email_sender: ✅ Email sent to hr@appzoy.com: Application for AI Engineer — Fresher | Debashis Bera
+2026-06-06 22:50:11 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:50:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:50:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:50:47 [INFO] tools.email_sender: ✅ Email sent to info@soothsayeranalytics.com: Application for Junior AI Engineer — Fresher | Debashis Bera
+2026-06-06 22:50:47 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:51:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:51:22 [INFO] tools.email_sender: ✅ Email sent to kothrud_pune@360digitmg.com: Application for AI Engineer (Junior Role) — Fresher | Debashis Bera
+2026-06-06 22:51:22 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:51:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:51:57 [INFO] tools.email_sender: ✅ Email sent to hr@nearlaw.com: Application for AI Internship — Debashis Bera
+2026-06-06 22:51:57 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:52:33 [INFO] tools.email_sender: ✅ Email sent to hr@neurasys.com: Application for Machine Learning Internship — Debashis Bera
+2026-06-06 22:52:33 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:52:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:53:08 [INFO] tools.email_sender: ✅ Email sent to hr@cabal.com: Application for Software Developer Python / Java (Full Stack) — Fresher | Debashis Bera
+2026-06-06 22:53:08 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:53:43 [INFO] tools.email_sender: ✅ Email sent to rajneesh@algorizz.com: Application for AI Engineer — Fresher | Debashis Bera
+2026-06-06 22:53:43 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:53:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:54:18 [INFO] tools.email_sender: ✅ Email sent to hr@genesis.com: Application for Associate Software Engineer — Fresher | Debashis Bera
+2026-06-06 22:54:18 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:54:53 [INFO] tools.email_sender: ✅ Email sent to hr@maxgen.com: Application for Python Development — Fresher | Debashis Bera
+2026-06-06 22:54:53 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:54:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:55:28 [INFO] tools.email_sender: ✅ Email sent to hr@lowesservices.com: Application for Associate Software Engineering — Fresher | Debashis Bera
+2026-06-06 22:55:28 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:55:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:56:03 [INFO] tools.email_sender: ✅ Email sent to hr@skywalkglobal.com: Application for Freshers-Software Engineer — Debashis Bera
+2026-06-06 22:56:03 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:56:38 [INFO] tools.email_sender: ✅ Email sent to hr@venturemeasurement.com: Software Engineer Application | Debashis Bera
+2026-06-06 22:56:38 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:56:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:57:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:57:13 [INFO] tools.email_sender: ✅ Email sent to contact@career.com: Data Science Internship — Debashis Bera
+2026-06-06 22:57:14 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:57:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:57:49 [INFO] tools.email_sender: ✅ Email sent to hr@akamai.com: Software Engineer Application | Akamai | Debashis Bera
+2026-06-06 22:57:49 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:58:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:58:24 [INFO] tools.email_sender: ✅ Email sent to hr@barclays.com: Software Engineer — Barclays | Debashis Bera
+2026-06-06 22:58:24 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:58:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:58:59 [INFO] tools.email_sender: ✅ Email sent to hr@pssautomate.com: Application for Full Stack Development Internship — Fresher | Debashis Bera
+2026-06-06 22:58:59 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:59:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 22:59:34 [INFO] tools.email_sender: ✅ Email sent to hr@weworkremotely.com: Application for Blockchain Engineer & Researcher — Fresher | Debashis Bera
+2026-06-06 22:59:34 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 22:59:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:00:09 [INFO] tools.email_sender: ✅ Email sent to hr@weworkremotely.com: Application for Product Owner - Machine Learning — Fresher | Debashis Bera
+2026-06-06 23:00:09 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 23:00:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:00:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:00:44 [INFO] tools.email_sender: ✅ Email sent to hr@lumindigital.com: Application for Security Platform Engineer — Fresher | Debashis Bera
+2026-06-06 23:00:44 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-06 23:01:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:01:19 [INFO] tools.email_sender: ✅ Email sent to hr@weworkremotely.com: Application for Staff Product Security Engineer — Fresher | Debashis Bera
+2026-06-06 23:01:19 [INFO] agent.nodes.email_node: ✅ Email node: 20 cold emails sent
+2026-06-06 23:01:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:02:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:02:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:03:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:03:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:04:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:04:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:05:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:06:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:07:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:08:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:09:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:10:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:11:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:12:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:13:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:14:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:15:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:16:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:17:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:18:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:19:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:20:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:21:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:22:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:23:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:24:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:25:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:26:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:26:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:27:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:27:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:27:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:27:43 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:27:46 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:27:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:27:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:27:56 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:00 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:03 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:15 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:28:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:29:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:29:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:30:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:30:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:31:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:11 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:21 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:34 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:32:37 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:33:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:33:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:34:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:35:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:36:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:37:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:38:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:39:57 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:40:29 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:40:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:14 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:21 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:30 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:34 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:44 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:41:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:42:03 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:42:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:43:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:43:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:44:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:45:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:46:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:47:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:48:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:49:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:50:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:51:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:52:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:53:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:53:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:54:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:54:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:55:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:55:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:56:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:56:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:57:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:58:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-06 23:59:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:00:33 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:01:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:01:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:02:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:03:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:04:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:05:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:06:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:07:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:08:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:09:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:10:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:11:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:12:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:13:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:14:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:15:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:16:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:17:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:18:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:19:37 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:20:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:20:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:21:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:22:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:23:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:24:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:25:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:25:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:26:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:26:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:27:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:27:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:28:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:20 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:29 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:31 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:34 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:45 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:29:52 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:30:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:30:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:31:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:32:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:33:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:34:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:35:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:36:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:36:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:37:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:37:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:38:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:39:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:40:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:40:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:41:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:41:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:42:33 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:43:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:43:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:44:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:44:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:45:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:45:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:46:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:46:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:47:29 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:47:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:48:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:48:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:49:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:49:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:50:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:50:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:51:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:51:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:52:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:53:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:53:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:54:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:54:32 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:55:02 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:55:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:55:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:56:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:56:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:57:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:57:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:58:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:58:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:59:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 00:59:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:00:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:00:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:01:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:01:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:02:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:03:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:03:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:04:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:04:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:05:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:06:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:06:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:07:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:07:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:08:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:08:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:09:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:09:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:10:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:11:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:11:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:12:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:12:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:13:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:13:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:14:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:14:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:15:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:15:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:16:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:17:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:18:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:19:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:20:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:21:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:22:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:23:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:24:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:24:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:25:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:25:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:26:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:26:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:27:52 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:28:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:28:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:28:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-07 01:29:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db

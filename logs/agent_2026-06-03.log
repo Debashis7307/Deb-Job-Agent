@@ -1,0 +1,1499 @@
+2026-06-03 00:15:47 [INFO] __main__: Manual trigger: Running agent in DRY RUN mode
+2026-06-03 00:15:48 [INFO] __main__: ============================================================
+2026-06-03 00:15:48 [INFO] __main__: JOB AGENT STARTING — 2026-06-03 00:15:48 IST
+2026-06-03 00:15:48 [INFO] __main__: Mode: [DRY RUN] Testing mode
+2026-06-03 00:15:48 [INFO] __main__: Max apply today: 30
+2026-06-03 00:15:48 [INFO] __main__: Cold emails today: 50
+2026-06-03 00:15:48 [INFO] __main__: Applications email:  debashis.bera.careers@gmail.com
+2026-06-03 00:15:48 [INFO] __main__: Summary email to:    debashisalak@gmail.com
+2026-06-03 00:15:48 [INFO] __main__: ============================================================
+2026-06-03 00:15:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:15:51 [INFO] agent.nodes.memory_node: mem0: Loaded 9 memories from cloud API
+2026-06-03 00:15:51 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 33
+All-time emails sent: 42
+Unique companies contacted: 54
+Today (2026-06-03) already applied: 0
+Previous context from memory:
+User scraped 54 job listings on 2026-06-02, applied to 1 job, sent 1 cold email, targeting company Yardstick
+User scraped 54 job listings on 2026-06-01, applied to 0 jobs and sent 0 cold emails, targeting companies TSTEPS PRIVATE LIMITED, Zenerative Minds LLP, Queens Of Change Foundation, Check Off Your List, Kennedy Krieger Institute, Bored Panda, Unnati Enterprises, International Institute Of SDGs & Public Policy Research, Symonis, and Ramyoz
+User scraped 57 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 53 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 13 cold emails, with no companies listed
+User scraped 69 job listings on 2026-06-02, applied to 0 jobs, and sent 8 cold emails, with no companies listed
+User scraped 54 job listings on 2026-06-01, applied to 30 jobs, sent 19 cold emails, targeting companies TalentHome Solutions LLP, The Affordable Organic Store, Solfyn International LLP, Warewe Consultancy Private Limited, Bored Panda, International Institute Of SDGs & Public Policy Research, Queens Of Change Foundation, Projectpedia Official Page, Honeywell, Core Code io
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 14 cold emails, with no companies listed
+User is Debashis Bera, a final-year computer science and engineering (CSE) student seeking AI/ML and software engineering jobs
+2026-06-03 00:15:51 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-06-03 00:15:51 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-06-03 00:15:54 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 29 relevant jobs
+2026-06-03 00:15:54 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 29 jobs
+2026-06-03 00:15:54 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-06-03 00:15:54 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-06-03 00:15:58 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-06-03 00:15:58 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-06-03 00:15:58 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-06-03 00:15:59 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-03 00:16:15 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-03 00:16:28 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-06-03 00:16:43 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-06-03 00:16:57 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-06-03 00:16:57 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-06-03 00:16:57 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-06-03 00:16:57 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-06-03 00:16:57 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-06-03 00:16:57 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-06-03 00:16:58 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-06-03 00:17:00 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-06-03 00:17:33 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#username")
+. Proceeding with public search...
+2026-06-03 00:17:33 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-06-03 00:17:52 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-06-03 00:18:06 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-06-03 00:18:24 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 43 jobs
+2026-06-03 00:18:24 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 43 jobs
+2026-06-03 00:18:24 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-06-03 00:18:25 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-06-03 00:18:58 [WARNING] scrapers.naukri_scraper: Naukri login failed: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[placeholder=\"Enter your active Email ID / Username\"]")
+
+2026-06-03 00:18:58 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-06-03 00:19:11 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-06-03 00:19:24 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-06-03 00:19:37 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-06-03 00:19:50 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-06-03 00:20:04 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-06-03 00:20:19 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-06-03 00:20:35 [INFO] scrapers.naukri_scraper: Naukri: Found 32 jobs
+2026-06-03 00:20:35 [INFO] agent.nodes.scrape_node: ✅ Naukri: 32 jobs
+2026-06-03 00:20:35 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 159 jobs from all portals
+2026-06-03 00:20:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:20:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:20:35 [INFO] agent.nodes.filter_node: ✅ Filter: 159 scraped → 73 new relevant jobs
+2026-06-03 00:20:37 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:21:10 [INFO] agent.nodes.filter_node: Gemini scored 73 jobs in 1 API call
+2026-06-03 00:21:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:21:10 [INFO] agent.nodes.filter_node: ✅ Scored 73 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-06-03 00:21:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=True)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: Applying to 20 jobs on linkedin
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Backend python ai developer @ Omnibound AI (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Web Developer (Fresher | WFH) @ JobLuxe (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Graduate Engineer Trainee @ Emerson (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Associate Machine Learning Engineer @ CapeStart (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: AI / ML Data Scientist I @ Nielsen (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Scientist I @ Honeywell (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Software Developer (Associate Software Engineer) @ JobLuxe (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Back End Developer (Python) @ Immersive Infotech Pvt. Ltd. (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Junior Software Developer (Full Stack) @ Surescout.in (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Software Engr I @ Honeywell (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Junior Full Stack Developer @ Epiroc (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Trainee - Technical @ Siemens Healthineers (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Associate System Engineer @ American Chase (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: SDE 1 (Backend) @ Instafix (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: SB-1439-AI Engineer @ Softobiz (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Scientist @ Rolls-Royce (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Software/AI/computer vision developer @ Sanjay Brothers (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: ML Engineer @ Kapidhwaj AI (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Artificial Intelligence Engineer @ Businos (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Scientist-Artificial Intelligence @ IBM (linkedin)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: Applying to 8 jobs on naukri
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Python Developer Algo Trading & Financial Markets @ Rook Capital (naukri)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Python Fullstack Developer @ Tele Tnfotech (naukri)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Fresher Software Developer @ Cyber Infrastructure (naukri)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Software & Sr Software Engineer @ Fortified Infotech (naukri)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Apprenticeship - Engineering - 2025 Pass Out - Chennai / Bglr Joining @ Fidelity (naukri)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Ai Ml Engineer (Freshers) @ Blubridge (naukri)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Junior AI Engineer @ Amlgo Labs (naukri)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Science Intern @ ACG (naukri)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: Applying to 2 jobs on internshala
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Data Scientist @ Maxgen Technologies Private Limited (internshala)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: [DRY RUN] Would apply: Machine Learning @ Qubixo (internshala)
+2026-06-03 00:21:10 [INFO] agent.nodes.apply_node: Apply node done: 30 portal-applied, 0 queued for cold email, 0 failed
+2026-06-03 00:21:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:21:10 [INFO] agent.nodes.email_node: Finding HR email for: Omnibound AI
+2026-06-03 00:21:10 [INFO] tools.email_finder: Using guessed domain for Omnibound AI: omniboundai.com
+2026-06-03 00:21:14 [INFO] tools.email_finder: Successfully refreshed Snov.io API access token.
+2026-06-03 00:21:19 [INFO] tools.email_finder: Snov.io found 0 emails for omniboundai.com
+2026-06-03 00:21:28 [INFO] tools.email_finder: ✅ Verified MX records for omniboundai.com
+2026-06-03 00:21:28 [INFO] tools.email_finder: Using verified pattern email for Omnibound AI: hr@omniboundai.com
+2026-06-03 00:21:29 [INFO] agent.nodes.email_node: Finding HR email for: JobLuxe
+2026-06-03 00:21:29 [INFO] tools.email_finder: Using guessed domain for JobLuxe: jobluxe.com
+2026-06-03 00:21:37 [INFO] tools.email_finder: Snov.io found 0 emails for jobluxe.com
+2026-06-03 00:22:44 [INFO] tools.email_finder: ✅ Verified MX records for jobluxe.com
+2026-06-03 00:22:44 [INFO] tools.email_finder: Using verified pattern email for JobLuxe: hr@jobluxe.com
+2026-06-03 00:22:45 [INFO] agent.nodes.email_node: Finding HR email for: Emerson
+2026-06-03 00:22:45 [INFO] tools.email_finder: Using guessed domain for Emerson: emerson.com
+2026-06-03 00:22:47 [INFO] tools.email_finder: Apollo: Found global organization ID 54a129c469702d8b19d64302 for domain emerson.com
+2026-06-03 00:22:53 [INFO] tools.email_finder: Snov.io found 50 emails for emerson.com
+2026-06-03 00:22:55 [INFO] tools.email_finder: ✅ Verified MX records for emerson.com
+2026-06-03 00:22:55 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Emerson: chris.russell@emerson.com
+2026-06-03 00:22:56 [INFO] agent.nodes.email_node: Finding HR email for: CapeStart
+2026-06-03 00:22:57 [INFO] tools.email_finder: Using guessed domain for CapeStart: capestart.com
+2026-06-03 00:22:57 [INFO] tools.email_finder: Apollo: Found global organization ID 556df6e67369641114ff1900 for domain capestart.com
+2026-06-03 00:23:04 [INFO] tools.email_finder: Snov.io found 50 emails for capestart.com
+2026-06-03 00:23:06 [INFO] tools.email_finder: ✅ Verified MX records for capestart.com
+2026-06-03 00:23:06 [INFO] tools.email_finder: Found verified email via Snov.io domain search for CapeStart: hr@capestart.com
+2026-06-03 00:23:07 [INFO] agent.nodes.email_node: Finding HR email for: Nielsen
+2026-06-03 00:23:07 [INFO] tools.email_finder: Using guessed domain for Nielsen: nielsen.com
+2026-06-03 00:23:09 [INFO] tools.email_finder: Apollo: Found global organization ID 559223067369641b33625000 for domain nielsen.com
+2026-06-03 00:23:20 [INFO] tools.email_finder: Snov.io found 50 emails for nielsen.com
+2026-06-03 00:23:21 [INFO] tools.email_finder: ✅ Verified MX records for nielsen.com
+2026-06-03 00:23:21 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Nielsen: phcareers@nielsen.com
+2026-06-03 00:23:22 [INFO] agent.nodes.email_node: Finding HR email for: Honeywell
+2026-06-03 00:23:22 [INFO] tools.email_finder: Domain from known list for Honeywell: honeywell.com
+2026-06-03 00:23:24 [INFO] tools.email_finder: Apollo: Found global organization ID 54a1285569702d8cfcfa3b01 for domain honeywell.com
+2026-06-03 00:23:30 [INFO] tools.email_finder: Snov.io found 50 emails for honeywell.com
+2026-06-03 00:23:32 [INFO] tools.email_finder: ✅ Verified MX records for honeywell.com
+2026-06-03 00:23:32 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Honeywell: chris.martin2@honeywell.com
+2026-06-03 00:23:33 [INFO] agent.nodes.email_node: Finding HR email for: Rook Capital
+2026-06-03 00:23:34 [INFO] tools.email_finder: Using guessed domain for Rook Capital: rookcapital.com
+2026-06-03 00:23:41 [INFO] tools.email_finder: Snov.io found 0 emails for rookcapital.com
+2026-06-03 00:23:51 [WARNING] tools.email_finder: ❌ MX record lookup failed for rookcapital.com: The DNS response does not contain an answer to the question: rookcapital.com. IN MX
+2026-06-03 00:23:52 [WARNING] tools.email_finder: ❌ MX record lookup failed for rookcapital.com: The DNS response does not contain an answer to the question: rookcapital.com. IN MX
+2026-06-03 00:23:54 [WARNING] tools.email_finder: ❌ MX record lookup failed for rookcapital.com: The DNS response does not contain an answer to the question: rookcapital.com. IN MX
+2026-06-03 00:23:55 [WARNING] tools.email_finder: ❌ MX record lookup failed for rookcapital.com: The DNS response does not contain an answer to the question: rookcapital.com. IN MX
+2026-06-03 00:23:56 [WARNING] tools.email_finder: ❌ MX record lookup failed for rookcapital.com: The DNS response does not contain an answer to the question: rookcapital.com. IN MX
+2026-06-03 00:23:56 [WARNING] tools.email_finder: ❌ No valid email could be verified for Rook Capital (domain: rookcapital.com). Skipping outreach.
+2026-06-03 00:23:57 [INFO] agent.nodes.email_node: Finding HR email for: Tele Tnfotech
+2026-06-03 00:23:57 [INFO] tools.email_finder: Using guessed domain for Tele Tnfotech: teletnfotech.com
+2026-06-03 00:24:04 [INFO] tools.email_finder: Snov.io found 0 emails for teletnfotech.com
+2026-06-03 00:24:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for teletnfotech.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:24:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for teletnfotech.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:24:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for teletnfotech.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:24:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for teletnfotech.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:24:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for teletnfotech.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:24:05 [WARNING] tools.email_finder: ❌ No valid email could be verified for Tele Tnfotech (domain: teletnfotech.com). Skipping outreach.
+2026-06-03 00:24:06 [INFO] agent.nodes.email_node: Finding HR email for: Cyber Infrastructure
+2026-06-03 00:24:07 [INFO] tools.email_finder: Using guessed domain for Cyber Infrastructure: cyberinfrastructure.com
+2026-06-03 00:24:14 [INFO] tools.email_finder: Snov.io found 0 emails for cyberinfrastructure.com
+2026-06-03 00:24:40 [INFO] tools.email_finder: Snov.io verified hr@cyberinfrastructure.com is deliverable (SMTP: not_valid)
+2026-06-03 00:24:40 [INFO] tools.email_finder: Using verified pattern email for Cyber Infrastructure: hr@cyberinfrastructure.com
+2026-06-03 00:24:41 [INFO] agent.nodes.email_node: Finding HR email for: Fortified Infotech
+2026-06-03 00:24:41 [INFO] tools.email_finder: Using guessed domain for Fortified Infotech: fortifiedinfotech.com
+2026-06-03 00:24:42 [INFO] tools.email_finder: Apollo: Found global organization ID 64df3fcff6578f00a240a52e for domain fortifiedinfotech.com
+2026-06-03 00:24:49 [INFO] tools.email_finder: Snov.io found 8 emails for fortifiedinfotech.com
+2026-06-03 00:24:54 [INFO] tools.email_finder: ✅ Verified MX records for fortifiedinfotech.com
+2026-06-03 00:24:54 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Fortified Infotech: hr@fortifiedinfotech.com
+2026-06-03 00:24:56 [INFO] agent.nodes.email_node: Finding HR email for: Fidelity
+2026-06-03 00:24:56 [INFO] tools.email_finder: Using guessed domain for Fidelity: fidelity.com
+2026-06-03 00:24:57 [INFO] tools.email_finder: Apollo: Found global organization ID 6255cbe6e36aee00a5d1b07c for domain fidelity.com
+2026-06-03 00:25:22 [INFO] tools.email_finder: Snov.io verified hr@fidelity.com is deliverable (SMTP: not_valid)
+2026-06-03 00:25:22 [INFO] tools.email_finder: Using verified pattern email for Fidelity: hr@fidelity.com
+2026-06-03 00:25:24 [INFO] agent.nodes.email_node: Finding HR email for: Blubridge
+2026-06-03 00:25:24 [INFO] tools.email_finder: Using guessed domain for Blubridge: blubridge.com
+2026-06-03 00:25:25 [INFO] tools.email_finder: Apollo: Found global organization ID 67d8f8ac4eecf800017afb6a for domain blubridge.com
+2026-06-03 00:25:32 [INFO] tools.email_finder: Snov.io found 4 emails for blubridge.com
+2026-06-03 00:25:37 [INFO] tools.email_finder: Snov.io verified ihuskic@blubridge.com is deliverable (SMTP: not_valid)
+2026-06-03 00:25:37 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Blubridge: ihuskic@blubridge.com
+2026-06-03 00:25:38 [INFO] agent.nodes.email_node: Finding HR email for: Amlgo Labs
+2026-06-03 00:25:39 [INFO] tools.email_finder: Using guessed domain for Amlgo Labs: amlgolabs.com
+2026-06-03 00:25:39 [INFO] tools.email_finder: Apollo: Found global organization ID 5e57c98c54c3e10001ab671d for domain amlgolabs.com
+2026-06-03 00:25:47 [INFO] tools.email_finder: Snov.io found 5 emails for amlgolabs.com
+2026-06-03 00:25:52 [INFO] tools.email_finder: Snov.io verified info@amlgolabs.com is deliverable (SMTP: unknown)
+2026-06-03 00:25:52 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Amlgo Labs: info@amlgolabs.com
+2026-06-03 00:25:54 [INFO] agent.nodes.email_node: Finding HR email for: ACG
+2026-06-03 00:25:54 [INFO] tools.email_finder: Using guessed domain for ACG: acg.com
+2026-06-03 00:25:55 [INFO] tools.email_finder: Apollo: Found global organization ID 606d7d845c46bc011a135fd2 for domain acg.com
+2026-06-03 00:26:02 [INFO] tools.email_finder: Snov.io found 50 emails for acg.com
+2026-06-03 00:26:07 [INFO] tools.email_finder: Snov.io verified hr@acg.com is deliverable (SMTP: unknown)
+2026-06-03 00:26:07 [INFO] tools.email_finder: Found verified email via Snov.io domain search for ACG: hr@acg.com
+2026-06-03 00:26:08 [INFO] agent.nodes.email_node: Finding HR email for: Maxgen Technologies Private Limited
+2026-06-03 00:26:09 [INFO] tools.email_finder: Using guessed domain for Maxgen Technologies Private Limited: maxgen.com
+2026-06-03 00:26:16 [INFO] tools.email_finder: Snov.io found 50 emails for maxgen.com
+2026-06-03 00:26:22 [INFO] tools.email_finder: Snov.io verified mmcdonnell@maxgen.com is deliverable (SMTP: unknown)
+2026-06-03 00:26:22 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Maxgen Technologies Private Limited: mmcdonnell@maxgen.com
+2026-06-03 00:26:23 [INFO] agent.nodes.email_node: Finding HR email for: Qubixo
+2026-06-03 00:26:23 [INFO] tools.email_finder: Using guessed domain for Qubixo: qubixo.com
+2026-06-03 00:26:30 [INFO] tools.email_finder: Snov.io found 0 emails for qubixo.com
+2026-06-03 00:26:39 [INFO] tools.email_finder: Snov.io verified hr@qubixo.com is deliverable (SMTP: not_valid)
+2026-06-03 00:26:39 [INFO] tools.email_finder: Using verified pattern email for Qubixo: hr@qubixo.com
+2026-06-03 00:26:40 [INFO] agent.nodes.email_node: Finding HR email for: Immersive Infotech Pvt. Ltd.
+2026-06-03 00:26:40 [INFO] tools.email_finder: Using guessed domain for Immersive Infotech Pvt. Ltd.: immersiveinfotech.com
+2026-06-03 00:26:41 [INFO] tools.email_finder: Apollo: Found global organization ID 556d69b273696412027c1301 for domain immersiveinfotech.com
+2026-06-03 00:26:48 [INFO] tools.email_finder: Snov.io found 36 emails for immersiveinfotech.com
+2026-06-03 00:26:50 [INFO] tools.email_finder: ✅ Verified MX records for immersiveinfotech.com
+2026-06-03 00:26:50 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Immersive Infotech Pvt. Ltd.: hr@immersiveinfotech.com
+2026-06-03 00:26:51 [INFO] agent.nodes.email_node: Finding HR email for: Surescout.in
+2026-06-03 00:26:51 [INFO] tools.email_finder: Using guessed domain for Surescout.in: surescoutin.com
+2026-06-03 00:26:58 [INFO] tools.email_finder: Snov.io found 0 emails for surescoutin.com
+2026-06-03 00:26:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for surescoutin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:26:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for surescoutin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:26:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for surescoutin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:26:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for surescoutin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:26:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for surescoutin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:26:59 [WARNING] tools.email_finder: ❌ No valid email could be verified for Surescout.in (domain: surescoutin.com). Skipping outreach.
+2026-06-03 00:27:00 [INFO] agent.nodes.email_node: Finding HR email for: Epiroc
+2026-06-03 00:27:00 [INFO] tools.email_finder: Using guessed domain for Epiroc: epiroc.com
+2026-06-03 00:27:01 [INFO] tools.email_finder: Apollo: Found global organization ID 5f41977de0ac04000183b88c for domain epiroc.com
+2026-06-03 00:27:08 [INFO] tools.email_finder: Snov.io found 50 emails for epiroc.com
+2026-06-03 00:27:09 [INFO] tools.email_finder: ✅ Verified MX records for epiroc.com
+2026-06-03 00:27:09 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Epiroc: damla.ozten@epiroc.com
+2026-06-03 00:27:10 [INFO] agent.nodes.email_node: Finding HR email for: Siemens Healthineers
+2026-06-03 00:27:10 [INFO] tools.email_finder: Using guessed domain for Siemens Healthineers: siemenshealthineers.com
+2026-06-03 00:27:17 [INFO] tools.email_finder: Snov.io found 0 emails for siemenshealthineers.com
+2026-06-03 00:27:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for siemenshealthineers.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:27:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for siemenshealthineers.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:27:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for siemenshealthineers.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:27:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for siemenshealthineers.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:27:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for siemenshealthineers.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:27:18 [WARNING] tools.email_finder: ❌ No valid email could be verified for Siemens Healthineers (domain: siemenshealthineers.com). Skipping outreach.
+2026-06-03 00:27:19 [INFO] agent.nodes.email_node: Finding HR email for: American Chase
+2026-06-03 00:27:19 [INFO] tools.email_finder: Using guessed domain for American Chase: americanchase.com
+2026-06-03 00:27:20 [INFO] tools.email_finder: Apollo: Found global organization ID 5e574e1f3e4b910001a1f6dc for domain americanchase.com
+2026-06-03 00:27:27 [INFO] tools.email_finder: Snov.io found 21 emails for americanchase.com
+2026-06-03 00:27:28 [INFO] tools.email_finder: ✅ Verified MX records for americanchase.com
+2026-06-03 00:27:28 [INFO] tools.email_finder: Found verified email via Snov.io domain search for American Chase: hr@americanchase.com
+2026-06-03 00:27:29 [INFO] agent.nodes.email_node: Finding HR email for: Instafix
+2026-06-03 00:27:30 [INFO] tools.email_finder: Using guessed domain for Instafix: instafix.com
+2026-06-03 00:27:30 [INFO] tools.email_finder: Apollo: Found global organization ID 63943b2c4c3bca000127917c for domain instafix.com
+2026-06-03 00:27:37 [INFO] tools.email_finder: Snov.io found 1 emails for instafix.com
+2026-06-03 00:27:39 [INFO] tools.email_finder: ✅ Verified MX records for instafix.com
+2026-06-03 00:27:39 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Instafix: info@instafix.com
+2026-06-03 00:27:40 [INFO] agent.nodes.email_node: Finding HR email for: Softobiz
+2026-06-03 00:27:40 [INFO] tools.email_finder: Using guessed domain for Softobiz: softobiz.com
+2026-06-03 00:27:41 [INFO] tools.email_finder: Apollo: Found global organization ID 54a13caa69702de5b372fc01 for domain softobiz.com
+2026-06-03 00:27:48 [INFO] tools.email_finder: Snov.io found 50 emails for softobiz.com
+2026-06-03 00:27:49 [INFO] tools.email_finder: ✅ Verified MX records for softobiz.com
+2026-06-03 00:27:49 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Softobiz: hr@softobiz.com
+2026-06-03 00:27:50 [INFO] agent.nodes.email_node: Finding HR email for: Rolls-Royce
+2026-06-03 00:27:50 [INFO] tools.email_finder: Using guessed domain for Rolls-Royce: rollsroyce.com
+2026-06-03 00:27:58 [INFO] tools.email_finder: Snov.io found 50 emails for rollsroyce.com
+2026-06-03 00:27:59 [INFO] tools.email_finder: ✅ Verified MX records for rollsroyce.com
+2026-06-03 00:27:59 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Rolls-Royce: rr@rollsroyce.com
+2026-06-03 00:28:00 [INFO] agent.nodes.email_node: Finding HR email for: Sanjay Brothers
+2026-06-03 00:28:01 [INFO] tools.email_finder: Using guessed domain for Sanjay Brothers: sanjaybrothers.com
+2026-06-03 00:28:02 [INFO] tools.email_finder: Apollo: Found global organization ID 55eb4269f3e5bb34c10049f1 for domain sanjaybrothers.com
+2026-06-03 00:28:08 [INFO] tools.email_finder: Snov.io found 0 emails for sanjaybrothers.com
+2026-06-03 00:28:18 [WARNING] tools.email_finder: ❌ MX record lookup failed for sanjaybrothers.com: The DNS response does not contain an answer to the question: sanjaybrothers.com. IN MX
+2026-06-03 00:28:19 [WARNING] tools.email_finder: ❌ MX record lookup failed for sanjaybrothers.com: The DNS response does not contain an answer to the question: sanjaybrothers.com. IN MX
+2026-06-03 00:28:20 [WARNING] tools.email_finder: ❌ MX record lookup failed for sanjaybrothers.com: The DNS response does not contain an answer to the question: sanjaybrothers.com. IN MX
+2026-06-03 00:28:21 [WARNING] tools.email_finder: ❌ MX record lookup failed for sanjaybrothers.com: The DNS response does not contain an answer to the question: sanjaybrothers.com. IN MX
+2026-06-03 00:28:23 [WARNING] tools.email_finder: ❌ MX record lookup failed for sanjaybrothers.com: The DNS response does not contain an answer to the question: sanjaybrothers.com. IN MX
+2026-06-03 00:28:23 [WARNING] tools.email_finder: ❌ No valid email could be verified for Sanjay Brothers (domain: sanjaybrothers.com). Skipping outreach.
+2026-06-03 00:28:24 [INFO] agent.nodes.email_node: Finding HR email for: Kapidhwaj AI
+2026-06-03 00:28:25 [INFO] tools.email_finder: Using guessed domain for Kapidhwaj AI: kapidhwajai.com
+2026-06-03 00:28:31 [INFO] tools.email_finder: Snov.io found 0 emails for kapidhwajai.com
+2026-06-03 00:28:32 [WARNING] tools.email_finder: ❌ Domain resolution failed for kapidhwajai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:28:32 [WARNING] tools.email_finder: ❌ Domain resolution failed for kapidhwajai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:28:32 [WARNING] tools.email_finder: ❌ Domain resolution failed for kapidhwajai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:28:32 [WARNING] tools.email_finder: ❌ Domain resolution failed for kapidhwajai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:28:32 [WARNING] tools.email_finder: ❌ Domain resolution failed for kapidhwajai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:28:32 [WARNING] tools.email_finder: ❌ No valid email could be verified for Kapidhwaj AI (domain: kapidhwajai.com). Skipping outreach.
+2026-06-03 00:28:33 [INFO] agent.nodes.email_node: Finding HR email for: Businos
+2026-06-03 00:28:34 [INFO] tools.email_finder: Using guessed domain for Businos: businos.com
+2026-06-03 00:28:34 [INFO] tools.email_finder: Apollo: Found global organization ID 68b5b041b504c7000d462287 for domain businos.com
+2026-06-03 00:28:46 [INFO] tools.email_finder: Snov.io found 0 emails for businos.com
+2026-06-03 00:28:51 [INFO] tools.email_finder: ✅ Verified MX records for businos.com
+2026-06-03 00:28:51 [INFO] tools.email_finder: Found scraped and verified email for Businos: hello@businos.com
+2026-06-03 00:28:52 [INFO] agent.nodes.email_node: Finding HR email for: IBM
+2026-06-03 00:28:52 [INFO] tools.email_finder: Using guessed domain for IBM: ibm.com
+2026-06-03 00:28:53 [INFO] tools.email_finder: Apollo: Found global organization ID 5d33d0d1a3ae6113e19b1674 for domain ibm.com
+2026-06-03 00:29:04 [INFO] tools.email_finder: Snov.io found 50 emails for ibm.com
+2026-06-03 00:29:05 [INFO] tools.email_finder: ✅ Verified MX records for ibm.com
+2026-06-03 00:29:05 [INFO] tools.email_finder: Found verified email via Snov.io domain search for IBM: igor@ibm.com
+2026-06-03 00:29:07 [INFO] agent.nodes.email_node: Finding HR email for: Prorsum Technologies
+2026-06-03 00:29:07 [INFO] tools.email_finder: Using guessed domain for Prorsum Technologies: prorsum.com
+2026-06-03 00:29:14 [INFO] tools.email_finder: Snov.io found 1 emails for prorsum.com
+2026-06-03 00:29:16 [INFO] tools.email_finder: ✅ Verified MX records for prorsum.com
+2026-06-03 00:29:16 [INFO] tools.email_finder: Found verified email via Snov.io domain search for Prorsum Technologies: info@prorsum.com
+2026-06-03 00:29:17 [INFO] agent.nodes.email_node: Finding HR email for: CodeRound AI
+2026-06-03 00:29:18 [INFO] tools.email_finder: Using guessed domain for CodeRound AI: coderoundai.com
+2026-06-03 00:29:25 [INFO] tools.email_finder: Snov.io found 0 emails for coderoundai.com
+2026-06-03 00:29:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for coderoundai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for coderoundai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for coderoundai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for coderoundai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:26 [WARNING] tools.email_finder: ❌ Domain resolution failed for coderoundai.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:26 [WARNING] tools.email_finder: ❌ No valid email could be verified for CodeRound AI (domain: coderoundai.com). Skipping outreach.
+2026-06-03 00:29:27 [INFO] agent.nodes.email_node: Finding HR email for: Saint-Gobain Group in India
+2026-06-03 00:29:28 [INFO] tools.email_finder: Using guessed domain for Saint-Gobain Group in India: saintgobaingroupin.com
+2026-06-03 00:29:35 [INFO] tools.email_finder: Snov.io found 0 emails for saintgobaingroupin.com
+2026-06-03 00:29:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:37 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:37 [WARNING] tools.email_finder: ❌ No valid email could be verified for Saint-Gobain Group in India (domain: saintgobaingroupin.com). Skipping outreach.
+2026-06-03 00:29:38 [INFO] agent.nodes.email_node: Finding HR email for: ClearDemand
+2026-06-03 00:29:39 [INFO] tools.email_finder: Using guessed domain for ClearDemand: cleardemand.com
+2026-06-03 00:29:39 [INFO] tools.email_finder: Apollo: Found global organization ID 556978577369642541323600 for domain cleardemand.com
+2026-06-03 00:29:46 [INFO] tools.email_finder: Snov.io found 50 emails for cleardemand.com
+2026-06-03 00:29:47 [INFO] tools.email_finder: ✅ Verified MX records for cleardemand.com
+2026-06-03 00:29:47 [INFO] tools.email_finder: Found verified email via Snov.io domain search for ClearDemand: sales@cleardemand.com
+2026-06-03 00:29:48 [INFO] agent.nodes.email_node: Finding HR email for: Wabtec Corporation
+2026-06-03 00:29:49 [INFO] tools.email_finder: Using guessed domain for Wabtec Corporation: wabteccorporation.com
+2026-06-03 00:29:52 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:29:54 [WARNING] tools.email_finder: ❌ Domain resolution failed for wabteccorporation.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:54 [WARNING] tools.email_finder: ❌ Domain resolution failed for wabteccorporation.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:54 [WARNING] tools.email_finder: ❌ Domain resolution failed for wabteccorporation.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:54 [WARNING] tools.email_finder: ❌ Domain resolution failed for wabteccorporation.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:54 [WARNING] tools.email_finder: ❌ Domain resolution failed for wabteccorporation.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:29:54 [WARNING] tools.email_finder: ❌ No valid email could be verified for Wabtec Corporation (domain: wabteccorporation.com). Skipping outreach.
+2026-06-03 00:29:55 [INFO] agent.nodes.email_node: Finding HR email for: Maktal Technologies
+2026-06-03 00:29:56 [INFO] tools.email_finder: Using guessed domain for Maktal Technologies: maktal.com
+2026-06-03 00:29:59 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:30:16 [WARNING] tools.email_finder: ❌ MX record lookup failed for maktal.com: The DNS response does not contain an answer to the question: maktal.com. IN MX
+2026-06-03 00:30:18 [WARNING] tools.email_finder: ❌ MX record lookup failed for maktal.com: The DNS response does not contain an answer to the question: maktal.com. IN MX
+2026-06-03 00:30:19 [WARNING] tools.email_finder: ❌ MX record lookup failed for maktal.com: The DNS response does not contain an answer to the question: maktal.com. IN MX
+2026-06-03 00:30:21 [WARNING] tools.email_finder: ❌ MX record lookup failed for maktal.com: The DNS response does not contain an answer to the question: maktal.com. IN MX
+2026-06-03 00:30:22 [WARNING] tools.email_finder: ❌ MX record lookup failed for maktal.com: The DNS response does not contain an answer to the question: maktal.com. IN MX
+2026-06-03 00:30:22 [WARNING] tools.email_finder: ❌ No valid email could be verified for Maktal Technologies (domain: maktal.com). Skipping outreach.
+2026-06-03 00:30:23 [INFO] agent.nodes.email_node: Finding HR email for: Zensar Technologies
+2026-06-03 00:30:24 [INFO] tools.email_finder: Using guessed domain for Zensar Technologies: zensar.com
+2026-06-03 00:30:25 [INFO] tools.email_finder: Apollo: Found global organization ID 54a1277669702dcef9562500 for domain zensar.com
+2026-06-03 00:30:27 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:30:31 [INFO] tools.email_finder: ✅ Verified MX records for zensar.com
+2026-06-03 00:30:31 [INFO] tools.email_finder: Found scraped and verified email for Zensar Technologies: careers@zensar.com
+2026-06-03 00:30:32 [INFO] agent.nodes.email_node: Finding HR email for: techolution
+2026-06-03 00:30:33 [INFO] tools.email_finder: Using guessed domain for techolution: techolution.com
+2026-06-03 00:30:34 [INFO] tools.email_finder: Apollo: Found global organization ID 556e320573696410d9715a01 for domain techolution.com
+2026-06-03 00:30:37 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:30:42 [INFO] tools.email_finder: ✅ Verified MX records for techolution.com
+2026-06-03 00:30:42 [INFO] tools.email_finder: Found scraped and verified email for techolution: innovate@techolution.com
+2026-06-03 00:30:43 [INFO] agent.nodes.email_node: Finding HR email for: LeadSoc Technologies Pvt Ltd
+2026-06-03 00:30:44 [INFO] tools.email_finder: Using guessed domain for LeadSoc Technologies Pvt Ltd: leadsoc.com
+2026-06-03 00:30:44 [INFO] tools.email_finder: Apollo: Found global organization ID 5b15a361a6da987127682117 for domain leadsoc.com
+2026-06-03 00:30:47 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:30:56 [INFO] tools.email_finder: ✅ Verified MX records for leadsoc.com
+2026-06-03 00:30:56 [INFO] tools.email_finder: Found scraped and verified email for LeadSoc Technologies Pvt Ltd: infodesk@leadsoc.com
+2026-06-03 00:30:57 [INFO] agent.nodes.email_node: Finding HR email for: Crescent Techservices
+2026-06-03 00:30:58 [INFO] tools.email_finder: Using guessed domain for Crescent Techservices: crescenttechservices.com
+2026-06-03 00:31:00 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:31:02 [WARNING] tools.email_finder: ❌ Domain resolution failed for crescenttechservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:31:02 [WARNING] tools.email_finder: ❌ Domain resolution failed for crescenttechservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:31:02 [WARNING] tools.email_finder: ❌ Domain resolution failed for crescenttechservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:31:02 [WARNING] tools.email_finder: ❌ Domain resolution failed for crescenttechservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:31:02 [WARNING] tools.email_finder: ❌ Domain resolution failed for crescenttechservices.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:31:02 [WARNING] tools.email_finder: ❌ No valid email could be verified for Crescent Techservices (domain: crescenttechservices.com). Skipping outreach.
+2026-06-03 00:31:03 [INFO] agent.nodes.email_node: Finding HR email for: InfoVision Inc.
+2026-06-03 00:31:04 [INFO] tools.email_finder: Using guessed domain for InfoVision Inc.: infovision.com
+2026-06-03 00:31:05 [INFO] tools.email_finder: Apollo: Found global organization ID 6061a3dcee4e15011e5692ac for domain infovision.com
+2026-06-03 00:31:08 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:31:14 [INFO] tools.email_finder: ✅ Verified MX records for infovision.com
+2026-06-03 00:31:14 [INFO] tools.email_finder: Using verified pattern email for InfoVision Inc.: hr@infovision.com
+2026-06-03 00:31:16 [INFO] agent.nodes.email_node: Finding HR email for: TECEZE
+2026-06-03 00:31:16 [INFO] tools.email_finder: Using guessed domain for TECEZE: teceze.com
+2026-06-03 00:31:17 [INFO] tools.email_finder: Apollo: Found global organization ID 5da32edcdb06ce0001fbaba5 for domain teceze.com
+2026-06-03 00:31:19 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:31:40 [INFO] tools.email_finder: ✅ Verified MX records for teceze.com
+2026-06-03 00:31:40 [INFO] tools.email_finder: Found scraped and verified email for TECEZE: info@teceze.com
+2026-06-03 00:31:41 [INFO] agent.nodes.email_node: Finding HR email for: Mirafra Technologies
+2026-06-03 00:31:49 [INFO] tools.email_finder: Using guessed domain for Mirafra Technologies: mirafra.com
+2026-06-03 00:31:50 [INFO] tools.email_finder: Apollo: Found global organization ID 54a1ba9b746869547527aa0b for domain mirafra.com
+2026-06-03 00:31:53 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:32:11 [INFO] tools.email_finder: ✅ Verified MX records for mirafra.com
+2026-06-03 00:32:11 [INFO] tools.email_finder: Found scraped and verified email for Mirafra Technologies: dac@mirafra.com
+2026-06-03 00:32:12 [INFO] agent.nodes.email_node: Finding HR email for: Career Job Solution
+2026-06-03 00:32:20 [INFO] tools.email_finder: Using guessed domain for Career Job Solution: careerjobsolution.com
+2026-06-03 00:32:23 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:32:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for careerjobsolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:32:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for careerjobsolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:32:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for careerjobsolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:32:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for careerjobsolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:32:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for careerjobsolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:32:39 [WARNING] tools.email_finder: ❌ No valid email could be verified for Career Job Solution (domain: careerjobsolution.com). Skipping outreach.
+2026-06-03 00:32:40 [INFO] agent.nodes.email_node: Finding HR email for: Basti Ki Pathshala Foundation
+2026-06-03 00:32:48 [INFO] tools.email_finder: Using guessed domain for Basti Ki Pathshala Foundation: bastikipathshala.com
+2026-06-03 00:32:51 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:33:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:33:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:33:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:33:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:33:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 00:33:07 [WARNING] tools.email_finder: ❌ No valid email could be verified for Basti Ki Pathshala Foundation (domain: bastikipathshala.com). Skipping outreach.
+2026-06-03 00:33:07 [INFO] agent.nodes.email_node: Finding HR email for: TSTEPS PRIVATE LIMITED
+2026-06-03 00:33:15 [INFO] tools.email_finder: Using guessed domain for TSTEPS PRIVATE LIMITED: tsteps.com
+2026-06-03 00:33:18 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:33:38 [INFO] tools.email_finder: ✅ Verified MX records for tsteps.com
+2026-06-03 00:33:38 [INFO] tools.email_finder: Using verified pattern email for TSTEPS PRIVATE LIMITED: hr@tsteps.com
+2026-06-03 00:33:39 [INFO] agent.nodes.email_node: Finding HR email for: BairesDev
+2026-06-03 00:33:47 [INFO] tools.email_finder: Using guessed domain for BairesDev: bairesdev.com
+2026-06-03 00:33:48 [INFO] tools.email_finder: Apollo: Found global organization ID 6267b6f1e08e7c00f5b961cf for domain bairesdev.com
+2026-06-03 00:33:51 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 00:34:14 [INFO] tools.email_finder: ✅ Verified MX records for bairesdev.com
+2026-06-03 00:34:14 [INFO] tools.email_finder: Using verified pattern email for BairesDev: hr@bairesdev.com
+2026-06-03 00:34:15 [INFO] agent.nodes.email_node: Found HR emails for 32/50 companies
+2026-06-03 00:34:15 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:34:21 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:34:26 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:34:27 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x25ee4fcc050 state=finished raised ClientError>]
+2026-06-03 00:34:32 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:34:38 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:34:43 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:34:44 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x25ee4c96970 state=finished raised ClientError>]
+2026-06-03 00:34:49 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:34:55 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:00 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:01 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x25ee4d028f0 state=finished raised ClientError>]
+2026-06-03 00:35:06 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:12 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:17 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:18 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x25ee597b050 state=finished raised ClientError>]
+2026-06-03 00:35:23 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:29 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:34 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:35 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x25ee58e12d0 state=finished raised ClientError>]
+2026-06-03 00:35:40 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:46 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:51 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:35:52 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x25ee59a70d0 state=finished raised ClientError>]
+2026-06-03 00:35:57 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:36:02 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:36:08 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 00:36:08 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x25ee597ba50 state=finished raised ClientError>]
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@omniboundai.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Backend python ai developer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Backend python ai developer opening at Omnibound AI and wan...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@jobluxe.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Web Developer (Fresher | WFH) — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Web Developer (Fresher | WFH) opening at JobLuxe and wanted...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: chris.russell@emerson.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Graduate Engineer Trainee — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Graduate Engineer Trainee opening at Emerson and wanted to ...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@capestart.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Associate Machine Learning Engineer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Associate Machine Learning Engineer opening at CapeStart an...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: phcareers@nielsen.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for AI / ML Data Scientist I — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the AI / ML Data Scientist I opening at Nielsen and wanted to r...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: chris.martin2@honeywell.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Data Scientist I — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Data Scientist I opening at Honeywell and wanted to reach o...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@cyberinfrastructure.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Fresher Software Developer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Fresher Software Developer opening at Cyber Infrastructure ...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@fortifiedinfotech.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Software & Sr Software Engineer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Software & Sr Software Engineer opening at Fortified Infote...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@fidelity.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Apprenticeship - Engineering - 2025 Pass Out - Chennai / Bglr Joining — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Apprenticeship - Engineering - 2025 Pass Out - Chennai / Bg...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: ihuskic@blubridge.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Ai Ml Engineer (Freshers) — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Ai Ml Engineer (Freshers) opening at Blubridge and wanted t...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: info@amlgolabs.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Junior AI Engineer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Junior AI Engineer opening at Amlgo Labs and wanted to reac...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@acg.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Data Science Intern — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Data Science Intern opening at ACG and wanted to reach out....
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: mmcdonnell@maxgen.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Data Scientist — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Data Scientist opening at Maxgen Technologies Private Limit...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@qubixo.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Machine Learning — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Machine Learning opening at Qubixo and wanted to reach out....
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@immersiveinfotech.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Back End Developer (Python) — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Back End Developer (Python) opening at Immersive Infotech P...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: damla.ozten@epiroc.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Junior Full Stack Developer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Junior Full Stack Developer opening at Epiroc and wanted to...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@americanchase.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Associate System Engineer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Associate System Engineer opening at American Chase and wan...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: info@instafix.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for SDE 1 (Backend) — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the SDE 1 (Backend) opening at Instafix and wanted to reach out...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@softobiz.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for SB-1439-AI Engineer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the SB-1439-AI Engineer opening at Softobiz and wanted to reach...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: rr@rollsroyce.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Data Scientist — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Data Scientist opening at Rolls-Royce and wanted to reach o...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hello@businos.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Artificial Intelligence Engineer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Artificial Intelligence Engineer opening at Businos and wan...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: igor@ibm.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Data Scientist-Artificial Intelligence — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Data Scientist-Artificial Intelligence opening at IBM and w...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: info@prorsum.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Machine Learning Engineer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Machine Learning Engineer opening at Prorsum Technologies a...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: sales@cleardemand.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Machine Learning Engineer - ML Systems — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Machine Learning Engineer - ML Systems opening at ClearDema...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: careers@zensar.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python / Pyspark / GCP — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Python / Pyspark / GCP opening at Zensar Technologies and w...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: innovate@techolution.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Python Developer opening at techolution and wanted to reach...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: infodesk@leadsoc.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Python Developer opening at LeadSoc Technologies Pvt Ltd an...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@infovision.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Python Developer opening at InfoVision Inc. and wanted to r...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: info@teceze.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Python Developer opening at TECEZE and wanted to reach out....
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: dac@mirafra.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Python Developer opening at Mirafra Technologies and wanted...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@tsteps.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Software Development — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Software Development opening at TSTEPS PRIVATE LIMITED and ...
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Would send email to: hr@bairesdev.com
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Subject: Application for Python Fullstack Engineer - Remote Work — Fresher | Debashis Bera
+2026-06-03 00:36:08 [INFO] tools.email_sender: [DRY RUN] Body preview: Hey Hiring Team,
+
+I am Debashis Bera, a final year B.Tech CSE student with strong skills in Python, AI/ML, Generative AI, and C++. I saw the Python Fullstack Engineer - Remote Work opening at BairesDe...
+2026-06-03 00:36:08 [INFO] agent.nodes.email_node: ✅ Email node: 32 cold emails sent
+2026-06-03 00:36:10 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-06-03: Scraped 159 jobs, applied to 30 jobs, sent 32 cold emails. Companies: Fortified Infotech, JobLuxe, American Chase, Emerson, CapeStart, Nielsen, Fidelity, Surescout.in, ACG, Blubridge
+2026-06-03 00:36:10 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:36:10 [INFO] tools.inbox_monitor: Connecting to IMAP inbox at imap.gmail.com for debashis.bera.careers@gmail.com...
+2026-06-03 00:36:12 [INFO] tools.inbox_monitor: IMAP: Found 30 recent emails in inbox. Checking for important replies...
+2026-06-03 00:36:26 [INFO] tools.inbox_monitor: IMAP monitor: Successfully fetched 22 relevant replies
+2026-06-03 00:36:26 [INFO] tools.email_sender: [DRY RUN] Would send summary to: debashisalak@gmail.com
+2026-06-03 00:36:26 [INFO] agent.nodes.report_node: Daily concise report sent to personal email: debashisalak@gmail.com
+2026-06-03 00:36:26 [INFO] __main__: ============================================================
+2026-06-03 00:36:26 [INFO] __main__: AGENT RUN COMPLETE in 1237s
+2026-06-03 00:36:26 [INFO] __main__:   Scraped:  159 jobs
+2026-06-03 00:36:26 [INFO] __main__:   New:      73 jobs
+2026-06-03 00:36:26 [INFO] __main__:   Applied:  30 jobs
+2026-06-03 00:36:26 [INFO] __main__:   Emailed:  32 HRs
+2026-06-03 00:36:26 [INFO] __main__:   Failed:   0
+2026-06-03 00:36:26 [INFO] __main__: ============================================================
+2026-06-03 00:42:08 [INFO] __main__: Starting Job Agent (Dashboard + Daily Scheduler)
+2026-06-03 00:42:08 [INFO] __main__: Dashboard → http://localhost:5001
+2026-06-03 00:42:08 [INFO] __main__: Dashboard running at: http://localhost:5001
+2026-06-03 00:42:08 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-03 00:42:08 [INFO] __main__: ============================================================
+2026-06-03 00:42:08 [INFO] __main__: SCHEDULER ACTIVE
+2026-06-03 00:42:08 [INFO] __main__: Agent runs daily at 22:00 Asia/Kolkata
+2026-06-03 00:42:08 [INFO] __main__: Press Ctrl+C to stop everything
+2026-06-03 00:42:08 [INFO] __main__: ============================================================
+2026-06-03 00:42:08 [INFO] apscheduler.scheduler: Added job "Debashis Daily Job Application Agent" to job store "default"
+2026-06-03 00:42:08 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-03 00:42:08 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:42:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:43:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:43:18 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:43:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:43:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:43:44 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:44:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:44:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:45:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:45:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:45:27 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:45:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:46:00 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:46:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:46:23 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:46:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:46:54 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:47:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:47:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:47:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:47:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:47:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:47:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:47:52 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:47:57 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:48:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:48:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:49:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:49:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:50:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:51:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:52:12 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:52:33 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:52:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:52:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:52:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:53:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:53:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:54:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:55:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:56:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:57:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:58:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 00:59:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:00:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:01:17 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:01:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:02:00 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:02:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:02:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:03:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:03:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:04:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:05:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:06:19 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:06:25 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:06:30 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:06:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:06:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:07:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:07:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:08:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:09:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:10:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:11:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:12:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:13:33 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:13:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:13:59 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:14:01 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:14:04 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:14:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:14:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:15:06 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:15:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:16:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:17:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:18:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:19:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:20:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:21:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:22:48 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:23:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:23:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 01:24:05 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:23:30 [INFO] __main__: Starting Job Agent (Dashboard + Daily Scheduler)
+2026-06-03 22:23:30 [INFO] __main__: Dashboard → http://localhost:5001
+2026-06-03 22:23:30 [INFO] __main__: Dashboard running at: http://localhost:5001
+2026-06-03 22:23:31 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-03 22:23:31 [INFO] __main__: ============================================================
+2026-06-03 22:23:31 [INFO] __main__: SCHEDULER ACTIVE
+2026-06-03 22:23:31 [INFO] __main__: Agent runs daily at 22:00 Asia/Kolkata
+2026-06-03 22:23:31 [INFO] __main__: Press Ctrl+C to stop everything
+2026-06-03 22:23:31 [INFO] __main__: ============================================================
+2026-06-03 22:23:31 [INFO] apscheduler.scheduler: Added job "Debashis Daily Job Application Agent" to job store "default"
+2026-06-03 22:23:31 [INFO] apscheduler.scheduler: Scheduler started
+2026-06-03 22:24:08 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:24:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:25:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:25:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:25:41 [INFO] __main__: Manual trigger: Running agent NOW (live mode)
+2026-06-03 22:25:42 [INFO] __main__: ============================================================
+2026-06-03 22:25:42 [INFO] __main__: JOB AGENT STARTING — 2026-06-03 22:25:42 IST
+2026-06-03 22:25:42 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-06-03 22:25:42 [INFO] __main__: Max apply today: 30
+2026-06-03 22:25:42 [INFO] __main__: Cold emails today: 50
+2026-06-03 22:25:42 [INFO] __main__: Applications email:  debashis.bera.careers@gmail.com
+2026-06-03 22:25:42 [INFO] __main__: Summary email to:    debashisalak@gmail.com
+2026-06-03 22:25:42 [INFO] __main__: ============================================================
+2026-06-03 22:25:43 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:25:43 [INFO] agent.nodes.memory_node: mem0: Loaded search results from local 24h cache
+2026-06-03 22:25:43 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 98
+All-time emails sent: 65
+Unique companies contacted: 100
+Today (2026-06-03) already applied: 65
+Previous context from memory:
+User scraped 54 job listings on 2026-06-02, applied to 1 job, sent 1 cold email, targeting company Yardstick
+User scraped 54 job listings on 2026-06-01, applied to 0 jobs and sent 0 cold emails, targeting companies TSTEPS PRIVATE LIMITED, Zenerative Minds LLP, Queens Of Change Foundation, Check Off Your List, Kennedy Krieger Institute, Bored Panda, Unnati Enterprises, International Institute Of SDGs & Public Policy Research, Symonis, and Ramyoz
+User scraped 57 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 53 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 13 cold emails, with no companies listed
+User scraped 69 job listings on 2026-06-02, applied to 0 jobs, and sent 8 cold emails, with no companies listed
+User scraped 54 job listings on 2026-06-01, applied to 30 jobs, sent 19 cold emails, targeting companies TalentHome Solutions LLP, The Affordable Organic Store, Solfyn International LLP, Warewe Consultancy Private Limited, Bored Panda, International Institute Of SDGs & Public Policy Research, Queens Of Change Foundation, Projectpedia Official Page, Honeywell, Core Code io
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 14 cold emails, with no companies listed
+User is Debashis Bera, a final-year computer science and engineering (CSE) student seeking AI/ML and software engineering jobs
+2026-06-03 22:25:43 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-06-03 22:25:43 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-06-03 22:25:45 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 23 relevant jobs
+2026-06-03 22:25:45 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 23 jobs
+2026-06-03 22:25:45 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-06-03 22:25:45 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-06-03 22:25:50 [INFO] scrapers.internshala_scraper: Internshala: Total 40 jobs found
+2026-06-03 22:25:50 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-06-03 22:25:50 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-06-03 22:25:51 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-03 22:26:07 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-06-03 22:26:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:26:19 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-06-03 22:26:33 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-06-03 22:26:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:26:46 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-06-03 22:26:46 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-06-03 22:26:46 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-06-03 22:26:46 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-06-03 22:26:47 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-06-03 22:26:47 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-06-03 22:26:47 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-06-03 22:26:49 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-06-03 22:27:02 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#username, input[name='session_key'], input[autocomplete='username']") to be visible
+    10 × locator resolved to hidden <input value="" id="«r0»" dir="auto" type="email" autocomplete="username" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" value="d" dir="auto" type="email" autocomplete="username" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" dir="auto" type="email" value="deba" autocomplete="username" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" dir="auto" type="email" value="debash" autocomplete="username" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" dir="auto" type="email" value="debashis" autocomplete="username" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" dir="auto" type="email" value="debashisa" autocomplete="username" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    2 × locator resolved to hidden <input id="«r0»" dir="auto" type="email" value="debashisalak" autocomplete="username" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" dir="auto" type="email" value="debashisalak@g" autocomplete="username" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" dir="auto" type="email" autocomplete="username" value="debashisalak@gmai" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" dir="auto" type="email" autocomplete="username" value="debashisalak@gmail" aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    - locator resolved to hidden <input id="«r0»" dir="auto" type="email" autocomplete="username" value="debashisalak@gmail." aria-describedby="«r0»-info" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+    2 × locator resolved to hidden <input id="«r0»" dir="auto" type="email" autocomplete="username" aria-describedby="«r0»-info" value="debashisalak@gmail.com" class="aa280a13 c759c15c ae966d86 c0583c58 b5859774 _5c7f9d95 fc45d629 _83931314 _095b2fa3 a0761efc _5e4b880e _38c8bff9 _96ed007d _580de4b6 _1ff3de1f _6e25b0b2 _1fb58c8f _1151c035 _36d77b6f edb0fe3a cc9ed76c"/>
+. Proceeding with public search...
+2026-06-03 22:27:02 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-06-03 22:27:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:27:20 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-06-03 22:27:34 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-06-03 22:27:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:27:48 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 41 jobs
+2026-06-03 22:27:48 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 41 jobs
+2026-06-03 22:27:48 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-06-03 22:27:49 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-06-03 22:27:58 [INFO] scrapers.naukri_scraper: Naukri: Login done
+2026-06-03 22:27:58 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-06-03 22:28:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:28:13 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-06-03 22:28:26 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-06-03 22:28:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:28:40 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-06-03 22:28:54 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-06-03 22:29:07 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-06-03 22:29:22 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-06-03 22:29:36 [INFO] scrapers.naukri_scraper: Naukri: Found 28 jobs
+2026-06-03 22:29:36 [INFO] agent.nodes.scrape_node: ✅ Naukri: 28 jobs
+2026-06-03 22:29:36 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 147 jobs from all portals
+2026-06-03 22:29:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:29:36 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:29:36 [INFO] agent.nodes.filter_node: ✅ Filter: 147 scraped → 72 new relevant jobs
+2026-06-03 22:29:38 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:29:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:30:24 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:30:31 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:30:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:31:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:32:14 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:32:35 [INFO] agent.nodes.filter_node: Gemini scored 72 jobs in 1 API call
+2026-06-03 22:32:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:32:35 [INFO] agent.nodes.filter_node: ✅ Scored 72 jobs. Selecting top 0 for today (quota: 0 remaining)
+2026-06-03 22:32:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:32:35 [INFO] agent.nodes.apply_node: No jobs to apply to today
+2026-06-03 22:32:35 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:32:35 [INFO] agent.nodes.email_node: Finding HR email for: Pehchaan AI Technologies
+2026-06-03 22:32:35 [INFO] tools.email_finder: Using guessed domain for Pehchaan AI Technologies: pehchaanai.com
+2026-06-03 22:32:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:32:39 [INFO] tools.email_finder: Successfully refreshed Snov.io API access token.
+2026-06-03 22:32:41 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:32:48 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-03 22:32:49 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-03 22:32:50 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-03 22:32:52 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-03 22:32:53 [WARNING] tools.email_finder: ❌ MX record lookup failed for pehchaanai.com: The DNS response does not contain an answer to the question: pehchaanai.com. IN MX
+2026-06-03 22:32:53 [WARNING] tools.email_finder: ❌ No valid email could be verified for Pehchaan AI Technologies (domain: pehchaanai.com). Skipping outreach.
+2026-06-03 22:32:54 [INFO] agent.nodes.email_node: Finding HR email for: StryveAhead Advisors
+2026-06-03 22:32:54 [INFO] tools.email_finder: Using guessed domain for StryveAhead Advisors: stryveaheadadvisors.com
+2026-06-03 22:32:55 [INFO] tools.email_finder: Apollo: Found global organization ID 683d9279348975001d72eec4 for domain stryveaheadadvisors.com
+2026-06-03 22:32:58 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:32:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for stryveaheadadvisors.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:32:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for stryveaheadadvisors.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:32:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for stryveaheadadvisors.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:32:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for stryveaheadadvisors.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:32:59 [WARNING] tools.email_finder: ❌ Domain resolution failed for stryveaheadadvisors.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:32:59 [WARNING] tools.email_finder: ❌ No valid email could be verified for StryveAhead Advisors (domain: stryveaheadadvisors.com). Skipping outreach.
+2026-06-03 22:33:00 [INFO] agent.nodes.email_node: Finding HR email for: QuickHyre
+2026-06-03 22:33:00 [INFO] tools.email_finder: Using guessed domain for QuickHyre: quickhyre.com
+2026-06-03 22:33:03 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:33:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:33:10 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-03 22:33:11 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-03 22:33:12 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-03 22:33:14 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-03 22:33:15 [WARNING] tools.email_finder: ❌ MX record lookup failed for quickhyre.com: The DNS response does not contain an answer to the question: quickhyre.com. IN MX
+2026-06-03 22:33:15 [WARNING] tools.email_finder: ❌ No valid email could be verified for QuickHyre (domain: quickhyre.com). Skipping outreach.
+2026-06-03 22:33:16 [INFO] agent.nodes.email_node: Finding HR email for: Primetrade.ai
+2026-06-03 22:33:17 [INFO] tools.email_finder: Using guessed domain for Primetrade.ai: primetradeai.com
+2026-06-03 22:33:19 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:33:23 [INFO] tools.email_finder: ✅ Verified MX records for primetradeai.com
+2026-06-03 22:33:23 [INFO] tools.email_finder: Using verified pattern email for Primetrade.ai: hr@primetradeai.com
+2026-06-03 22:33:25 [INFO] agent.nodes.email_node: Finding HR email for: Symonis
+2026-06-03 22:33:25 [INFO] tools.email_finder: Using guessed domain for Symonis: symonis.com
+2026-06-03 22:33:28 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:33:32 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-03 22:33:33 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-03 22:33:34 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-03 22:33:35 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-03 22:33:37 [WARNING] tools.email_finder: ❌ MX record lookup failed for symonis.com: The DNS response does not contain an answer to the question: symonis.com. IN MX
+2026-06-03 22:33:37 [WARNING] tools.email_finder: ❌ No valid email could be verified for Symonis (domain: symonis.com). Skipping outreach.
+2026-06-03 22:33:38 [INFO] agent.nodes.email_node: Finding HR email for: Guruvai Sciences
+2026-06-03 22:33:38 [INFO] tools.email_finder: Using guessed domain for Guruvai Sciences: guruvaisciences.com
+2026-06-03 22:33:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:33:41 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:33:44 [INFO] tools.email_finder: ✅ Verified MX records for guruvaisciences.com
+2026-06-03 22:33:44 [INFO] tools.email_finder: Using verified pattern email for Guruvai Sciences: hr@guruvaisciences.com
+2026-06-03 22:33:45 [INFO] agent.nodes.email_node: Finding HR email for: BNP Paribas
+2026-06-03 22:33:46 [INFO] tools.email_finder: Using guessed domain for BNP Paribas: bnpparibas.com
+2026-06-03 22:33:47 [INFO] tools.email_finder: Apollo: Found global organization ID 556da0f773696411e3206501 for domain bnpparibas.com
+2026-06-03 22:33:49 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:33:52 [INFO] tools.email_finder: ✅ Verified MX records for bnpparibas.com
+2026-06-03 22:33:52 [INFO] tools.email_finder: Using verified pattern email for BNP Paribas: hr@bnpparibas.com
+2026-06-03 22:33:54 [INFO] agent.nodes.email_node: Finding HR email for: AddWeb Solution Private Limited
+2026-06-03 22:33:54 [INFO] tools.email_finder: Using guessed domain for AddWeb Solution Private Limited: addwebsolution.com
+2026-06-03 22:33:55 [INFO] tools.email_finder: Apollo: Found global organization ID 5f3eebd431e86d0001bab272 for domain addwebsolution.com
+2026-06-03 22:33:58 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:34:07 [INFO] tools.email_finder: ✅ Verified MX records for addwebsolution.com
+2026-06-03 22:34:07 [INFO] tools.email_finder: Using verified pattern email for AddWeb Solution Private Limited: hr@addwebsolution.com
+2026-06-03 22:34:08 [INFO] agent.nodes.email_node: Finding HR email for: Watermelon Software Inc
+2026-06-03 22:34:08 [INFO] tools.email_finder: Using guessed domain for Watermelon Software Inc: watermelonsoftware.com
+2026-06-03 22:34:11 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:34:14 [WARNING] tools.email_finder: ❌ Domain resolution failed for watermelonsoftware.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-03 22:34:14 [WARNING] tools.email_finder: ❌ Domain resolution failed for watermelonsoftware.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-03 22:34:14 [WARNING] tools.email_finder: ❌ Domain resolution failed for watermelonsoftware.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-03 22:34:14 [WARNING] tools.email_finder: ❌ Domain resolution failed for watermelonsoftware.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-03 22:34:14 [WARNING] tools.email_finder: ❌ Domain resolution failed for watermelonsoftware.com (Host not found): [Errno 11002] getaddrinfo failed
+2026-06-03 22:34:14 [WARNING] tools.email_finder: ❌ No valid email could be verified for Watermelon Software Inc (domain: watermelonsoftware.com). Skipping outreach.
+2026-06-03 22:34:16 [INFO] agent.nodes.email_node: Finding HR email for: A.P. Moller - Maersk
+2026-06-03 22:34:16 [INFO] tools.email_finder: Using guessed domain for A.P. Moller - Maersk: apmollermaersk.com
+2026-06-03 22:34:19 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:34:26 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:34:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:34:54 [WARNING] tools.email_finder: ❌ MX record lookup failed for apmollermaersk.com: The DNS response does not contain an answer to the question: apmollermaersk.com. IN MX
+2026-06-03 22:34:55 [WARNING] tools.email_finder: ❌ MX record lookup failed for apmollermaersk.com: The DNS response does not contain an answer to the question: apmollermaersk.com. IN MX
+2026-06-03 22:34:56 [WARNING] tools.email_finder: ❌ MX record lookup failed for apmollermaersk.com: The DNS response does not contain an answer to the question: apmollermaersk.com. IN MX
+2026-06-03 22:34:57 [WARNING] tools.email_finder: ❌ MX record lookup failed for apmollermaersk.com: The DNS response does not contain an answer to the question: apmollermaersk.com. IN MX
+2026-06-03 22:34:59 [WARNING] tools.email_finder: ❌ MX record lookup failed for apmollermaersk.com: The DNS response does not contain an answer to the question: apmollermaersk.com. IN MX
+2026-06-03 22:34:59 [WARNING] tools.email_finder: ❌ No valid email could be verified for A.P. Moller - Maersk (domain: apmollermaersk.com). Skipping outreach.
+2026-06-03 22:35:00 [INFO] agent.nodes.email_node: Finding HR email for: Earnin
+2026-06-03 22:35:00 [INFO] tools.email_finder: Using guessed domain for Earnin: earnin.com
+2026-06-03 22:35:01 [INFO] tools.email_finder: Apollo: Found global organization ID 5a08aedea6da98a3263df83a for domain earnin.com
+2026-06-03 22:35:03 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:35:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:35:13 [INFO] tools.email_finder: ✅ Verified MX records for earnin.com
+2026-06-03 22:35:13 [INFO] tools.email_finder: Using verified pattern email for Earnin: hr@earnin.com
+2026-06-03 22:35:14 [INFO] agent.nodes.email_node: Finding HR email for: Nielsen Sports
+2026-06-03 22:35:15 [INFO] tools.email_finder: Using guessed domain for Nielsen Sports: nielsensports.com
+2026-06-03 22:35:15 [INFO] tools.email_finder: Apollo: Found global organization ID 54a1abe574686949e7c38d06 for domain nielsensports.com
+2026-06-03 22:35:18 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:35:21 [INFO] tools.email_finder: ✅ Verified MX records for nielsensports.com
+2026-06-03 22:35:21 [INFO] tools.email_finder: Using verified pattern email for Nielsen Sports: hr@nielsensports.com
+2026-06-03 22:35:22 [INFO] agent.nodes.email_node: Finding HR email for: Skan
+2026-06-03 22:35:23 [INFO] tools.email_finder: Using guessed domain for Skan: skan.com
+2026-06-03 22:35:23 [INFO] tools.email_finder: Apollo: Found global organization ID 54a134b369702d333d116f00 for domain skan.com
+2026-06-03 22:35:26 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:35:35 [INFO] tools.email_finder: ✅ Verified MX records for skan.com
+2026-06-03 22:35:35 [INFO] tools.email_finder: Using verified pattern email for Skan: hr@skan.com
+2026-06-03 22:35:36 [INFO] agent.nodes.email_node: Finding HR email for: Eastman Auto & Power (EAPL)
+2026-06-03 22:35:36 [INFO] tools.email_finder: Using guessed domain for Eastman Auto & Power (EAPL): eastmanautopowereapl.com
+2026-06-03 22:35:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:35:39 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:35:40 [WARNING] tools.email_finder: ❌ Domain resolution failed for eastmanautopowereapl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:35:40 [WARNING] tools.email_finder: ❌ Domain resolution failed for eastmanautopowereapl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:35:40 [WARNING] tools.email_finder: ❌ Domain resolution failed for eastmanautopowereapl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:35:40 [WARNING] tools.email_finder: ❌ Domain resolution failed for eastmanautopowereapl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:35:40 [WARNING] tools.email_finder: ❌ Domain resolution failed for eastmanautopowereapl.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:35:40 [WARNING] tools.email_finder: ❌ No valid email could be verified for Eastman Auto & Power (EAPL) (domain: eastmanautopowereapl.com). Skipping outreach.
+2026-06-03 22:35:41 [INFO] agent.nodes.email_node: Finding HR email for: Arya.ai
+2026-06-03 22:35:42 [INFO] tools.email_finder: Using guessed domain for Arya.ai: aryaai.com
+2026-06-03 22:35:44 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:35:48 [INFO] tools.email_finder: ✅ Verified MX records for aryaai.com
+2026-06-03 22:35:48 [INFO] tools.email_finder: Using verified pattern email for Arya.ai: hr@aryaai.com
+2026-06-03 22:35:49 [INFO] agent.nodes.email_node: Finding HR email for: Ecordon Solutions
+2026-06-03 22:35:50 [INFO] tools.email_finder: Using guessed domain for Ecordon Solutions: ecordon.com
+2026-06-03 22:35:52 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:36:00 [WARNING] tools.email_finder: ❌ MX record lookup failed for ecordon.com: All nameservers failed to answer the query ecordon.com. IN MX: Server Do53:192.168.1.1@53 answered SERVFAIL
+2026-06-03 22:36:03 [WARNING] tools.email_finder: ❌ MX record lookup failed for ecordon.com: All nameservers failed to answer the query ecordon.com. IN MX: Server Do53:192.168.1.1@53 answered SERVFAIL
+2026-06-03 22:36:06 [WARNING] tools.email_finder: ❌ MX record lookup failed for ecordon.com: All nameservers failed to answer the query ecordon.com. IN MX: Server Do53:192.168.1.1@53 answered SERVFAIL
+2026-06-03 22:36:08 [WARNING] tools.email_finder: ❌ MX record lookup failed for ecordon.com: All nameservers failed to answer the query ecordon.com. IN MX: Server Do53:192.168.1.1@53 answered SERVFAIL
+2026-06-03 22:36:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:36:11 [WARNING] tools.email_finder: ❌ MX record lookup failed for ecordon.com: All nameservers failed to answer the query ecordon.com. IN MX: Server Do53:192.168.1.1@53 answered SERVFAIL
+2026-06-03 22:36:11 [WARNING] tools.email_finder: ❌ No valid email could be verified for Ecordon Solutions (domain: ecordon.com). Skipping outreach.
+2026-06-03 22:36:12 [INFO] agent.nodes.email_node: Finding HR email for: SecPod
+2026-06-03 22:36:12 [INFO] tools.email_finder: Using guessed domain for SecPod: secpod.com
+2026-06-03 22:36:13 [INFO] tools.email_finder: Apollo: Found global organization ID 54a1b3dd7468694f8f2aa509 for domain secpod.com
+2026-06-03 22:36:16 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:36:21 [INFO] tools.email_finder: ✅ Verified MX records for secpod.com
+2026-06-03 22:36:21 [INFO] tools.email_finder: Using verified pattern email for SecPod: hr@secpod.com
+2026-06-03 22:36:22 [INFO] agent.nodes.email_node: Finding HR email for: Navi
+2026-06-03 22:36:23 [INFO] tools.email_finder: Using guessed domain for Navi: navi.com
+2026-06-03 22:36:24 [INFO] tools.email_finder: Apollo: Found global organization ID 5d414ca41152e70966ac936f for domain navi.com
+2026-06-03 22:36:27 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:36:32 [INFO] tools.email_finder: ✅ Verified MX records for navi.com
+2026-06-03 22:36:32 [INFO] tools.email_finder: Using verified pattern email for Navi: hr@navi.com
+2026-06-03 22:36:33 [INFO] agent.nodes.email_node: Finding HR email for: Apex Group Ltd (India Branch)
+2026-06-03 22:36:34 [INFO] tools.email_finder: Using guessed domain for Apex Group Ltd (India Branch): apexgroupindiabranch.com
+2026-06-03 22:36:37 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:36:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for apexgroupindiabranch.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:36:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for apexgroupindiabranch.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:36:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for apexgroupindiabranch.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:36:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for apexgroupindiabranch.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:36:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for apexgroupindiabranch.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:36:39 [WARNING] tools.email_finder: ❌ No valid email could be verified for Apex Group Ltd (India Branch) (domain: apexgroupindiabranch.com). Skipping outreach.
+2026-06-03 22:36:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:36:40 [INFO] agent.nodes.email_node: Finding HR email for: Insight Global
+2026-06-03 22:36:41 [INFO] tools.email_finder: Using guessed domain for Insight Global: insightglobal.com
+2026-06-03 22:36:41 [INFO] tools.email_finder: Apollo: Found global organization ID 57c4f256a6da986a37a2a5e0 for domain insightglobal.com
+2026-06-03 22:36:44 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:36:59 [INFO] tools.email_finder: ✅ Verified MX records for insightglobal.com
+2026-06-03 22:36:59 [INFO] tools.email_finder: Using verified pattern email for Insight Global: hr@insightglobal.com
+2026-06-03 22:37:00 [INFO] agent.nodes.email_node: Finding HR email for: Maganti IT Resources, LLC
+2026-06-03 22:37:01 [INFO] tools.email_finder: Using guessed domain for Maganti IT Resources, LLC: magantiitresources.com
+2026-06-03 22:37:04 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:37:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for magantiitresources.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for magantiitresources.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for magantiitresources.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for magantiitresources.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for magantiitresources.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:06 [WARNING] tools.email_finder: ❌ No valid email could be verified for Maganti IT Resources, LLC (domain: magantiitresources.com). Skipping outreach.
+2026-06-03 22:37:07 [INFO] agent.nodes.email_node: Finding HR email for: Call Quest Solution
+2026-06-03 22:37:08 [INFO] tools.email_finder: Using guessed domain for Call Quest Solution: callquestsolution.com
+2026-06-03 22:37:09 [INFO] tools.email_finder: Apollo: Found global organization ID 68b1e52d63b3450019f0df67 for domain callquestsolution.com
+2026-06-03 22:37:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:37:11 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:37:19 [INFO] tools.email_finder: ✅ Verified MX records for callquestsolution.com
+2026-06-03 22:37:19 [INFO] tools.email_finder: Using verified pattern email for Call Quest Solution: hr@callquestsolution.com
+2026-06-03 22:37:20 [INFO] agent.nodes.email_node: Finding HR email for: Efficienza Business Solutions Pvt. Ltd
+2026-06-03 22:37:21 [INFO] tools.email_finder: Using guessed domain for Efficienza Business Solutions Pvt. Ltd: efficienzabusinesspvt.com
+2026-06-03 22:37:23 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:37:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for efficienzabusinesspvt.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for efficienzabusinesspvt.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for efficienzabusinesspvt.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for efficienzabusinesspvt.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:25 [WARNING] tools.email_finder: ❌ Domain resolution failed for efficienzabusinesspvt.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:37:25 [WARNING] tools.email_finder: ❌ No valid email could be verified for Efficienza Business Solutions Pvt. Ltd (domain: efficienzabusinesspvt.com). Skipping outreach.
+2026-06-03 22:37:26 [INFO] agent.nodes.email_node: Finding HR email for: Amazon
+2026-06-03 22:37:27 [INFO] tools.email_finder: Using guessed domain for Amazon: amazon.com
+2026-06-03 22:37:27 [INFO] tools.email_finder: Apollo: Found global organization ID 5f2a39cb77a7440112460cf5 for domain amazon.com
+2026-06-03 22:37:30 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:37:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:37:41 [INFO] tools.email_finder: ✅ Verified MX records for amazon.com
+2026-06-03 22:37:41 [INFO] tools.email_finder: Using verified pattern email for Amazon: hr@amazon.com
+2026-06-03 22:37:42 [INFO] agent.nodes.email_node: Finding HR email for: Qualcomm
+2026-06-03 22:37:43 [INFO] tools.email_finder: Using guessed domain for Qualcomm: qualcomm.com
+2026-06-03 22:37:44 [INFO] tools.email_finder: Apollo: Found global organization ID 5f6316994abf0b008ce52a3f for domain qualcomm.com
+2026-06-03 22:37:47 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:37:59 [INFO] tools.email_finder: ✅ Verified MX records for qualcomm.com
+2026-06-03 22:37:59 [INFO] tools.email_finder: Using verified pattern email for Qualcomm: hr@qualcomm.com
+2026-06-03 22:38:00 [INFO] agent.nodes.email_node: Finding HR email for: Bluesoft Software Solution
+2026-06-03 22:38:01 [INFO] tools.email_finder: Using guessed domain for Bluesoft Software Solution: bluesoftsoftwaresolution.com
+2026-06-03 22:38:04 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:38:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:06 [WARNING] tools.email_finder: ❌ Domain resolution failed for bluesoftsoftwaresolution.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:06 [WARNING] tools.email_finder: ❌ No valid email could be verified for Bluesoft Software Solution (domain: bluesoftsoftwaresolution.com). Skipping outreach.
+2026-06-03 22:38:07 [INFO] agent.nodes.email_node: Finding HR email for: Derq
+2026-06-03 22:38:08 [INFO] tools.email_finder: Using guessed domain for Derq: derq.com
+2026-06-03 22:38:08 [INFO] tools.email_finder: Apollo: Found global organization ID 5b146378a6da98dca8ebc696 for domain derq.com
+2026-06-03 22:38:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:38:11 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:38:23 [INFO] tools.email_finder: ✅ Verified MX records for derq.com
+2026-06-03 22:38:23 [INFO] tools.email_finder: Using verified pattern email for Derq: hr@derq.com
+2026-06-03 22:38:25 [INFO] agent.nodes.email_node: Finding HR email for: Saint-Gobain Group in India
+2026-06-03 22:38:33 [INFO] tools.email_finder: Using guessed domain for Saint-Gobain Group in India: saintgobaingroupin.com
+2026-06-03 22:38:35 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:38:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:38:51 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:51 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:51 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:51 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:51 [WARNING] tools.email_finder: ❌ Domain resolution failed for saintgobaingroupin.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:38:51 [WARNING] tools.email_finder: ❌ No valid email could be verified for Saint-Gobain Group in India (domain: saintgobaingroupin.com). Skipping outreach.
+2026-06-03 22:38:53 [INFO] agent.nodes.email_node: Finding HR email for: GoodSpace AI
+2026-06-03 22:38:55 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:38:58 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:39:01 [INFO] tools.email_finder: Using guessed domain for GoodSpace AI: goodspaceai.com
+2026-06-03 22:39:04 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:39:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:39:23 [INFO] tools.email_finder: ✅ Verified MX records for goodspaceai.com
+2026-06-03 22:39:23 [INFO] tools.email_finder: Using verified pattern email for GoodSpace AI: hr@goodspaceai.com
+2026-06-03 22:39:24 [INFO] agent.nodes.email_node: Finding HR email for: Hevo Data
+2026-06-03 22:39:32 [INFO] tools.email_finder: Using guessed domain for Hevo Data: hevodata.com
+2026-06-03 22:39:32 [INFO] tools.email_finder: Apollo: Found global organization ID 5b843c3c324d446110c1a038 for domain hevodata.com
+2026-06-03 22:39:35 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:39:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:39:53 [INFO] tools.email_finder: ✅ Verified MX records for hevodata.com
+2026-06-03 22:39:53 [INFO] tools.email_finder: Using verified pattern email for Hevo Data: hr@hevodata.com
+2026-06-03 22:39:54 [INFO] agent.nodes.email_node: Finding HR email for: Salesforce
+2026-06-03 22:40:02 [INFO] tools.email_finder: Using guessed domain for Salesforce: salesforce.com
+2026-06-03 22:40:03 [INFO] tools.email_finder: Apollo: Found global organization ID 5a9f506ea6da98d99781eff8 for domain salesforce.com
+2026-06-03 22:40:06 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:40:39 [INFO] tools.email_finder: ✅ Verified MX records for salesforce.com
+2026-06-03 22:40:39 [INFO] tools.email_finder: Using verified pattern email for Salesforce: hr@salesforce.com
+2026-06-03 22:40:40 [INFO] agent.nodes.email_node: Finding HR email for: Creative Hands HR
+2026-06-03 22:40:48 [INFO] tools.email_finder: Using guessed domain for Creative Hands HR: creativehandshr.com
+2026-06-03 22:40:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:40:51 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:41:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:41:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:41:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:41:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:41:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for creativehandshr.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:41:07 [WARNING] tools.email_finder: ❌ No valid email could be verified for Creative Hands HR (domain: creativehandshr.com). Skipping outreach.
+2026-06-03 22:41:08 [INFO] agent.nodes.email_node: Finding HR email for: Algoshack Technologies
+2026-06-03 22:41:16 [INFO] tools.email_finder: Using guessed domain for Algoshack Technologies: algoshack.com
+2026-06-03 22:41:18 [INFO] tools.email_finder: Apollo: Found global organization ID 5b85c607324d445f9151990c for domain algoshack.com
+2026-06-03 22:41:20 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:41:42 [INFO] tools.email_finder: ✅ Verified MX records for algoshack.com
+2026-06-03 22:41:42 [INFO] tools.email_finder: Using verified pattern email for Algoshack Technologies: hr@algoshack.com
+2026-06-03 22:41:42 [INFO] agent.nodes.email_node: Finding HR email for: Leading MNC Client
+2026-06-03 22:41:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:41:50 [INFO] tools.email_finder: Using guessed domain for Leading MNC Client: leadingmncclient.com
+2026-06-03 22:41:53 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:42:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:42:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:42:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:42:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:42:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for leadingmncclient.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:42:10 [WARNING] tools.email_finder: ❌ No valid email could be verified for Leading MNC Client (domain: leadingmncclient.com). Skipping outreach.
+2026-06-03 22:42:11 [INFO] agent.nodes.email_node: Finding HR email for: HCSIPL
+2026-06-03 22:42:19 [INFO] tools.email_finder: Using guessed domain for HCSIPL: hcsipl.com
+2026-06-03 22:42:19 [INFO] tools.email_finder: Apollo: Found global organization ID 68d44e57bd77df00150eddce for domain hcsipl.com
+2026-06-03 22:42:22 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:42:42 [INFO] tools.email_finder: ✅ Verified MX records for hcsipl.com
+2026-06-03 22:42:42 [INFO] tools.email_finder: Using verified pattern email for HCSIPL: hr@hcsipl.com
+2026-06-03 22:42:43 [INFO] agent.nodes.email_node: Finding HR email for: Texas Instruments
+2026-06-03 22:42:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:42:51 [INFO] tools.email_finder: Using guessed domain for Texas Instruments: texasinstruments.com
+2026-06-03 22:42:54 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:43:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:43:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:43:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:43:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:43:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for texasinstruments.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:43:10 [WARNING] tools.email_finder: ❌ No valid email could be verified for Texas Instruments (domain: texasinstruments.com). Skipping outreach.
+2026-06-03 22:43:11 [INFO] agent.nodes.email_node: Finding HR email for: Inferyx
+2026-06-03 22:43:19 [INFO] tools.email_finder: Using guessed domain for Inferyx: inferyx.com
+2026-06-03 22:43:21 [INFO] tools.email_finder: Apollo: Found global organization ID 5e56f668ebf4ce00010e7d6e for domain inferyx.com
+2026-06-03 22:43:22 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:43:23 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:43:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:43:42 [INFO] tools.email_finder: ✅ Verified MX records for inferyx.com
+2026-06-03 22:43:42 [INFO] tools.email_finder: Found scraped and verified email for Inferyx: contactus@inferyx.com
+2026-06-03 22:43:43 [INFO] agent.nodes.email_node: Finding HR email for: CyberHawkz
+2026-06-03 22:43:51 [INFO] tools.email_finder: Using guessed domain for CyberHawkz: cyberhawkz.com
+2026-06-03 22:43:52 [INFO] tools.email_finder: Apollo: Found global organization ID 61ec5076c458ad0001c99cf0 for domain cyberhawkz.com
+2026-06-03 22:43:54 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:44:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:44:45 [INFO] tools.email_finder: ✅ Verified MX records for cyberhawkz.com
+2026-06-03 22:44:45 [INFO] tools.email_finder: Using verified pattern email for CyberHawkz: hr@cyberhawkz.com
+2026-06-03 22:44:46 [INFO] agent.nodes.email_node: Finding HR email for: NEW STREET TECH
+2026-06-03 22:44:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:44:54 [INFO] tools.email_finder: Using guessed domain for NEW STREET TECH: newstreettech.com
+2026-06-03 22:44:55 [INFO] tools.email_finder: Apollo: Found global organization ID 5e5683a382ec1b0001bc9677 for domain newstreettech.com
+2026-06-03 22:44:58 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:45:16 [INFO] tools.email_finder: ✅ Verified MX records for newstreettech.com
+2026-06-03 22:45:16 [INFO] tools.email_finder: Found scraped and verified email for NEW STREET TECH: hr@newstreettech.com
+2026-06-03 22:45:17 [INFO] agent.nodes.email_node: Finding HR email for: IBM
+2026-06-03 22:45:25 [INFO] tools.email_finder: Using guessed domain for IBM: ibm.com
+2026-06-03 22:45:26 [INFO] tools.email_finder: Apollo: Found global organization ID 5d33d0d1a3ae6113e19b1674 for domain ibm.com
+2026-06-03 22:45:29 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:45:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:45:52 [INFO] tools.email_finder: ✅ Verified MX records for ibm.com
+2026-06-03 22:45:52 [INFO] tools.email_finder: Using verified pattern email for IBM: hr@ibm.com
+2026-06-03 22:45:54 [INFO] agent.nodes.email_node: Finding HR email for: SourcingXPress
+2026-06-03 22:46:02 [INFO] tools.email_finder: Using guessed domain for SourcingXPress: sourcingxpress.com
+2026-06-03 22:46:03 [INFO] tools.email_finder: Apollo: Found global organization ID 6378ca6fa811bf00011bd76f for domain sourcingxpress.com
+2026-06-03 22:46:06 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:46:24 [INFO] tools.email_finder: ✅ Verified MX records for sourcingxpress.com
+2026-06-03 22:46:24 [INFO] tools.email_finder: Found scraped and verified email for SourcingXPress: gs@sourcingxpress.com
+2026-06-03 22:46:25 [INFO] agent.nodes.email_node: Finding HR email for: SII Group Romania
+2026-06-03 22:46:33 [INFO] tools.email_finder: Using guessed domain for SII Group Romania: siigroupromania.com
+2026-06-03 22:46:36 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:46:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:46:52 [WARNING] tools.email_finder: ❌ Domain resolution failed for siigroupromania.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:46:52 [WARNING] tools.email_finder: ❌ Domain resolution failed for siigroupromania.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:46:52 [WARNING] tools.email_finder: ❌ Domain resolution failed for siigroupromania.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:46:52 [WARNING] tools.email_finder: ❌ Domain resolution failed for siigroupromania.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:46:52 [WARNING] tools.email_finder: ❌ Domain resolution failed for siigroupromania.com (Host not found): [Errno 11001] getaddrinfo failed
+2026-06-03 22:46:52 [WARNING] tools.email_finder: ❌ No valid email could be verified for SII Group Romania (domain: siigroupromania.com). Skipping outreach.
+2026-06-03 22:46:53 [INFO] agent.nodes.email_node: Finding HR email for: ITC Infotech
+2026-06-03 22:47:01 [INFO] tools.email_finder: Using guessed domain for ITC Infotech: itcinfotech.com
+2026-06-03 22:47:02 [INFO] tools.email_finder: Apollo: Found global organization ID 54a22f8d74686938257b7514 for domain itcinfotech.com
+2026-06-03 22:47:05 [WARNING] tools.email_finder: Snov.io domain search start failed with status 402
+2026-06-03 22:47:25 [INFO] tools.email_finder: ✅ Verified MX records for itcinfotech.com
+2026-06-03 22:47:25 [INFO] tools.email_finder: Found scraped and verified email for ITC Infotech: contact.us@itcinfotech.com
+2026-06-03 22:47:26 [INFO] agent.nodes.email_node: Found HR emails for 26/50 companies
+2026-06-03 22:47:26 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:47:42 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-03 22:47:48 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:47:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:48:02 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-03 22:48:07 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:48:22 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-03 22:48:28 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:48:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:48:52 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-03 22:48:58 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:49:17 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-06-03 22:49:23 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-06-03 22:49:30 [INFO] agent.nodes.email_node: ✅ Generated 1 emails in 1 Gemini call
+2026-06-03 22:49:36 [INFO] tools.email_sender: ✅ Email sent to hr@primetradeai.com: Application for Machine Learning (Modeling and Evaluation) — Fresher | Debashis Bera
+2026-06-03 22:49:36 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:49:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:50:11 [INFO] tools.email_sender: ✅ Email sent to hr@guruvaisciences.com: Application for AI/ML Engineering – Agentic AI Systems — Fresher | Debashis Bera
+2026-06-03 22:50:11 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:50:46 [INFO] tools.email_sender: ✅ Email sent to hr@bnpparibas.com: Application for AI/ML Junior Developer — Fresher | Debashis Bera
+2026-06-03 22:50:46 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:50:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:51:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:51:21 [INFO] tools.email_sender: ✅ Email sent to hr@addwebsolution.com: Application for AI Engineer [Fresher] — Fresher | Debashis Bera
+2026-06-03 22:51:21 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:51:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:51:56 [INFO] tools.email_sender: ✅ Email sent to hr@earnin.com: Application for Machine Learning Engineer — Fresher | Debashis Bera
+2026-06-03 22:51:56 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:52:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:52:31 [INFO] tools.email_sender: ✅ Email sent to hr@nielsensports.com: Application for AI / ML Data Scientist I — Fresher | Debashis Bera
+2026-06-03 22:52:31 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:52:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:53:06 [INFO] tools.email_sender: ✅ Email sent to hr@skan.com: Application for AI Engineer — Fresher | Debashis Bera
+2026-06-03 22:53:06 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:53:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:53:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:53:41 [INFO] tools.email_sender: ✅ Email sent to hr@aryaai.com: Application for AI Agent Engineer — Fresher | Debashis Bera
+2026-06-03 22:53:41 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:54:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:54:16 [INFO] tools.email_sender: ✅ Email sent to hr@secpod.com: Application for Software Engineer - AI Agents & Automation — Fresher | Debashis Bera
+2026-06-03 22:54:16 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:54:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:54:51 [INFO] tools.email_sender: ✅ Email sent to hr@navi.com: Application for AI Scientist 1 — Fresher | Debashis Bera
+2026-06-03 22:54:51 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:55:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:55:26 [INFO] tools.email_sender: ✅ Email sent to hr@insightglobal.com: Application for AI Engineer — Fresher | Debashis Bera
+2026-06-03 22:55:26 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:55:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:56:01 [INFO] tools.email_sender: ✅ Email sent to hr@callquestsolution.com: Application for Artificial Intelligence Engineer — Fresher | Debashis Bera
+2026-06-03 22:56:01 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:56:36 [INFO] tools.email_sender: ✅ Email sent to hr@amazon.com: Application for Software Dev Engineer I — Fresher | Debashis Bera
+2026-06-03 22:56:36 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:56:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:57:11 [INFO] tools.email_sender: ✅ Email sent to hr@qualcomm.com: Application for AI/ML Performance Engineer — Fresher | Debashis Bera
+2026-06-03 22:57:11 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:57:46 [INFO] tools.email_sender: ✅ Email sent to hr@derq.com: Application for Machine Learning QA Engineer — Fresher | Debashis Bera
+2026-06-03 22:57:46 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:57:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:58:21 [INFO] tools.email_sender: ✅ Email sent to hr@goodspaceai.com: Application for Jr. Full Stack Developer — Fresher | Debashis Bera
+2026-06-03 22:58:21 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:58:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 22:58:56 [INFO] tools.email_sender: ✅ Email sent to hr@hevodata.com: Application for Software Development Engineer - I — Fresher | Debashis Bera
+2026-06-03 22:58:56 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:59:31 [INFO] tools.email_sender: ✅ Email sent to hr@salesforce.com: Application for Software Engineering AMTS — Fresher | Debashis Bera
+2026-06-03 22:59:31 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 22:59:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:00:05 [INFO] tools.email_sender: ✅ Email sent to hr@algoshack.com: Application for Software Engineer — Fresher | Debashis Bera
+2026-06-03 23:00:05 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 23:00:40 [INFO] tools.email_sender: ✅ Email sent to hr@hcsipl.com: Application for Software Developer (Leading MNC) — Fresher | Debashis Bera
+2026-06-03 23:00:40 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 23:00:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:01:16 [INFO] tools.email_sender: ✅ Email sent to contactus@inferyx.com: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 23:01:16 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 23:01:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:01:51 [INFO] tools.email_sender: ✅ Email sent to hr@cyberhawkz.com: Application for Python Development Internship — Debashis Bera
+2026-06-03 23:01:51 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 23:02:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:02:26 [INFO] tools.email_sender: ✅ Email sent to hr@newstreettech.com: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 23:02:26 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 23:02:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:03:01 [INFO] tools.email_sender: ✅ Email sent to hr@ibm.com: Application for Backend Python Developer — Fresher | Debashis Bera
+2026-06-03 23:03:01 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 23:03:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:03:35 [INFO] tools.email_sender: ✅ Email sent to gs@sourcingxpress.com: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 23:03:35 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-06-03 23:03:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:03:53 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:04:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:04:11 [INFO] tools.email_sender: ✅ Email sent to contact.us@itcinfotech.com: Application for Python Developer — Fresher | Debashis Bera
+2026-06-03 23:04:11 [INFO] agent.nodes.email_node: ✅ Email node: 26 cold emails sent
+2026-06-03 23:04:14 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-06-03: Scraped 147 jobs, applied to 0 jobs, sent 26 cold emails. Companies: 
+2026-06-03 23:04:14 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:04:14 [INFO] tools.inbox_monitor: Connecting to IMAP inbox at imap.gmail.com for debashis.bera.careers@gmail.com...
+2026-06-03 23:04:16 [INFO] tools.inbox_monitor: IMAP: Found 45 recent emails in inbox. Checking for important replies...
+2026-06-03 23:04:34 [INFO] tools.inbox_monitor: IMAP monitor: Successfully fetched 29 relevant replies
+2026-06-03 23:04:37 [INFO] tools.email_sender: ✅ Summary email sent to debashisalak@gmail.com
+2026-06-03 23:04:37 [INFO] agent.nodes.report_node: Daily concise report sent to personal email: debashisalak@gmail.com
+2026-06-03 23:04:37 [INFO] __main__: ============================================================
+2026-06-03 23:04:37 [INFO] __main__: AGENT RUN COMPLETE in 2334s
+2026-06-03 23:04:37 [INFO] __main__:   Scraped:  147 jobs
+2026-06-03 23:04:37 [INFO] __main__:   New:      72 jobs
+2026-06-03 23:04:37 [INFO] __main__:   Applied:  0 jobs
+2026-06-03 23:04:37 [INFO] __main__:   Emailed:  26 HRs
+2026-06-03 23:04:37 [INFO] __main__:   Failed:   0
+2026-06-03 23:04:37 [INFO] __main__: ============================================================
+2026-06-03 23:04:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:05:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:05:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:06:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:06:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:07:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:07:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:08:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:08:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:09:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:10:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:11:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:12:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:13:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:14:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:15:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:16:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:17:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:18:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:19:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:20:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:21:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:22:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:23:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:24:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:25:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:26:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:27:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:28:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:29:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:30:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:31:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:32:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:33:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:34:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:35:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:36:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:37:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:38:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:39:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:40:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:41:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:42:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:43:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:44:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:45:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:46:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:47:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:48:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:49:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:50:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:51:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:52:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:53:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:54:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:55:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:56:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:57:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:58:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-03 23:59:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:00:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:01:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:02:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:03:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:04:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:05:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:06:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:07:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:08:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:09:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:10:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:11:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:12:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:13:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:14:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:15:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:16:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:17:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:18:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:19:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:20:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:21:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:22:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:23:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:24:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:25:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:26:19 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:26:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:27:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:27:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:27:51 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:28:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:28:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:29:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:29:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:30:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:30:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:31:41 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:32:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:32:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:33:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:33:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:34:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:35:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:36:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:37:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:38:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:39:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:40:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:41:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:42:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:43:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:44:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:45:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:46:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:47:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:48:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:49:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:50:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:51:30 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:51:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:52:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:52:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:53:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:54:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:55:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:56:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:57:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:58:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 00:59:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:00:47 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:01:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:01:24 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:01:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:01:49 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:02:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:02:22 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:02:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:02:42 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:02:45 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:03:00 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:03:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:03:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:04:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:05:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:06:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:07:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:08:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:09:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:10:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:11:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:12:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:13:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:14:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:15:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:16:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:17:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:18:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:19:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:20:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:21:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:22:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:23:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:24:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:25:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:26:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:27:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:28:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:29:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:30:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:31:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:32:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:33:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:34:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:35:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:36:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:36:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:37:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:37:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:38:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:38:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:39:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:40:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:41:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:42:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:43:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:44:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:45:09 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:45:39 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:46:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:47:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:48:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:49:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:50:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:51:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:52:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:53:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:54:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:55:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:56:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:57:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:58:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 01:59:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:00:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:01:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:02:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:03:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:04:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:05:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:06:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:07:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:08:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:09:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:10:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:11:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:12:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:13:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:14:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:15:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:16:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:17:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db
+2026-06-04 02:18:50 [INFO] database.db_manager: Database initialized at D:\P_Files\Job Agent\database\tracker.db

@@ -112,18 +112,24 @@ jobs:
           # Cloud run flag
           CLOUD_RUN: 'true'
 
-      # ── 7. Commit updated database back to repo ───────────
-      - name: 💾 Commit updated database
-        if: always()    # Always commit DB even if agent had errors
+      # ── 7. Commit database & logs to repo ────────────────────
+      - name: 💾 Commit database & logs to repo
+        if: always()    # Always commit even if agent had errors
         run: |
           git config user.name "Job Agent Bot"
           git config user.email "job-agent-bot@github-actions.com"
+
+          # Stage database and data files
           git add database/tracker.db || true
           git add data/hr_contacts_from_pdf.csv || true
           git add data/mem0_cache.json || true
           git add data/mem0_sync.json || true
+
+          # Stage daily logs (so you can review them in the repo)
+          git add logs/ || true
+
           # Only commit if there are actual changes
-          git diff --staged --quiet || git commit -m "🤖 Agent run: $(date +'%Y-%m-%d %H:%M IST') [automated]"
+          git diff --staged --quiet || git commit -m "🤖 Agent run: $(date +'%Y-%m-%d %H:%M IST') [auto]"
           git push || true
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}

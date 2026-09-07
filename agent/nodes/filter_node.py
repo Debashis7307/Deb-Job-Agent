@@ -65,66 +65,121 @@ def filter_deduplicate_node(state: AgentState) -> Dict:
 
 
 def _is_relevant_job(job: dict) -> bool:
-    """Strict relevance check for tech-only roles (Python/AI/ML focused)."""
+    """Strict relevance check for tech-only roles (Python/AI/ML focused).
+    Also enforces salary floor and location preferences.
+    """
     title = job.get("title", "").lower()
     description = job.get("description", "").lower()
 
-    # Blacklist keywords for title (non-tech roles + Java stack)
+    # ── Blacklist: non-tech roles and Java stack ──────────────────────
     blacklist = [
-        "video", "editor", "graphic", "designer", "design", "electronics", 
-        "electrical", "mechanical", "civil", "trainer", "organic", "store", 
-        "ngo", "social", "foundation", "writer", "content", "marketing", 
-        "recruiter", "sales", "bpo", "telecall", "telecaller", "support", 
+        "video", "editor", "graphic", "designer", "design", "electronics",
+        "electrical", "mechanical", "civil", "trainer", "organic", "store",
+        "ngo", "social", "foundation", "writer", "content", "marketing",
+        "recruiter", "sales", "bpo", "telecall", "telecaller", "support",
         "desktop", "admin", "office", "accountant", "finance", "hr", "operations",
-        # ── Java stack exclusions (as requested) ──
-        "java developer", "java engineer", "java programmer", 
+        # Java stack exclusions
+        "java developer", "java engineer", "java programmer",
         "spring boot", "hibernate", "j2ee", "struts", "servlet",
-        "android developer",  # Java/Kotlin, not Python AI
+        "android developer",
         ".net developer", "dotnet", "asp.net", "c# developer",
         "php developer", "laravel", "wordpress",
         "ruby on rails",
         "salesforce", "sap abap",
     ]
-
-    # If any blacklist keyword is in the title, reject immediately
     for kw in blacklist:
         if kw in title:
             return False
 
-    # Deep description check: if JD is EXCLUSIVELY java-focused with no Python/AI mention
+    # ── Java-heavy JD check ───────────────────────────────────────────
     java_desc_heavy = (
         description.count("java") >= 3 and
-        not any(kw in description for kw in ["python", "ai", "ml", "machine learning", "deep learning", "pytorch", "tensorflow", "langchain"])
+        not any(kw in description for kw in [
+            "python", "ai", "ml", "machine learning", "deep learning",
+            "pytorch", "tensorflow", "langchain"
+        ])
     )
     if java_desc_heavy:
         logger.debug(f"Skip (java-heavy JD): {job.get('title')}")
         return False
 
-    # Whitelist keywords for tech roles
+    # ── Salary filter: reject clearly underpaid jobs (< 15k/month) ───
+    # Parse salary from description/title and reject if explicitly too low
+    text = title + " " + description
+    salary_rejected = _is_salary_too_low(text)
+    if salary_rejected:
+        logger.debug(f"Skip (salary too low): {job.get('title')}")
+        return False
+
+    # ── Whitelist: tech roles ─────────────────────────────────────────
     tech_keywords = [
-        "software", "python", "ai", "ml", "machine learning", "backend", 
-        "full stack", "fullstack", "c++", "cpp", "generative", "gen ai", 
-        "agentic", "data scientist", "data science", "llm", "nlp", 
+        "software", "python", "ai", "ml", "machine learning", "backend",
+        "full stack", "fullstack", "c++", "cpp", "generative", "gen ai",
+        "agentic", "data scientist", "data science", "llm", "nlp",
         "deep learning", "computer vision", "programmer", "developer", "engineer"
     ]
-
-    # Job title must contain at least one tech keyword, or be a generic fresher/intern role
     title_tech = any(kw in title for kw in tech_keywords)
     title_generic_fresher = any(kw in title for kw in ["intern", "fresher", "trainee", "associate"])
     desc_tech = any(kw in description for kw in tech_keywords)
-
     is_tech_role = title_tech or (title_generic_fresher and desc_tech)
 
-    # Must NOT have senior experience requirements
+    # ── Reject senior roles ────────────────────────────────────────────
     exclude_patterns = [
         "5+ years", "7+ years", "8+ years", "10+ years",
         "senior", "lead engineer", "principal", "director",
         "vp of", "head of engineering", "cto"
     ]
-    text = title + " " + description
     is_senior = any(pat in text for pat in exclude_patterns)
 
     return is_tech_role and not is_senior
+
+
+def _is_salary_too_low(text: str) -> bool:
+    """
+    Reject jobs that explicitly mention salaries clearly below ₹15,000/month.
+    Returns True if the salary is detectably too low (should be rejected).
+    Does NOT reject if salary is unclear/missing — we don't want false rejects.
+    """
+    import re
+
+    # Patterns for INR monthly stipend/salary
+    # Match things like: "5000/month", "₹8000 per month", "stipend: 10000"
+    inr_monthly_patterns = [
+        r'(?:stipend|salary|ctc|pay)[^\d]{0,20}(?:₹|rs\.?|inr)?\s*(\d{3,6})\s*(?:/|per)?\s*(?:month|mo\b)',
+        r'(?:₹|rs\.?|inr)\s*(\d{3,6})\s*(?:/|per)?\s*(?:month|mo\b)',
+        r'(\d{3,6})\s*(?:₹|rs\.?|inr)?\s*(?:/|per)\s*(?:month|mo\b)',
+    ]
+
+    for pattern in inr_monthly_patterns:
+        matches = re.findall(pattern, text, re.IGNORECASE)
+        for m in matches:
+            try:
+                amount = int(m.replace(",", ""))
+                # Reject if clearly below 15,000/month (too low even for internship)
+                if amount < 15000:
+                    return True
+            except ValueError:
+                continue
+
+    # Patterns for annual CTC (LPA = Lakhs Per Annum)
+    # Reject if annual < 3 LPA (= 25k/month) for full-time
+    lpa_patterns = [
+        r'(\d+(?:\.\d+)?)\s*(?:lpa|lakh\s*per\s*annum|lakhs?\s*p\.?a\.?)',
+        r'(?:ctc|salary|package)[^\d]{0,20}(\d+(?:\.\d+)?)\s*(?:lpa|lakh)',
+    ]
+    for pattern in lpa_patterns:
+        matches = re.findall(pattern, text, re.IGNORECASE)
+        for m in matches:
+            try:
+                lpa = float(m)
+                # Reject < 3 LPA for full-time roles
+                if lpa < 3.0:
+                    return True
+            except ValueError:
+                continue
+
+    return False  # Can't detect salary or salary looks fine
+
 
 
 def score_and_rank_node(state: AgentState) -> Dict:
@@ -209,18 +264,33 @@ def _batch_score_with_gemini(jobs: List[dict]) -> List[dict]:
 
 Student skills: {user_skills}
 Student background: Final year B.Tech CSE, no work experience, strong in Python, C++, AI/ML, Gen AI, Agentic AI.
+Student location: Kolkata, West Bengal, India.
 
-Score each job 0-10 where:
+Score each job 0-10 using these criteria:
+
+BASE SCORE (tech fit):
 - 10 = Perfect match (Python/AI/ML/GenAI, explicitly fresher/0-1yr, entry level)
 - 7-9 = Good match (relevant role, probably accepts freshers)
 - 4-6 = Okay match (software role but less relevant skills)
 - 0-3 = Bad match (senior role, irrelevant field, or heavy experience required)
+
+BONUS POINTS (add to base, max total = 10):
++1.0 = Location is Kolkata OR Remote/WFH/Work From Home
++0.5 = Salary/stipend is clearly ≥ ₹30,000/month OR ≥ 3.6 LPA
++0.5 = Job explicitly says "5 days working" or "Mon-Fri" (not 6 days/Saturday)
++0.3 = "Hybrid" role mentioning Kolkata
+
+PENALTY (subtract from score):
+-1.0 = Location is outside India and NOT remote
+-1.0 = Salary is clearly < ₹20,000/month (low even for internship)
+-0.5 = "6 days working" or "Saturday mandatory" or "6 day work week"
 
 Jobs to score:
 {json.dumps(compact_jobs, indent=2)}
 
 Return ONLY valid JSON array: [{{"id": 0, "score": 8.5}}, ...]
 No explanations, no markdown, just JSON."""
+
 
     @retry(
         retry=retry_if_exception_type(Exception),
