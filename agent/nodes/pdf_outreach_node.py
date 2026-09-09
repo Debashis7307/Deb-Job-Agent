@@ -209,7 +209,7 @@ def _generate_pdf_emails_batch(contacts: List[Dict]) -> List[Dict]:
     profile_path = Path(cfg.USER_PROFILE_PATH) if hasattr(cfg, "USER_PROFILE_PATH") else Path("data/user_profile.json")
     user_name = "Debashis Bera"
     user_skills = "Python, C++, AI/ML, Generative AI, Agentic AI, LangGraph"
-    user_bg = "Final year B.Tech CSE student"
+    user_bg = "B.Tech CSE Graduate 2026 | GATE CS 2026 Qualified | production Agentic AI platform builder | AI-powered ERP experience"
 
     if profile_path.exists():
         try:
@@ -348,17 +348,16 @@ def _fallback_email(contact: Dict, user_name: str, user_skills: str) -> Dict:
     greeting = f"Hi {name}," if name and name.lower() not in ["", "unknown", "n/a"] else "Hi there,"
 
     desig_context = (
-        f"As {designation} at {company}, you would know best whether there are "
-        f"relevant openings for a passionate fresher."
+        f"As {designation} at {company}, you'd know best if there are relevant openings."
         if designation and designation.lower() not in ["hr", ""]
         else f"I believe you'd be the right person to connect with at {company}."
     )
 
     body = f"""{greeting}
 
-I'm Debashis Bera, a final year B.Tech CSE student specializing in Python, AI/ML, and Generative AI. I'm reaching out to explore potential opportunities at {company}.
+I'm Debashis Bera — B.Tech CSE Graduate (2026), GATE CS 2026 qualified. I've built a complete production-grade Agentic AI platform and contributed to an AI-powered Smart ERP portal for a 100-year-old company, which gave me real exposure to production-level code. I'm reaching out to explore opportunities at {company}.
 
-I've built production-grade autonomous AI agents (LangGraph + Gemini), with strong foundations in Python, C++, and ML. My resume is attached.
+Strong in Python, AI/ML, LangGraph, and Generative AI. My resume is attached.
 
 Portfolio: {cfg.USER_PORTFOLIO} | GitHub: {cfg.USER_GITHUB}
 Best regards,
@@ -366,6 +365,6 @@ Best regards,
 
     return {
         "to_email": email,
-        "subject": f"Final Year CSE Student | Python & AI/ML | Opportunity at {company}",
+        "subject": f"CSE Graduate 2026 | GATE Qualified | Python & AI/ML | {company}",
         "body": body,
     }

@@ -184,7 +184,7 @@ Portfolio: {user_portfolio}
 GitHub: {user_github}
 LinkedIn: {user_linkedin}
 Phone: {user_phone}
-Status: Final year B.Tech CSE student, strong in Python/AI/ML/GenAI
+Status: B.Tech CSE Graduate 2026 | GATE CS 2026 Qualified | Built complete Agentic AI platform (production) | AI-powered ERP portal experience for a 100-year-old company (team contributor, real production exposure)
 
 RULES FOR EACH EMAIL:
 - Must start with "Hey [HR Name / Hiring Team]," or "Hey team," — NEVER start with "Hi", "Dear", or "Respected".
@@ -205,7 +205,7 @@ Return ONLY valid JSON array:
 [
   {{
     "id": 0,
-    "subject": "Application for [Role] — {user_name}",
+    "subject": "Application for [Role] — {user_name} | CSE Graduate 2026",
     "body": "Hey [HR Name / Hiring Team],\\n\\n[3-4 crisp lines]\\n\\nPortfolio: {user_portfolio} | GitHub: {user_github}\\nBest,\\n{user_name} | {user_phone}"
   }},
   ...
@@ -265,9 +265,9 @@ def _fallback_email_template(jobs: List[dict]) -> List[dict]:
     for job in jobs:
         body = f"""Hey Hiring Team,
 
-I'm {cfg.USER_NAME}, a final year B.Tech CSE student with strong skills in Python, AI/ML, and Generative AI. I saw the {job.get('title', 'position')} opening at {job.get('company', 'your company')} and wanted to reach out directly.
+I'm {cfg.USER_NAME}, a B.Tech CSE Graduate (2026) with GATE CS 2026 cleared. I've built a complete production Agentic AI platform and contributed to an AI-powered Smart ERP portal for a 100-year-old company — giving me real exposure to how code works at scale. I saw the {job.get('title', 'position')} opening at {job.get('company', 'your company')} and wanted to reach out.
 
-I've built {cfg.PROJECTS[0]['name'] if cfg.PROJECTS else 'an autonomous AI agent'} — {cfg.PROJECTS[0]['description'] if cfg.PROJECTS else 'LangGraph-based automation'} — and I ship clean, production-grade code.
+Strong in Python, AI/ML, LangGraph, and Generative AI. My resume is attached.
 
 Portfolio: {cfg.USER_PORTFOLIO} | GitHub: {cfg.USER_GITHUB}
 Best,
@@ -276,7 +276,7 @@ Best,
         results.append({
             "job_url": job.get("url", ""),
             "to_email": job.get("hr_email", ""),
-            "subject": f"Application for {job.get('title', 'Software Role')} — Fresher | {cfg.USER_NAME}",
+            "subject": f"Application for {job.get('title', 'Software Role')} — {cfg.USER_NAME} | CSE Graduate 2026",
             "body": body,
             "company": job.get("company", ""),
             "job_title": job.get("title", ""),
