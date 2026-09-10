@@ -1,0 +1,483 @@
+2026-09-10 19:13:41 [INFO] __main__: ============================================================
+2026-09-10 19:13:41 [INFO] __main__: JOB AGENT — CLOUD RUN (GitHub Actions)
+2026-09-10 19:13:41 [INFO] __main__: Started: 2026-09-10 19:13:41 UTC
+2026-09-10 19:13:41 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-09-10 19:13:41 [INFO] __main__: Python: 3.11.16 (main, Aug 13 2026, 02:46:14) [GCC 13.3.0]
+2026-09-10 19:13:41 [INFO] __main__: ============================================================
+2026-09-10 19:13:43 [INFO] __main__: Max apply today:  30
+2026-09-10 19:13:43 [INFO] __main__: Cold emails today: 25
+2026-09-10 19:13:43 [INFO] __main__: Applications email: debashis.bera.careers@gmail.com
+2026-09-10 19:13:43 [INFO] __main__: Summary email to:   debashisalak@gmail.com
+2026-09-10 19:13:43 [INFO] database.db_manager: Database initialized at /home/runner/work/Deb-Job-Agent/Deb-Job-Agent/database/tracker.db
+2026-09-10 19:13:45 [INFO] agent.nodes.memory_node: mem0: Loaded 10 memories from cloud API
+2026-09-10 19:13:45 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 559
+All-time emails sent: 352
+Unique companies contacted: 570
+Today (2026-09-10) already applied: 0
+Previous context from memory:
+User scraped 125 job listings on 2026-09-07, applied to 0 jobs, and sent 17 cold emails, with no companies listed
+User scraped 126 job listings on 2026-09-07, applied to 30 jobs, and sent 14 cold emails, targeting companies bp, HMH Tech India, Clicksoft Solutions, KLA, Vercel, PwC Acceleration Center India, Swiggy, NTHREAD, Appglide Solutions, and American Express
+User scraped 126 job listings on 2026-09-09, applied to 30 jobs, and sent 15 cold emails, targeting companies Kuku, Fujitsu, Beacon.li, OATI, Eaton, Finominal, Carelon Global Solutions India, aiqon, NayePankh Foundation, and Trane Technologies
+User scraped 133 job listings on 2026-09-08, applied to 30 jobs, and sent 18 cold emails, targeting companies Brillio, Kaleidofin Private Limited, Hire Feed, Honeywell Technologies, Microsoft, GyanSys Inc., ShopOS, Quralyst, Dots Connect, and Tredence Inc.
+User scraped 54 job listings on 2026-06-02, applied to 1 job, sent 1 cold email, targeting company Yardstick
+User scraped 122 job listings on 2026-06-13, applied to 0 jobs, and sent 16 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 13 cold emails, with no companies listed
+User scraped 57 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 53 job listings on 2026-06-02, applied to 0 jobs, and sent 0 cold emails, with no companies listed
+User scraped 86 job listings on 2026-06-02, applied to 0 jobs, and sent 14 cold emails, with no companies listed
+2026-09-10 19:13:45 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-09-10 19:13:45 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-09-10 19:13:48 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 30 relevant jobs
+2026-09-10 19:13:48 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 30 jobs
+2026-09-10 19:13:48 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-09-10 19:13:48 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-09-10 19:13:52 [INFO] scrapers.internshala_scraper: Internshala: Total 42 jobs found
+2026-09-10 19:13:52 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-09-10 19:13:52 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-09-10 19:13:53 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-09-10 19:14:10 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-09-10 19:14:27 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-09-10 19:14:42 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-09-10 19:15:00 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-09-10 19:15:00 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-09-10 19:15:00 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-09-10 19:15:00 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-09-10 19:15:00 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-09-10 19:15:00 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-09-10 19:15:00 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-09-10 19:15:00 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-09-10 19:15:14 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Could not find username/email field on LinkedIn login page. Proceeding with public search...
+2026-09-10 19:15:14 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-09-10 19:15:27 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-09-10 19:15:45 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-09-10 19:16:02 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 43 jobs
+2026-09-10 19:16:02 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 43 jobs
+2026-09-10 19:16:02 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-09-10 19:16:02 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-09-10 19:16:15 [WARNING] scrapers.naukri_scraper: Naukri login failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#usernameField, input[name='username'], input[placeholder*='Email'], input[placeholder*='Username']") to be visible
+
+2026-09-10 19:16:15 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-09-10 19:16:26 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-09-10 19:16:38 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-09-10 19:16:50 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-09-10 19:17:00 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-09-10 19:17:13 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-09-10 19:17:27 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-09-10 19:17:41 [INFO] scrapers.naukri_scraper: Naukri: Found 0 jobs
+2026-09-10 19:17:41 [INFO] agent.nodes.scrape_node: ✅ Naukri: 0 jobs
+2026-09-10 19:17:41 [INFO] agent.nodes.scrape_node: Tavily: Searching free job portals & startup boards (budget: 10 searches)...
+2026-09-10 19:17:46 [INFO] tools.tavily_search: Tavily free portal search: found 15 jobs
+2026-09-10 19:17:54 [INFO] tools.tavily_search: Tavily startup job search: found 10 leads
+2026-09-10 19:17:54 [INFO] agent.nodes.scrape_node: Tavily: 8 real job leads (filtered from 25)
+2026-09-10 19:17:54 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 136 jobs from all portals
+2026-09-10 19:17:54 [INFO] agent.nodes.filter_node: ✅ Filter: 136 scraped → 57 new relevant jobs
+2026-09-10 19:17:54 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:17:54 [WARNING] google_genai.models: Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-10 19:18:49 [INFO] agent.nodes.filter_node: Gemini scored 57 jobs in 1 API call
+2026-09-10 19:18:49 [INFO] agent.nodes.filter_node: Scored 57 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-09-10 19:18:49 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=False)
+2026-09-10 19:18:49 [INFO] agent.nodes.apply_node: Applying to 24 jobs on linkedin
+2026-09-10 19:18:49 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-09-10 19:19:16 [INFO] agent.nodes.apply_node: Waiting 21s before next application...
+2026-09-10 19:19:37 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-09-10 19:19:53 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-09-10 19:20:07 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-09-10 19:20:23 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-09-10 19:20:40 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-09-10 19:21:08 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-09-10 19:21:33 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-09-10 19:21:45 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-09-10 19:22:02 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-09-10 19:22:13 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-09-10 19:22:23 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-09-10 19:22:44 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-09-10 19:23:10 [INFO] agent.nodes.apply_node: Waiting 18s before next application...
+2026-09-10 19:23:29 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-09-10 19:23:44 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-09-10 19:24:01 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-09-10 19:24:13 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-09-10 19:24:39 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-09-10 19:24:50 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-09-10 19:25:19 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-09-10 19:25:31 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-09-10 19:25:44 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-09-10 19:25:57 [INFO] agent.nodes.apply_node: Applying to 1 jobs on remoteok
+2026-09-10 19:25:57 [INFO] agent.nodes.apply_node: Waiting 21s before next application...
+2026-09-10 19:26:18 [INFO] agent.nodes.apply_node: Applying to 5 jobs on internshala
+2026-09-10 19:26:18 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-09-10 19:26:29 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-09-10 19:26:45 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-09-10 19:27:08 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-09-10 19:27:25 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-09-10 19:27:40 [INFO] agent.nodes.apply_node: Apply node done: 0 portal-applied, 29 queued for cold email, 0 failed
+2026-09-10 19:27:40 [INFO] agent.nodes.email_node: Finding HR email for: AmsikaTechBotz
+2026-09-10 19:27:41 [INFO] tools.email_finder: Using guessed domain for AmsikaTechBotz: amsikatechbotz.com
+2026-09-10 19:27:41 [INFO] tools.email_finder: Successfully refreshed Snov.io API access token.
+2026-09-10 19:27:41 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:27:48 [INFO] tools.email_finder: ✅ Verified MX records for amsikatechbotz.com
+2026-09-10 19:27:48 [INFO] tools.email_finder: Using verified pattern email for AmsikaTechBotz: hr@amsikatechbotz.com
+2026-09-10 19:27:48 [INFO] agent.nodes.email_node: Finding HR email for: Omnibound AI
+2026-09-10 19:27:48 [INFO] tools.email_finder: Using guessed domain for Omnibound AI: omniboundai.com
+2026-09-10 19:27:49 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:27:53 [INFO] tools.email_finder: ✅ Verified MX records for omniboundai.com
+2026-09-10 19:27:53 [INFO] tools.email_finder: Using verified pattern email for Omnibound AI: hr@omniboundai.com
+2026-09-10 19:27:54 [INFO] agent.nodes.email_node: Finding HR email for: SymphonyAI
+2026-09-10 19:27:54 [INFO] tools.email_finder: Using guessed domain for SymphonyAI: symphonyai.com
+2026-09-10 19:27:54 [INFO] tools.email_finder: Apollo: Found global organization ID 5b143505a6da98dcab512a41 for domain symphonyai.com
+2026-09-10 19:27:55 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:27:56 [INFO] tools.tavily_search: Tavily found email for SymphonyAI: globalhrops@symphonyai.com
+2026-09-10 19:27:56 [INFO] tools.email_finder: ✅ Verified MX records for symphonyai.com
+2026-09-10 19:27:56 [INFO] tools.email_finder: Found email via Tavily for SymphonyAI: globalhrops@symphonyai.com
+2026-09-10 19:27:57 [INFO] agent.nodes.email_node: Finding HR email for: QuickReply.ai
+2026-09-10 19:27:57 [INFO] tools.email_finder: Using guessed domain for QuickReply.ai: quickreplyai.com
+2026-09-10 19:27:58 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:02 [INFO] tools.email_finder: ✅ Verified MX records for quickreplyai.com
+2026-09-10 19:28:02 [INFO] tools.email_finder: Using verified pattern email for QuickReply.ai: hr@quickreplyai.com
+2026-09-10 19:28:02 [INFO] agent.nodes.email_node: Finding HR email for: F5
+2026-09-10 19:28:02 [INFO] tools.email_finder: Using guessed domain for F5: f5.com
+2026-09-10 19:28:03 [INFO] tools.email_finder: Apollo: Found global organization ID 55922c2273696418bcf5ac00 for domain f5.com
+2026-09-10 19:28:03 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:06 [INFO] tools.tavily_search: Tavily found email for F5: a.parmar@f5.com
+2026-09-10 19:28:07 [INFO] tools.email_finder: ✅ Verified MX records for f5.com
+2026-09-10 19:28:07 [INFO] tools.email_finder: Found email via Tavily for F5: a.parmar@f5.com
+2026-09-10 19:28:08 [INFO] agent.nodes.email_node: Finding HR email for: Everseen
+2026-09-10 19:28:08 [INFO] tools.email_finder: Using guessed domain for Everseen: everseen.com
+2026-09-10 19:28:08 [INFO] tools.email_finder: Apollo: Found global organization ID 556d118a73696411ccb28200 for domain everseen.com
+2026-09-10 19:28:09 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:11 [INFO] tools.email_finder: ✅ Verified MX records for everseen.com
+2026-09-10 19:28:11 [INFO] tools.email_finder: Found scraped and verified email for Everseen: careers@everseen.com
+2026-09-10 19:28:13 [INFO] agent.nodes.email_node: Finding HR email for: Recrew AI
+2026-09-10 19:28:13 [INFO] tools.email_finder: Using guessed domain for Recrew AI: recrewai.com
+2026-09-10 19:28:13 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:17 [INFO] tools.email_finder: ✅ Verified MX records for recrewai.com
+2026-09-10 19:28:17 [INFO] tools.email_finder: Using verified pattern email for Recrew AI: hr@recrewai.com
+2026-09-10 19:28:18 [INFO] agent.nodes.email_node: Finding HR email for: Whitefield Careers
+2026-09-10 19:28:18 [INFO] tools.email_finder: Using guessed domain for Whitefield Careers: whitefieldcareers.com
+2026-09-10 19:28:18 [INFO] tools.email_finder: Apollo: Found global organization ID 637cb560f7000500cf42f824 for domain whitefieldcareers.com
+2026-09-10 19:28:18 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:27 [INFO] tools.email_finder: ✅ Verified MX records for whitefieldcareers.com
+2026-09-10 19:28:27 [INFO] tools.email_finder: Found scraped and verified email for Whitefield Careers: connect@whitefieldcareers.com
+2026-09-10 19:28:27 [INFO] agent.nodes.email_node: Finding HR email for: Peryx.ai
+2026-09-10 19:28:28 [INFO] tools.email_finder: Using guessed domain for Peryx.ai: peryxai.com
+2026-09-10 19:28:28 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:31 [WARNING] tools.email_finder: ❌ Domain resolution failed for peryxai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:31 [WARNING] tools.email_finder: ❌ Domain resolution failed for peryxai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:31 [WARNING] tools.email_finder: ❌ Domain resolution failed for peryxai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:31 [WARNING] tools.email_finder: ❌ Domain resolution failed for peryxai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:31 [WARNING] tools.email_finder: ❌ Domain resolution failed for peryxai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:31 [WARNING] tools.email_finder: ❌ No valid email could be verified for Peryx.ai (domain: peryxai.com). Skipping outreach.
+2026-09-10 19:28:31 [INFO] agent.nodes.email_node: Finding HR email for: Aicumen.ai
+2026-09-10 19:28:32 [INFO] tools.email_finder: Using guessed domain for Aicumen.ai: aicumenai.com
+2026-09-10 19:28:32 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for aicumenai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for aicumenai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for aicumenai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for aicumenai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for aicumenai.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:28:35 [WARNING] tools.email_finder: ❌ No valid email could be verified for Aicumen.ai (domain: aicumenai.com). Skipping outreach.
+2026-09-10 19:28:36 [INFO] agent.nodes.email_node: Finding HR email for: Tata Consultancy Services
+2026-09-10 19:28:36 [INFO] tools.email_finder: Using guessed domain for Tata Consultancy Services: tata.com
+2026-09-10 19:28:36 [INFO] tools.email_finder: Apollo: Found global organization ID 5f497a54f9b40f00011a65ac for domain tata.com
+2026-09-10 19:28:37 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:42 [INFO] tools.email_finder: ✅ Verified MX records for tata.com
+2026-09-10 19:28:42 [INFO] tools.email_finder: Found scraped and verified email for Tata Consultancy Services: northamerica@tata.com
+2026-09-10 19:28:42 [INFO] agent.nodes.email_node: Finding HR email for: Physical Superintelligence
+2026-09-10 19:28:42 [INFO] tools.email_finder: Using guessed domain for Physical Superintelligence: physicalsuperintelligence.com
+2026-09-10 19:28:43 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:50 [INFO] tools.email_finder: ✅ Verified MX records for physicalsuperintelligence.com
+2026-09-10 19:28:50 [INFO] tools.email_finder: Using verified pattern email for Physical Superintelligence: hr@physicalsuperintelligence.com
+2026-09-10 19:28:50 [INFO] agent.nodes.email_node: Finding HR email for: Unisys
+2026-09-10 19:28:50 [INFO] tools.email_finder: Using guessed domain for Unisys: unisys.com
+2026-09-10 19:28:50 [INFO] tools.email_finder: Apollo: Found global organization ID 54a128f469702d8cfc348d01 for domain unisys.com
+2026-09-10 19:28:51 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:54 [INFO] tools.tavily_search: Tavily found email for Unisys: careers@unisys.com
+2026-09-10 19:28:54 [INFO] tools.email_finder: ✅ Verified MX records for unisys.com
+2026-09-10 19:28:54 [INFO] tools.email_finder: Found email via Tavily for Unisys: careers@unisys.com
+2026-09-10 19:28:56 [INFO] agent.nodes.email_node: Finding HR email for: StartX Med
+2026-09-10 19:28:56 [INFO] tools.email_finder: Using guessed domain for StartX Med: startxmed.com
+2026-09-10 19:28:56 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:28:57 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:28:57 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:28:58 [INFO] tools.email_finder: ✅ Verified MX records for startxmed.com
+2026-09-10 19:28:58 [INFO] tools.email_finder: Using verified pattern email for StartX Med: hr@startxmed.com
+2026-09-10 19:28:59 [INFO] agent.nodes.email_node: Finding HR email for: EXL
+2026-09-10 19:28:59 [INFO] tools.email_finder: Using guessed domain for EXL: exl.com
+2026-09-10 19:28:59 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:29:00 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:00 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:03 [WARNING] tools.email_finder: ❌ MX record lookup failed for exl.com: The DNS response does not contain an answer to the question: exl.com. IN MX
+2026-09-10 19:29:03 [WARNING] tools.email_finder: ❌ MX record lookup failed for exl.com: The DNS response does not contain an answer to the question: exl.com. IN MX
+2026-09-10 19:29:03 [WARNING] tools.email_finder: ❌ MX record lookup failed for exl.com: The DNS response does not contain an answer to the question: exl.com. IN MX
+2026-09-10 19:29:04 [WARNING] tools.email_finder: ❌ MX record lookup failed for exl.com: The DNS response does not contain an answer to the question: exl.com. IN MX
+2026-09-10 19:29:04 [WARNING] tools.email_finder: ❌ MX record lookup failed for exl.com: The DNS response does not contain an answer to the question: exl.com. IN MX
+2026-09-10 19:29:04 [WARNING] tools.email_finder: ❌ No valid email could be verified for EXL (domain: exl.com). Skipping outreach.
+2026-09-10 19:29:04 [INFO] agent.nodes.email_node: Finding HR email for: FORGIS
+2026-09-10 19:29:04 [INFO] tools.email_finder: Using guessed domain for FORGIS: forgis.com
+2026-09-10 19:29:05 [INFO] tools.email_finder: Apollo: Found global organization ID 67c89044400db80015d62e48 for domain forgis.com
+2026-09-10 19:29:05 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:29:05 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:05 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:06 [INFO] tools.email_finder: ✅ Verified MX records for forgis.com
+2026-09-10 19:29:06 [INFO] tools.email_finder: Using verified pattern email for FORGIS: hr@forgis.com
+2026-09-10 19:29:07 [INFO] agent.nodes.email_node: Finding HR email for: Kroll
+2026-09-10 19:29:08 [INFO] tools.email_finder: Using guessed domain for Kroll: kroll.com
+2026-09-10 19:29:08 [INFO] tools.email_finder: Apollo: Found global organization ID 54a1298069702d90a222ce01 for domain kroll.com
+2026-09-10 19:29:08 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:29:08 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:08 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:12 [INFO] tools.email_finder: ✅ Verified MX records for kroll.com
+2026-09-10 19:29:12 [INFO] tools.email_finder: Found scraped and verified email for Kroll: mediarelations@kroll.com
+2026-09-10 19:29:12 [INFO] agent.nodes.email_node: Finding HR email for: DIGIIQ IT SOLUTION PRIVATE LIMITED
+2026-09-10 19:29:13 [INFO] tools.email_finder: Using guessed domain for DIGIIQ IT SOLUTION PRIVATE LIMITED: digiiqitsolution.com
+2026-09-10 19:29:13 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:29:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for digiiqitsolution.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for digiiqitsolution.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for digiiqitsolution.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for digiiqitsolution.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for digiiqitsolution.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:15 [WARNING] tools.email_finder: ❌ No valid email could be verified for DIGIIQ IT SOLUTION PRIVATE LIMITED (domain: digiiqitsolution.com). Skipping outreach.
+2026-09-10 19:29:16 [INFO] agent.nodes.email_node: Finding HR email for: Flam
+2026-09-10 19:29:16 [INFO] tools.email_finder: Using guessed domain for Flam: flam.com
+2026-09-10 19:29:17 [INFO] tools.email_finder: Apollo: Found global organization ID 6729d2a0930ff10001ec4c5e for domain flam.com
+2026-09-10 19:29:17 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:29:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:20 [INFO] tools.email_finder: ✅ Verified MX records for flam.com
+2026-09-10 19:29:20 [INFO] tools.email_finder: Using verified pattern email for Flam: hr@flam.com
+2026-09-10 19:29:21 [INFO] agent.nodes.email_node: Finding HR email for: Alaan الآن
+2026-09-10 19:29:22 [INFO] tools.email_finder: Using guessed domain for Alaan الآن: alaan.com
+2026-09-10 19:29:22 [INFO] tools.email_finder: Apollo: Found global organization ID 621f2cfbffdff600fe30d7ba for domain alaan.com
+2026-09-10 19:29:22 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:29:24 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:24 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:25 [INFO] tools.email_finder: ✅ Verified MX records for alaan.com
+2026-09-10 19:29:25 [INFO] tools.email_finder: Found scraped and verified email for Alaan الآن: support@alaan.com
+2026-09-10 19:29:25 [INFO] agent.nodes.email_node: Finding HR email for: Basti Ki Pathshala Foundation
+2026-09-10 19:29:26 [INFO] tools.email_finder: Using guessed domain for Basti Ki Pathshala Foundation: bastikipathshala.com
+2026-09-10 19:29:27 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:29:28 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:28 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:28 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:28 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:28 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:28 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:28 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-09-10 19:29:28 [WARNING] tools.email_finder: ❌ No valid email could be verified for Basti Ki Pathshala Foundation (domain: bastikipathshala.com). Skipping outreach.
+2026-09-10 19:29:29 [INFO] agent.nodes.email_node: Finding HR email for: Women First India Foundation
+2026-09-10 19:29:29 [INFO] tools.email_finder: Using guessed domain for Women First India Foundation: womenfirst.com
+2026-09-10 19:29:30 [INFO] tools.email_finder: Apollo: Found global organization ID 55ea55c9f3e5bb59980031f0 for domain womenfirst.com
+2026-09-10 19:29:30 [WARNING] tools.email_finder: Snov.io domain search start failed with status 403
+2026-09-10 19:29:31 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:31 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-09-10 19:29:34 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-09-10 19:29:34 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-09-10 19:29:34 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-09-10 19:29:35 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-09-10 19:29:35 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-09-10 19:29:35 [WARNING] tools.email_finder: ❌ No valid email could be verified for Women First India Foundation (domain: womenfirst.com). Skipping outreach.
+2026-09-10 19:29:36 [INFO] agent.nodes.email_node: Found HR emails for 16/25 companies
+2026-09-10 19:29:36 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:29:54 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-09-10 19:29:59 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:30:13 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-09-10 19:30:18 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:30:31 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-09-10 19:30:36 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:30:42 [INFO] agent.nodes.email_node: ✅ Generated 1 emails in 1 Gemini call
+2026-09-10 19:30:49 [INFO] tools.email_sender: ✅ Email sent to hr@amsikatechbotz.com: Application for Junior Software Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:30:49 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:31:22 [INFO] tools.email_sender: ✅ Email sent to hr@omniboundai.com: Application for Backend Python AI Developer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:31:22 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:31:58 [INFO] tools.email_sender: ✅ Email sent to globalhrops@symphonyai.com: Application for Apprentice - Software Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:31:58 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:32:30 [INFO] tools.email_sender: ✅ Email sent to hr@quickreplyai.com: Application for Software Development Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:32:30 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:33:02 [INFO] tools.email_sender: ✅ Email sent to a.parmar@f5.com: Application for Software Engineer Apprentice — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:33:02 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:33:34 [INFO] tools.email_sender: ✅ Email sent to careers@everseen.com: Application for AI/ML Engineer I — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:33:34 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:34:06 [INFO] tools.email_sender: ✅ Email sent to hr@recrewai.com: Application for Computer Vision Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:34:06 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:34:39 [INFO] tools.email_sender: ✅ Email sent to connect@whitefieldcareers.com: Application for Junior AI Application Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:34:39 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:35:11 [INFO] tools.email_sender: ✅ Email sent to northamerica@tata.com: Application for Artificial Intelligence Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:35:11 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:35:44 [INFO] tools.email_sender: ✅ Email sent to hr@physicalsuperintelligence.com: Application for Member of Technical Staff Engineering — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:35:44 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:36:17 [INFO] tools.email_sender: ✅ Email sent to careers@unisys.com: Application for AI Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:36:17 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:36:49 [INFO] tools.email_sender: ✅ Email sent to hr@startxmed.com: Application for AI / ML Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:36:49 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:37:21 [INFO] tools.email_sender: ✅ Email sent to hr@forgis.com: Application for Machine Learning Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:37:21 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:37:53 [INFO] tools.email_sender: ✅ Email sent to mediarelations@kroll.com: Application for Data Scientist I — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:37:53 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:38:25 [INFO] tools.email_sender: ✅ Email sent to hr@flam.com: Application for Artificial Intelligence Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:38:25 [INFO] agent.nodes.email_node: ⏳ Waiting 30s before next email...
+2026-09-10 19:38:58 [INFO] tools.email_sender: ✅ Email sent to support@alaan.com: Application for AI Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 19:38:58 [INFO] agent.nodes.email_node: ✅ Email node: 16 cold emails sent
+2026-09-10 19:38:58 [INFO] tools.pdf_hr_parser: Parsing HR contacts PDF: CompanyWise HR contact.pdf ...
+2026-09-10 19:38:58 [INFO] tools.pdf_hr_parser: PDF has 56 pages
+2026-09-10 19:39:00 [INFO] tools.pdf_hr_parser:   Processed page 10/56, 328 contacts so far...
+2026-09-10 19:39:03 [INFO] tools.pdf_hr_parser:   Processed page 20/56, 655 contacts so far...
+2026-09-10 19:39:06 [INFO] tools.pdf_hr_parser:   Processed page 30/56, 981 contacts so far...
+2026-09-10 19:39:09 [INFO] tools.pdf_hr_parser:   Processed page 40/56, 1311 contacts so far...
+2026-09-10 19:39:12 [INFO] tools.pdf_hr_parser:   Processed page 50/56, 1638 contacts so far...
+2026-09-10 19:39:14 [INFO] tools.pdf_hr_parser: ✅ PDF parsed: 1831 unique HR contacts saved to hr_contacts_from_pdf.csv
+2026-09-10 19:39:14 [INFO] tools.pdf_hr_parser: PDF HR batch: 80 contacts ready (from 1831 total, 365 already processed)
+2026-09-10 19:39:25 [INFO] agent.nodes.pdf_outreach_node: PDF HR: Skipped 1 contacts with invalid/unresolvable email domains
+2026-09-10 19:39:25 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach: Sending 50 emails (total sent so far: 350/0)
+2026-09-10 19:39:25 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:39:37 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 1)
+2026-09-10 19:39:41 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:39:58 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 2)
+2026-09-10 19:40:02 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:40:19 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 3)
+2026-09-10 19:40:23 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:40:33 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 4)
+2026-09-10 19:40:37 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:40:37 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 1/4 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 5s...
+2026-09-10 19:40:42 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:40:54 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 5)
+2026-09-10 19:40:58 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:41:18 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 6)
+2026-09-10 19:41:22 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:41:37 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 7)
+2026-09-10 19:41:41 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:41:55 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 8)
+2026-09-10 19:41:59 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:42:09 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 9)
+2026-09-10 19:42:13 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-10 19:42:33 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 10)
+2026-09-10 19:42:40 [INFO] tools.email_sender: ✅ Email sent to garima.sangwan@accops.com: Agentic AI & ERP Platform Builder for Accops
+2026-09-10 19:42:40 [INFO] agent.nodes.pdf_outreach_node: [1/50] PDF HR sent to garima.sangwan@accops.com (367 @ Garima Sangwan)
+2026-09-10 19:43:02 [INFO] tools.email_sender: ✅ Email sent to gsharma@nasscom.in: Innovating with Production AI: Debashis Bera for NASSCOM
+2026-09-10 19:43:02 [INFO] agent.nodes.pdf_outreach_node: [2/50] PDF HR sent to gsharma@nasscom.in (368 @ Garima Sharma)
+2026-09-10 19:43:25 [INFO] tools.email_sender: ✅ Email sent to gyjoshi@workforcelogiq.com: AI-Powered Talent Solutions: Debashis Bera for Workforce Logiq
+2026-09-10 19:43:25 [INFO] agent.nodes.pdf_outreach_node: [3/50] PDF HR sent to gyjoshi@workforcelogiq.com (369 @ Gaurang Joshi)
+2026-09-10 19:43:47 [INFO] tools.email_sender: ✅ Email sent to gauravgaur@ironsystems.com: Production Agentic AI Expertise for Iron Systems
+2026-09-10 19:43:47 [INFO] agent.nodes.pdf_outreach_node: [4/50] PDF HR sent to gauravgaur@ironsystems.com (370 @ Gaurav Gaur)
+2026-09-10 19:44:09 [INFO] tools.email_sender: ✅ Email sent to gaurav.s@amigainformatics.com: AI/ML Platform Developer for Amiga Informatics
+2026-09-10 19:44:09 [INFO] agent.nodes.pdf_outreach_node: [5/50] PDF HR sent to gaurav.s@amigainformatics.com (371 @ Gaurav Saxena)
+2026-09-10 19:44:32 [INFO] tools.email_sender: ✅ Email sent to gaurav.upadhyay@v2solutions.com: AI Agentic Platforms for Digital Workforce at V2Solutions
+2026-09-10 19:44:32 [INFO] agent.nodes.pdf_outreach_node: [6/50] PDF HR sent to gaurav.upadhyay@v2solutions.com (372 @ Gaurav Upadhyay)
+2026-09-10 19:44:54 [INFO] tools.email_sender: ✅ Email sent to gautam@firstconnectsolutions.com: Talent for AI-Powered ERP & Agentic Platforms: Debashis Bera
+2026-09-10 19:44:54 [INFO] agent.nodes.pdf_outreach_node: [7/50] PDF HR sent to gautam@firstconnectsolutions.com (373 @ Gautam Kar)
+2026-09-10 19:45:19 [INFO] tools.email_sender: ✅ Email sent to gautamn@tblocks.com: Agentic AI Platform Builder for Tblocks: Debashis Bera
+2026-09-10 19:45:19 [INFO] agent.nodes.pdf_outreach_node: [8/50] PDF HR sent to gautamn@tblocks.com (374 @ Gautam Nautiyal)
+2026-09-10 19:45:41 [INFO] tools.email_sender: ✅ Email sent to gautam.pathak@opshub.com: AI Talent for HR/Operations at Opshub: Debashis Bera
+2026-09-10 19:45:41 [INFO] agent.nodes.pdf_outreach_node: [9/50] PDF HR sent to gautam.pathak@opshub.com (375 @ Gautam Pathak)
+2026-09-10 19:46:04 [INFO] tools.email_sender: ✅ Email sent to gautam.prasad@ondemandagility.com: Agentic AI & GenAI Talent for OnDemand Agility
+2026-09-10 19:46:04 [INFO] agent.nodes.pdf_outreach_node: [10/50] PDF HR sent to gautam.prasad@ondemandagility.com (376 @ Gautam Prasad)
+2026-09-10 19:46:26 [INFO] tools.email_sender: ✅ Email sent to gautam.tungare@6degreesit.com: Production Agentic AI Builder for 6DegreesIT
+2026-09-10 19:46:26 [INFO] agent.nodes.pdf_outreach_node: [11/50] PDF HR sent to gautam.tungare@6degreesit.com (377 @ Gautam Tungare)
+2026-09-10 19:46:49 [INFO] tools.email_sender: ✅ Email sent to gautham.p@accubits.com: GATE CS Qualified AI Developer for Accubits
+2026-09-10 19:46:49 [INFO] agent.nodes.pdf_outreach_node: [12/50] PDF HR sent to gautham.p@accubits.com (378 @ Gautham Premkumar)
+2026-09-10 19:47:11 [INFO] tools.email_sender: ✅ Email sent to gayathri.arunkumar@tvsnext.io: Agentic AI Platform Expert for TVSNEXT Innovation
+2026-09-10 19:47:11 [INFO] agent.nodes.pdf_outreach_node: [13/50] PDF HR sent to gayathri.arunkumar@tvsnext.io (379 @ Gayathri Arunkumar)
+2026-09-10 19:47:35 [INFO] tools.email_sender: ✅ Email sent to gayathri.nagaraj@responsivemts.com: AI-powered ERP Talent for Responsivemts
+2026-09-10 19:47:35 [INFO] agent.nodes.pdf_outreach_node: [14/50] PDF HR sent to gayathri.nagaraj@responsivemts.com (380 @ Gayathri Nagaraj)
+2026-09-10 19:47:57 [INFO] tools.email_sender: ✅ Email sent to gayatri@aumnitechworks.com: Production AI Platform Developer for Aumnitechworks
+2026-09-10 19:47:57 [INFO] agent.nodes.pdf_outreach_node: [15/50] PDF HR sent to gayatri@aumnitechworks.com (381 @ Gayatri Moghe)
+2026-09-10 19:48:20 [INFO] tools.email_sender: ✅ Email sent to gayatri.nikkula@inry.com: Agentic AI Platform Builder | B.Tech 2026 Grad
+2026-09-10 19:48:20 [INFO] agent.nodes.pdf_outreach_node: [16/50] PDF HR sent to gayatri.nikkula@inry.com (382 @ Gayatri Nikkula)
+2026-09-10 19:48:42 [INFO] tools.email_sender: ✅ Email sent to gayatrip@gathi.com: AI-Powered ERP & Agentic Platforms for Gathi
+2026-09-10 19:48:42 [INFO] agent.nodes.pdf_outreach_node: [17/50] PDF HR sent to gayatrip@gathi.com (383 @ Gayatri P)
+2026-09-10 19:49:05 [INFO] tools.email_sender: ✅ Email sent to gayatri@dyooti.com: B.Tech 2026: AI Platform Builder for Dyooti
+2026-09-10 19:49:05 [INFO] agent.nodes.pdf_outreach_node: [18/50] PDF HR sent to gayatri@dyooti.com (385 @ Gayatri Shanker)
+2026-09-10 19:49:28 [INFO] tools.email_sender: ✅ Email sent to gazal@imarkinfotech.com: GATE CS 2026 Qual. | AI Platform Builder | Imark
+2026-09-10 19:49:28 [INFO] agent.nodes.pdf_outreach_node: [19/50] PDF HR sent to gazal@imarkinfotech.com (386 @ Gazal Singhania)
+2026-09-10 19:49:50 [INFO] tools.email_sender: ✅ Email sent to geetanjali.toopran@solix.com: Production AI Platforms | AI-Powered ERP | Solix
+2026-09-10 19:49:50 [INFO] agent.nodes.pdf_outreach_node: [20/50] PDF HR sent to geetanjali.toopran@solix.com (387 @ Geetanjali Toopran)
+2026-09-10 19:50:27 [INFO] tools.email_sender: ✅ Email sent to giri.babu@neovatic.com: Agentic AI Platform Builder for Neovatic
+2026-09-10 19:50:27 [INFO] agent.nodes.pdf_outreach_node: [21/50] PDF HR sent to giri.babu@neovatic.com (388 @ Giri Babu)
+2026-09-10 19:50:50 [INFO] tools.email_sender: ✅ Email sent to giridhar.d@e5.ai: Enhancing AI Operations at e5.ai
+2026-09-10 19:50:50 [INFO] agent.nodes.pdf_outreach_node: [22/50] PDF HR sent to giridhar.d@e5.ai (389 @ Giridhar D)
+2026-09-10 19:51:12 [INFO] tools.email_sender: ✅ Email sent to gvemuganti@tataunistore.com: AI-Powered ERP Expertise for Tata Unistore
+2026-09-10 19:51:12 [INFO] agent.nodes.pdf_outreach_node: [23/50] PDF HR sent to gvemuganti@tataunistore.com (390 @ Giridhar Vemuganti)
+2026-09-10 19:51:34 [INFO] tools.email_sender: ✅ Email sent to girish.subramanian@symphonyretailai.com: Driving AI Innovation at Symphony RetailAI
+2026-09-10 19:51:34 [INFO] agent.nodes.pdf_outreach_node: [24/50] PDF HR sent to girish.subramanian@symphonyretailai.com (391 @ Girish)
+2026-09-10 19:51:57 [INFO] tools.email_sender: ✅ Email sent to girish.k@infomazeapps.com: Agentic AI Solutions for Infomazeapps
+2026-09-10 19:51:57 [INFO] agent.nodes.pdf_outreach_node: [25/50] PDF HR sent to girish.k@infomazeapps.com (392 @ Girish Kumar)
+2026-09-10 19:52:19 [INFO] tools.email_sender: ✅ Email sent to gita.madhuri@covalenseglobal.com: Agentic AI Platform Building for Covalense Global
+2026-09-10 19:52:19 [INFO] agent.nodes.pdf_outreach_node: [26/50] PDF HR sent to gita.madhuri@covalenseglobal.com (393 @ Gita Madhuri)
+2026-09-10 19:52:41 [INFO] tools.email_sender: ✅ Email sent to gitanjali.verma@w3villa.com: AI-Powered Experience Development for W3Villa
+2026-09-10 19:52:41 [INFO] agent.nodes.pdf_outreach_node: [27/50] PDF HR sent to gitanjali.verma@w3villa.com (395 @ Gitanjali Verma)
+2026-09-10 19:53:06 [INFO] tools.email_sender: ✅ Email sent to gopalakrishna.gubbi@jsw.in: Advancing AI/ML Capabilities at JSW
+2026-09-10 19:53:06 [INFO] agent.nodes.pdf_outreach_node: [28/50] PDF HR sent to gopalakrishna.gubbi@jsw.in (396 @ Gopalakrishna Gubbi)
+2026-09-10 19:53:28 [INFO] tools.email_sender: ✅ Email sent to gouthamb@systelinc.com: Agentic AI & Generative Solutions for Systel Inc.
+2026-09-10 19:53:28 [INFO] agent.nodes.pdf_outreach_node: [29/50] PDF HR sent to gouthamb@systelinc.com (397 @ Goutham B)
+2026-09-10 19:53:50 [INFO] tools.email_sender: ✅ Email sent to govind.bhandari@daloopa.com: AI-Powered Platform Development at Daloopa
+2026-09-10 19:53:50 [INFO] agent.nodes.pdf_outreach_node: [30/50] PDF HR sent to govind.bhandari@daloopa.com (398 @ Govind Bhandari)
+2026-09-10 19:54:12 [INFO] tools.email_sender: ✅ Email sent to govind@eoxvantage.com: Production AI Platform Builder for Govind Raj
+2026-09-10 19:54:12 [INFO] agent.nodes.pdf_outreach_node: [31/50] PDF HR sent to govind@eoxvantage.com (399 @ Govind Raj)
+2026-09-10 19:54:34 [INFO] tools.email_sender: ✅ Email sent to govinda.shastry@igiusa.com: AI/ML Expertise for Govinda Shastry
+2026-09-10 19:54:34 [INFO] agent.nodes.pdf_outreach_node: [32/50] PDF HR sent to govinda.shastry@igiusa.com (400 @ Govinda Shastry)
+2026-09-10 19:54:57 [INFO] tools.email_sender: ✅ Email sent to gracy@perfios.com: Agentic AI Builder for Gracy Dsouza
+2026-09-10 19:54:57 [INFO] agent.nodes.pdf_outreach_node: [33/50] PDF HR sent to gracy@perfios.com (401 @ Gracy Dsouza)
+2026-09-10 19:55:19 [INFO] tools.email_sender: ✅ Email sent to gripson.martes@detecttechnologies.com: AI-powered ERP Solutions for Gripson Martes
+2026-09-10 19:55:19 [INFO] agent.nodes.pdf_outreach_node: [34/50] PDF HR sent to gripson.martes@detecttechnologies.com (402 @ Gripson Martes)
+2026-09-10 19:55:41 [INFO] tools.email_sender: ✅ Email sent to gugapriya@ideassion.com: Driving AI Innovation at Gugapriya O
+2026-09-10 19:55:41 [INFO] agent.nodes.pdf_outreach_node: [35/50] PDF HR sent to gugapriya@ideassion.com (403 @ Gugapriya O)
+2026-09-10 19:56:04 [INFO] tools.email_sender: ✅ Email sent to gulshan@near.com: Production AI Platform Builder | GATE CS 2026 Qualified
+2026-09-10 19:56:04 [INFO] agent.nodes.pdf_outreach_node: [36/50] PDF HR sent to gulshan@near.com (404 @ Gulshan S)
+2026-09-10 19:56:26 [INFO] tools.email_sender: ✅ Email sent to gunjan@rnftechnologies.com: Agentic AI & Generative AI Specialist | B.Tech 2026
+2026-09-10 19:56:26 [INFO] agent.nodes.pdf_outreach_node: [37/50] PDF HR sent to gunjan@rnftechnologies.com (405 @ Gunjan Mishra)
+2026-09-10 19:56:49 [INFO] tools.email_sender: ✅ Email sent to gurpreet.jaggi@betsol.com: Production Agentic AI | AI-powered ERP Expertise
+2026-09-10 19:56:49 [INFO] agent.nodes.pdf_outreach_node: [38/50] PDF HR sent to gurpreet.jaggi@betsol.com (406 @ Gurpreet Jaggi)
+2026-09-10 19:57:11 [INFO] tools.email_sender: ✅ Email sent to gurpreet.singh@wingify.com: GATE CS 2026 Qualified | AI Platform Builder
+2026-09-10 19:57:11 [INFO] agent.nodes.pdf_outreach_node: [39/50] PDF HR sent to gurpreet.singh@wingify.com (407 @ Gurpreet Singh)
+2026-09-10 19:57:34 [INFO] tools.email_sender: ✅ Email sent to guru@one.com: AI-powered ERP & Agentic AI Solutions | B.Tech 2026
+2026-09-10 19:57:34 [INFO] agent.nodes.pdf_outreach_node: [40/50] PDF HR sent to guru@one.com (408 @ Gurucharan Singh)
+2026-09-10 19:57:56 [INFO] tools.email_sender: ✅ Email sent to gyan@centroxy.com: Agentic AI Platform Builder for Gyan Dash
+2026-09-10 19:57:56 [INFO] agent.nodes.pdf_outreach_node: [41/50] PDF HR sent to gyan@centroxy.com (409 @ Gyan Dash)
+2026-09-10 19:58:18 [INFO] tools.email_sender: ✅ Email sent to hanish.tiwari@ant.works: AI Platform Developer for Hanish Tiwari
+2026-09-10 19:58:18 [INFO] agent.nodes.pdf_outreach_node: [42/50] PDF HR sent to hanish.tiwari@ant.works (410 @ Hanish Tiwari)
+2026-09-10 19:58:41 [INFO] tools.email_sender: ✅ Email sent to hank.mishra@anchanto.com: Driving AI Innovation at Hank Mishra
+2026-09-10 19:58:41 [INFO] agent.nodes.pdf_outreach_node: [43/50] PDF HR sent to hank.mishra@anchanto.com (411 @ Hank Mishra)
+2026-09-10 19:59:03 [INFO] tools.email_sender: ✅ Email sent to happy@capermint.com: Agentic AI Expertise for Happy Vachhani
+2026-09-10 19:59:03 [INFO] agent.nodes.pdf_outreach_node: [44/50] PDF HR sent to happy@capermint.com (412 @ Happy Vachhani)
+2026-09-10 19:59:25 [INFO] tools.email_sender: ✅ Email sent to hari.krishnan@avasotech.com: Production AI Builder for Hari Krishnan
+2026-09-10 19:59:25 [INFO] agent.nodes.pdf_outreach_node: [45/50] PDF HR sent to hari.krishnan@avasotech.com (413 @ Hari Krishnan)
+2026-09-10 19:59:48 [INFO] tools.email_sender: ✅ Email sent to harikishore.p@excelra.com: Production Agentic AI Builder for Excelra
+2026-09-10 19:59:48 [INFO] agent.nodes.pdf_outreach_node: [46/50] PDF HR sent to harikishore.p@excelra.com (414 @ Hari Paramatmuni)
+2026-09-10 20:00:11 [INFO] tools.email_sender: ✅ Email sent to hari.p@westagilelabs.com: AI/ERP Development Expertise for West Agile Labs
+2026-09-10 20:00:11 [INFO] agent.nodes.pdf_outreach_node: [47/50] PDF HR sent to hari.p@westagilelabs.com (415 @ Hari Prashanth)
+2026-09-10 20:00:33 [INFO] tools.email_sender: ✅ Email sent to harikrishna.bachala@mitsind.com: Advancing MITSIND with Production AI Capabilities
+2026-09-10 20:00:33 [INFO] agent.nodes.pdf_outreach_node: [48/50] PDF HR sent to harikrishna.bachala@mitsind.com (416 @ Harikrishna Bachala)
+2026-09-10 20:00:56 [INFO] tools.email_sender: ✅ Email sent to hariprasadadthale@askbrake.com: AI-Powered Solutions for ASK Brake Optimization
+2026-09-10 20:00:56 [INFO] agent.nodes.pdf_outreach_node: [49/50] PDF HR sent to hariprasadadthale@askbrake.com (417 @ Hariprasad Adthale)
+2026-09-10 20:01:18 [INFO] tools.email_sender: ✅ Email sent to haris.a@truglobal.com: Agentic AI Platform Builder for TruGlobal
+2026-09-10 20:01:18 [INFO] agent.nodes.pdf_outreach_node: [50/50] PDF HR sent to haris.a@truglobal.com (418 @ Haris Ali)
+2026-09-10 20:01:18 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach complete: 50 sent, 0 failed, 1 invalid (LIVE)
+2026-09-10 20:01:19 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-09-10: Scraped 136 jobs, applied to 29 jobs, sent 16 cold emails. Companies: F5, DIGIIQ IT SOLUTION PRIVATE LIMITED, Flam, Women First India Foundation, QuickReply.ai, Tata Consultancy Services, AmsikaTechBotz, Kroll, Peryx.ai, Alaan الآن
+2026-09-10 20:01:19 [INFO] tools.inbox_monitor: Connecting to IMAP inbox at imap.gmail.com for debashis.bera.careers@gmail.com...
+2026-09-10 20:01:20 [INFO] tools.inbox_monitor: IMAP: Found 116 recent emails in inbox. Checking for important replies...
+2026-09-10 20:01:43 [INFO] tools.inbox_monitor: IMAP monitor: Successfully fetched 30 relevant replies
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node: ============================================================
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node: 📋 DAILY REPORT — 2026-09-10
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node:    Applied today:       29
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node:    Total applied (all): 559
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node:    Cold mails (jobs):   16
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node:    PDF cold mails today:50  (total 400/1831)
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node:    Bounced-back mails:  28
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node:    Recruiter replies:   2
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node:      ↳ Tata North America <northamerica@tata.com> | Thank you for contacting Tata Sons North America
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node:      ↳ Sierra Misra <sierra@fischtankpr.com> | Re: Application for AI Engineer — Debashis Bera | CSE Graduate 2026
+2026-09-10 20:01:43 [INFO] agent.nodes.report_node: ============================================================
+2026-09-10 20:01:45 [INFO] tools.email_sender: ✅ Summary email sent to debashisalak@gmail.com
+2026-09-10 20:01:45 [INFO] agent.nodes.report_node: ✅ Daily report emailed to: debashisalak@gmail.com
+2026-09-10 20:01:45 [INFO] __main__: ============================================================
+2026-09-10 20:01:45 [INFO] __main__: AGENT RUN COMPLETE in 2883s
+2026-09-10 20:01:45 [INFO] __main__:   Scraped:        136 jobs
+2026-09-10 20:01:45 [INFO] __main__:   New:            57 jobs
+2026-09-10 20:01:45 [INFO] __main__:   Applied:        29 jobs
+2026-09-10 20:01:45 [INFO] __main__:   Emailed (jobs): 16 HRs
+2026-09-10 20:01:45 [INFO] __main__:   PDF drip sent:  50 HR contacts
+2026-09-10 20:01:45 [INFO] __main__:   Failed:         0
+2026-09-10 20:01:45 [INFO] __main__: ============================================================
