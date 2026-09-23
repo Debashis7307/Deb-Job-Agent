@@ -117,10 +117,10 @@ def email_node(state: AgentState) -> Dict:
             # Update DB
             db.mark_email_sent(email_data["job_url"], email_data["to_email"])
 
-        # 30 second delay between emails (anti-spam)
+        # 10 second delay between emails (anti-spam, but fast enough for GitHub Actions)
         if not dry_run and sent_count < len(emails_to_send):
-            logger.info("⏳ Waiting 30s before next email...")
-            time.sleep(30)
+            logger.info("⏳ Waiting 10s before next email...")
+            time.sleep(10)
 
     # Update daily stats
     db.update_daily_stats(

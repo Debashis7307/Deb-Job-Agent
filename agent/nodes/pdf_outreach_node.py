@@ -14,10 +14,11 @@ import config as cfg
 
 logger = logging.getLogger(__name__)
 
-# Max emails to send per run from PDF (50/day as requested)
-PDF_BATCH_SIZE = 50
-# Delay between emails (seconds) — don't spam SMTP
-EMAIL_DELAY_SECONDS = 20
+# Max emails to send per run from PDF (reduced to 20/day to fit within GitHub Actions 90min timeout)
+# 20 emails × 8s delay = ~3min sending, safe total runtime
+PDF_BATCH_SIZE = 20
+# Delay between emails (seconds) — enough to avoid SMTP rate limits, not too long
+EMAIL_DELAY_SECONDS = 8
 
 
 def _validate_email_mx(email: str) -> bool:
