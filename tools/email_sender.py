@@ -80,19 +80,34 @@ class EmailSender:
                     )
                     msg.attach(part)
 
-            # Send via Gmail SMTP
-            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-                server.login(self.gmail_address, self.app_password)
-                recipients = [to_email]
-                if cc:
-                    recipients.append(cc)
-                server.sendmail(self.gmail_address, recipients, msg.as_string())
+            # Send via Gmail SMTP — use STARTTLS (port 587) instead of SSL (port 465)
+            # Port 587 + STARTTLS works better from cloud/GitHub Actions IPs
+            # Retry up to 3 times on connection failure
+            last_err = None
+            for attempt in range(3):
+                try:
+                    with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
+                        server.ehlo()
+                        server.starttls()
+                        server.ehlo()
+                        server.login(self.gmail_address, self.app_password)
+                        recipients = [to_email]
+                        if cc:
+                            recipients.append(cc)
+                        server.sendmail(self.gmail_address, recipients, msg.as_string())
+                    logger.info(f"✅ Email sent to {to_email}: {subject}")
+                    return True
+                except (smtplib.SMTPServerDisconnected, ConnectionResetError, OSError) as conn_err:
+                    last_err = conn_err
+                    wait = 5 * (2 ** attempt)  # 5s, 10s, 20s
+                    logger.warning(f"SMTP connection dropped (attempt {attempt+1}/3). Retrying in {wait}s...")
+                    time.sleep(wait)
 
-            logger.info(f"✅ Email sent to {to_email}: {subject}")
-            return True
+            logger.error(f"❌ Email failed after 3 attempts to {to_email}: {last_err}")
+            return False
 
         except smtplib.SMTPAuthenticationError:
-            logger.error("❌ Gmail authentication failed. Check your App Password in .env")
+            logger.error("❌ Gmail auth failed. Check App Password — must be 16-char Gmail App Password, not your account password.")
             return False
         except smtplib.SMTPRecipientsRefused:
             logger.warning(f"Email rejected by server for: {to_email}")
@@ -121,7 +136,10 @@ class EmailSender:
 
             msg.attach(MIMEText(html_body, "html"))
 
-            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            with smtplib.SMTP("smtp.gmail.com", 587, timeout=30) as server:
+                server.ehlo()
+                server.starttls()
+                server.ehlo()
                 server.login(self.gmail_address, self.app_password)
                 server.sendmail(self.gmail_address, to_email, msg.as_string())
 
