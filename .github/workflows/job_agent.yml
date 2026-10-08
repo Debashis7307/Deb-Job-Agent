@@ -77,10 +77,13 @@ jobs:
           # AI
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
-          # Gmail
+          # Gmail (fallback — may be blocked from cloud IPs)
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           PERSONAL_EMAIL: ${{ secrets.PERSONAL_EMAIL }}
+          # Brevo SMTP (primary — works from GitHub Actions cloud IPs)
+          BREVO_SMTP_LOGIN: ${{ secrets.BREVO_SMTP_LOGIN }}
+          BREVO_SMTP_KEY: ${{ secrets.BREVO_SMTP_KEY }}
           # Memory
           MEM0_API_KEY: ${{ secrets.MEM0_API_KEY }}
           MEM0_USER_ID: ${{ secrets.MEM0_USER_ID }}
