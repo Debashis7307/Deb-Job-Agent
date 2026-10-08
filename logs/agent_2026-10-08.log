@@ -1,0 +1,391 @@
+2026-10-08 21:27:46 [INFO] __main__: ============================================================
+2026-10-08 21:27:46 [INFO] __main__: JOB AGENT — CLOUD RUN (GitHub Actions)
+2026-10-08 21:27:46 [INFO] __main__: Started: 2026-10-08 21:27:46 UTC
+2026-10-08 21:27:46 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-10-08 21:27:46 [INFO] __main__: Python: 3.11.17 (main, Oct  1 2026, 14:32:31) [GCC 13.3.0]
+2026-10-08 21:27:46 [INFO] __main__: ============================================================
+2026-10-08 21:27:47 [INFO] __main__: Max apply today:  30
+2026-10-08 21:27:47 [INFO] __main__: Cold emails today: 25
+2026-10-08 21:27:47 [INFO] __main__: Applications email: debashis.bera.careers@gmail.com
+2026-10-08 21:27:47 [INFO] __main__: Summary email to:   debashisalak@gmail.com
+2026-10-08 21:27:47 [INFO] database.db_manager: Database initialized at /home/runner/work/Deb-Job-Agent/Deb-Job-Agent/database/tracker.db
+2026-10-08 21:27:49 [INFO] agent.nodes.memory_node: mem0: Loaded 10 memories from cloud API
+2026-10-08 21:27:49 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 559
+All-time emails sent: 460
+Unique companies contacted: 1020
+Today (2026-10-08) already applied: 0
+Previous context from memory:
+User scraped 128 job listings on 2026-10-07, applied to 30 jobs, and sent 0 cold emails, targeting companies Gartner, internmo, CodeVyasa, Unknown, Tuning Research (WorkableAI), Cedric, Infosys, NCR Atleos, Crimson Energy Experts Pvt Ltd, and Deqode
+User scraped 128 job listings on 2026-09-30, applied to 29 jobs, and sent 0 cold emails, targeting companies Startup Times, Emkay Global Financial Services Ltd, StatusNeo, Flex, Kroll, Sticker Mule, Infosys, PwC India, GoKwik, and Training Basket
+User scraped 128 job listings on 2026-09-28, applied to 30 jobs, and sent 0 cold emails, targeting companies JPMorganChase, Venwiz, Pledge India Foundation, Skillzenloop, Michael Page, CloudHire, TantranZm, Brainwave Nextgen Technologies, Cohere Health, and Zenithbyte
+User scraped 128 job listings on 2026-10-02, applied to 30 jobs, and sent 0 cold emails, targeting companies woodfrog, She Can Foundation, internmo, DataAbhyas, Kroll, Siemens Energy, Accenture in India, EXL, Qualcomm, and Unknown
+User scraped 128 job listings on 2026-10-06, applied to 30 jobs, and sent 0 cold emails, targeting companies Unified Mentor Private Limited, Jobspresso, Delaplex, GlobalLogic, Evernorth Health Services, NayePankh Foundation, Pledge India Foundation, TriNet, Larsen & Toubro, and Tata Consultancy Services
+User scraped 127 job listings on 2026-10-04, applied to 30 jobs, and sent 0 cold emails, targeting companies Data Eminence, Scoutit, CareerXperts Consulting, Zenithbyte, Unified Mentor Private Limited, TEXENTRE, Novastrix Labs, UM IT PRIVATE LIMITED, MediNex Workforce, and avua
+User scraped 134 job listings on 2026-09-20, applied to 29 jobs, and sent 0 cold emails, targeting companies F6IT Fintech & IT Solutions, US Pharmacopeia, Zenithbyte, HuntingCube, Basti Ki Pathshala Foundation, Skillzenloop, Great Learning, studyix, Reddit, and internmo
+User scraped 129 job listings on 2026-10-01, applied to 30 jobs, and sent 0 cold emails, targeting companies Quantum Integrators, Moleculyst, QAD, Unified Mentor Private Limited, NayePankh Foundation, Queens Of Change Foundation, Endimension Technology Private Limited, Healium Intelliscan, Kroll, and Accenture in India
+User scraped 130 job listings on 2026-09-24, applied to 28 jobs, and sent 0 cold emails, targeting companies Hewlett Packard Enterprise, Milliman India, Prenosis, NIKSUN, Skillzenloop, Collins Aerospace, Born West Inc., Softcrayons IT Education, Visa, and Gramik®
+User scraped 126 job listings on 2026-09-21, applied to 27 jobs, and sent 0 cold emails, targeting companies Urban Vault, Thinkbar, UST, Pledge India Foundation, BambooBox, NayePankh Foundation, TantranZm, Varpas Concepts, ModMed India, and Zenithbyte
+2026-10-08 21:27:49 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-10-08 21:27:49 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-10-08 21:27:52 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 30 relevant jobs
+2026-10-08 21:27:52 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 30 jobs
+2026-10-08 21:27:52 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-10-08 21:27:52 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-10-08 21:27:56 [INFO] scrapers.internshala_scraper: Internshala: Total 43 jobs found
+2026-10-08 21:27:56 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-10-08 21:27:56 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-10-08 21:27:56 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-10-08 21:28:13 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-10-08 21:28:29 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-10-08 21:28:44 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-10-08 21:29:00 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-10-08 21:29:00 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-10-08 21:29:00 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-10-08 21:29:00 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-10-08 21:29:00 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-10-08 21:29:00 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-10-08 21:29:00 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-10-08 21:29:00 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-10-08 21:29:16 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Could not find username/email field on LinkedIn login page. Proceeding with public search...
+2026-10-08 21:29:16 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-10-08 21:29:31 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-10-08 21:29:47 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-10-08 21:30:02 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 33 jobs
+2026-10-08 21:30:02 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 33 jobs
+2026-10-08 21:30:02 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-10-08 21:30:02 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-10-08 21:30:15 [WARNING] scrapers.naukri_scraper: Naukri login failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#usernameField, input[name='username'], input[placeholder*='Email'], input[placeholder*='Username']") to be visible
+
+2026-10-08 21:30:15 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-10-08 21:30:29 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-10-08 21:30:40 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-10-08 21:30:54 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-10-08 21:31:08 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-10-08 21:31:22 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-10-08 21:31:36 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-10-08 21:31:49 [INFO] scrapers.naukri_scraper: Naukri: Found 0 jobs
+2026-10-08 21:31:49 [INFO] agent.nodes.scrape_node: ✅ Naukri: 0 jobs
+2026-10-08 21:31:49 [INFO] agent.nodes.scrape_node: Tavily: Searching free job portals & startup boards (budget: 10 searches)...
+2026-10-08 21:31:58 [INFO] tools.tavily_search: Tavily free portal search: found 15 jobs
+2026-10-08 21:32:06 [INFO] tools.tavily_search: Tavily startup job search: found 10 leads
+2026-10-08 21:32:06 [INFO] agent.nodes.scrape_node: Tavily: 8 real job leads (filtered from 25)
+2026-10-08 21:32:06 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 126 jobs from all portals
+2026-10-08 21:32:06 [INFO] agent.nodes.filter_node: ✅ Filter: 126 scraped → 35 new relevant jobs
+2026-10-08 21:32:06 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-08 21:32:52 [INFO] agent.nodes.filter_node: Gemini scored 35 jobs in 1 API call
+2026-10-08 21:32:52 [INFO] agent.nodes.filter_node: Scored 35 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-10-08 21:32:52 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=False)
+2026-10-08 21:32:52 [INFO] agent.nodes.apply_node: Applying to 22 jobs on linkedin
+2026-10-08 21:32:52 [INFO] agent.nodes.apply_node: Waiting 24s before next application...
+2026-10-08 21:33:16 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-10-08 21:33:39 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-10-08 21:33:59 [INFO] agent.nodes.apply_node: Waiting 26s before next application...
+2026-10-08 21:34:25 [INFO] agent.nodes.apply_node: Waiting 18s before next application...
+2026-10-08 21:34:43 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-10-08 21:35:02 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-10-08 21:35:12 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-10-08 21:35:24 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-10-08 21:35:53 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-10-08 21:36:03 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-10-08 21:36:14 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-10-08 21:36:31 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-10-08 21:36:41 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-10-08 21:37:11 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-10-08 21:37:38 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-10-08 21:37:48 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-10-08 21:38:17 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-10-08 21:38:42 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-10-08 21:39:03 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-10-08 21:39:27 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-10-08 21:39:50 [INFO] agent.nodes.apply_node: Waiting 24s before next application...
+2026-10-08 21:40:14 [INFO] agent.nodes.apply_node: Applying to 2 jobs on tavily_link
+2026-10-08 21:40:14 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-10-08 21:40:29 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-10-08 21:40:45 [INFO] agent.nodes.apply_node: Applying to 5 jobs on internshala
+2026-10-08 21:40:45 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-10-08 21:40:57 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-10-08 21:41:22 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-10-08 21:41:46 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-10-08 21:42:15 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-10-08 21:42:35 [INFO] agent.nodes.apply_node: Applying to 1 jobs on weworkremotely
+2026-10-08 21:42:35 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-10-08 21:42:47 [INFO] agent.nodes.apply_node: Apply node done: 0 portal-applied, 29 queued for cold email, 0 failed
+2026-10-08 21:42:47 [INFO] agent.nodes.email_node: Finding HR email for: techolution
+2026-10-08 21:42:47 [INFO] tools.email_finder: Using guessed domain for techolution: techolution.com
+2026-10-08 21:42:48 [INFO] tools.email_finder: Apollo: Found global organization ID 556e320573696410d9715a01 for domain techolution.com
+2026-10-08 21:42:53 [INFO] tools.email_finder: ✅ Verified MX records for techolution.com
+2026-10-08 21:42:53 [INFO] tools.email_finder: Using verified pattern email for techolution: hr@techolution.com
+2026-10-08 21:42:54 [INFO] agent.nodes.email_node: Finding HR email for: NTT DATA, Inc.
+2026-10-08 21:42:54 [INFO] tools.email_finder: Using guessed domain for NTT DATA, Inc.: nttdata.com
+2026-10-08 21:42:55 [INFO] tools.email_finder: Apollo: Found global organization ID 6116586b560bf900f8fbf028 for domain nttdata.com
+2026-10-08 21:43:01 [INFO] tools.email_finder: ✅ Verified MX records for nttdata.com
+2026-10-08 21:43:01 [INFO] tools.email_finder: Using verified pattern email for NTT DATA, Inc.: hr@nttdata.com
+2026-10-08 21:43:02 [INFO] agent.nodes.email_node: Finding HR email for: Merck Healthcare
+2026-10-08 21:43:02 [INFO] tools.email_finder: Using guessed domain for Merck Healthcare: merckhealthcare.com
+2026-10-08 21:43:08 [WARNING] tools.email_finder: ❌ Domain resolution failed for merckhealthcare.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:08 [WARNING] tools.email_finder: ❌ Domain resolution failed for merckhealthcare.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:08 [WARNING] tools.email_finder: ❌ Domain resolution failed for merckhealthcare.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:08 [WARNING] tools.email_finder: ❌ Domain resolution failed for merckhealthcare.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:08 [WARNING] tools.email_finder: ❌ Domain resolution failed for merckhealthcare.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:08 [WARNING] tools.email_finder: ❌ No valid email could be verified for Merck Healthcare (domain: merckhealthcare.com). Skipping outreach.
+2026-10-08 21:43:09 [INFO] agent.nodes.email_node: Finding HR email for: OATI
+2026-10-08 21:43:09 [INFO] tools.email_finder: Using guessed domain for OATI: oati.com
+2026-10-08 21:43:09 [INFO] tools.email_finder: Apollo: Found global organization ID 5500af337369642dc5d90000 for domain oati.com
+2026-10-08 21:43:15 [INFO] tools.email_finder: ✅ Verified MX records for fischtankpr.com
+2026-10-08 21:43:15 [INFO] tools.email_finder: Found scraped and verified email for OATI: oati@fischtankpr.com
+2026-10-08 21:43:16 [INFO] agent.nodes.email_node: Finding HR email for: Zepcruit
+2026-10-08 21:43:16 [INFO] tools.email_finder: Using guessed domain for Zepcruit: zepcruit.com
+2026-10-08 21:43:23 [WARNING] tools.email_finder: ❌ MX record lookup failed for zepcruit.com: The DNS response does not contain an answer to the question: zepcruit.com. IN MX
+2026-10-08 21:43:23 [WARNING] tools.email_finder: ❌ MX record lookup failed for zepcruit.com: The DNS response does not contain an answer to the question: zepcruit.com. IN MX
+2026-10-08 21:43:23 [WARNING] tools.email_finder: ❌ MX record lookup failed for zepcruit.com: The DNS response does not contain an answer to the question: zepcruit.com. IN MX
+2026-10-08 21:43:24 [WARNING] tools.email_finder: ❌ MX record lookup failed for zepcruit.com: The DNS response does not contain an answer to the question: zepcruit.com. IN MX
+2026-10-08 21:43:24 [WARNING] tools.email_finder: ❌ MX record lookup failed for zepcruit.com: The DNS response does not contain an answer to the question: zepcruit.com. IN MX
+2026-10-08 21:43:24 [WARNING] tools.email_finder: ❌ No valid email could be verified for Zepcruit (domain: zepcruit.com). Skipping outreach.
+2026-10-08 21:43:25 [INFO] agent.nodes.email_node: Finding HR email for: Uplers
+2026-10-08 21:43:25 [INFO] tools.email_finder: Using guessed domain for Uplers: uplers.com
+2026-10-08 21:43:25 [INFO] tools.email_finder: Apollo: Found global organization ID 6148355c2ca24a00f604acf0 for domain uplers.com
+2026-10-08 21:43:29 [INFO] tools.email_finder: ✅ Verified MX records for uplers.com
+2026-10-08 21:43:29 [INFO] tools.email_finder: Using verified pattern email for Uplers: hr@uplers.com
+2026-10-08 21:43:31 [INFO] agent.nodes.email_node: Finding HR email for: IBM
+2026-10-08 21:43:31 [INFO] tools.email_finder: Using guessed domain for IBM: ibm.com
+2026-10-08 21:43:31 [INFO] tools.email_finder: Apollo: Found global organization ID 5d33d0d1a3ae6113e19b1674 for domain ibm.com
+2026-10-08 21:43:35 [INFO] tools.tavily_search: Tavily found email for IBM: ukcat@uk.ibm.com
+2026-10-08 21:43:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for uk.ibm.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:37 [INFO] tools.email_finder: ✅ Verified MX records for ibm.com
+2026-10-08 21:43:37 [INFO] tools.email_finder: Using verified pattern email for IBM: hr@ibm.com
+2026-10-08 21:43:38 [INFO] agent.nodes.email_node: Finding HR email for: RZR
+2026-10-08 21:43:38 [INFO] tools.email_finder: Using guessed domain for RZR: rzr.com
+2026-10-08 21:43:38 [INFO] tools.email_finder: Apollo: Found global organization ID 6a06b241bd63080001397aa7 for domain rzr.com
+2026-10-08 21:43:40 [INFO] tools.tavily_search: Tavily found email for RZR: customerservice@everythingpolarisrzr.com
+2026-10-08 21:43:41 [INFO] tools.email_finder: ✅ Verified MX records for everythingpolarisrzr.com
+2026-10-08 21:43:41 [INFO] tools.email_finder: Found email via Tavily for RZR: customerservice@everythingpolarisrzr.com
+2026-10-08 21:43:42 [INFO] agent.nodes.email_node: Finding HR email for: Jobspresso
+2026-10-08 21:43:42 [INFO] tools.email_finder: Domain from URL for Jobspresso: jobspresso.co
+2026-10-08 21:43:42 [INFO] tools.email_finder: Apollo: Found global organization ID 64aa6f1da4a40700c3db5a4f for domain jobspresso.co
+2026-10-08 21:43:46 [INFO] tools.email_finder: ✅ Verified MX records for jobspresso.co
+2026-10-08 21:43:46 [INFO] tools.email_finder: Found scraped and verified email for Jobspresso: hello@jobspresso.co
+2026-10-08 21:43:47 [INFO] agent.nodes.email_node: Finding HR email for: She Can Foundation
+2026-10-08 21:43:47 [INFO] tools.email_finder: Using guessed domain for She Can Foundation: shecan.com
+2026-10-08 21:43:47 [WARNING] tools.email_finder: Apollo: Credits exhausted (422). Disabling Apollo for this session.
+2026-10-08 21:43:49 [INFO] tools.tavily_search: Tavily found email for She Can Foundation: believe@yes-shecan.com
+2026-10-08 21:43:50 [INFO] tools.email_finder: ✅ Verified MX records for yes-shecan.com
+2026-10-08 21:43:50 [INFO] tools.email_finder: Found email via Tavily for She Can Foundation: believe@yes-shecan.com
+2026-10-08 21:43:51 [INFO] agent.nodes.email_node: Finding HR email for: Accenture in India
+2026-10-08 21:43:51 [INFO] tools.email_finder: Using guessed domain for Accenture in India: accenturein.com
+2026-10-08 21:43:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:55 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-10-08 21:43:55 [WARNING] tools.email_finder: ❌ No valid email could be verified for Accenture in India (domain: accenturein.com). Skipping outreach.
+2026-10-08 21:43:56 [INFO] agent.nodes.email_node: Finding HR email for: Recrew AI
+2026-10-08 21:43:56 [INFO] tools.email_finder: Using guessed domain for Recrew AI: recrewai.com
+2026-10-08 21:44:00 [INFO] tools.email_finder: ✅ Verified MX records for recrewai.com
+2026-10-08 21:44:00 [INFO] tools.email_finder: Using verified pattern email for Recrew AI: hr@recrewai.com
+2026-10-08 21:44:01 [INFO] agent.nodes.email_node: Finding HR email for: PwC Acceleration Center India
+2026-10-08 21:44:01 [INFO] tools.email_finder: Using guessed domain for PwC Acceleration Center India: pwcaccelerationcenter.com
+2026-10-08 21:44:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for pwcaccelerationcenter.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for pwcaccelerationcenter.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for pwcaccelerationcenter.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for pwcaccelerationcenter.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:05 [WARNING] tools.email_finder: ❌ Domain resolution failed for pwcaccelerationcenter.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:05 [WARNING] tools.email_finder: ❌ No valid email could be verified for PwC Acceleration Center India (domain: pwcaccelerationcenter.com). Skipping outreach.
+2026-10-08 21:44:06 [INFO] agent.nodes.email_node: Finding HR email for: Bureau
+2026-10-08 21:44:06 [INFO] tools.email_finder: Using guessed domain for Bureau: bureau.com
+2026-10-08 21:44:08 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:08 [INFO] tools.email_finder: ✅ Verified MX records for bureau.com
+2026-10-08 21:44:08 [INFO] tools.email_finder: Found scraped and verified email for Bureau: contact@bureau.com
+2026-10-08 21:44:09 [INFO] agent.nodes.email_node: Finding HR email for: QI-CAP INVESTMENTS PRIVATE LIMITED
+2026-10-08 21:44:09 [INFO] tools.email_finder: Using guessed domain for QI-CAP INVESTMENTS PRIVATE LIMITED: qicapinvestments.com
+2026-10-08 21:44:09 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:09 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for qicapinvestments.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for qicapinvestments.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for qicapinvestments.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for qicapinvestments.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:10 [WARNING] tools.email_finder: ❌ Domain resolution failed for qicapinvestments.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:10 [WARNING] tools.email_finder: ❌ No valid email could be verified for QI-CAP INVESTMENTS PRIVATE LIMITED (domain: qicapinvestments.com). Skipping outreach.
+2026-10-08 21:44:10 [INFO] agent.nodes.email_node: Finding HR email for: Basti Ki Pathshala Foundation
+2026-10-08 21:44:10 [INFO] tools.email_finder: Using guessed domain for Basti Ki Pathshala Foundation: bastikipathshala.com
+2026-10-08 21:44:11 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:11 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:11 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:11 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:11 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:11 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:11 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:11 [WARNING] tools.email_finder: ❌ No valid email could be verified for Basti Ki Pathshala Foundation (domain: bastikipathshala.com). Skipping outreach.
+2026-10-08 21:44:12 [INFO] agent.nodes.email_node: Finding HR email for: Hope Behind Tails Foundation
+2026-10-08 21:44:12 [INFO] tools.email_finder: Using guessed domain for Hope Behind Tails Foundation: hopebehindtails.com
+2026-10-08 21:44:13 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:13 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:13 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:13 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:13 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:13 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:13 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-10-08 21:44:13 [WARNING] tools.email_finder: ❌ No valid email could be verified for Hope Behind Tails Foundation (domain: hopebehindtails.com). Skipping outreach.
+2026-10-08 21:44:14 [INFO] agent.nodes.email_node: Finding HR email for: Dremio
+2026-10-08 21:44:14 [INFO] tools.email_finder: Domain from URL for Dremio: weworkremotely.com
+2026-10-08 21:44:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:16 [INFO] tools.email_finder: ✅ Verified MX records for weworkremotely.com
+2026-10-08 21:44:16 [INFO] tools.email_finder: Using verified pattern email for Dremio: hr@weworkremotely.com
+2026-10-08 21:44:17 [INFO] agent.nodes.email_node: Finding HR email for: Compunet Connections
+2026-10-08 21:44:17 [INFO] tools.email_finder: Using guessed domain for Compunet Connections: compunetconnections.com
+2026-10-08 21:44:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:20 [INFO] tools.email_finder: ✅ Verified MX records for compunetconnections.com
+2026-10-08 21:44:20 [INFO] tools.email_finder: Using verified pattern email for Compunet Connections: hr@compunetconnections.com
+2026-10-08 21:44:21 [INFO] agent.nodes.email_node: Finding HR email for: Dentsu Global Services
+2026-10-08 21:44:22 [INFO] tools.email_finder: Using guessed domain for Dentsu Global Services: dentsu.com
+2026-10-08 21:44:23 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:23 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:26 [INFO] tools.email_finder: ✅ Verified MX records for dentsu.com
+2026-10-08 21:44:26 [INFO] tools.email_finder: Found scraped and verified email for Dentsu Global Services: hello.marketing@dentsu.com
+2026-10-08 21:44:28 [INFO] agent.nodes.email_node: Finding HR email for: Rippling
+2026-10-08 21:44:28 [INFO] tools.email_finder: Using guessed domain for Rippling: rippling.com
+2026-10-08 21:44:30 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:30 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-08 21:44:30 [INFO] tools.email_finder: ✅ Verified MX records for rippling.com
+2026-10-08 21:44:30 [INFO] tools.email_finder: Found scraped and verified email for Rippling: taxagencies@rippling.com
+2026-10-08 21:44:32 [INFO] agent.nodes.email_node: Found HR emails for 14/25 companies
+2026-10-08 21:44:32 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-08 21:44:43 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-10-08 21:44:48 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-08 21:45:00 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-10-08 21:45:05 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-08 21:45:17 [INFO] agent.nodes.email_node: ✅ Generated 4 emails in 1 Gemini call
+2026-10-08 21:45:17 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:45:17 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:45:17 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:45:17 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:45:27 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:45:28 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:45:28 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:45:38 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:45:39 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:45:39 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:45:49 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:45:50 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:45:50 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:46:00 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:46:01 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:46:01 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:46:11 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:46:11 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:46:11 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:46:21 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:46:22 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:46:22 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:46:32 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:46:33 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:46:33 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:46:43 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:46:44 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:46:44 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:46:54 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:46:54 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:46:54 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:47:04 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:47:05 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:47:05 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:47:15 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:47:16 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:47:16 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:47:26 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:47:27 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:47:27 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:47:37 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:47:38 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:47:38 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-08 21:47:48 [INFO] agent.nodes.email_node: ✅ Email node: 0 cold emails sent
+2026-10-08 21:47:48 [INFO] tools.pdf_hr_parser: Parsing HR contacts PDF: CompanyWise HR contact.pdf ...
+2026-10-08 21:47:48 [INFO] tools.pdf_hr_parser: PDF has 56 pages
+2026-10-08 21:47:50 [INFO] tools.pdf_hr_parser:   Processed page 10/56, 328 contacts so far...
+2026-10-08 21:47:53 [INFO] tools.pdf_hr_parser:   Processed page 20/56, 655 contacts so far...
+2026-10-08 21:47:55 [INFO] tools.pdf_hr_parser:   Processed page 30/56, 981 contacts so far...
+2026-10-08 21:47:57 [INFO] tools.pdf_hr_parser:   Processed page 40/56, 1311 contacts so far...
+2026-10-08 21:48:00 [INFO] tools.pdf_hr_parser:   Processed page 50/56, 1638 contacts so far...
+2026-10-08 21:48:01 [INFO] tools.pdf_hr_parser: ✅ PDF parsed: 1831 unique HR contacts saved to hr_contacts_from_pdf.csv
+2026-10-08 21:48:01 [INFO] tools.pdf_hr_parser: PDF HR batch: 40 contacts ready (from 1831 total, 1347 already processed)
+2026-10-08 21:48:05 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach: Sending 20 emails (total sent so far: 750/0)
+2026-10-08 21:48:05 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-08 21:48:15 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 1)
+2026-10-08 21:48:19 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-08 21:48:39 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 2)
+2026-10-08 21:48:43 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-08 21:48:56 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 3)
+2026-10-08 21:49:00 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-08 21:49:14 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 4)
+2026-10-08 21:49:18 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:49:18 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:49:19 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:49:27 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:49:28 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:49:36 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:49:37 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:49:45 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:49:46 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:49:54 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:49:55 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:50:03 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:50:03 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:50:11 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:50:12 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:50:20 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:50:21 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:50:29 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:50:30 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:50:38 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:50:39 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:50:47 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:50:47 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:50:55 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:50:56 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:51:04 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:51:05 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:51:13 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:51:14 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:51:22 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:51:22 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:51:30 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:51:31 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:51:39 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:51:40 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:51:48 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:51:49 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:51:57 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:51:57 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:52:05 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:52:06 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:52:06 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach complete: 0 sent, 20 failed, 0 invalid (LIVE)
+2026-10-08 21:52:07 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-10-08: Scraped 126 jobs, applied to 29 jobs, sent 0 cold emails. Companies: Compunet Connections, Rippling, Crazy For Success Foundation, Dentsu Global Services, She Can Foundation, Amgen, Zepcruit, PwC Acceleration Center India, Jobspresso, techolution
+2026-10-08 21:52:07 [INFO] tools.inbox_monitor: Connecting to IMAP inbox at imap.gmail.com for debashis.bera.careers@gmail.com...
+2026-10-08 21:52:07 [ERROR] tools.inbox_monitor: Error fetching emails from inbox: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node: ============================================================
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node: 📋 DAILY REPORT — 2026-10-08
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node:    Applied today:       29
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node:    Total applied (all): 559
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node:    Cold mails (jobs):   0
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node:    PDF cold mails today:0  (total 750/1831)
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node:    Bounced-back mails:  0
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node:    Recruiter replies:   0
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node:    No replies from HR contacts yet — keep sending!
+2026-10-08 21:52:07 [INFO] agent.nodes.report_node: ============================================================
+2026-10-08 21:52:07 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:52:07 [INFO] tools.email_sender: Using SMTP provider: Brevo (smtp-relay.brevo.com:587)
+2026-10-08 21:52:08 [ERROR] tools.email_sender: ❌ Brevo auth failed: (525, b'5.7.1 Unauthorized IP address'). Check BREVO_SMTP_LOGIN / BREVO_SMTP_KEY env vars.
+2026-10-08 21:52:08 [WARNING] agent.nodes.report_node: ⚠️  Daily report email failed — check Gmail credentials
+2026-10-08 21:52:08 [INFO] __main__: ============================================================
+2026-10-08 21:52:08 [INFO] __main__: AGENT RUN COMPLETE in 1461s
+2026-10-08 21:52:08 [INFO] __main__:   Scraped:        126 jobs
+2026-10-08 21:52:08 [INFO] __main__:   New:            35 jobs
+2026-10-08 21:52:08 [INFO] __main__:   Applied:        29 jobs
+2026-10-08 21:52:08 [INFO] __main__:   Emailed (jobs): 0 HRs
+2026-10-08 21:52:08 [INFO] __main__:   PDF drip sent:  0 HR contacts
+2026-10-08 21:52:08 [INFO] __main__:   Failed:         0
+2026-10-08 21:52:08 [INFO] __main__: ============================================================
