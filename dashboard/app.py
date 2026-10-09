@@ -42,6 +42,62 @@ IS_CLOUD = os.environ.get("CLOUD_RUN", "").lower() == "true" or \
            os.environ.get("GH_PAT", "") != ""
 
 
+# ─── GitHub DB Sync (for persisting manual applies) ─────────────────────────
+
+def sync_db_to_github():
+    """
+    Push the local tracker.db to the GitHub repo so manual applies
+    survive Render redeployments and GitHub Actions DB overwrites.
+    Runs in a background thread to not block the API response.
+    """
+    import base64
+
+    cfg = get_github_config()
+    if not cfg["token"]:
+        return  # No PAT, can't sync
+
+    db_path = get_db_path()
+    if not Path(db_path).exists():
+        return
+
+    try:
+        # 1. Read the local DB file
+        with open(db_path, "rb") as f:
+            content_bytes = f.read()
+        content_b64 = base64.b64encode(content_bytes).decode("utf-8")
+
+        # 2. Get the current file SHA from GitHub (required for updates)
+        api_url = f"https://api.github.com/repos/{cfg['owner']}/{cfg['repo']}/contents/database/tracker.db"
+        headers = {
+            "Authorization": f"Bearer {cfg['token']}",
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+        }
+
+        resp = requests.get(api_url, headers=headers, timeout=15)
+        sha = ""
+        if resp.status_code == 200:
+            sha = resp.json().get("sha", "")
+
+        # 3. Push the updated DB
+        payload = {
+            "message": f"🖱️ Manual apply via Dashboard — {datetime.now().strftime('%Y-%m-%d %H:%M IST')}",
+            "content": content_b64,
+            "branch": "main",
+        }
+        if sha:
+            payload["sha"] = sha
+
+        put_resp = requests.put(api_url, headers=headers, json=payload, timeout=30)
+        if put_resp.status_code in (200, 201):
+            print(f"[DB Sync] ✅ tracker.db pushed to GitHub successfully")
+        else:
+            print(f"[DB Sync] ⚠️ GitHub push failed: {put_resp.status_code} — {put_resp.text[:200]}")
+
+    except Exception as e:
+        print(f"[DB Sync] ⚠️ Failed to sync DB to GitHub: {e}")
+
+
 # ─── GitHub Actions Integration ─────────────────────────────────────────────
 
 def get_github_config():
@@ -398,6 +454,14 @@ def api_update_application_status(job_hash):
                     "INSERT INTO daily_stats (date, total_applied) VALUES (?, 1)",
                     (today,)
                 )
+
+            # Explicit commit to ensure data is flushed to disk
+            conn.commit()
+
+        # Sync the updated DB to GitHub in background (so manual applies persist
+        # across Render redeployments and GitHub Actions DB commits)
+        sync_thread = threading.Thread(target=sync_db_to_github, daemon=True)
+        sync_thread.start()
 
         return jsonify({"status": "success", "message": f"Updated status to {new_status}"})
     except Exception as e:

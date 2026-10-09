@@ -52,8 +52,19 @@ def _get_working_smtp_config() -> Optional[dict]:
         login = os.environ.get(provider["login_env"], "")
         password = os.environ.get(provider["password_env"], "")
         if login and password:
-            logger.info(f"Using SMTP provider: {provider['name']} ({provider['host']}:{provider['port']})")
+            logger.info(f"✅ Using SMTP provider: {provider['name']} ({provider['host']}:{provider['port']}) login={login}")
             return {**provider, "login": login, "password": password}
+        else:
+            logger.debug(f"⏭️  Skipping {provider['name']}: {provider['login_env']}={'set' if login else 'MISSING'}, {provider['password_env']}={'set' if password else 'MISSING'}")
+
+    # Log ALL providers that were checked so the user knows what's missing
+    logger.error(
+        "❌ NO SMTP PROVIDER CONFIGURED! Checked:\n"
+        "   1. Brevo: BREVO_SMTP_LOGIN + BREVO_SMTP_KEY  → both must be set\n"
+        "   2. Gmail: GMAIL_ADDRESS + GMAIL_APP_PASSWORD → both must be set\n"
+        "   Gmail SMTP is BLOCKED from cloud IPs (GitHub Actions). Use Brevo!\n"
+        "   Sign up: https://app.brevo.com → Settings → SMTP & API"
+    )
     return None
 
 
@@ -111,6 +122,13 @@ class EmailSender:
         smtp_cfg = _get_working_smtp_config()
         if not smtp_cfg:
             logger.error("❌ No SMTP provider configured! Set BREVO_SMTP_LOGIN+BREVO_SMTP_KEY or GMAIL_ADDRESS+GMAIL_APP_PASSWORD")
+        elif smtp_cfg["name"] == "Gmail":
+            logger.warning(
+                "⚠️  Using Gmail SMTP as fallback — this WILL FAIL from GitHub Actions cloud IPs!\n"
+                "   Set BREVO_SMTP_LOGIN + BREVO_SMTP_KEY for reliable cloud email delivery."
+            )
+        else:
+            logger.info(f"✅ Email sender ready: {smtp_cfg['name']} SMTP")
         if not self.resume_path.exists():
             logger.warning(f"Resume not found at {self.resume_path}. Emails will be sent without attachment.")
 

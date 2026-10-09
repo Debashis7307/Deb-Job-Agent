@@ -103,7 +103,7 @@ jobs:
           # Settings
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
           MAX_APPLY_PER_DAY: '30'
-          MAX_EMAIL_PER_DAY: '25'
+          MAX_EMAIL_PER_DAY: '50'
           SCHEDULE_HOUR: '22'
           SCHEDULE_MINUTE: '0'
           TIMEZONE: 'Asia/Kolkata'
