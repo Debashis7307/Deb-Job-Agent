@@ -84,6 +84,8 @@ jobs:
           # Brevo SMTP (primary — works from GitHub Actions cloud IPs)
           BREVO_SMTP_LOGIN: ${{ secrets.BREVO_SMTP_LOGIN }}
           BREVO_SMTP_KEY: ${{ secrets.BREVO_SMTP_KEY }}
+          SENDER_DISPLAY_NAME: 'Debashis Bera'
+          BCC_CAREER_EMAIL: 'true'
           # Memory
           MEM0_API_KEY: ${{ secrets.MEM0_API_KEY }}
           MEM0_USER_ID: ${{ secrets.MEM0_USER_ID }}

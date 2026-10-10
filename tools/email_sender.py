@@ -180,14 +180,25 @@ class EmailSender:
             logger.error("❌ No SMTP provider available. Email not sent.")
             return False
 
-        # Use the SMTP provider's login as the From address (required by Brevo)
         from_addr = smtp_cfg["login"]
-        msg = self._build_message(from_addr, to_email, subject, body, cc, attach_resume=True)
+        sender_name = os.environ.get("SENDER_DISPLAY_NAME", "Debashis Bera")
+        reply_to = os.environ.get("GMAIL_ADDRESS", from_addr)
+        # Use career Gmail in the From header so recruiters see "Debashis Bera <debashis.bera.careers@gmail.com>"
+        from_header = f"{sender_name} <{reply_to}>"
+
+        msg = self._build_message(from_header, to_email, subject, body, cc, attach_resume=True)
+        msg["Reply-To"] = reply_to
 
         recipients = [to_email]
         if cc:
             recipients.append(cc)
 
+        # Optional: BCC career email so a copy appears in career Gmail inbox
+        bcc_career = os.environ.get("BCC_CAREER_EMAIL", "false").lower() == "true"
+        if bcc_career and reply_to and reply_to not in recipients:
+            recipients.append(reply_to)
+
+        # SMTP envelope uses raw address (without display name)
         success = _send_via_smtp(smtp_cfg, msg, from_addr, recipients)
         if success:
             logger.info(f"✅ [{smtp_cfg['name']}] Email sent → {to_email}: {subject}")

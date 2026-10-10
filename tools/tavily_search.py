@@ -132,6 +132,13 @@ EMAIL_RE = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')
 BAD_EMAIL_DOMAINS = {"example.com", "test.com", "gmail.com", "yahoo.com",
                      "hotmail.com", "outlook.com", "protonmail.com"}
 
+# Placeholder usernames commonly used in documentation/examples — never real HR contacts
+BAD_EMAIL_USERNAMES = {
+    "jane.doe", "john.doe", "jane", "john", "user", "noreply", "no-reply",
+    "donotreply", "do-not-reply", "test", "sample", "example", "demo",
+    "placeholder", "admin@example", "info@example",
+}
+
 
 def search_founder_hr_email(company_name: str, domain: str) -> Optional[str]:
     """
@@ -154,7 +161,12 @@ def search_founder_hr_email(company_name: str, domain: str) -> Optional[str]:
             found = EMAIL_RE.findall(r.get("content", ""))
             for email in found:
                 email_lower = email.lower()
+                username = email_lower.split("@")[0]
                 domain_part = email_lower.split("@")[-1]
+                # Skip placeholder/fake emails
+                if username in BAD_EMAIL_USERNAMES:
+                    logger.debug(f"Skipping placeholder email: {email_lower}")
+                    continue
                 if (domain_part not in BAD_EMAIL_DOMAINS and
                         (domain in domain_part or domain_part in domain)):
                     emails_found.append(email_lower)
