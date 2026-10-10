@@ -166,37 +166,37 @@ def _generate_email_batch(jobs: List[dict]) -> List[dict]:
     user_github = cfg.USER_GITHUB
     user_linkedin = cfg.USER_LINKEDIN
     
-    # Key skills summary for context
-    skills_summary = (
-        f"Python, C++, AI/ML, LangChain, Generative AI, Agentic AI, "
-        f"SQL, HTML/CSS, JavaScript"
-    )
-    
-    # Best project for reference
-    best_project = cfg.PROJECTS[0] if cfg.PROJECTS else {"name": "AI Agent", "description": "LLM-powered automation"}
-
     prompt = f"""Generate {len(jobs)} personalized cold job application emails.
 
 Applicant: {user_name}
-Skills: {skills_summary}
-Best Project: {best_project['name']} — {best_project['description']}
-Portfolio: {user_portfolio}
-GitHub: {user_github}
-LinkedIn: {user_linkedin}
-Phone: {user_phone}
-Status: B.Tech CSE Graduate 2026 | GATE CS 2026 Qualified | Built complete Agentic AI platform (production) | AI-powered ERP portal experience for a 100-year-old company (team contributor, real production exposure)
+Profile: AI/ML & Full-Stack Developer | B.Tech CSE 2026 (CGPA 8.63) | 2x Hackathon Winner | GATE CS 2026 Qualified
+Skills: Python, C/C++, TypeScript, JavaScript, Next.js, React, Flask, LangChain, LangGraph, Agentic AI, RAG, Qdrant, Mem0, Docker, SQL
+Hands-On Experience:
+- AI Model Evaluator @ Turing: Evaluated LLM outputs, GLMs, Python, Docker
+- AI & ML Mentor @ TechNex Cloud Networks: Mentored GenAI, LangChain, LangGraph, Vector DBs
+- AI Developer Intern @ J D Jones & Co: Contributed to AI-native ERP marketing module for 100-year-old manufacturer
+Key Projects:
+- Aayojan.AI: 36-hr Hackathon Winner (MetaMorph Season-1) full-stack AI platform (Next.js, TypeScript, Tailwind, Prisma, MySQL, Gemini 2.5)
+- Deb Job Agent: Autonomous production LangGraph multi-agent system with Playwright, Gemini API, Mem0, Flask dashboard
+- Explainable ML for Arrhythmia Detection: 98% accuracy on MIT-BIH dataset (CWT, AlexNet CNN, GAN, Grad-CAM)
+Links:
+- Portfolio: {user_portfolio}
+- GitHub: {user_github}
+- LinkedIn: {user_linkedin}
+- Phone: {user_phone}
 
 RULES FOR EACH EMAIL:
-- Must start with "Hey [HR Name / Hiring Team]," or "Hey team," — NEVER start with "Hi", "Dear", or "Respected".
-- SHORT and CRISP: maximum 6-7 lines total body. No long paragraphs.
-- Sound like a confident, sharp developer — not a nervous student.
+- Start with "Hey [HR Name / Hiring Team]," or "Hey team," — NEVER use "Dear" or "Respected".
+- SHORT and CRISP: 5-6 lines total body. No long walls of text.
+- Connect 1-2 specific achievements or projects to what the company/role needs to stand out immediately.
+- Sound like a sharp, confident builder — not a generic applicant.
 - NO clichés: NEVER use "I hope this email finds you well", "thrilled", "esteemed", "delighted", "please find", "keen interest".
-- 1-2 skill highlights directly from the JD — be specific, not generic.
-- ALWAYS end the body with these two lines exactly (replace placeholders):
+- Mention resume is attached.
+- ALWAYS end the email with these lines exactly:
   Portfolio: {user_portfolio} | GitHub: {user_github}
-  Best,
+  Best regards,
   {user_name} | {user_phone}
-- Do NOT add any text after the signature lines.
+- Do NOT add any extra text after the signature lines.
 
 Jobs to email about:
 {json.dumps(job_infos, indent=2)}
@@ -205,8 +205,8 @@ Return ONLY valid JSON array:
 [
   {{
     "id": 0,
-    "subject": "Application for [Role] — {user_name} | CSE Graduate 2026",
-    "body": "Hey [HR Name / Hiring Team],\\n\\n[3-4 crisp lines]\\n\\nPortfolio: {user_portfolio} | GitHub: {user_github}\\nBest,\\n{user_name} | {user_phone}"
+    "subject": "Application for [Role] — {user_name} | AI & Full-Stack Dev",
+    "body": "Hey [Hiring Team],\\n\\n[4-5 crisp, high-impact lines]\\n\\nPortfolio: {user_portfolio} | GitHub: {user_github}\\nBest regards,\\n{user_name} | {user_phone}"
   }},
   ...
 ]

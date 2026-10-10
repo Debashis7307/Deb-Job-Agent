@@ -16,45 +16,48 @@
     "degree": "B.Tech in Computer Science & Engineering",
     "college": "Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal, India",
     "year": "2026",
-    "cgpa": "8.6/10"
+    "cgpa": "8.63/10"
   },
+
+  "highlights": [
+    "2x Hackathon Winner (MetaMorph Season-1 Winner for Aayojan.AI, Hack4Bengal 3.0 Composio Track)",
+    "GATE 2026 Qualified (CS & IT)",
+    "AI Model Evaluator at Turing (evaluating LLMs, GLM, Python, Docker)",
+    "AI & ML Mentor at TechNex Cloud Networks (teaching GenAI, LangChain, LangGraph, Vector DBs)",
+    "AI Developer Intern at J D Jones & Co (built AI-native ERP marketing module for 100-year-old manufacturer)"
+  ],
 
   "skills": {
-    "languages": ["Python", "C", "C++", "JavaScript", "SQL"],
-    "ai_ml": ["Machine Learning", "Deep Learning", "LangChain", "LangGraph", "Agentic AI", "Generative AI", "OpenAI", "Gemini API", "HuggingFace"],
-    "web": ["HTML", "CSS", "JavaScript", "React (basic)"],
-    "databases": ["MySQL", "mem0"],
-    "tools": ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Docker"],
-    "concepts": ["Data Structures", "Algorithms", "OOP", "REST APIs", "RAG", "Vector Databases","Prompt Engineering","Coputer Networks", "Operating Systems", "Software Development Lifecycle","DBMS","Computer Architecture"]
+    "languages": ["Python", "C/C++", "JavaScript", "TypeScript", "SQL"],
+    "ai_ml": ["Generative AI", "LLMs", "RAG", "Agentic AI", "Multi-Agent Systems", "LangChain", "LangGraph", "Vector Databases (Qdrant)", "Mem0", "Model Evaluation", "Hugging Face", "Google Gemini API", "Scikit-learn", "CNN", "Explainable AI (Grad-CAM)"],
+    "web": ["React.js", "Next.js", "Flask", "REST APIs", "Tailwind CSS", "Prisma", "Playwright"],
+    "databases": ["MongoDB", "MySQL", "Qdrant", "Neo4j", "Firebase"],
+    "tools": ["Docker", "Git/GitHub", "Linux/Bash", "Vercel", "Claude Code", "OpenCode CLI"],
+    "concepts": ["Data Structures & Algorithms", "OOP", "DBMS", "Operating Systems", "Computer Networks", "System Design", "Problem Solving"]
   },
 
-"projects": [
-  {
-    "name": "Explainable Machine Learning Model for Arrhythmia Detection",
-    "description": "Developed an interpretable ECG arrhythmia detection pipeline achieving 98% classification accuracy on the MIT-BIH dataset.",
-    "tech_stack": ["Python","CNN","CWT-IMG", "Machine Learning", "Scikit-learn", "Signal Processing","X-AI(Grad-CAM)", "MIT-BIH Dataset"]
-  },
-  {
-    "name": "Aayojan.AI – Heritage Event Management Powered by AI",
-    "description": "Built an AI-powered cultural event management platform with multilingual content generation, finance tracking, and smart community engagement tools.",
-    "tech_stack": ["Next.js", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL", "Google Gemini AI", "Firebase Auth", "Vercel"]
-  },
-  {
-    "name": "Aarav – Personal AI Assistant",
-    "description": "Created an emotionally intelligent AI assistant supporting real-time voice conversations, task automation, and personalized interactions.",
-    "tech_stack": ["Python", "Google Gemini AI", "ElevenLabs", "Speech Recognition", "LLMs", "Automation"]
-  },
-  {
-    "name": "Annapurna – AI Recipe & Nutrition Companion",
-    "description": "Developed the frontend of an AI-powered nutrition assistant featuring OCR-based inventory scanning and personalized meal recommendations.",
-    "tech_stack": ["React", "Next.js", "Tailwind CSS", "OCR", "AI", "MCP Server"]
-  },
-  {
-    "name": "Narada Bot – Discord Event Management System",
-    "description": "Built an intelligent Discord bot that automates event scheduling, calendar integration, and reminder notifications.",
-    "tech_stack": ["Python", "Discord.py", "Google Calendar API", "Composio", "Automation"]
-  }
-],
+  "projects": [
+    {
+      "name": "Deb Job Agent - Autonomous AI Job Application System",
+      "description": "Built a production LangGraph multi-agent system with Playwright that scrapes 6 job portals daily, scores fit with Gemini API, automates outreach to 1,831 HR contacts with MX validation, Mem0 memory, and Flask dashboard.",
+      "tech_stack": ["Python", "LangGraph", "Playwright", "Google Gemini API", "Mem0", "Flask", "SQLite", "Docker"]
+    },
+    {
+      "name": "Aayojan.AI – Heritage Event Management Powered by AI (Hackathon Winner)",
+      "description": "Winner at MetaMorph Season-1 (36-hr hackathon). Built full-stack AI event platform with multilingual content generation, smart finance tracking, role-based dashboards and AI poster maker.",
+      "tech_stack": ["Next.js (App Router)", "TypeScript", "Tailwind CSS", "Prisma", "MySQL", "Google Gemini 2.5", "Firebase Auth", "Vercel"]
+    },
+    {
+      "name": "Explainable ML Model for Arrhythmia Detection",
+      "description": "Achieved 98% accuracy on MIT-BIH dataset using CWT features, GAN-based class balancing, CNN (AlexNet) and Grad-CAM explainability.",
+      "tech_stack": ["Python", "CNN", "AlexNet", "GAN", "Grad-CAM", "Scikit-learn", "Signal Processing", "MIT-BIH Dataset"]
+    },
+    {
+      "name": "Aarav – Personal AI Assistant",
+      "description": "Voice-driven AI assistant with task automation using Google Gemini AI, ElevenLabs TTS, and speech recognition in modular pipelines.",
+      "tech_stack": ["Python", "Google Gemini AI", "ElevenLabs TTS", "Speech Recognition", "Automation"]
+    }
+  ],
 
   "target_roles": [
     "Software Developer",

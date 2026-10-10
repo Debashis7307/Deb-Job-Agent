@@ -206,23 +206,14 @@ def _generate_pdf_emails_batch(contacts: List[Dict]) -> List[Dict]:
     client = genai.Client(api_key=cfg.GEMINI_API_KEY)
     results = []
 
-    # Load user profile for personalization
-    profile_path = Path(cfg.USER_PROFILE_PATH) if hasattr(cfg, "USER_PROFILE_PATH") else Path("data/user_profile.json")
-    user_name = "Debashis Bera"
-    user_skills = "Python, C++, AI/ML, Generative AI, Agentic AI, LangGraph"
-    user_bg = "B.Tech CSE Graduate 2026 | GATE CS 2026 Qualified | production Agentic AI platform builder | AI-powered ERP experience"
-
-    if profile_path.exists():
-        try:
-            profile = json.loads(profile_path.read_text())
-            user_name = profile.get("name", user_name)
-            skills = profile.get("skills", {})
-            user_skills = ", ".join(
-                skills.get("languages", []) + skills.get("ai_ml", [])
-            ) or user_skills
-            user_bg = profile.get("background", user_bg)
-        except Exception:
-            pass
+    user_name = cfg.USER_NAME
+    user_portfolio = cfg.USER_PORTFOLIO
+    user_github = cfg.USER_GITHUB
+    user_skills = "Python, C/C++, TypeScript, Next.js, LangChain, LangGraph, Agentic AI, RAG, Qdrant, Mem0, Docker, SQL"
+    user_bg = (
+        "AI/ML & Full-Stack Developer | B.Tech CSE 2026 (CGPA 8.63) | 2x Hackathon Winner | GATE CS 2026 Qualified | "
+        "AI Model Evaluator at Turing | AI & ML Mentor at TechNex | built production LangGraph Agentic AI platform & Aayojan.AI (Hackathon Winner)"
+    )
 
     def _call_gemini_with_retry(prompt_text: str) -> str:
         """Call Gemini with simple manual retry on any error (429/503 safe)."""
@@ -248,16 +239,22 @@ def _generate_pdf_emails_batch(contacts: List[Dict]) -> List[Dict]:
     for batch_start in range(0, len(contacts), BATCH_SIZE):
         batch = contacts[batch_start: batch_start + BATCH_SIZE]
 
-        # Build batch prompt
+        # Clean contacts (handle CSV where name is serial index and company is person's name)
+        cleaned_batch = []
+        for i, c in enumerate(batch):
+            cleaned = _clean_contact_fields(c)
+            cleaned["id"] = i
+            cleaned_batch.append(cleaned)
+
         contacts_json = json.dumps([
             {
-                "id": i,
-                "to_name": c.get("name", "Hiring Manager"),
-                "to_designation": c.get("designation", "HR"),
-                "company": c.get("company", "your company"),
-                "email": c.get("email", ""),
+                "id": c["id"],
+                "to_name": c["person_name"],
+                "to_designation": c["designation"],
+                "company": c["company"],
+                "email": c["email"],
             }
-            for i, c in enumerate(batch)
+            for c in cleaned_batch
         ], indent=2)
 
         prompt = f"""You are {user_name}, a {user_bg} skilled in {user_skills}.
@@ -327,38 +324,51 @@ No markdown, no explanation, just JSON."""
     return results
 
 
-def _fallback_email(contact: Dict, user_name: str, user_skills: str) -> Dict:
-    """Fallback email template if Gemini fails."""
-    name = contact.get("name", "Hiring Manager")
-    designation = contact.get("designation", "HR").strip()
-    email = contact.get("email", "")
-
-    # Robustly determine company name — PDF parser sometimes stores
-    # a job title in the company field. If it looks like a title, derive from domain.
-    HR_TITLE_KEYWORDS = [
-        "director", "manager", "recruiter", "vice president", "vp ", "head of",
-        "chief", " officer", " hr ", "talent", "associate", "avp", "svp"
-    ]
+def _clean_contact_fields(contact: Dict) -> Dict:
+    """Normalize contact fields from CSV."""
+    raw_name = contact.get("name", "").strip()
     raw_company = contact.get("company", "").strip()
-    if not raw_company or any(kw in raw_company.lower() for kw in HR_TITLE_KEYWORDS):
+    designation = contact.get("designation", "HR").strip()
+    email = contact.get("email", "").strip()
+
+    # In CSV, if name is an index number (e.g. '1397'), person's name was placed in company
+    if raw_name.isdigit() and raw_company and not raw_company.isdigit():
+        person_name = raw_company
+        domain = email.split("@")[-1] if "@" in email else ""
+        company = domain.split(".")[0].capitalize() if domain else "your team"
+    else:
+        person_name = raw_name if (raw_name and not raw_name.isdigit()) else "Hiring Manager"
+        company = raw_company or "your team"
+
+    # Clean title keywords if company looks like a title
+    HR_TITLE_KEYWORDS = ["director", "manager", "recruiter", "vp", "head of", "officer", "talent"]
+    if any(kw in company.lower() for kw in HR_TITLE_KEYWORDS):
         domain = email.split("@")[-1] if "@" in email else ""
         company = domain.split(".")[0].capitalize() if domain else "your company"
-    else:
-        company = raw_company
 
-    greeting = f"Hi {name}," if name and name.lower() not in ["", "unknown", "n/a"] else "Hi there,"
+    return {
+        "person_name": person_name,
+        "company": company,
+        "designation": designation,
+        "email": email,
+    }
 
-    desig_context = (
-        f"As {designation} at {company}, you'd know best if there are relevant openings."
-        if designation and designation.lower() not in ["hr", ""]
-        else f"I believe you'd be the right person to connect with at {company}."
-    )
+
+def _fallback_email(contact: Dict, user_name: str, user_skills: str) -> Dict:
+    """Fallback email template if Gemini fails."""
+    c = _clean_contact_fields(contact)
+    name = c["person_name"]
+    company = c["company"]
+    designation = c["designation"]
+    email = c["email"]
+
+    greeting = f"Hi {name}," if name and name.lower() not in ["", "unknown", "n/a", "hiring manager"] else "Hi there,"
 
     body = f"""{greeting}
 
-I'm Debashis Bera — B.Tech CSE Graduate (2026), GATE CS 2026 qualified. I've built a complete production-grade Agentic AI platform and contributed to an AI-powered Smart ERP portal for a 100-year-old company, which gave me real exposure to production-level code. I'm reaching out to explore opportunities at {company}.
+I'm Debashis Bera — AI/ML & Full-Stack Developer (B.Tech CSE 2026, GATE CS 2026 Qualified, 2x Hackathon Winner). I have hands-on experience evaluating LLM models at Turing, mentoring AI/ML at TechNex, and building production Agentic AI platforms with Python, LangGraph, and Next.js.
 
-Strong in Python, AI/ML, LangGraph, and Generative AI. My resume is attached.
+I'm reaching out to explore AI/ML and Software Engineering opportunities at {company}. My resume is attached with full project details.
 
 Portfolio: {cfg.USER_PORTFOLIO} | GitHub: {cfg.USER_GITHUB}
 Best regards,
@@ -366,6 +376,6 @@ Best regards,
 
     return {
         "to_email": email,
-        "subject": f"CSE Graduate 2026 | GATE Qualified | Python & AI/ML | {company}",
+        "subject": f"AI/ML & Full-Stack Developer | GATE Qualified | {company}",
         "body": body,
     }
