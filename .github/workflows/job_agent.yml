@@ -65,10 +65,12 @@ jobs:
       - name: 📂 Prepare data files
         run: |
           mkdir -p data logs
-          # Write user_profile.json from secret
-          echo '${{ secrets.USER_PROFILE_JSON }}' > data/user_profile.json
+          # Only use USER_PROFILE_JSON secret if data/user_profile.json does not exist
+          if [ ! -f "data/user_profile.json" ] && [ -n "${{ secrets.USER_PROFILE_JSON }}" ]; then
+            echo '${{ secrets.USER_PROFILE_JSON }}' > data/user_profile.json
+          fi
           # resume.pdf is committed directly in the repo — no base64 needed ✅
-          echo "✅ resume.pdf present: $(ls -lh data/resume.pdf | awk '{print $5}')"
+          echo "✅ resume.pdf present: $(ls -lh data/resume.pdf)"
 
       # ── 6. Run the agent ──────────────────────────────────
       - name: 🤖 Run Job Agent
