@@ -62,15 +62,12 @@ jobs:
           PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
 
       # ── 5. Prepare data directory ────────────────────────
-      - name: 📂 Prepare data files
+      - name: 📂 Prepare data directory
         run: |
           mkdir -p data logs
-          # Only use USER_PROFILE_JSON secret if data/user_profile.json does not exist
-          if [ ! -f "data/user_profile.json" ] && [ -n "${{ secrets.USER_PROFILE_JSON }}" ]; then
-            echo '${{ secrets.USER_PROFILE_JSON }}' > data/user_profile.json
-          fi
-          # resume.pdf is committed directly in the repo — no base64 needed ✅
-          echo "✅ resume.pdf present: $(ls -lh data/resume.pdf)"
+          # resume.pdf and user_profile.json are committed directly in the repo ✅
+          echo "✅ resume.pdf: $(ls -lh data/resume.pdf)"
+          echo "✅ user_profile.json: $(ls -lh data/user_profile.json)"
 
       # ── 6. Run the agent ──────────────────────────────────
       - name: 🤖 Run Job Agent
@@ -134,8 +131,11 @@ jobs:
           git add logs/ || true
 
           # Only commit if there are actual changes
-          git diff --staged --quiet || git commit -m "🤖 Agent run: $(date +'%Y-%m-%d %H:%M IST') [auto]"
-          git push || true
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 Agent run: $(date +'%Y-%m-%d %H:%M IST') [auto]"
+            git pull --rebase origin main || true
+            git push origin main || true
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
