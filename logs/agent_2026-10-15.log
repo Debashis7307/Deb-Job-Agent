@@ -1,0 +1,553 @@
+2026-10-15 20:00:18 [INFO] __main__: ============================================================
+2026-10-15 20:00:18 [INFO] __main__: JOB AGENT — CLOUD RUN (GitHub Actions)
+2026-10-15 20:00:18 [INFO] __main__: Started: 2026-10-15 20:00:18 UTC
+2026-10-15 20:00:18 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-10-15 20:00:18 [INFO] __main__: Python: 3.11.17 (main, Oct  1 2026, 14:32:31) [GCC 13.3.0]
+2026-10-15 20:00:18 [INFO] __main__: ============================================================
+2026-10-15 20:00:19 [INFO] __main__: Max apply today:  30
+2026-10-15 20:00:19 [INFO] __main__: Cold emails today: 50
+2026-10-15 20:00:19 [INFO] __main__: Applications email: debashis.bera.careers@gmail.com
+2026-10-15 20:00:19 [INFO] __main__: Summary email to:   debashisalak@gmail.com
+2026-10-15 20:00:19 [INFO] database.db_manager: Database initialized at /home/runner/work/Deb-Job-Agent/Deb-Job-Agent/database/tracker.db
+2026-10-15 20:00:21 [INFO] agent.nodes.memory_node: mem0: Loaded 10 memories from cloud API
+2026-10-15 20:00:21 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 581
+All-time emails sent: 547
+Unique companies contacted: 1080
+Today (2026-10-15) already applied: 0
+Previous context from memory:
+User scraped 130 job listings on 2026-10-13, applied to 28 jobs, and sent 18 cold emails, targeting companies EOXS, Wonder Worth Solutions, Mettler-Toledo International, Inc, Kasparro AI, Fujitsu, Hire Daily, Muskvinda Technosages Pvt Ltd, CareerXperts Consulting, Unknown, and Jobspresso
+User scraped 128 job listings on 2026-10-07, applied to 30 jobs, and sent 0 cold emails, targeting companies Gartner, internmo, CodeVyasa, Unknown, Tuning Research (WorkableAI), Cedric, Infosys, NCR Atleos, Crimson Energy Experts Pvt Ltd, and Deqode
+User scraped 130 job listings on 2026-10-10, applied to 11 jobs, and sent 21 cold emails, targeting companies MediNex Workforce, SourcingXPress, Signant Health, Aiedoo, Nevrio Technology Services Pvt. Ltd, internmo, InterviewGod, NexDuo, Advance Sensing, and Parsewave
+User scraped 128 job listings on 2026-09-30, applied to 29 jobs, and sent 0 cold emails, targeting companies Startup Times, Emkay Global Financial Services Ltd, StatusNeo, Flex, Kroll, Sticker Mule, Infosys, PwC India, GoKwik, and Training Basket
+User scraped 126 job listings on 2026-10-08, applied to 29 jobs, and sent 0 cold emails, targeting companies Compunet Connections, Rippling, Crazy For Success Foundation, Dentsu Global Services, She Can Foundation, Amgen, Zepcruit, PwC Acceleration Center India, Jobspresso, and techolution
+User scraped 128 job listings on 2026-09-28, applied to 30 jobs, and sent 0 cold emails, targeting companies JPMorganChase, Venwiz, Pledge India Foundation, Skillzenloop, Michael Page, CloudHire, TantranZm, Brainwave Nextgen Technologies, Cohere Health, and Zenithbyte
+User scraped 117 job listings on 2026-10-12, applied to 30 jobs, and sent 25 cold emails, targeting companies Basti Ki Pathshala Foundation, Rippling, Bureau, IBM, Gradia, She Can Foundation, eGov Foundation, NMTronics India Pvt. Ltd., Women First India Foundation, and IntelliMeet
+User scraped 128 job listings on 2026-10-02, applied to 30 jobs, and sent 0 cold emails, targeting companies woodfrog, She Can Foundation, internmo, DataAbhyas, Kroll, Siemens Energy, Accenture in India, EXL, Qualcomm, and Unknown
+User scraped 128 job listings on 2026-10-06, applied to 30 jobs, and sent 0 cold emails, targeting companies Unified Mentor Private Limited, Jobspresso, Delaplex, GlobalLogic, Evernorth Health Services, NayePankh Foundation, Pledge India Foundation, TriNet, Larsen & Toubro, and Tata Consultancy Services
+User scraped 127 job listings on 2026-10-04, applied to 30 jobs, and sent 0 cold emails, targeting companies Data Eminence, Scoutit, CareerXperts Consulting, Zenithbyte, Unified Mentor Private Limited, TEXENTRE, Novastrix Labs, UM IT PRIVATE LIMITED, MediNex Workforce, and avua
+2026-10-15 20:00:21 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-10-15 20:00:21 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-10-15 20:00:24 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 30 relevant jobs
+2026-10-15 20:00:24 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 30 jobs
+2026-10-15 20:00:24 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-10-15 20:00:24 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-10-15 20:00:28 [INFO] scrapers.internshala_scraper: Internshala: Total 44 jobs found
+2026-10-15 20:00:28 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-10-15 20:00:28 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-10-15 20:00:30 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-10-15 20:00:48 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-10-15 20:01:05 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-10-15 20:01:20 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-10-15 20:01:35 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-10-15 20:01:35 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-10-15 20:01:35 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-10-15 20:01:35 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-10-15 20:01:35 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-10-15 20:01:35 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-10-15 20:01:35 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-10-15 20:01:36 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-10-15 20:01:50 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Could not find username/email field on LinkedIn login page. Proceeding with public search...
+2026-10-15 20:01:50 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-10-15 20:02:05 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-10-15 20:02:20 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-10-15 20:02:35 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 41 jobs
+2026-10-15 20:02:35 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 41 jobs
+2026-10-15 20:02:35 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-10-15 20:02:35 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-10-15 20:02:48 [WARNING] scrapers.naukri_scraper: Naukri login failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#usernameField, input[name='username'], input[placeholder*='Email'], input[placeholder*='Username']") to be visible
+
+2026-10-15 20:02:48 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-10-15 20:03:00 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-10-15 20:03:14 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-10-15 20:03:27 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-10-15 20:03:39 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-10-15 20:03:54 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-10-15 20:04:04 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-10-15 20:04:16 [INFO] scrapers.naukri_scraper: Naukri: Found 0 jobs
+2026-10-15 20:04:16 [INFO] agent.nodes.scrape_node: ✅ Naukri: 0 jobs
+2026-10-15 20:04:16 [INFO] agent.nodes.scrape_node: Tavily: Searching free job portals & startup boards (budget: 10 searches)...
+2026-10-15 20:04:25 [INFO] tools.tavily_search: Tavily free portal search: found 15 jobs
+2026-10-15 20:04:31 [INFO] tools.tavily_search: Tavily startup job search: found 6 leads
+2026-10-15 20:04:31 [INFO] agent.nodes.scrape_node: Tavily: 7 real job leads (filtered from 21)
+2026-10-15 20:04:31 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 133 jobs from all portals
+2026-10-15 20:04:31 [INFO] agent.nodes.filter_node: ✅ Filter: 133 scraped → 43 new relevant jobs
+2026-10-15 20:04:31 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:05:04 [INFO] agent.nodes.filter_node: Gemini scored 43 jobs in 1 API call
+2026-10-15 20:05:04 [INFO] agent.nodes.filter_node: Scored 43 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-10-15 20:05:04 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=False)
+2026-10-15 20:05:04 [INFO] agent.nodes.apply_node: Applying to 28 jobs on linkedin
+2026-10-15 20:05:04 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-10-15 20:05:23 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-10-15 20:05:45 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-10-15 20:06:05 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-10-15 20:06:22 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-10-15 20:06:37 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-10-15 20:07:02 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-10-15 20:07:24 [INFO] agent.nodes.apply_node: Waiting 28s before next application...
+2026-10-15 20:07:52 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-10-15 20:08:19 [INFO] agent.nodes.apply_node: Waiting 21s before next application...
+2026-10-15 20:08:40 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-10-15 20:08:52 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-10-15 20:09:17 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-10-15 20:09:29 [INFO] agent.nodes.apply_node: Waiting 13s before next application...
+2026-10-15 20:09:42 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-10-15 20:10:02 [INFO] agent.nodes.apply_node: Waiting 29s before next application...
+2026-10-15 20:10:31 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-10-15 20:10:43 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-10-15 20:10:59 [INFO] agent.nodes.apply_node: Waiting 30s before next application...
+2026-10-15 20:11:29 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-10-15 20:11:40 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-10-15 20:12:03 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-10-15 20:12:20 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-10-15 20:12:31 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-10-15 20:12:56 [INFO] agent.nodes.apply_node: Waiting 24s before next application...
+2026-10-15 20:13:19 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-10-15 20:13:44 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-10-15 20:14:03 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-10-15 20:14:13 [INFO] agent.nodes.apply_node: Applying to 2 jobs on tavily_link
+2026-10-15 20:14:13 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-10-15 20:14:27 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-10-15 20:14:40 [INFO] agent.nodes.apply_node: Apply node done: 0 portal-applied, 30 queued for cold email, 0 failed
+2026-10-15 20:14:40 [INFO] agent.nodes.email_node: Finding HR email for: techolution
+2026-10-15 20:14:40 [INFO] tools.email_finder: Using guessed domain for techolution: techolution.com
+2026-10-15 20:14:40 [WARNING] tools.email_finder: Apollo: Credits exhausted (422). Disabling Apollo for this session.
+2026-10-15 20:14:43 [INFO] tools.tavily_search: Tavily found email for techolution: sales@techolution.com
+2026-10-15 20:14:43 [INFO] tools.email_finder: ✅ Verified MX records for techolution.com
+2026-10-15 20:14:43 [INFO] tools.email_finder: Found email via Tavily for techolution: sales@techolution.com
+2026-10-15 20:14:44 [INFO] agent.nodes.email_node: Finding HR email for: OATI
+2026-10-15 20:14:44 [INFO] tools.email_finder: Using guessed domain for OATI: oati.com
+2026-10-15 20:14:50 [INFO] tools.email_finder: ✅ Verified MX records for fischtankpr.com
+2026-10-15 20:14:50 [INFO] tools.email_finder: Found scraped and verified email for OATI: oati@fischtankpr.com
+2026-10-15 20:14:50 [INFO] agent.nodes.email_node: Finding HR email for: CT Automotive
+2026-10-15 20:14:50 [INFO] tools.email_finder: Using guessed domain for CT Automotive: ctautomotive.com
+2026-10-15 20:14:56 [INFO] tools.email_finder: ✅ Verified MX records for ctautomotive.com
+2026-10-15 20:14:56 [INFO] tools.email_finder: Using verified pattern email for CT Automotive: hr@ctautomotive.com
+2026-10-15 20:14:57 [INFO] agent.nodes.email_node: Finding HR email for: Softcrayons IT Education
+2026-10-15 20:14:57 [INFO] tools.email_finder: Using guessed domain for Softcrayons IT Education: softcrayonsiteducation.com
+2026-10-15 20:15:00 [WARNING] tools.email_finder: ❌ Domain resolution failed for softcrayonsiteducation.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:15:00 [WARNING] tools.email_finder: ❌ Domain resolution failed for softcrayonsiteducation.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:15:00 [WARNING] tools.email_finder: ❌ Domain resolution failed for softcrayonsiteducation.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:15:00 [WARNING] tools.email_finder: ❌ Domain resolution failed for softcrayonsiteducation.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:15:00 [WARNING] tools.email_finder: ❌ Domain resolution failed for softcrayonsiteducation.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:15:00 [WARNING] tools.email_finder: ❌ No valid email could be verified for Softcrayons IT Education (domain: softcrayonsiteducation.com). Skipping outreach.
+2026-10-15 20:15:01 [INFO] agent.nodes.email_node: Finding HR email for: XpertDox
+2026-10-15 20:15:01 [INFO] tools.email_finder: Using guessed domain for XpertDox: xpertdox.com
+2026-10-15 20:15:05 [INFO] tools.tavily_search: Tavily found email for XpertDox: info@xpertdox.com
+2026-10-15 20:15:06 [INFO] tools.email_finder: ✅ Verified MX records for xpertdox.com
+2026-10-15 20:15:06 [INFO] tools.email_finder: Found email via Tavily for XpertDox: info@xpertdox.com
+2026-10-15 20:15:07 [INFO] agent.nodes.email_node: Finding HR email for: Oncoshot India
+2026-10-15 20:15:07 [INFO] tools.email_finder: Using guessed domain for Oncoshot India: oncoshot.com
+2026-10-15 20:15:16 [INFO] tools.email_finder: ✅ Verified MX records for oncoshot.com
+2026-10-15 20:15:16 [INFO] tools.email_finder: Using verified pattern email for Oncoshot India: hr@oncoshot.com
+2026-10-15 20:15:16 [INFO] agent.nodes.email_node: Finding HR email for: AppZen
+2026-10-15 20:15:16 [INFO] tools.email_finder: Using guessed domain for AppZen: appzen.com
+2026-10-15 20:15:22 [INFO] tools.email_finder: ✅ Verified MX records for appzen.com
+2026-10-15 20:15:22 [INFO] tools.email_finder: Found scraped and verified email for AppZen: snehal.patil@appzen.com
+2026-10-15 20:15:22 [INFO] agent.nodes.email_node: Finding HR email for: internmo
+2026-10-15 20:15:22 [INFO] tools.email_finder: Using guessed domain for internmo: internmo.com
+2026-10-15 20:15:26 [INFO] tools.tavily_search: Tavily found email for internmo: hr@internmo.com
+2026-10-15 20:15:27 [INFO] tools.email_finder: ✅ Verified MX records for internmo.com
+2026-10-15 20:15:27 [INFO] tools.email_finder: Found email via Tavily for internmo: hr@internmo.com
+2026-10-15 20:15:28 [INFO] agent.nodes.email_node: Finding HR email for: Daice Labs
+2026-10-15 20:15:28 [INFO] tools.email_finder: Using guessed domain for Daice Labs: daicelabs.com
+2026-10-15 20:15:30 [INFO] tools.tavily_search: Tavily found email for Daice Labs: careers@daicelabs.com
+2026-10-15 20:15:31 [INFO] tools.email_finder: ✅ Verified MX records for daicelabs.com
+2026-10-15 20:15:31 [INFO] tools.email_finder: Found email via Tavily for Daice Labs: careers@daicelabs.com
+2026-10-15 20:15:32 [INFO] agent.nodes.email_node: Finding HR email for: Jobspresso
+2026-10-15 20:15:32 [INFO] tools.email_finder: Domain from URL for Jobspresso: jobspresso.co
+2026-10-15 20:15:37 [INFO] tools.email_finder: ✅ Verified MX records for jobspresso.co
+2026-10-15 20:15:37 [INFO] tools.email_finder: Found scraped and verified email for Jobspresso: hello@jobspresso.co
+2026-10-15 20:15:38 [INFO] agent.nodes.email_node: Finding HR email for: Unknown
+2026-10-15 20:15:38 [INFO] tools.email_finder: Domain from URL for Unknown: himalayas.app
+2026-10-15 20:15:40 [INFO] tools.tavily_search: Tavily found email for Unknown: hi@himalayas.app
+2026-10-15 20:15:40 [INFO] tools.email_finder: ✅ Verified MX records for himalayas.app
+2026-10-15 20:15:40 [INFO] tools.email_finder: Found email via Tavily for Unknown: hi@himalayas.app
+2026-10-15 20:15:41 [INFO] agent.nodes.email_node: Finding HR email for: Fusion Practices
+2026-10-15 20:15:41 [INFO] tools.email_finder: Using guessed domain for Fusion Practices: fusionpractices.com
+2026-10-15 20:15:44 [INFO] tools.tavily_search: Tavily found email for Fusion Practices: careers@fusionpractices.com
+2026-10-15 20:15:44 [INFO] tools.email_finder: ✅ Verified MX records for fusionpractices.com
+2026-10-15 20:15:44 [INFO] tools.email_finder: Found email via Tavily for Fusion Practices: careers@fusionpractices.com
+2026-10-15 20:15:46 [INFO] agent.nodes.email_node: Finding HR email for: Bank of America
+2026-10-15 20:15:46 [INFO] tools.email_finder: Using guessed domain for Bank of America: bankofamerica.com
+2026-10-15 20:15:49 [INFO] tools.tavily_search: Tavily found email for Bank of America: robert.stickler@bankofamerica.com
+2026-10-15 20:15:49 [INFO] tools.email_finder: ✅ Verified MX records for bankofamerica.com
+2026-10-15 20:15:49 [INFO] tools.email_finder: Found email via Tavily for Bank of America: robert.stickler@bankofamerica.com
+2026-10-15 20:15:50 [INFO] agent.nodes.email_node: Finding HR email for: BU Consultants
+2026-10-15 20:15:50 [INFO] tools.email_finder: Using guessed domain for BU Consultants: buconsultants.com
+2026-10-15 20:15:52 [INFO] tools.tavily_search: Tavily found email for BU Consultants: info@buconsultants.co
+2026-10-15 20:15:53 [INFO] tools.email_finder: ✅ Verified MX records for buconsultants.co
+2026-10-15 20:15:53 [INFO] tools.email_finder: Found email via Tavily for BU Consultants: info@buconsultants.co
+2026-10-15 20:15:53 [INFO] agent.nodes.email_node: Finding HR email for: Scoutit
+2026-10-15 20:15:53 [INFO] tools.email_finder: Using guessed domain for Scoutit: scoutit.com
+2026-10-15 20:15:55 [INFO] tools.tavily_search: Tavily found email for Scoutit: trent@scoutit.com
+2026-10-15 20:15:55 [INFO] tools.email_finder: ✅ Verified MX records for scoutit.com
+2026-10-15 20:15:55 [INFO] tools.email_finder: Found email via Tavily for Scoutit: trent@scoutit.com
+2026-10-15 20:15:56 [INFO] agent.nodes.email_node: Finding HR email for: Tata Consultancy Services
+2026-10-15 20:15:57 [INFO] tools.email_finder: Using guessed domain for Tata Consultancy Services: tata.com
+2026-10-15 20:16:03 [INFO] tools.email_finder: ✅ Verified MX records for tata.com
+2026-10-15 20:16:03 [INFO] tools.email_finder: Found scraped and verified email for Tata Consultancy Services: northamerica@tata.com
+2026-10-15 20:16:04 [INFO] agent.nodes.email_node: Finding HR email for: TriNet
+2026-10-15 20:16:04 [INFO] tools.email_finder: Using guessed domain for TriNet: trinet.com
+2026-10-15 20:16:07 [INFO] tools.tavily_search: Tavily found email for TriNet: investorrelations@trinet.com
+2026-10-15 20:16:07 [INFO] tools.email_finder: ✅ Verified MX records for trinet.com
+2026-10-15 20:16:07 [INFO] tools.email_finder: Found email via Tavily for TriNet: investorrelations@trinet.com
+2026-10-15 20:16:08 [INFO] agent.nodes.email_node: Finding HR email for: Volvo Group
+2026-10-15 20:16:08 [INFO] tools.email_finder: Using guessed domain for Volvo Group: volvogroup.com
+2026-10-15 20:16:09 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:09 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:13 [INFO] tools.email_finder: ✅ Verified MX records for volvogroup.com
+2026-10-15 20:16:13 [INFO] tools.email_finder: Using verified pattern email for Volvo Group: hr@volvogroup.com
+2026-10-15 20:16:14 [INFO] agent.nodes.email_node: Finding HR email for: Microsoft
+2026-10-15 20:16:15 [INFO] tools.email_finder: Using guessed domain for Microsoft: microsoft.com
+2026-10-15 20:16:16 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:16 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:33 [INFO] tools.email_finder: ✅ Verified MX records for microsoft.com
+2026-10-15 20:16:33 [INFO] tools.email_finder: Using verified pattern email for Microsoft: hr@microsoft.com
+2026-10-15 20:16:34 [INFO] agent.nodes.email_node: Finding HR email for: Firestorm Internet
+2026-10-15 20:16:34 [INFO] tools.email_finder: Using guessed domain for Firestorm Internet: firestorminternet.com
+2026-10-15 20:16:36 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:36 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:36 [WARNING] tools.email_finder: ❌ Domain resolution failed for firestorminternet.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:36 [WARNING] tools.email_finder: ❌ Domain resolution failed for firestorminternet.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:36 [WARNING] tools.email_finder: ❌ Domain resolution failed for firestorminternet.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:36 [WARNING] tools.email_finder: ❌ Domain resolution failed for firestorminternet.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:36 [WARNING] tools.email_finder: ❌ Domain resolution failed for firestorminternet.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:36 [WARNING] tools.email_finder: ❌ No valid email could be verified for Firestorm Internet (domain: firestorminternet.com). Skipping outreach.
+2026-10-15 20:16:37 [INFO] agent.nodes.email_node: Finding HR email for: Viraaj HR Solutions Private Limited
+2026-10-15 20:16:38 [INFO] tools.email_finder: Using guessed domain for Viraaj HR Solutions Private Limited: viraajhr.com
+2026-10-15 20:16:39 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:39 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for viraajhr.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for viraajhr.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for viraajhr.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for viraajhr.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:39 [WARNING] tools.email_finder: ❌ Domain resolution failed for viraajhr.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:16:39 [WARNING] tools.email_finder: ❌ No valid email could be verified for Viraaj HR Solutions Private Limited (domain: viraajhr.com). Skipping outreach.
+2026-10-15 20:16:41 [INFO] agent.nodes.email_node: Finding HR email for: Salesforce
+2026-10-15 20:16:41 [INFO] tools.email_finder: Using guessed domain for Salesforce: salesforce.com
+2026-10-15 20:16:43 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:43 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:49 [INFO] tools.email_finder: ✅ Verified MX records for salesforce.com
+2026-10-15 20:16:49 [INFO] tools.email_finder: Using verified pattern email for Salesforce: hr@salesforce.com
+2026-10-15 20:16:50 [INFO] agent.nodes.email_node: Finding HR email for: NikahForever
+2026-10-15 20:16:51 [INFO] tools.email_finder: Using guessed domain for NikahForever: nikahforever.com
+2026-10-15 20:16:52 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:52 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:53 [INFO] tools.email_finder: ✅ Verified MX records for nikahforever.com
+2026-10-15 20:16:53 [INFO] tools.email_finder: Found scraped and verified email for NikahForever: support@nikahforever.com
+2026-10-15 20:16:54 [INFO] agent.nodes.email_node: Finding HR email for: Amazon
+2026-10-15 20:16:54 [INFO] tools.email_finder: Using guessed domain for Amazon: amazon.com
+2026-10-15 20:16:56 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:56 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:16:57 [INFO] tools.email_finder: ✅ Verified MX records for amazon.com
+2026-10-15 20:16:57 [INFO] tools.email_finder: Found scraped and verified email for Amazon: api-services-support@amazon.com
+2026-10-15 20:16:58 [INFO] agent.nodes.email_node: Finding HR email for: Cisco
+2026-10-15 20:16:58 [INFO] tools.email_finder: Using guessed domain for Cisco: cisco.com
+2026-10-15 20:17:00 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:00 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:01 [INFO] tools.email_finder: ✅ Verified MX records for cisco.com
+2026-10-15 20:17:01 [INFO] tools.email_finder: Using verified pattern email for Cisco: hr@cisco.com
+2026-10-15 20:17:02 [INFO] agent.nodes.email_node: Finding HR email for: Cedric
+2026-10-15 20:17:03 [INFO] tools.email_finder: Using guessed domain for Cedric: cedric.com
+2026-10-15 20:17:04 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:04 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:06 [INFO] tools.email_finder: ✅ Verified MX records for cedric.com
+2026-10-15 20:17:06 [INFO] tools.email_finder: Using verified pattern email for Cedric: hr@cedric.com
+2026-10-15 20:17:07 [INFO] agent.nodes.email_node: Finding HR email for: Basti Ki Pathshala Foundation
+2026-10-15 20:17:08 [INFO] tools.email_finder: Using guessed domain for Basti Ki Pathshala Foundation: bastikipathshala.com
+2026-10-15 20:17:09 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:09 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:17:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:17:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:17:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:17:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for bastikipathshala.com (Host not found): [Errno -2] Name or service not known
+2026-10-15 20:17:09 [WARNING] tools.email_finder: ❌ No valid email could be verified for Basti Ki Pathshala Foundation (domain: bastikipathshala.com). Skipping outreach.
+2026-10-15 20:17:10 [INFO] agent.nodes.email_node: Finding HR email for: She Can Foundation
+2026-10-15 20:17:11 [INFO] tools.email_finder: Using guessed domain for She Can Foundation: shecan.com
+2026-10-15 20:17:11 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:11 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:12 [WARNING] tools.email_finder: ❌ MX record lookup failed for shecan.com: The DNS response does not contain an answer to the question: shecan.com. IN MX
+2026-10-15 20:17:12 [WARNING] tools.email_finder: ❌ MX record lookup failed for shecan.com: The DNS response does not contain an answer to the question: shecan.com. IN MX
+2026-10-15 20:17:13 [WARNING] tools.email_finder: ❌ MX record lookup failed for shecan.com: The DNS response does not contain an answer to the question: shecan.com. IN MX
+2026-10-15 20:17:13 [WARNING] tools.email_finder: ❌ MX record lookup failed for shecan.com: The DNS response does not contain an answer to the question: shecan.com. IN MX
+2026-10-15 20:17:13 [WARNING] tools.email_finder: ❌ MX record lookup failed for shecan.com: The DNS response does not contain an answer to the question: shecan.com. IN MX
+2026-10-15 20:17:13 [WARNING] tools.email_finder: ❌ No valid email could be verified for She Can Foundation (domain: shecan.com). Skipping outreach.
+2026-10-15 20:17:14 [INFO] agent.nodes.email_node: Finding HR email for: Queens Of Change Foundation
+2026-10-15 20:17:22 [INFO] tools.email_finder: Using guessed domain for Queens Of Change Foundation: queensofchange.com
+2026-10-15 20:17:38 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:38 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:40 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-10-15 20:17:40 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-10-15 20:17:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-10-15 20:17:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-10-15 20:17:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-10-15 20:17:41 [WARNING] tools.email_finder: ❌ No valid email could be verified for Queens Of Change Foundation (domain: queensofchange.com). Skipping outreach.
+2026-10-15 20:17:42 [INFO] agent.nodes.email_node: Finding HR email for: Tailscale
+2026-10-15 20:17:42 [INFO] tools.email_finder: Domain from URL for Tailscale: weworkremotely.com
+2026-10-15 20:17:59 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:17:59 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:18:00 [INFO] tools.email_finder: ✅ Verified MX records for weworkremotely.com
+2026-10-15 20:18:00 [INFO] tools.email_finder: Using verified pattern email for Tailscale: hr@weworkremotely.com
+2026-10-15 20:18:00 [INFO] agent.nodes.email_node: Finding HR email for: Jobgether
+2026-10-15 20:18:08 [INFO] tools.email_finder: Using guessed domain for Jobgether: jobgether.com
+2026-10-15 20:18:25 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:18:25 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:18:26 [INFO] tools.email_finder: ✅ Verified MX records for jobgether.com
+2026-10-15 20:18:26 [INFO] tools.email_finder: Found scraped and verified email for Jobgether: support@jobgether.com
+2026-10-15 20:18:27 [INFO] agent.nodes.email_node: Finding HR email for: Athena Tech
+2026-10-15 20:18:36 [INFO] tools.email_finder: Using guessed domain for Athena Tech: athenatech.com
+2026-10-15 20:18:52 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:18:52 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:18:53 [INFO] tools.email_finder: ✅ Verified MX records for athenatech.com
+2026-10-15 20:18:53 [INFO] tools.email_finder: Using verified pattern email for Athena Tech: hr@athenatech.com
+2026-10-15 20:18:54 [INFO] agent.nodes.email_node: Finding HR email for: Crazy For Success Foundation
+2026-10-15 20:19:02 [INFO] tools.email_finder: Using guessed domain for Crazy For Success Foundation: crazyforsuccess.com
+2026-10-15 20:19:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:19:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:19:22 [WARNING] tools.email_finder: ❌ MX record lookup failed for crazyforsuccess.com: The DNS response does not contain an answer to the question: crazyforsuccess.com. IN MX
+2026-10-15 20:19:22 [WARNING] tools.email_finder: ❌ MX record lookup failed for crazyforsuccess.com: The DNS response does not contain an answer to the question: crazyforsuccess.com. IN MX
+2026-10-15 20:19:22 [WARNING] tools.email_finder: ❌ MX record lookup failed for crazyforsuccess.com: The DNS response does not contain an answer to the question: crazyforsuccess.com. IN MX
+2026-10-15 20:19:23 [WARNING] tools.email_finder: ❌ MX record lookup failed for crazyforsuccess.com: The DNS response does not contain an answer to the question: crazyforsuccess.com. IN MX
+2026-10-15 20:19:23 [WARNING] tools.email_finder: ❌ MX record lookup failed for crazyforsuccess.com: The DNS response does not contain an answer to the question: crazyforsuccess.com. IN MX
+2026-10-15 20:19:23 [WARNING] tools.email_finder: ❌ No valid email could be verified for Crazy For Success Foundation (domain: crazyforsuccess.com). Skipping outreach.
+2026-10-15 20:19:24 [INFO] agent.nodes.email_node: Finding HR email for: Cargill
+2026-10-15 20:19:32 [INFO] tools.email_finder: Using guessed domain for Cargill: cargill.com
+2026-10-15 20:19:49 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:19:49 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:19:50 [INFO] tools.email_finder: ✅ Verified MX records for cargill.com
+2026-10-15 20:19:50 [INFO] tools.email_finder: Using verified pattern email for Cargill: hr@cargill.com
+2026-10-15 20:19:51 [INFO] agent.nodes.email_node: Finding HR email for: Energy ETA
+2026-10-15 20:19:59 [INFO] tools.email_finder: Using guessed domain for Energy ETA: energyeta.com
+2026-10-15 20:20:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:20:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:20:16 [INFO] tools.email_finder: ✅ Verified MX records for energyeta.com
+2026-10-15 20:20:16 [INFO] tools.email_finder: Using verified pattern email for Energy ETA: hr@energyeta.com
+2026-10-15 20:20:17 [INFO] agent.nodes.email_node: Finding HR email for: Citi
+2026-10-15 20:20:25 [INFO] tools.email_finder: Using guessed domain for Citi: citi.com
+2026-10-15 20:20:41 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:20:41 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:20:47 [INFO] tools.email_finder: ✅ Verified MX records for citi.com
+2026-10-15 20:20:47 [INFO] tools.email_finder: Using verified pattern email for Citi: hr@citi.com
+2026-10-15 20:20:48 [INFO] agent.nodes.email_node: Finding HR email for: 73 Systems
+2026-10-15 20:20:56 [INFO] tools.email_finder: Using guessed domain for 73 Systems: 73systems.com
+2026-10-15 20:21:12 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:21:12 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-10-15 20:21:15 [INFO] tools.email_finder: ✅ Verified MX records for 73systems.com
+2026-10-15 20:21:15 [INFO] tools.email_finder: Using verified pattern email for 73 Systems: hr@73systems.com
+2026-10-15 20:21:16 [INFO] agent.nodes.email_node: Found HR emails for 30/43 companies
+2026-10-15 20:21:16 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:21:27 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-10-15 20:21:32 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:21:47 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-10-15 20:21:52 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:22:05 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-10-15 20:22:10 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:22:23 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-10-15 20:22:28 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:22:40 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-10-15 20:22:45 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:22:59 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-10-15 20:22:59 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:22:59 [INFO] tools.email_sender: ✅ Email sender ready: Brevo SMTP
+2026-10-15 20:22:59 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:23:00 [INFO] tools.email_sender: ✅ [Brevo] Email sent → sales@techolution.com: Application for Python AI Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:23:00 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:23:10 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:23:11 [INFO] tools.email_sender: ✅ [Brevo] Email sent → oati@fischtankpr.com: Application for AI Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:23:11 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:23:21 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:23:22 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@ctautomotive.com: Application for Full Stack AI Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:23:22 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:23:32 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:23:33 [INFO] tools.email_sender: ✅ [Brevo] Email sent → info@xpertdox.com: Application for AI Data Scientist — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:23:33 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:23:43 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:23:44 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@oncoshot.com: Application for Applied AI Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:23:44 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:23:54 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:23:55 [INFO] tools.email_sender: ✅ [Brevo] Email sent → snehal.patil@appzen.com: Application for AI/ML Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:23:55 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:24:05 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:24:06 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@internmo.com: Application for Artificial Intelligence Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:24:06 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:24:16 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:24:17 [INFO] tools.email_sender: ✅ [Brevo] Email sent → careers@daicelabs.com: Application for AI/ML Engineering Intern — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:24:17 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:24:27 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:24:28 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hello@jobspresso.co: Application for AI Automation Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:24:28 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:24:38 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:24:39 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hi@himalayas.app: Application for Entry-level AI Python Developer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:24:39 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:24:49 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:24:50 [INFO] tools.email_sender: ✅ [Brevo] Email sent → careers@fusionpractices.com: Application for Graduate Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:24:50 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:25:00 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:25:01 [INFO] tools.email_sender: ✅ [Brevo] Email sent → robert.stickler@bankofamerica.com: Application for Software Engineer- Apprentice — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:25:01 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:25:11 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:25:12 [INFO] tools.email_sender: ✅ [Brevo] Email sent → info@buconsultants.co: Application for Associate AI Solution Consultant — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:25:12 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:25:22 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:25:23 [INFO] tools.email_sender: ✅ [Brevo] Email sent → trent@scoutit.com: Application for Data Engineer - ML — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:25:23 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:25:33 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:25:34 [INFO] tools.email_sender: ✅ [Brevo] Email sent → northamerica@tata.com: Application for Data Scientist — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:25:34 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:25:44 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:25:45 [INFO] tools.email_sender: ✅ [Brevo] Email sent → investorrelations@trinet.com: Application for Associate Data Scientist — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:25:45 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:25:55 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:25:56 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@volvogroup.com: Application for Graduate Apprentice Trainee — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:25:56 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:26:06 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:26:07 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@microsoft.com: Application for Software Engineering — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:26:07 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:26:17 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:26:18 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@salesforce.com: Application for Software Engineering AMTS — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:26:18 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:26:28 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:26:29 [INFO] tools.email_sender: ✅ [Brevo] Email sent → support@nikahforever.com: Application for Software Development Engineer 1 — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:26:29 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:26:39 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:26:40 [INFO] tools.email_sender: ✅ [Brevo] Email sent → api-services-support@amazon.com: Application for SDE I — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:26:40 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:26:50 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:26:51 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@cisco.com: Application for Software Engineer — Debashis Bera | AI/ML & Full-Stack
+2026-10-15 20:26:51 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:27:01 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:27:02 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@cedric.com: Application for Junior Software Engineer — Debashis Bera | Builder & Innovator
+2026-10-15 20:27:02 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:27:12 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:27:13 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@weworkremotely.com: Application for Analytics Engineer, Data — Debashis Bera | ML & Data Analyst
+2026-10-15 20:27:13 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:27:23 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:27:24 [INFO] tools.email_sender: ✅ [Brevo] Email sent → support@jobgether.com: Application for Software Engineer — Debashis Bera | Full-Stack AI Developer
+2026-10-15 20:27:24 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:27:34 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:27:35 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@athenatech.com: Application for Software Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:27:35 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:27:45 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:27:46 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@cargill.com: Application for Associate Developer, Process Automation — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:27:46 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:27:56 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:27:57 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@energyeta.com: Application for IoT Workflow & Automation Developer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:27:57 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:28:07 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:28:08 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@citi.com: Application for Java Fullstack Developer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:28:08 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-10-15 20:28:18 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:28:19 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@73systems.com: Application for Software Engineer / Java Backend Engineer — Debashis Bera | AI & Full-Stack Dev
+2026-10-15 20:28:19 [INFO] agent.nodes.email_node: ✅ Email node: 30 cold emails sent
+2026-10-15 20:28:19 [INFO] tools.pdf_hr_parser: Parsing HR contacts PDF: CompanyWise HR contact.pdf ...
+2026-10-15 20:28:19 [INFO] tools.pdf_hr_parser: PDF has 56 pages
+2026-10-15 20:28:21 [INFO] tools.pdf_hr_parser:   Processed page 10/56, 328 contacts so far...
+2026-10-15 20:28:22 [INFO] tools.pdf_hr_parser:   Processed page 20/56, 655 contacts so far...
+2026-10-15 20:28:24 [INFO] tools.pdf_hr_parser:   Processed page 30/56, 981 contacts so far...
+2026-10-15 20:28:26 [INFO] tools.pdf_hr_parser:   Processed page 40/56, 1311 contacts so far...
+2026-10-15 20:28:27 [INFO] tools.pdf_hr_parser:   Processed page 50/56, 1638 contacts so far...
+2026-10-15 20:28:28 [INFO] tools.pdf_hr_parser: ✅ PDF parsed: 1831 unique HR contacts saved to hr_contacts_from_pdf.csv
+2026-10-15 20:28:28 [INFO] tools.pdf_hr_parser: PDF HR batch: 40 contacts ready (from 1831 total, 1449 already processed)
+2026-10-15 20:28:32 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach: Sending 20 emails (total sent so far: 830/0)
+2026-10-15 20:28:32 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:28:43 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 1)
+2026-10-15 20:28:47 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:29:00 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 2)
+2026-10-15 20:29:04 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:29:14 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 3)
+2026-10-15 20:29:18 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 20:29:34 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 4)
+2026-10-15 20:29:38 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:29:38 [INFO] tools.email_sender: ✅ Email sender ready: Brevo SMTP
+2026-10-15 20:29:38 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:29:39 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shubha.menon@soltius.co.id: AI/ML & Full-Stack Talent for Soltius
+2026-10-15 20:29:39 [INFO] agent.nodes.pdf_outreach_node: [1/20] PDF HR sent to shubha.menon@soltius.co.id (1459 @ Shubha Menon)
+2026-10-15 20:29:47 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:29:48 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shubhada.kale@atyeti.com: Bringing AI & Full-Stack Expertise to Atyeti India
+2026-10-15 20:29:48 [INFO] agent.nodes.pdf_outreach_node: [2/20] PDF HR sent to shubhada.kale@atyeti.com (1460 @ Shubhada Kale)
+2026-10-15 20:29:56 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:29:57 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shubhamkatiyar@ameyo.com: AI/ML & Agentic AI Solutions for Ameyo
+2026-10-15 20:29:57 [INFO] agent.nodes.pdf_outreach_node: [3/20] PDF HR sent to shubhamkatiyar@ameyo.com (1461 @ Shubham Katiyar)
+2026-10-15 20:30:05 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:30:06 [INFO] tools.email_sender: ✅ [Brevo] Email sent → bose@precisiontechcorp.com: High-Impact AI/ML & Full-Stack Developer for Precisiontechcorp
+2026-10-15 20:30:06 [INFO] agent.nodes.pdf_outreach_node: [4/20] PDF HR sent to bose@precisiontechcorp.com (1462 @ Shubhendu Bose)
+2026-10-15 20:30:14 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:30:15 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shubhra.narang@c-zentrix.com: AI/ML & Full-Stack Developer for C-zentrix Innovation
+2026-10-15 20:30:15 [INFO] agent.nodes.pdf_outreach_node: [5/20] PDF HR sent to shubhra.narang@c-zentrix.com (1463 @ Shubhra Narang)
+2026-10-15 20:30:23 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:30:24 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shuchi.nijhawan@ekaplus.com: AI/ML & Full-Stack Developer for Ekaplus
+2026-10-15 20:30:24 [INFO] agent.nodes.pdf_outreach_node: [6/20] PDF HR sent to shuchi.nijhawan@ekaplus.com (1464 @ Shuchi Nijhawan)
+2026-10-15 20:30:32 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:30:33 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shweta@valuecoders.com: AI/ML & Full-Stack Expertise for Valuecoders
+2026-10-15 20:30:33 [INFO] agent.nodes.pdf_outreach_node: [7/20] PDF HR sent to shweta@valuecoders.com (1465 @ Shweta Aggarwal)
+2026-10-15 20:30:41 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:30:42 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shweta@desteksolutions.com: Debashis Bera: AI/ML & Full-Stack Developer
+2026-10-15 20:30:42 [INFO] agent.nodes.pdf_outreach_node: [8/20] PDF HR sent to shweta@desteksolutions.com (1466 @ Shweta Dugad)
+2026-10-15 20:30:50 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:30:51 [INFO] tools.email_sender: ✅ [Brevo] Email sent → smurthy@aurusinc.com: AI/ML & Full-Stack Innovation for Aurusinc
+2026-10-15 20:30:51 [INFO] agent.nodes.pdf_outreach_node: [9/20] PDF HR sent to smurthy@aurusinc.com (1467 @ Shweta Murthy)
+2026-10-15 20:30:59 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:31:00 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shwetasetia@ayoconnect.id: Bringing AI & Full-Stack Skills to Ayoconnect
+2026-10-15 20:31:00 [INFO] agent.nodes.pdf_outreach_node: [10/20] PDF HR sent to shwetasetia@ayoconnect.id (1468 @ Shweta Setia)
+2026-10-15 20:31:08 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:31:09 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shweta@signitysolutions.com: AI/ML & Full-Stack Developer for Signitysolutions
+2026-10-15 20:31:09 [INFO] agent.nodes.pdf_outreach_node: [11/20] PDF HR sent to shweta@signitysolutions.com (1469 @ Shweta Sharma)
+2026-10-15 20:31:17 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:31:18 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shwetha@rudderstack.com: AI/ML Engineer with LangGraph Expertise | Debashis Bera
+2026-10-15 20:31:18 [INFO] agent.nodes.pdf_outreach_node: [12/20] PDF HR sent to shwetha@rudderstack.com (1470 @ Shwetha Sethuraman)
+2026-10-15 20:31:26 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:31:27 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shyam.warrier@neudesic.com: Innovating with AI/ML & Full-Stack Development at Neudesic
+2026-10-15 20:31:27 [INFO] agent.nodes.pdf_outreach_node: [13/20] PDF HR sent to shyam.warrier@neudesic.com (1471 @ Shyam Warrier)
+2026-10-15 20:31:35 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:31:36 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shyama@lesoft.com: AI/ML & Full-Stack Talent for Lesoft's LIG India
+2026-10-15 20:31:36 [INFO] agent.nodes.pdf_outreach_node: [14/20] PDF HR sent to shyama@lesoft.com (1472 @ Shyama Nair)
+2026-10-15 20:31:44 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:31:45 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shyamili.satyendran@tarento.com: AI/ML & Full-Stack Developer for Tarento (B.Tech 2026)
+2026-10-15 20:31:45 [INFO] agent.nodes.pdf_outreach_node: [15/20] PDF HR sent to shyamili.satyendran@tarento.com (1473 @ Shyamili Satyendran)
+2026-10-15 20:31:53 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:31:54 [INFO] tools.email_sender: ✅ [Brevo] Email sent → shyni.k@netcon.in: AI/ML & Full-Stack Developer - Debashis Bera
+2026-10-15 20:31:54 [INFO] agent.nodes.pdf_outreach_node: [16/20] PDF HR sent to shyni.k@netcon.in (1474 @ Shyni K)
+2026-10-15 20:32:02 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:32:03 [INFO] tools.email_sender: ✅ [Brevo] Email sent → siddharth.balakrishnan@crmit.com: Exploring AI/ML & Full-Stack Opportunities at Crmit
+2026-10-15 20:32:03 [INFO] agent.nodes.pdf_outreach_node: [17/20] PDF HR sent to siddharth.balakrishnan@crmit.com (1475 @ Siddharth Balakrishnan)
+2026-10-15 20:32:11 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:32:12 [INFO] tools.email_sender: ✅ [Brevo] Email sent → siddharth.gaur@credencys.com: Debashis Bera - AI/ML & Full-Stack Talent for Credencys
+2026-10-15 20:32:12 [INFO] agent.nodes.pdf_outreach_node: [18/20] PDF HR sent to siddharth.gaur@credencys.com (1476 @ Siddharth Gaur)
+2026-10-15 20:32:20 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:32:21 [INFO] tools.email_sender: ✅ [Brevo] Email sent → sijimolj@aditiconsulting.com: AI/ML & Full-Stack Developer - Debashis Bera
+2026-10-15 20:32:21 [INFO] agent.nodes.pdf_outreach_node: [19/20] PDF HR sent to sijimolj@aditiconsulting.com (1477 @ Siji John)
+2026-10-15 20:32:29 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:32:30 [INFO] tools.email_sender: ✅ [Brevo] Email sent → simran.kalra@avataar.me: B.Tech CSE (2026) AI/ML & Full-Stack Developer
+2026-10-15 20:32:30 [INFO] agent.nodes.pdf_outreach_node: [20/20] PDF HR sent to simran.kalra@avataar.me (1478 @ Simran Kalra)
+2026-10-15 20:32:30 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach complete: 20 sent, 0 failed, 0 invalid (LIVE)
+2026-10-15 20:32:31 [INFO] agent.nodes.memory_node: ✅ mem0: Saved daily summary: On 2026-10-15: Scraped 133 jobs, applied to 30 jobs, sent 30 cold emails. Companies: NikahForever, Oncoshot India, Tata Consultancy Services, Microsoft, Viraaj HR Solutions Private Limited, OATI, AppZen, CT Automotive, internmo, TriNet
+2026-10-15 20:32:31 [INFO] tools.inbox_monitor: Connecting to IMAP inbox at imap.gmail.com for debashis.bera.careers@gmail.com...
+2026-10-15 20:32:31 [ERROR] tools.inbox_monitor: Error fetching emails from inbox: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node: ============================================================
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node: 📋 DAILY REPORT — 2026-10-15
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node:    Applied today:       30
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node:    Total applied (all): 581
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node:    Cold mails (jobs):   30
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node:    PDF cold mails today:20  (total 850/1831)
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node:    Bounced-back mails:  0
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node:    Recruiter replies:   0
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node:    No replies from HR contacts yet — keep sending!
+2026-10-15 20:32:31 [INFO] agent.nodes.report_node: ============================================================
+2026-10-15 20:32:31 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:32:31 [INFO] tools.email_sender: ✅ Email sender ready: Brevo SMTP
+2026-10-15 20:32:31 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-10-15 20:32:32 [INFO] tools.email_sender: ✅ [Brevo] Summary email sent → debashisalak@gmail.com
+2026-10-15 20:32:32 [INFO] agent.nodes.report_node: ✅ Daily report emailed to: debashisalak@gmail.com
+2026-10-15 20:32:32 [INFO] __main__: ============================================================
+2026-10-15 20:32:32 [INFO] __main__: AGENT RUN COMPLETE in 1933s
+2026-10-15 20:32:32 [INFO] __main__:   Scraped:        133 jobs
+2026-10-15 20:32:32 [INFO] __main__:   New:            43 jobs
+2026-10-15 20:32:32 [INFO] __main__:   Applied:        30 jobs
+2026-10-15 20:32:32 [INFO] __main__:   Emailed (jobs): 30 HRs
+2026-10-15 20:32:32 [INFO] __main__:   PDF drip sent:  20 HR contacts
+2026-10-15 20:32:32 [INFO] __main__:   Failed:         0
+2026-10-15 20:32:32 [INFO] __main__: ============================================================
