@@ -1,0 +1,631 @@
+2026-11-27 00:45:12 [INFO] __main__: ============================================================
+2026-11-27 00:45:12 [INFO] __main__: JOB AGENT — CLOUD RUN (GitHub Actions)
+2026-11-27 00:45:12 [INFO] __main__: Started: 2026-11-27 00:45:12 UTC
+2026-11-27 00:45:12 [INFO] __main__: Mode: [LIVE] Applying for real!
+2026-11-27 00:45:12 [INFO] __main__: Python: 3.11.18 (main, Oct 26 2026, 02:48:29) [GCC 15.2.0]
+2026-11-27 00:45:12 [INFO] __main__: ============================================================
+2026-11-27 00:45:13 [INFO] __main__: Max apply today:  30
+2026-11-27 00:45:13 [INFO] __main__: Cold emails today: 50
+2026-11-27 00:45:13 [INFO] __main__: Applications email: debashis.bera.careers@gmail.com
+2026-11-27 00:45:13 [INFO] __main__: Summary email to:   debashisalak@gmail.com
+2026-11-27 00:45:14 [INFO] database.db_manager: Database initialized at /home/runner/work/Deb-Job-Agent/Deb-Job-Agent/database/tracker.db
+2026-11-27 00:45:15 [INFO] agent.nodes.memory_node: mem0: Loaded 10 memories from cloud API
+2026-11-27 00:45:15 [INFO] agent.nodes.memory_node: Memory loaded:
+All-time applications: 625
+All-time emails sent: 1341
+Unique companies contacted: 1497
+Today (2026-11-27) already applied: 0
+Previous context from memory:
+User scraped 123 job listings on 2026-11-20, applied to 26 jobs, and sent 23 cold emails, targeting companies Jobspresso, Daimler Truck Innovation Center India (DTICI), Pledge India Foundation, JobSPhere, Dropbox, PayPal, Zepcruit, Joblet-AI, Talent to Job, and CDK Global
+User scraped 123 job listings on 2026-11-24, applied to 30 jobs, and sent 23 cold emails, targeting companies Jobspresso, Arise TechGlobal, Pledge India Foundation, Purplle.com, Basti Ki Pathshala Foundation, Helloverify, TRYST IIT Bombay, Queens Of Change Foundation, turtil, and algoleap
+User scraped 125 job listings on 2026-11-13, applied to 28 jobs, and sent 21 cold emails, targeting companies Talent to Job, Hope Behind Tails Foundation, Joblet-AI, Closer : Influencer Marketing & UGC ads, Crowe Capabilities Center – India, CodeRound AI, Fresh Platter, Zenithbyte, TalentRabbit, and Keel
+User scraped 122 job listings on 2026-11-18, applied to 28 jobs, and sent 29 cold emails, targeting companies Joblet-AI, Wadhwani AI Global, Pledge India Foundation, Saama, HuntingCube, SkillsCapital, Fujitsu, Jobspresso, Infosys, and Ascendion
+User scraped 136 job listings on 2026-11-15, applied to 28 jobs, and sent 27 cold emails, targeting companies GoCharting, Torentify, PrimrIQ, Devryxa, Vishay Intertechnology, Inc., ThinkNovaa, DNV, Sustainability Economics.ai, Metas Solutions, and Joblet-AI
+User scraped 124 job listings on 2026-11-19, applied to 30 jobs, and sent 31 cold emails, targeting companies CodeRound AI, Blue Machines AI, Talent to Job, myKaarma, NTT DATA Business Solutions, PayPal, Women First India Foundation, Pledge India Foundation, Startup/Reddit, and Swiss Re
+User scraped 122 job listings on 2026-11-07, applied to 30 jobs, and sent 18 cold emails, targeting companies Gartner, ThinkNovaa, Dexter's Tech, Hope Behind Tails Foundation, Aditya Birla Capital, Basti Ki Pathshala Foundation, TrackBeat, Wipro, Salesforce, and Qualcomm
+User scraped 130 job listings on 2026-11-11, applied to 30 jobs, and sent 25 cold emails, targeting companies Abnormal AI, Zenithbyte, InfraFino, Jobspresso, HuntingCube, Auric AI Labs, N-able, ThinkNovaa, Skillzen Loop, and Remote workers
+User scraped 129 job listings on 2026-11-21, applied to 30 jobs, and sent 29 cold emails, targeting companies Generation, Women First India Foundation, algoleap, Basti Ki Pathshala Foundation, Data Eminence, JobSPhere, Jobspresso, ThinkNovaa Pvt. Ltd., MediNex Workforce, and Indian Institute of Technology, Bombay
+User scraped 122 job listings on 2026-11-12, applied to 30 jobs, and sent 25 cold emails, targeting companies Citi, Joblet-AI, Cencora, Advertflair, CommScope, IBM, Rippling, TalentRabbit, Qualys, and EcoRatings
+2026-11-27 00:45:15 [INFO] agent.nodes.scrape_node: 📡 Scraping RemoteOK...
+2026-11-27 00:45:15 [INFO] scrapers.remoteok_scraper: Scraping RemoteOK API...
+2026-11-27 00:45:18 [INFO] scrapers.remoteok_scraper: RemoteOK: Found 30 relevant jobs
+2026-11-27 00:45:18 [INFO] agent.nodes.scrape_node: ✅ RemoteOK: 30 jobs
+2026-11-27 00:45:18 [INFO] agent.nodes.scrape_node: 📡 Scraping Internshala...
+2026-11-27 00:45:18 [INFO] scrapers.internshala_scraper: Internshala: Scraping https://internshala.com/internships/python-internship
+2026-11-27 00:45:22 [INFO] scrapers.internshala_scraper: Internshala: Total 50 jobs found
+2026-11-27 00:45:22 [INFO] agent.nodes.scrape_node: ✅ Internshala: 30 jobs
+2026-11-27 00:45:22 [INFO] agent.nodes.scrape_node: 📡 Scraping Wellfound...
+2026-11-27 00:45:24 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=software-engineer&location=remote&years_of_experience=0&remote=true
+2026-11-27 00:45:40 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=machine-learning-engineer&location=remote&years_of_experience=0&remote=true
+2026-11-27 00:45:56 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=data-scientist&location=remote&years_of_experience=0&remote=true
+2026-11-27 00:46:12 [INFO] scrapers.wellfound_scraper: Wellfound: Scraping https://wellfound.com/jobs?role=python-developer&location=remote&years_of_experience=0&remote=true
+2026-11-27 00:46:28 [INFO] scrapers.wellfound_scraper: Wellfound: Found 0 jobs
+2026-11-27 00:46:28 [INFO] agent.nodes.scrape_node: ✅ Wellfound: 0 jobs
+2026-11-27 00:46:28 [INFO] agent.nodes.scrape_node: 📡 Scraping We Work Remotely...
+2026-11-27 00:46:28 [INFO] scrapers.weworkremotely_scraper: WWR: Fetching jobs from RSS feed...
+2026-11-27 00:46:28 [INFO] scrapers.weworkremotely_scraper: WWR: Found 25 jobs
+2026-11-27 00:46:28 [INFO] agent.nodes.scrape_node: ✅ We Work Remotely: 25 jobs
+2026-11-27 00:46:28 [INFO] agent.nodes.scrape_node: 📡 Scraping LinkedIn...
+2026-11-27 00:46:28 [INFO] scrapers.linkedin_scraper: LinkedIn: Logging in...
+2026-11-27 00:46:33 [ERROR] scrapers.linkedin_scraper: LinkedIn login failed: Could not find username/email field on LinkedIn login page. Proceeding with public search...
+2026-11-27 00:46:33 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'python developer fresher'
+2026-11-27 00:46:48 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'software engineer fresher entry level'
+2026-11-27 00:47:04 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'machine learning engineer fresher'
+2026-11-27 00:47:20 [INFO] scrapers.linkedin_scraper: LinkedIn: Searching 'AI engineer generative AI fresher'
+2026-11-27 00:47:34 [INFO] scrapers.linkedin_scraper: LinkedIn: Found 39 jobs
+2026-11-27 00:47:34 [INFO] agent.nodes.scrape_node: ✅ LinkedIn: 39 jobs
+2026-11-27 00:47:34 [INFO] agent.nodes.scrape_node: 📡 Scraping Naukri...
+2026-11-27 00:47:34 [INFO] scrapers.naukri_scraper: Naukri: Logging in...
+2026-11-27 00:47:47 [WARNING] scrapers.naukri_scraper: Naukri login failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#usernameField, input[name='username'], input[placeholder*='Email'], input[placeholder*='Username']") to be visible
+
+2026-11-27 00:47:47 [INFO] scrapers.naukri_scraper: Naukri: Searching 'python developer'
+2026-11-27 00:48:00 [INFO] scrapers.naukri_scraper: Naukri: Searching 'software engineer fresher'
+2026-11-27 00:48:13 [INFO] scrapers.naukri_scraper: Naukri: Searching 'machine learning engineer'
+2026-11-27 00:48:23 [INFO] scrapers.naukri_scraper: Naukri: Searching 'AI engineer'
+2026-11-27 00:48:37 [INFO] scrapers.naukri_scraper: Naukri: Searching 'data scientist fresher'
+2026-11-27 00:48:49 [INFO] scrapers.naukri_scraper: Naukri: Searching 'c++ developer fresher'
+2026-11-27 00:49:00 [INFO] scrapers.naukri_scraper: Naukri: Searching 'full stack developer fresher'
+2026-11-27 00:49:13 [INFO] scrapers.naukri_scraper: Naukri: Found 0 jobs
+2026-11-27 00:49:13 [INFO] agent.nodes.scrape_node: ✅ Naukri: 0 jobs
+2026-11-27 00:49:13 [INFO] agent.nodes.scrape_node: Tavily: Searching free job portals & startup boards (budget: 10 searches)...
+2026-11-27 00:49:18 [INFO] tools.tavily_search: Tavily free portal search: found 15 jobs
+2026-11-27 00:49:26 [INFO] tools.tavily_search: Tavily startup job search: found 10 leads
+2026-11-27 00:49:26 [INFO] agent.nodes.scrape_node: Tavily: 6 real job leads (filtered from 25)
+2026-11-27 00:49:26 [INFO] agent.nodes.scrape_node: 📊 Total scraped: 130 jobs from all portals
+2026-11-27 00:49:26 [INFO] agent.nodes.filter_node: ✅ Filter: 130 scraped → 49 new relevant jobs
+2026-11-27 00:49:27 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 00:50:08 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-27 00:50:08 [INFO] agent.nodes.filter_node: Gemini scored 49 jobs in 1 API call
+2026-11-27 00:50:08 [INFO] agent.nodes.filter_node: Scored 49 jobs. Selecting top 30 for today (quota: 30 remaining)
+2026-11-27 00:50:08 [INFO] agent.nodes.apply_node: 🚀 Applying to 30 jobs (dry_run=False)
+2026-11-27 00:50:08 [INFO] agent.nodes.apply_node: Applying to 26 jobs on linkedin
+2026-11-27 00:50:08 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-11-27 00:50:18 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-11-27 00:50:29 [INFO] agent.nodes.apply_node: Waiting 12s before next application...
+2026-11-27 00:50:41 [INFO] agent.nodes.apply_node: Waiting 17s before next application...
+2026-11-27 00:50:58 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-11-27 00:51:20 [INFO] agent.nodes.apply_node: Waiting 21s before next application...
+2026-11-27 00:51:41 [INFO] agent.nodes.apply_node: Waiting 15s before next application...
+2026-11-27 00:51:55 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-11-27 00:52:09 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-11-27 00:52:23 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-11-27 00:52:34 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-11-27 00:52:57 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-11-27 00:53:11 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-11-27 00:53:30 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-11-27 00:53:53 [INFO] agent.nodes.apply_node: Waiting 27s before next application...
+2026-11-27 00:54:20 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-11-27 00:54:34 [INFO] agent.nodes.apply_node: Waiting 11s before next application...
+2026-11-27 00:54:45 [INFO] agent.nodes.apply_node: Waiting 24s before next application...
+2026-11-27 00:55:09 [INFO] agent.nodes.apply_node: Waiting 16s before next application...
+2026-11-27 00:55:24 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-11-27 00:55:35 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-11-27 00:55:54 [INFO] agent.nodes.apply_node: Waiting 19s before next application...
+2026-11-27 00:56:13 [INFO] agent.nodes.apply_node: Waiting 20s before next application...
+2026-11-27 00:56:33 [INFO] agent.nodes.apply_node: Waiting 23s before next application...
+2026-11-27 00:56:56 [INFO] agent.nodes.apply_node: Waiting 14s before next application...
+2026-11-27 00:57:10 [INFO] agent.nodes.apply_node: Waiting 10s before next application...
+2026-11-27 00:57:20 [INFO] agent.nodes.apply_node: Applying to 1 jobs on tavily_link
+2026-11-27 00:57:20 [INFO] agent.nodes.apply_node: Waiting 28s before next application...
+2026-11-27 00:57:48 [INFO] agent.nodes.apply_node: Applying to 3 jobs on internshala
+2026-11-27 00:57:48 [INFO] agent.nodes.apply_node: Waiting 22s before next application...
+2026-11-27 00:58:10 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-11-27 00:58:36 [INFO] agent.nodes.apply_node: Waiting 25s before next application...
+2026-11-27 00:59:01 [INFO] agent.nodes.apply_node: Apply node done: 0 portal-applied, 30 queued for cold email, 0 failed
+2026-11-27 00:59:01 [INFO] agent.nodes.email_node: Finding HR email for: Charity Fuel
+2026-11-27 00:59:01 [INFO] tools.email_finder: Using guessed domain for Charity Fuel: charityfuel.com
+2026-11-27 00:59:01 [WARNING] tools.email_finder: Apollo: Credits exhausted (422). Disabling Apollo for this session.
+2026-11-27 00:59:05 [WARNING] tools.email_finder: ❌ MX record lookup failed for charityfuel.com: The DNS response does not contain an answer to the question: charityfuel.com. IN MX
+2026-11-27 00:59:05 [WARNING] tools.email_finder: ❌ MX record lookup failed for charityfuel.com: The DNS response does not contain an answer to the question: charityfuel.com. IN MX
+2026-11-27 00:59:06 [WARNING] tools.email_finder: ❌ MX record lookup failed for charityfuel.com: The DNS response does not contain an answer to the question: charityfuel.com. IN MX
+2026-11-27 00:59:06 [WARNING] tools.email_finder: ❌ MX record lookup failed for charityfuel.com: The DNS response does not contain an answer to the question: charityfuel.com. IN MX
+2026-11-27 00:59:06 [WARNING] tools.email_finder: ❌ MX record lookup failed for charityfuel.com: The DNS response does not contain an answer to the question: charityfuel.com. IN MX
+2026-11-27 00:59:06 [WARNING] tools.email_finder: ❌ No valid email could be verified for Charity Fuel (domain: charityfuel.com). Skipping outreach.
+2026-11-27 00:59:08 [INFO] agent.nodes.email_node: Finding HR email for: Jobspresso
+2026-11-27 00:59:08 [INFO] tools.email_finder: Domain from URL for Jobspresso: jobspresso.co
+2026-11-27 00:59:09 [INFO] tools.tavily_search: Tavily found email for Jobspresso: hello@jobspresso.co
+2026-11-27 00:59:10 [INFO] tools.email_finder: ✅ Verified MX records for jobspresso.co
+2026-11-27 00:59:10 [INFO] tools.email_finder: Found email via Tavily for Jobspresso: hello@jobspresso.co
+2026-11-27 00:59:10 [INFO] agent.nodes.email_node: Finding HR email for: Women First India Foundation
+2026-11-27 00:59:10 [INFO] tools.email_finder: Using guessed domain for Women First India Foundation: womenfirst.com
+2026-11-27 00:59:15 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-11-27 00:59:15 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-11-27 00:59:15 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-11-27 00:59:15 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-11-27 00:59:16 [WARNING] tools.email_finder: ❌ MX record lookup failed for womenfirst.com: The DNS response does not contain an answer to the question: womenfirst.com. IN MX
+2026-11-27 00:59:16 [WARNING] tools.email_finder: ❌ No valid email could be verified for Women First India Foundation (domain: womenfirst.com). Skipping outreach.
+2026-11-27 00:59:17 [INFO] agent.nodes.email_node: Finding HR email for: Khashsoft
+2026-11-27 00:59:17 [INFO] tools.email_finder: Using guessed domain for Khashsoft: khashsoft.com
+2026-11-27 00:59:25 [INFO] tools.email_finder: ✅ Verified MX records for khashsoft.com
+2026-11-27 00:59:25 [INFO] tools.email_finder: Using verified pattern email for Khashsoft: hr@khashsoft.com
+2026-11-27 00:59:25 [INFO] agent.nodes.email_node: Finding HR email for: WSP in India
+2026-11-27 00:59:25 [INFO] tools.email_finder: Using guessed domain for WSP in India: wspin.com
+2026-11-27 00:59:29 [INFO] tools.email_finder: ✅ Verified MX records for wspin.com
+2026-11-27 00:59:29 [INFO] tools.email_finder: Using verified pattern email for WSP in India: hr@wspin.com
+2026-11-27 00:59:31 [INFO] agent.nodes.email_node: Finding HR email for: Joblet-AI
+2026-11-27 00:59:31 [INFO] tools.email_finder: Using guessed domain for Joblet-AI: jobletai.com
+2026-11-27 01:00:08 [INFO] tools.email_finder: ✅ Verified MX records for jobletai.com
+2026-11-27 01:00:08 [INFO] tools.email_finder: Using verified pattern email for Joblet-AI: hr@jobletai.com
+2026-11-27 01:00:09 [INFO] agent.nodes.email_node: Finding HR email for: Lamipak
+2026-11-27 01:00:09 [INFO] tools.email_finder: Using guessed domain for Lamipak: lamipak.com
+2026-11-27 01:00:15 [INFO] tools.email_finder: ✅ Verified MX records for lamipak.com
+2026-11-27 01:00:15 [INFO] tools.email_finder: Using verified pattern email for Lamipak: hr@lamipak.com
+2026-11-27 01:00:15 [INFO] agent.nodes.email_node: Finding HR email for: CV3
+2026-11-27 01:00:15 [INFO] tools.email_finder: Using guessed domain for CV3: cv3.com
+2026-11-27 01:00:52 [INFO] tools.email_finder: ✅ Verified MX records for cv3.com
+2026-11-27 01:00:52 [INFO] tools.email_finder: Using verified pattern email for CV3: hr@cv3.com
+2026-11-27 01:00:53 [INFO] agent.nodes.email_node: Finding HR email for: Arcwheel
+2026-11-27 01:00:53 [INFO] tools.email_finder: Using guessed domain for Arcwheel: arcwheel.com
+2026-11-27 01:00:58 [WARNING] tools.email_finder: ❌ MX record lookup failed for arcwheel.com: The DNS response does not contain an answer to the question: arcwheel.com. IN MX
+2026-11-27 01:00:58 [WARNING] tools.email_finder: ❌ MX record lookup failed for arcwheel.com: The DNS response does not contain an answer to the question: arcwheel.com. IN MX
+2026-11-27 01:00:59 [WARNING] tools.email_finder: ❌ MX record lookup failed for arcwheel.com: The DNS response does not contain an answer to the question: arcwheel.com. IN MX
+2026-11-27 01:00:59 [WARNING] tools.email_finder: ❌ MX record lookup failed for arcwheel.com: The DNS response does not contain an answer to the question: arcwheel.com. IN MX
+2026-11-27 01:00:59 [WARNING] tools.email_finder: ❌ MX record lookup failed for arcwheel.com: The DNS response does not contain an answer to the question: arcwheel.com. IN MX
+2026-11-27 01:00:59 [WARNING] tools.email_finder: ❌ No valid email could be verified for Arcwheel (domain: arcwheel.com). Skipping outreach.
+2026-11-27 01:01:00 [INFO] agent.nodes.email_node: Finding HR email for: JobSPhere
+2026-11-27 01:01:00 [INFO] tools.email_finder: Using guessed domain for JobSPhere: jobsphere.com
+2026-11-27 01:01:04 [INFO] tools.email_finder: ✅ Verified MX records for jobsphere.com
+2026-11-27 01:01:04 [INFO] tools.email_finder: Using verified pattern email for JobSPhere: hr@jobsphere.com
+2026-11-27 01:01:05 [INFO] agent.nodes.email_node: Finding HR email for: Gowitek | Agentic AI + Digital Transformation Partner
+2026-11-27 01:01:05 [INFO] tools.email_finder: Using guessed domain for Gowitek | Agentic AI + Digital Transformation Partner: gowitekagenticaidigitaltransformationpartner.com
+2026-11-27 01:01:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for gowitekagenticaidigitaltransformationpartner.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for gowitekagenticaidigitaltransformationpartner.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for gowitekagenticaidigitaltransformationpartner.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for gowitekagenticaidigitaltransformationpartner.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:09 [WARNING] tools.email_finder: ❌ Domain resolution failed for gowitekagenticaidigitaltransformationpartner.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:09 [WARNING] tools.email_finder: ❌ No valid email could be verified for Gowitek | Agentic AI + Digital Transformation Partner (domain: gowitekagenticaidigitaltransformationpartner.com). Skipping outreach.
+2026-11-27 01:01:10 [INFO] agent.nodes.email_node: Finding HR email for: Appzeon
+2026-11-27 01:01:10 [INFO] tools.email_finder: Using guessed domain for Appzeon: appzeon.com
+2026-11-27 01:01:11 [INFO] tools.tavily_search: Tavily found email for Appzeon: info@appzeon.com
+2026-11-27 01:01:11 [INFO] tools.email_finder: ✅ Verified MX records for appzeon.com
+2026-11-27 01:01:11 [INFO] tools.email_finder: Found email via Tavily for Appzeon: info@appzeon.com
+2026-11-27 01:01:13 [INFO] agent.nodes.email_node: Finding HR email for: Weboraz Web Solutions
+2026-11-27 01:01:13 [INFO] tools.email_finder: Using guessed domain for Weboraz Web Solutions: weborazweb.com
+2026-11-27 01:01:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for weborazweb.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for weborazweb.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for weborazweb.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for weborazweb.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:15 [WARNING] tools.email_finder: ❌ Domain resolution failed for weborazweb.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:01:15 [WARNING] tools.email_finder: ❌ No valid email could be verified for Weboraz Web Solutions (domain: weborazweb.com). Skipping outreach.
+2026-11-27 01:01:16 [INFO] agent.nodes.email_node: Finding HR email for: Spore N Sprouts
+2026-11-27 01:01:16 [INFO] tools.email_finder: Using guessed domain for Spore N Sprouts: sporensprouts.com
+2026-11-27 01:01:19 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:01:19 [INFO] tools.email_finder: ✅ Verified MX records for sporensprouts.com
+2026-11-27 01:01:19 [INFO] tools.email_finder: Found scraped and verified email for Spore N Sprouts: wecare@sporensprouts.com
+2026-11-27 01:01:20 [INFO] agent.nodes.email_node: Finding HR email for: Valueline
+2026-11-27 01:01:20 [INFO] tools.email_finder: Using guessed domain for Valueline: valueline.com
+2026-11-27 01:01:20 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:01:20 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:01:23 [INFO] tools.email_finder: ✅ Verified MX records for valueline.com
+2026-11-27 01:01:23 [INFO] tools.email_finder: Using verified pattern email for Valueline: hr@valueline.com
+2026-11-27 01:01:24 [INFO] agent.nodes.email_node: Finding HR email for: E2M
+2026-11-27 01:01:24 [INFO] tools.email_finder: Using guessed domain for E2M: e2m.com
+2026-11-27 01:01:24 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:01:24 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:01:57 [INFO] tools.email_finder: ✅ Verified MX records for e2m.com
+2026-11-27 01:01:57 [INFO] tools.email_finder: Using verified pattern email for E2M: hr@e2m.com
+2026-11-27 01:01:58 [INFO] agent.nodes.email_node: Finding HR email for: Aon
+2026-11-27 01:01:58 [INFO] tools.email_finder: Using guessed domain for Aon: aon.com
+2026-11-27 01:01:58 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:01:58 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:00 [INFO] tools.email_finder: ✅ Verified MX records for aon.com
+2026-11-27 01:02:00 [INFO] tools.email_finder: Using verified pattern email for Aon: hr@aon.com
+2026-11-27 01:02:01 [INFO] agent.nodes.email_node: Finding HR email for: Franklin Templeton
+2026-11-27 01:02:02 [INFO] tools.email_finder: Using guessed domain for Franklin Templeton: franklintempleton.com
+2026-11-27 01:02:03 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:03 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:05 [INFO] tools.email_finder: ✅ Verified MX records for franklintempleton.com
+2026-11-27 01:02:05 [INFO] tools.email_finder: Using verified pattern email for Franklin Templeton: hr@franklintempleton.com
+2026-11-27 01:02:06 [INFO] agent.nodes.email_node: Finding HR email for: Neurabrix Inc
+2026-11-27 01:02:07 [INFO] tools.email_finder: Using guessed domain for Neurabrix Inc: neurabrix.com
+2026-11-27 01:02:08 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:08 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:09 [INFO] tools.email_finder: ✅ Verified MX records for neurabrix.com
+2026-11-27 01:02:09 [INFO] tools.email_finder: Using verified pattern email for Neurabrix Inc: hr@neurabrix.com
+2026-11-27 01:02:10 [INFO] agent.nodes.email_node: Finding HR email for: Queens Of Change Foundation
+2026-11-27 01:02:11 [INFO] tools.email_finder: Using guessed domain for Queens Of Change Foundation: queensofchange.com
+2026-11-27 01:02:12 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:12 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:13 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-11-27 01:02:13 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-11-27 01:02:14 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-11-27 01:02:14 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-11-27 01:02:14 [WARNING] tools.email_finder: ❌ MX record lookup failed for queensofchange.com: The DNS response does not contain an answer to the question: queensofchange.com. IN MX
+2026-11-27 01:02:14 [WARNING] tools.email_finder: ❌ No valid email could be verified for Queens Of Change Foundation (domain: queensofchange.com). Skipping outreach.
+2026-11-27 01:02:16 [INFO] agent.nodes.email_node: Finding HR email for: Hope Behind Tails Foundation
+2026-11-27 01:02:16 [INFO] tools.email_finder: Using guessed domain for Hope Behind Tails Foundation: hopebehindtails.com
+2026-11-27 01:02:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:18 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:18 [WARNING] tools.email_finder: ❌ Domain resolution failed for hopebehindtails.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:18 [WARNING] tools.email_finder: ❌ No valid email could be verified for Hope Behind Tails Foundation (domain: hopebehindtails.com). Skipping outreach.
+2026-11-27 01:02:19 [INFO] agent.nodes.email_node: Finding HR email for: Honeywell Technologies
+2026-11-27 01:02:19 [INFO] tools.email_finder: Domain from known list for Honeywell Technologies: honeywell.com
+2026-11-27 01:02:20 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:20 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:22 [INFO] tools.email_finder: ✅ Verified MX records for honeywell.com
+2026-11-27 01:02:22 [INFO] tools.email_finder: Using verified pattern email for Honeywell Technologies: hr@honeywell.com
+2026-11-27 01:02:23 [INFO] agent.nodes.email_node: Finding HR email for: Tridin Software
+2026-11-27 01:02:23 [INFO] tools.email_finder: Using guessed domain for Tridin Software: tridinsoftware.com
+2026-11-27 01:02:25 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:25 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:27 [INFO] tools.email_finder: ✅ Verified MX records for tridinsoftware.com
+2026-11-27 01:02:27 [INFO] tools.email_finder: Using verified pattern email for Tridin Software: hr@tridinsoftware.com
+2026-11-27 01:02:28 [INFO] agent.nodes.email_node: Finding HR email for: Electronica Mechatronic Systems India Pvt. Ltd
+2026-11-27 01:02:28 [INFO] tools.email_finder: Using guessed domain for Electronica Mechatronic Systems India Pvt. Ltd: electronicamechatronicsystemspvt.com
+2026-11-27 01:02:30 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:30 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:30 [WARNING] tools.email_finder: ❌ Domain resolution failed for electronicamechatronicsystemspvt.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:30 [WARNING] tools.email_finder: ❌ Domain resolution failed for electronicamechatronicsystemspvt.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:30 [WARNING] tools.email_finder: ❌ Domain resolution failed for electronicamechatronicsystemspvt.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:30 [WARNING] tools.email_finder: ❌ Domain resolution failed for electronicamechatronicsystemspvt.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:30 [WARNING] tools.email_finder: ❌ Domain resolution failed for electronicamechatronicsystemspvt.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:30 [WARNING] tools.email_finder: ❌ No valid email could be verified for Electronica Mechatronic Systems India Pvt. Ltd (domain: electronicamechatronicsystemspvt.com). Skipping outreach.
+2026-11-27 01:02:31 [INFO] agent.nodes.email_node: Finding HR email for: Vashishtha Research Private Limited
+2026-11-27 01:02:31 [INFO] tools.email_finder: Using guessed domain for Vashishtha Research Private Limited: vashishtharesearch.com
+2026-11-27 01:02:32 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:32 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for vashishtharesearch.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for vashishtharesearch.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for vashishtharesearch.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for vashishtharesearch.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:33 [WARNING] tools.email_finder: ❌ Domain resolution failed for vashishtharesearch.com (Host not found): [Errno -2] Name or service not known
+2026-11-27 01:02:33 [WARNING] tools.email_finder: ❌ No valid email could be verified for Vashishtha Research Private Limited (domain: vashishtharesearch.com). Skipping outreach.
+2026-11-27 01:02:33 [INFO] agent.nodes.email_node: Finding HR email for: Fujitsu
+2026-11-27 01:02:34 [INFO] tools.email_finder: Using guessed domain for Fujitsu: fujitsu.com
+2026-11-27 01:02:35 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:35 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for fujitsu.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for fujitsu.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:35 [WARNING] tools.email_finder: ❌ Domain resolution failed for fujitsu.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:36 [WARNING] tools.email_finder: ❌ Domain resolution failed for fujitsu.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:36 [WARNING] tools.email_finder: ❌ Domain resolution failed for fujitsu.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:36 [WARNING] tools.email_finder: ❌ No valid email could be verified for Fujitsu (domain: fujitsu.com). Skipping outreach.
+2026-11-27 01:02:36 [INFO] agent.nodes.email_node: Finding HR email for: Accenture in India
+2026-11-27 01:02:37 [INFO] tools.email_finder: Using guessed domain for Accenture in India: accenturein.com
+2026-11-27 01:02:38 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:38 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:38 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:38 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:38 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:38 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:38 [WARNING] tools.email_finder: ❌ Domain resolution failed for accenturein.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:02:38 [WARNING] tools.email_finder: ❌ No valid email could be verified for Accenture in India (domain: accenturein.com). Skipping outreach.
+2026-11-27 01:02:39 [INFO] agent.nodes.email_node: Finding HR email for: Pledge India Foundation
+2026-11-27 01:02:39 [INFO] tools.email_finder: Using guessed domain for Pledge India Foundation: pledge.com
+2026-11-27 01:02:40 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:40 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:02:40 [WARNING] tools.email_finder: ❌ MX record lookup failed for pledge.com: The DNS response does not contain an answer to the question: pledge.com. IN MX
+2026-11-27 01:02:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for pledge.com: The DNS response does not contain an answer to the question: pledge.com. IN MX
+2026-11-27 01:02:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for pledge.com: The DNS response does not contain an answer to the question: pledge.com. IN MX
+2026-11-27 01:02:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for pledge.com: The DNS response does not contain an answer to the question: pledge.com. IN MX
+2026-11-27 01:02:41 [WARNING] tools.email_finder: ❌ MX record lookup failed for pledge.com: The DNS response does not contain an answer to the question: pledge.com. IN MX
+2026-11-27 01:02:41 [WARNING] tools.email_finder: ❌ No valid email could be verified for Pledge India Foundation (domain: pledge.com). Skipping outreach.
+2026-11-27 01:02:42 [INFO] agent.nodes.email_node: Finding HR email for: Truemeds
+2026-11-27 01:02:50 [INFO] tools.email_finder: Using guessed domain for Truemeds: truemeds.com
+2026-11-27 01:03:07 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:03:07 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:03:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for truemeds.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:03:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for truemeds.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:03:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for truemeds.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:03:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for truemeds.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:03:07 [WARNING] tools.email_finder: ❌ Domain resolution failed for truemeds.com (Host not found): [Errno -5] No address associated with hostname
+2026-11-27 01:03:07 [WARNING] tools.email_finder: ❌ No valid email could be verified for Truemeds (domain: truemeds.com). Skipping outreach.
+2026-11-27 01:03:08 [INFO] agent.nodes.email_node: Finding HR email for: Recrew AI
+2026-11-27 01:03:16 [INFO] tools.email_finder: Using guessed domain for Recrew AI: recrewai.com
+2026-11-27 01:03:33 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:03:33 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:03:34 [INFO] tools.email_finder: ✅ Verified MX records for recrewai.com
+2026-11-27 01:03:34 [INFO] tools.email_finder: Using verified pattern email for Recrew AI: hr@recrewai.com
+2026-11-27 01:03:35 [INFO] agent.nodes.email_node: Finding HR email for: Golden 1 Credit Union
+2026-11-27 01:03:35 [INFO] tools.email_finder: Domain from URL for Golden 1 Credit Union: weworkremotely.com
+2026-11-27 01:03:51 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:03:51 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:03:52 [INFO] tools.email_finder: ✅ Verified MX records for weworkremotely.com
+2026-11-27 01:03:52 [INFO] tools.email_finder: Using verified pattern email for Golden 1 Credit Union: hr@weworkremotely.com
+2026-11-27 01:03:53 [INFO] agent.nodes.email_node: Finding HR email for: TalentQuell
+2026-11-27 01:04:01 [INFO] tools.email_finder: Using guessed domain for TalentQuell: talentquell.com
+2026-11-27 01:04:17 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:04:17 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:04:50 [INFO] tools.email_finder: ✅ Verified MX records for talentquell.com
+2026-11-27 01:04:50 [INFO] tools.email_finder: Using verified pattern email for TalentQuell: hr@talentquell.com
+2026-11-27 01:04:50 [INFO] agent.nodes.email_node: Finding HR email for: Qualcomm
+2026-11-27 01:04:58 [INFO] tools.email_finder: Using guessed domain for Qualcomm: qualcomm.com
+2026-11-27 01:05:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:05:15 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:05:18 [INFO] tools.email_finder: ✅ Verified MX records for qualcomm.com
+2026-11-27 01:05:18 [INFO] tools.email_finder: Using verified pattern email for Qualcomm: hr@qualcomm.com
+2026-11-27 01:05:19 [INFO] agent.nodes.email_node: Finding HR email for: Verizon
+2026-11-27 01:05:27 [INFO] tools.email_finder: Using guessed domain for Verizon: verizon.com
+2026-11-27 01:05:43 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:05:43 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:05:49 [INFO] tools.email_finder: ✅ Verified MX records for verizon.com
+2026-11-27 01:05:49 [INFO] tools.email_finder: Using verified pattern email for Verizon: hr@verizon.com
+2026-11-27 01:05:50 [INFO] agent.nodes.email_node: Finding HR email for: Visa
+2026-11-27 01:05:58 [INFO] tools.email_finder: Using guessed domain for Visa: visa.com
+2026-11-27 01:06:14 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:06:14 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:06:15 [INFO] tools.email_finder: ✅ Verified MX records for visa.com
+2026-11-27 01:06:15 [INFO] tools.email_finder: Using verified pattern email for Visa: hr@visa.com
+2026-11-27 01:06:16 [INFO] agent.nodes.email_node: Finding HR email for: Kinsta
+2026-11-27 01:06:24 [INFO] tools.email_finder: Using guessed domain for Kinsta: kinsta.com
+2026-11-27 01:06:41 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:06:41 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:06:41 [INFO] tools.email_finder: ✅ Verified MX records for kinsta.com
+2026-11-27 01:06:41 [INFO] tools.email_finder: Found scraped and verified email for Kinsta: contact@kinsta.com
+2026-11-27 01:06:42 [INFO] agent.nodes.email_node: Finding HR email for: GitLab
+2026-11-27 01:06:50 [INFO] tools.email_finder: Using guessed domain for GitLab: gitlab.com
+2026-11-27 01:07:07 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:07:07 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:07:07 [WARNING] tools.email_finder: ❌ MX record lookup failed for new-sentry.gitlab.net: The DNS response does not contain an answer to the question: new-sentry.gitlab.net. IN MX
+2026-11-27 01:07:08 [INFO] tools.email_finder: ✅ Verified MX records for gitlab.com
+2026-11-27 01:07:08 [INFO] tools.email_finder: Using verified pattern email for GitLab: hr@gitlab.com
+2026-11-27 01:07:09 [INFO] agent.nodes.email_node: Finding HR email for: Dropbox
+2026-11-27 01:07:17 [INFO] tools.email_finder: Using guessed domain for Dropbox: dropbox.com
+2026-11-27 01:07:33 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:07:33 [INFO] tools.tavily_search: Tavily daily limit reached (30/30). Skipping.
+2026-11-27 01:07:34 [WARNING] tools.email_finder: ❌ MX record lookup failed for d.dropbox.com: The DNS response does not contain an answer to the question: d.dropbox.com. IN MX
+2026-11-27 01:07:34 [INFO] tools.email_finder: ✅ Verified MX records for dropbox.com
+2026-11-27 01:07:34 [INFO] tools.email_finder: Found scraped and verified email for Dropbox: press@dropbox.com
+2026-11-27 01:07:35 [INFO] agent.nodes.email_node: Found HR emails for 25/49 companies
+2026-11-27 01:07:35 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:07:38 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:07:43 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:07:49 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:07:54 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:07:55 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:07:55 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x76588faac890 state=finished raised ServerError>]
+2026-11-27 01:08:00 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:08:02 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:08:07 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:08:08 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:08:13 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:08:15 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:08:15 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x76588fa7a610 state=finished raised ServerError>]
+2026-11-27 01:08:20 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:08:38 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:08:43 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:08:44 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:08:49 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:08:57 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:08:57 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x76588fa99290 state=finished raised ServerError>]
+2026-11-27 01:09:02 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:09:18 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:09:23 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:09:27 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:09:32 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:09:34 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:09:34 [ERROR] agent.nodes.email_node: Email generation failed: RetryError[<Future at 0x76588fac89d0 state=finished raised ServerError>]
+2026-11-27 01:09:39 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:09:42 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:09:47 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:10:08 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-27 01:10:08 [INFO] agent.nodes.email_node: ✅ Generated 5 emails in 1 Gemini call
+2026-11-27 01:10:08 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:10:08 [INFO] tools.email_sender: ✅ Email sender ready: Brevo SMTP
+2026-11-27 01:10:08 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:10:09 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hello@jobspresso.co: Application for Junior Software Engineer at PolicyMe – Remote (Canada) — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:10:09 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:10:19 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:10:20 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@khashsoft.com: Application for Software Engineer fresher — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:10:20 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:10:30 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:10:31 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@wspin.com: Application for AI Engineer – P&B — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:10:31 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:10:41 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:10:42 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@jobletai.com: Application for Fullstack Software Engineer (Remote) — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:10:42 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:10:52 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:10:53 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@lamipak.com: Application for Artificial Intelligence Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:10:53 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:11:03 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:11:04 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@cv3.com: Application for AI/ML Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:11:04 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:11:14 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:11:16 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@jobsphere.com: Application for Machine Learning — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:11:16 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:11:26 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:11:27 [INFO] tools.email_sender: ✅ [Brevo] Email sent → info@appzeon.com: Application for Prompt Engineer in Bangalore, Pune, Hyderabad, Mumbai, Chennai, Coimbatore (Hybrid) — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:11:27 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:11:37 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:11:38 [INFO] tools.email_sender: ✅ [Brevo] Email sent → wecare@sporensprouts.com: Application for Artificial Intelligence Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:11:38 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:11:48 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:11:49 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@valueline.com: Application for Artificial Intelligence Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:11:49 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:11:59 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:12:00 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@e2m.com: Application for Web AI Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:12:00 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:12:10 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:12:11 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@aon.com: Application for Associate Software Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:12:11 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:12:21 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:12:22 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@franklintempleton.com: Application for Associate Software Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:12:22 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:12:32 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:12:33 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@neurabrix.com: Application for Software Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:12:33 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:12:43 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:12:44 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@honeywell.com: Application for Software Engr I — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:12:44 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:12:54 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:12:55 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@tridinsoftware.com: Application for Software Developer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:12:56 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:13:06 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:13:07 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@recrewai.com: Application for Frontend Developer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:13:07 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:13:17 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:13:18 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@weworkremotely.com: Application for Web Applications Programmer II (Sitecore Development Required) — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:13:18 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:13:28 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:13:29 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@talentquell.com: Application for Embedded AI/ML Engineer (only from IIT) — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:13:29 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:13:39 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:13:40 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@qualcomm.com: Application for DSP Systems Engineer — Debashis Bera | CSE Graduate 2026
+2026-11-27 01:13:40 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:13:50 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:13:51 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@verizon.com: Application for Engr II-AI Science — Debashis Bera | AI & Full-Stack Dev
+2026-11-27 01:13:51 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:14:01 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:14:02 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@visa.com: Application for SW Engineer (Full Stack & GenAI) — Debashis Bera
+2026-11-27 01:14:02 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:14:12 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:14:13 [INFO] tools.email_sender: ✅ [Brevo] Email sent → contact@kinsta.com: Application for Paid Media Specialist — Debashis Bera | Analytical Builder
+2026-11-27 01:14:13 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:14:23 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:14:24 [INFO] tools.email_sender: ✅ [Brevo] Email sent → hr@gitlab.com: Application for Intermediate Security Engineer — Debashis Bera
+2026-11-27 01:14:24 [INFO] agent.nodes.email_node: ⏳ Waiting 10s before next email...
+2026-11-27 01:14:34 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:14:35 [INFO] tools.email_sender: ✅ [Brevo] Email sent → press@dropbox.com: Application for Security Engineer, Offensive Security — Debashis Bera
+2026-11-27 01:14:35 [INFO] agent.nodes.email_node: ✅ Email node: 25 cold emails sent
+2026-11-27 01:14:35 [INFO] tools.pdf_hr_parser: Parsing HR contacts PDF: CompanyWise HR contact.pdf ...
+2026-11-27 01:14:35 [INFO] tools.pdf_hr_parser: PDF has 56 pages
+2026-11-27 01:14:38 [INFO] tools.pdf_hr_parser:   Processed page 10/56, 328 contacts so far...
+2026-11-27 01:14:40 [INFO] tools.pdf_hr_parser:   Processed page 20/56, 655 contacts so far...
+2026-11-27 01:14:42 [INFO] tools.pdf_hr_parser:   Processed page 30/56, 981 contacts so far...
+2026-11-27 01:14:44 [INFO] tools.pdf_hr_parser:   Processed page 40/56, 1311 contacts so far...
+2026-11-27 01:14:47 [INFO] tools.pdf_hr_parser:   Processed page 50/56, 1638 contacts so far...
+2026-11-27 01:14:48 [INFO] tools.pdf_hr_parser: ✅ PDF parsed: 1831 unique HR contacts saved to hr_contacts_from_pdf.csv
+2026-11-27 01:14:48 [INFO] tools.pdf_hr_parser: PDF HR batch: 40 contacts ready (from 1831 total, 1531 already processed)
+2026-11-27 01:14:56 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach: Sending 20 emails (total sent so far: 1464/0)
+2026-11-27 01:14:56 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:15:04 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:15:04 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 1/4 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 5s...
+2026-11-27 01:15:09 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:15:12 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:15:12 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 2/4 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 10s...
+2026-11-27 01:15:22 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:15:23 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:15:23 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 3/4 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 20s...
+2026-11-27 01:15:43 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:16:12 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-27 01:16:12 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 1)
+2026-11-27 01:16:16 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:16:17 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:16:17 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 1/4 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 5s...
+2026-11-27 01:16:22 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:16:35 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:16:35 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 2/4 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 10s...
+2026-11-27 01:16:45 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:16:59 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-27 01:16:59 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 3/4 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying in 20s...
+2026-11-27 01:17:19 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:17:19 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-27 01:17:19 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 4/4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 6h42m40.533217628s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24160s'}]}}. Retrying in 40s...
+2026-11-27 01:17:59 [ERROR] agent.nodes.pdf_outreach_node: Gemini call failed for PDF email batch after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 6h42m40.533217628s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24160s'}]}}. Using fallback.
+2026-11-27 01:18:03 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:18:03 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-27 01:18:03 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 1/4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 6h41m56.422819842s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24116s'}]}}. Retrying in 5s...
+2026-11-27 01:18:08 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:18:08 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-27 01:18:08 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 2/4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 6h41m51.31580615s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24111s'}]}}. Retrying in 10s...
+2026-11-27 01:18:18 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:18:18 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-27 01:18:18 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 3/4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 6h41m41.226176821s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24101s'}]}}. Retrying in 20s...
+2026-11-27 01:18:38 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:18:38 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-27 01:18:38 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 4/4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 6h41m21.12593186s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24081s'}]}}. Retrying in 40s...
+2026-11-27 01:19:18 [ERROR] agent.nodes.pdf_outreach_node: Gemini call failed for PDF email batch after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 6h41m21.12593186s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24081s'}]}}. Using fallback.
+2026-11-27 01:19:22 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:19:23 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-27 01:19:23 [WARNING] agent.nodes.pdf_outreach_node: Gemini attempt 1/4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 6h40m37.005440174s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24037s'}]}}. Retrying in 5s...
+2026-11-27 01:19:28 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-27 01:19:42 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-27 01:19:42 [INFO] agent.nodes.pdf_outreach_node: Generated 5 PDF emails (batch 4)
+2026-11-27 01:19:46 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:19:46 [INFO] tools.email_sender: ✅ Email sender ready: Brevo SMTP
+2026-11-27 01:19:46 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:19:47 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rahul.inamdar@infracloud.io: AI/ML & Full-Stack: Production AI, 2x Hackathon Winner
+2026-11-27 01:19:47 [INFO] agent.nodes.pdf_outreach_node: [1/20] PDF HR sent to rahul.inamdar@infracloud.io (1063 @ Rahul Inamdar)
+2026-11-27 01:19:55 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:19:56 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rahul.vishawantham@vaave.com: Proactive AI/ML & Full-Stack Developer for Vaave
+2026-11-27 01:19:56 [INFO] agent.nodes.pdf_outreach_node: [2/20] PDF HR sent to rahul.vishawantham@vaave.com (1064 @ Rahul Vishwanatham)
+2026-11-27 01:20:04 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:20:06 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rabubakkar@amrepinspect.com: AI/ML & Full-Stack Developer | Production AI Solutions
+2026-11-27 01:20:06 [INFO] agent.nodes.pdf_outreach_node: [3/20] PDF HR sent to rabubakkar@amrepinspect.com (1065 @ Raj Abubakkar)
+2026-11-27 01:20:14 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:20:15 [INFO] tools.email_sender: ✅ [Brevo] Email sent → raj.agarwal@360degreecloud.in: High-Impact AI/ML & Full-Stack Developer for 360degreecloud
+2026-11-27 01:20:15 [INFO] agent.nodes.pdf_outreach_node: [4/20] PDF HR sent to raj.agarwal@360degreecloud.in (1066 @ Raj Agarwal)
+2026-11-27 01:20:23 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:20:24 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajbose@avataar.me: AI/ML & Full-Stack Developer | Next.js, Agentic AI for Avataar
+2026-11-27 01:20:24 [INFO] agent.nodes.pdf_outreach_node: [5/20] PDF HR sent to rajbose@avataar.me (1067 @ Raj Bose)
+2026-11-27 01:20:32 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:20:33 [INFO] tools.email_sender: ✅ [Brevo] Email sent → r.kish@selectsys.com: AI/ML & Full-Stack Developer | GATE Qualified | Selectsys
+2026-11-27 01:20:33 [INFO] agent.nodes.pdf_outreach_node: [6/20] PDF HR sent to r.kish@selectsys.com (1068 @ Raj Kish)
+2026-11-27 01:20:41 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:20:42 [INFO] tools.email_sender: ✅ [Brevo] Email sent → raja.pamidi@nttdata.com: AI/ML & Full-Stack Developer | GATE Qualified | Nttdata
+2026-11-27 01:20:42 [INFO] agent.nodes.pdf_outreach_node: [7/20] PDF HR sent to raja.pamidi@nttdata.com (1069 @ Raja Pamidi)
+2026-11-27 01:20:50 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:20:51 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajagopal@antra.com: AI/ML & Full-Stack Developer | GATE Qualified | Antra
+2026-11-27 01:20:51 [INFO] agent.nodes.pdf_outreach_node: [8/20] PDF HR sent to rajagopal@antra.com (1070 @ Rajagopal)
+2026-11-27 01:20:59 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:21:00 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajanip@resilienceitusa.com: AI/ML & Full-Stack Developer | GATE Qualified | Resilienceitusa
+2026-11-27 01:21:00 [INFO] agent.nodes.pdf_outreach_node: [9/20] PDF HR sent to rajanip@resilienceitusa.com (1071 @ Rajani Patel)
+2026-11-27 01:21:08 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:21:09 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajani.siddhartha@dreamorbit.com: AI/ML & Full-Stack Developer | GATE Qualified | Dreamorbit
+2026-11-27 01:21:09 [INFO] agent.nodes.pdf_outreach_node: [10/20] PDF HR sent to rajani.siddhartha@dreamorbit.com (1072 @ Rajani Siddhartha)
+2026-11-27 01:21:17 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:21:18 [INFO] tools.email_sender: ✅ [Brevo] Email sent → m.rajashree@xangars.com: AI/ML & Full-Stack Developer | GATE Qualified | Xangars
+2026-11-27 01:21:18 [INFO] agent.nodes.pdf_outreach_node: [11/20] PDF HR sent to m.rajashree@xangars.com (1073 @ Rajashree Mahajan)
+2026-11-27 01:21:26 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:21:27 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajatb@damcogroup.com: AI/ML & Full-Stack Developer | GATE Qualified | Damcogroup
+2026-11-27 01:21:27 [INFO] agent.nodes.pdf_outreach_node: [12/20] PDF HR sent to rajatb@damcogroup.com (1074 @ Rajat Bansal)
+2026-11-27 01:21:35 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:21:37 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajat.das@ondemandagility.com: AI/ML & Full-Stack Developer | GATE Qualified | Ondemandagility
+2026-11-27 01:21:37 [INFO] agent.nodes.pdf_outreach_node: [13/20] PDF HR sent to rajat.das@ondemandagility.com (1075 @ Rajat Das)
+2026-11-27 01:21:45 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:21:46 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajat.mehra@nxtgen.com: AI/ML & Full-Stack Developer | GATE Qualified | Nxtgen
+2026-11-27 01:21:46 [INFO] agent.nodes.pdf_outreach_node: [14/20] PDF HR sent to rajat.mehra@nxtgen.com (1076 @ Rajat Mehra)
+2026-11-27 01:21:54 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:21:55 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajeeb@q3tech.com: AI/ML & Full-Stack Developer | GATE Qualified | Q3tech
+2026-11-27 01:21:55 [INFO] agent.nodes.pdf_outreach_node: [15/20] PDF HR sent to rajeeb@q3tech.com (1077 @ Rajeeb Biswas)
+2026-11-27 01:22:03 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:22:04 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajeev.bhardwaj@sunlife.com: AI/ML & Full-Stack Developer for Sunlife
+2026-11-27 01:22:04 [INFO] agent.nodes.pdf_outreach_node: [16/20] PDF HR sent to rajeev.bhardwaj@sunlife.com (1078 @ Rajeev Bhardwaj)
+2026-11-27 01:22:12 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:22:13 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajeev.s@algonomy.com: AI/ML & Agentic AI Developer for Algonomy
+2026-11-27 01:22:13 [INFO] agent.nodes.pdf_outreach_node: [17/20] PDF HR sent to rajeev.s@algonomy.com (1079 @ Rajeev S)
+2026-11-27 01:22:21 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:22:22 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rsen@medline.com: AI/ML & Full-Stack Developer for Medline
+2026-11-27 01:22:22 [INFO] agent.nodes.pdf_outreach_node: [18/20] PDF HR sent to rsen@medline.com (1080 @ Rajeev Sen)
+2026-11-27 01:22:30 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:22:31 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajendra.bn@exilant.com: AI/ML & Full-Stack Developer for Exilant
+2026-11-27 01:22:31 [INFO] agent.nodes.pdf_outreach_node: [19/20] PDF HR sent to rajendra.bn@exilant.com (1081 @ Rajendra Bn)
+2026-11-27 01:22:39 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:22:40 [INFO] tools.email_sender: ✅ [Brevo] Email sent → rajeshn@techaffinity.com: AI/ML & Full-Stack Developer for Techaffinity
+2026-11-27 01:22:40 [INFO] agent.nodes.pdf_outreach_node: [20/20] PDF HR sent to rajeshn@techaffinity.com (1082 @ Rajesh)
+2026-11-27 01:22:40 [INFO] agent.nodes.pdf_outreach_node: PDF HR Outreach complete: 20 sent, 0 failed, 0 invalid (LIVE)
+2026-11-27 01:22:41 [ERROR] mem0.client.utils: HTTP error occurred: Client error '429 Too Many Requests' for url 'https://api.mem0.ai/v3/memories/add/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-11-27 01:22:41 [WARNING] agent.nodes.memory_node: mem0 save failed (non-critical): {"error":"Adding memories on the free plan needs your own LLM key after the first 30 days. Your existing memories and searches still work. Connect a key here: https://app.mem0.ai/dashboard/settings?tab=org-llm","event_type":"ADD","quota_limit":0,"quota_used":23,"quota_reset":"2026-12-01T00:00:00+00:00","next_step":"add_llm_key","next_step_url":"https://app.mem0.ai/dashboard/settings?tab=org-llm"}
+2026-11-27 01:22:41 [INFO] tools.inbox_monitor: Connecting to IMAP inbox at imap.gmail.com for debashis.bera.careers@gmail.com...
+2026-11-27 01:22:41 [ERROR] tools.inbox_monitor: Error fetching emails from inbox: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node: ============================================================
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node: 📋 DAILY REPORT — 2026-11-27
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node:    Applied today:       30
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node:    Total applied (all): 625
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node:    Cold mails (jobs):   25
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node:    PDF cold mails today:20  (total 1484/1831)
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node:    Bounced-back mails:  0
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node:    Recruiter replies:   0
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node:    No replies from HR contacts yet — keep sending!
+2026-11-27 01:22:41 [INFO] agent.nodes.report_node: ============================================================
+2026-11-27 01:22:41 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:22:41 [INFO] tools.email_sender: ✅ Email sender ready: Brevo SMTP
+2026-11-27 01:22:41 [INFO] tools.email_sender: ✅ Using SMTP provider: Brevo (smtp-relay.brevo.com:587) login=bd5084001@smtp-brevo.com
+2026-11-27 01:22:42 [INFO] tools.email_sender: ✅ [Brevo] Summary email sent → debashisalak@gmail.com
+2026-11-27 01:22:42 [INFO] agent.nodes.report_node: ✅ Daily report emailed to: debashisalak@gmail.com
+2026-11-27 01:22:42 [INFO] __main__: ============================================================
+2026-11-27 01:22:42 [INFO] __main__: AGENT RUN COMPLETE in 2249s
+2026-11-27 01:22:42 [INFO] __main__:   Scraped:        130 jobs
+2026-11-27 01:22:42 [INFO] __main__:   New:            49 jobs
+2026-11-27 01:22:42 [INFO] __main__:   Applied:        30 jobs
+2026-11-27 01:22:42 [INFO] __main__:   Emailed (jobs): 25 HRs
+2026-11-27 01:22:42 [INFO] __main__:   PDF drip sent:  20 HR contacts
+2026-11-27 01:22:42 [INFO] __main__:   Failed:         0
+2026-11-27 01:22:42 [INFO] __main__: ============================================================
